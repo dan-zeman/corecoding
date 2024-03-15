@@ -104,11 +104,35 @@ foreach my $family (@families)
 }
 # Print tikz code of the SVS/OVO language plot.
 print('\begin{tikzpicture}[scale=3]', "\n");
+#foreach my $language (sort(keys(%svs)))
+#{
+#    my $lcode = $lhash->{$language}{lcode};
+#    my $y = ($svs{$language} // 0) * 10;
+#    my $x = ($ovo{$language} // 0) * 10;
+#    print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
+#}
+# Zkusit rezervovat pro každý jazyk 5 mm na šířku a 2,5 mm na výšku, aby se kódy jazyků nepřepisovaly přes sebe.
+# Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
+# K dispozici je 800 pozic na 148 jazyků.
 foreach my $language (sort(keys(%svs)))
 {
     my $lcode = $lhash->{$language}{lcode};
     my $y = ($svs{$language} // 0) * 10;
     my $x = ($ovo{$language} // 0) * 10;
+    my ($xcell, $ycell) = coord2cell($x, $y);
+    $x = $xcell * 0.5;
+    $y = $ycell * 0.25;
     print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
 }
 print('\end{tikzpicture}', "\n");
+
+sub coord2cell
+{
+    my $x = shift;
+    my $y = shift;
+    # Project $x from <0;1> to <0;19>.
+    my $xcell = sprintf("%d", $x*19+0.5);
+    # Project $y from <0;1> to <0;39>.
+    my $ycell = sprintf("%d", $y*39+0.5);
+    return ($xcell, $ycell);
+}
