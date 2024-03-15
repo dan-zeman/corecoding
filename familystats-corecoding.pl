@@ -119,9 +119,9 @@ foreach my $language (sort(keys(%svs)))
     my $lcode = $lhash->{$language}{lcode};
     my $y = $svs{$language} // 0;
     my $x = $ovo{$language} // 0;
-    my ($xcell, $ycell) = coord2cell($x, $y);
-    $x = $xcell * 0.5;
-    $y = $ycell * 0.25;
+    my ($xcell, $ycell) = find_cell($x, $y);
+    $x = 0.25 + $xcell * 0.5;
+    $y = 0.125 + $ycell * 0.25;
     print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
 }
 print('\end{tikzpicture}', "\n");
@@ -135,4 +135,33 @@ sub coord2cell
     # Project $y from <0;1> to <0;39>.
     my $ycell = sprintf("%d", $y*39+0.5);
     return ($xcell, $ycell);
+}
+
+# Find the cell that is available and its distance from the ideal cell is minimal.
+my @matrix;
+sub find_cell
+{
+    my $x = shift;
+    my $y = shift;
+    my ($idealxc, $idealyc) = coord2cell($x, $y);
+    ###!!! There is probably a better algorithm that searches the cells in increasing distance from ideal and stops when an empty cell is found.
+    my ($minxc, $minyc, $mindistance);
+    for(my $i = 0; $i < 20; $i++)
+    {
+        for(my $j = 0; $j < 40; $j++)
+        {
+            if(!defined($matrix[$i][$j]))
+            {
+                my $distance = sqrt(($i-$idealxc)**2 + ($j-$idealyc)**2);
+                if(!defined($mindistance) || $distance < $mindistance)
+                {
+                    $mindistance = $distance;
+                    $minxc = $i;
+                    $minyc = $j;
+                }
+            }
+        }
+    }
+    $matrix[$minxc][$minyc] = 1;
+    return ($minxc, $minyc);
 }
