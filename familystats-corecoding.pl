@@ -120,8 +120,8 @@ foreach my $language (sort(keys(%svs)))
     my $y = ($svs{$language} // 0) * 10;
     my $x = ($ovo{$language} // 0) * 10;
     my ($xcell, $ycell) = coord2cell($x, $y);
-    $x = $xcell * 0.5;
-    $y = $ycell * 0.25;
+    $x = $xcell / 2 * 0.5;
+    $y = $ycell / 4 * 0.25;
     print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
 }
 print('\end{tikzpicture}', "\n");
