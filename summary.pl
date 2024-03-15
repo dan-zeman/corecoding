@@ -83,5 +83,5 @@ my $n = $h{WORDER}{SV}+$h{WORDER}{VS};
 my $svs = $n>0 ? $h{WORDER}{VS} / $n : 0;
 $n = $h{WORDER}{OV}+$h{WORDER}{VO};
 my $ovo = $n>0 ? $h{WORDER}{VO} / $n : 0;
-print("SV --> $svs --> VS\n");
-print("OV --> $ovo --> VO\n");
+printf("SV --> %f.6 --> VS\n", $svs);
+printf("OV --> %f.6 --> VO\n", $ovo);
