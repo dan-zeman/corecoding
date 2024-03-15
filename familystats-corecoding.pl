@@ -117,8 +117,8 @@ print('\begin{tikzpicture}[scale=3]', "\n");
 foreach my $language (sort(keys(%svs)))
 {
     my $lcode = $lhash->{$language}{lcode};
-    my $y = ($svs{$language} // 0) * 10;
-    my $x = ($ovo{$language} // 0) * 10;
+    my $y = $svs{$language} // 0;
+    my $x = $ovo{$language} // 0;
     my ($xcell, $ycell) = coord2cell($x, $y);
     $x = $xcell * 0.5;
     $y = $ycell * 0.25;
