@@ -105,8 +105,8 @@ print('\begin{tikzpicture}[scale=3]', "\n");
 foreach my $language (sort(keys(%svs)))
 {
     my $lcode = $lhash->{$language}{lcode};
-    my $y = $svs{$language};
-    my $x = $ovo{$language};
-    print("\\draw ($x,$y) node{$lcode};\n");
+    my $y = ($svs{$language} // 0) * 10;
+    my $x = ($ovo{$language} // 0) * 10;
+    print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
 }
 print('\end{tikzpicture}', "\n");
