@@ -62,10 +62,90 @@ OV --> 1 --> VO
 --------------------------------------------------------------------------------
 Ancient Greek
 SUBJECT:
+finite emptysubj                        	34865	0.464637445526873
+nonfin emptysubj                        	12250	0.163252795287658
+finite nsubj NOUN+Nom SV                	7169	0.0955395338299772
+finite nsubj PRON+Nom SV                	5615	0.0748297506563429
+finite nsubj NOUN+Nom VS                	5329	0.071018297639831
 OBJECT:
+obj NOUN+Acc VO                         	4891	0.167328087581252
+obj NOUN+Acc OV                         	3586	0.122682175846733
+obj PRON+Acc OV                         	2435	0.0833048238111529
+ccomp OTHER+NoCase VO                   	1879	0.0642832706123845
+obj NOUN+Acc SVO                        	1648	0.0563804310639754
+obj PRON+Acc VO                         	1508	0.0515908313376668
+obj NOUN+Acc SOV                        	1298	0.0444064317482039
+obj OTHER+Acc OV                        	788	0.026958604173794
+obj PRON+Acc OSV                        	689	0.0235716729387615
+obj PRON+Acc OVS                        	679	0.0232295586725966
+obj OTHER+Acc VO                        	615	0.0210400273691413
+ccomp OTHER+NoCase SVO                  	579	0.0198084160109477
+obj NOUN+Acc VSO                        	535	0.0183031132398221
+obj PRON+Acc SOV                        	533	0.0182346903865891
+obj PRON+Acc SVO                        	501	0.0171399247348614
+obj NOUN+Dat OV                         	373	0.0127608621279507
+obj NOUN+Acc OVS                        	350	0.0119739993157715
+ccomp OTHER+NoCase VSO                  	338	0.0115634621963736
+obj NOUN+Gen OV                         	321	0.0109818679438933
+obj NOUN+Dat VO                         	267	0.00913445090660281
+obj PRON+Acc VOS                        	249	0.00851864522750599
+obj NOUN+Gen VO                         	248	0.0084844338008895
+obj NOUN+Acc OSV                        	241	0.00824495381457407
+obj OTHER+NoCase OV                     	239	0.00817653096134109
+obj PRON+Dat OV                         	203	0.00694491960314745
 IOBJECT:
+iobj PRON+Dat VIO                       	123	0.0696883852691218
+iobj PRON+Dat IOV                       	82	0.0464589235127479
+iobj PRON+Dat OIV                       	77	0.0436260623229462
+iobj PRON+Dat VI                        	76	0.0430594900849858
+iobj NOUN+Dat OVI                       	68	0.0385269121813031
+iobj PRON+Dat IVO                       	65	0.0368271954674221
+iobj NOUN+Dat VSIO                      	60	0.0339943342776204
+iobj NOUN+Dat IVO                       	56	0.031728045325779
+iobj NOUN+Dat VIO                       	55	0.0311614730878187
+iobj NOUN+Dat VI                        	54	0.0305949008498584
+iobj NOUN+Dat IOV                       	51	0.0288951841359773
+iobj NOUN+Dat VOI                       	51	0.0288951841359773
+iobj PRON+Dat VISO                      	50	0.028328611898017
+iobj PRON+Dat IV                        	46	0.0260623229461756
+iobj NOUN+Dat OIV                       	42	0.0237960339943343
+iobj PRON+Dat VIS                       	42	0.0237960339943343
+iobj PRON+Dat OVI                       	32	0.0181303116147309
+iobj PRON+Dat ISOV                      	31	0.0175637393767705
+iobj NOUN+Dat VSI                       	30	0.0169971671388102
+iobj PRON+Dat SVI                       	29	0.0164305949008499
+iobj PRON+Dat SIVO                      	28	0.0158640226628895
+iobj PRON+Dat ISV                       	26	0.0147308781869688
+iobj PRON+Dat IOVS                      	24	0.0135977337110482
+iobj PRON+Dat SIOV                      	21	0.0118980169971671
+iobj PRON+Dat ISVO                      	20	0.0113314447592068
+iobj NOUN+Dat SVIO                      	19	0.0107648725212465
+iobj NOUN+Dat IV                        	18	0.0101983002832861
+iobj NOUN+Dat SIOV                      	18	0.0101983002832861
+iobj NOUN+Dat SOVI                      	18	0.0101983002832861
+iobj PRON+Dat IVS                       	17	0.00963172804532578
+iobj PRON+Dat SVIO                      	17	0.00963172804532578
+iobj NOUN+Dat SVI                       	16	0.00906515580736544
+iobj PRON+Dat OVIS                      	16	0.00906515580736544
+iobj PRON+Dat SIV                       	16	0.00906515580736544
+iobj PRON+Dat VOI                       	16	0.00906515580736544
+iobj NOUN+Dat VSOI                      	15	0.0084985835694051
+iobj NOUN+Dat SIVO                      	14	0.00793201133144476
+iobj PRON+Dat IVOS                      	14	0.00793201133144476
+iobj NOUN+Dat OVSI                      	13	0.00736543909348442
+iobj NOUN+Dat SIV                       	13	0.00736543909348442
+iobj NOUN+Dat SOIV                      	13	0.00736543909348442
+iobj NOUN+Dat SVOI                      	12	0.00679886685552408
 AGREEMENT:
+finite Number=Sing|Person=3             	22692	0.302410810666738
+nonfin                                  	15149	0.201887069045937
+finite Gender=Masc|Number=Sing          	8915	0.118808054693018
+finite Number=Plur|Person=3             	8373	0.111584951423964
+finite Gender=Masc|Number=Plur          	5057	0.0673934192465051
+finite Number=Sing|Person=1             	3961	0.0527872916028093
 WORDER:
+SV --> 0.34710980588783 --> VS
+OV --> 0.527471775573041 --> VO
 
 --------------------------------------------------------------------------------
 Armenian
@@ -451,10 +531,56 @@ OV --> 0.663868861867355 --> VO
 --------------------------------------------------------------------------------
 Classical Armenian
 SUBJECT:
+finite emptysubj                        	744	0.412645590682196
+nonfin emptysubj                        	272	0.150859678313921
+finite nsubj PRON+Nom SV                	261	0.144758735440932
+finite nsubj NOUN+Nom VS                	226	0.12534664448142
+finite nsubj NOUN+Nom SV                	131	0.0726566833056018
 OBJECT:
+obj NOUN+Acc VO                         	119	0.170243204577969
+ccomp OTHER+NoCase VO                   	89	0.127324749642346
+obj PRON+Acc VO                         	59	0.0844062947067239
+obj NOUN+Acc OV                         	56	0.0801144492131617
+obj PRON+Acc OV                         	51	0.0729613733905579
+obj NOUN+Acc SVO                        	46	0.0658082975679542
+ccomp OTHER+NoCase VSO                  	36	0.0515021459227468
+obj PRON+Acc SVO                        	30	0.0429184549356223
+ccomp OTHER+NoCase SVO                  	23	0.0329041487839771
+obj NOUN+Acc OVS                        	22	0.0314735336194564
+obj NOUN+Acc SOV                        	21	0.0300429184549356
+ccomp OTHER+Nom VO                      	17	0.0243204577968526
+obj NOUN+Acc VSO                        	15	0.0214592274678112
+obj PRON+Acc VOS                        	14	0.0200286123032904
 IOBJECT:
+iobj PRON+Dat VI                        	32	0.139737991266376
+iobj PRON+Dat VIO                       	27	0.117903930131004
+iobj NOUN+Dat VI                        	17	0.074235807860262
+iobj PRON+Dat VIS                       	15	0.0655021834061135
+iobj PRON+Dat OVI                       	14	0.0611353711790393
+iobj PRON+Dat SVI                       	14	0.0611353711790393
+iobj PRON+Dat IV                        	10	0.0436681222707424
+iobj NOUN+Dat OVI                       	9	0.0393013100436681
+iobj PRON+Dat IVO                       	9	0.0393013100436681
+iobj NOUN+Dat SVI                       	8	0.0349344978165939
+iobj PRON+Dat OVIS                      	8	0.0349344978165939
+iobj PRON+Dat ISV                       	5	0.0218340611353712
+iobj PRON+Dat SIV                       	5	0.0218340611353712
+iobj NOUN+Dat IV                        	4	0.0174672489082969
+iobj NOUN+Dat VIO                       	4	0.0174672489082969
+iobj NOUN+Dat VSI                       	3	0.0131004366812227
+iobj OTHER+Dat VI                       	3	0.0131004366812227
+iobj PRON+Dat SVIO                      	3	0.0131004366812227
+iobj PRON+Dat VSI                       	3	0.0131004366812227
+iobj NOUN+Dat IOV                       	2	0.00873362445414847
 AGREEMENT:
+finite Number=Sing|Person=3             	774	0.429284525790349
+nonfin                                  	289	0.160288408208541
+finite Number=Plur|Person=3             	257	0.142540210759845
+finite Number=Plur|Person=2             	128	0.0709927897947865
+finite Number=Sing                      	97	0.0537992235163616
 WORDER:
+SV --> 0.407878017789072 --> VS
+OV --> 0.728183118741059 --> VO
 
 --------------------------------------------------------------------------------
 Croatian
@@ -1674,10 +1800,58 @@ OV --> 0.76158940397351 --> VO
 --------------------------------------------------------------------------------
 Low Saxon
 SUBJECT:
+nonfin nsubj PRON+Nom SV                	127	0.289293849658314
+nonfin emptysubj                        	95	0.216400911161731
+finite nsubj PRON+Nom SV                	61	0.138952164009112
+nonfin nsubj NOUN+Nom SV                	31	0.0706150341685649
+finite nsubj NOUN+Nom SV                	28	0.0637813211845103
+nonfin nsubj PRON+Nom VS                	25	0.0569476082004556
+nonfin nsubj NOUN+Nom VS                	15	0.0341685649202733
 OBJECT:
+obj NOUN+Acc SOV                        	53	0.283422459893048
+obj NOUN+Acc SVO                        	16	0.0855614973262032
+obj PRON+Acc,Dat SOV                    	13	0.0695187165775401
+obj PRON+Acc SOV                        	12	0.0641711229946524
+obj PRON+Acc OSV                        	10	0.053475935828877
+ccomp OTHER+NoCase SVO                  	8	0.0427807486631016
+obj NOUN+Acc OV                         	6	0.0320855614973262
+obj NOUN+Acc VSO                        	6	0.0320855614973262
+obj PRON+Acc,Dat SVO                    	5	0.0267379679144385
+ccomp OTHER+NoCase VSO                  	4	0.0213903743315508
+obj PRON+Acc,Dat VOS                    	4	0.0213903743315508
+obj NOUN+NoCase SOV                     	3	0.0160427807486631
+obj PRON+Acc OVS                        	3	0.0160427807486631
+obj PRON+Acc SVO                        	3	0.0160427807486631
+obj NOUN+Acc OVS                        	2	0.0106951871657754
+obj NOUN+Acc VO                         	2	0.0106951871657754
+obj OTHER+Acc SOV                       	2	0.0106951871657754
+obj PRON+Acc VO                         	2	0.0106951871657754
+obj PRON+Acc VSO                        	2	0.0106951871657754
+obj PRON+Acc,Dat VO                     	2	0.0106951871657754
+obj PRON+Acc,Dat VSO                    	2	0.0106951871657754
 IOBJECT:
+iobj PRON+Acc,Dat SIOV                  	5	0.238095238095238
+iobj PRON+Acc,Dat OISV                  	2	0.0952380952380952
+iobj PRON+Dat SIOV                      	2	0.0952380952380952
+iobj NOUN+Acc IVSO                      	1	0.0476190476190476
+iobj NOUN+Acc SIOV                      	1	0.0476190476190476
+iobj NOUN+Acc,Dat SIOV                  	1	0.0476190476190476
+iobj NOUN+Acc,Dat SVIO                  	1	0.0476190476190476
+iobj PRON+Acc,Dat ISV                   	1	0.0476190476190476
+iobj PRON+Acc,Dat OSIV                  	1	0.0476190476190476
+iobj PRON+Acc,Dat SIVO                  	1	0.0476190476190476
+iobj PRON+Acc,Dat SVIO                  	1	0.0476190476190476
+iobj PRON+Acc,Dat VOI                   	1	0.0476190476190476
 AGREEMENT:
+nonfin Number=Sing|Person=3             	136	0.309794988610478
+nonfin                                  	85	0.193621867881549
+finite Number=Sing|Person=3             	77	0.175398633257403
+nonfin Number=Sing|Person=1             	37	0.0842824601366743
+nonfin Number=Plur|Person=3             	36	0.082004555808656
+finite Number=Plur|Person=3             	15	0.0341685649202733
 WORDER:
+SV --> 0.18562874251497 --> VS
+OV --> 0.358288770053476 --> VO
 
 --------------------------------------------------------------------------------
 Macedonian
@@ -1781,10 +1955,31 @@ OV --> 0.0645161290322581 --> VO
 --------------------------------------------------------------------------------
 Middle French
 SUBJECT:
+finite emptysubj                        	481	0.327433628318584
+finite nsubj PRON+NoCase SV             	403	0.274336283185841
+nonfin emptysubj                        	265	0.180394826412526
+finite nsubj NOUN+NoCase SV             	215	0.146358066712049
 OBJECT:
+obj NOUN+NoCase VO                      	136	0.23943661971831
+obj NOUN+NoCase SVO                     	120	0.211267605633803
+obj PRON+NoCase OV                      	70	0.123239436619718
+obj PRON+NoCase OSV                     	56	0.0985915492957746
+ccomp OTHER+NoCase VO                   	50	0.0880281690140845
+obj PRON+NoCase SOV                     	42	0.073943661971831
+ccomp OTHER+NoCase SVO                  	21	0.0369718309859155
 IOBJECT:
+iobj PRON+NoCase IV                     	25	0.227272727272727
+iobj PRON+NoCase IVO                    	19	0.172727272727273
+iobj PRON+NoCase SIV                    	18	0.163636363636364
+iobj PRON+NoCase OSIV                   	15	0.136363636363636
+iobj PRON+NoCase SIVO                   	13	0.118181818181818
+iobj PRON+NoCase OIV                    	7	0.0636363636363636
 AGREEMENT:
+finite                                  	1199	0.816201497617427
+nonfin                                  	270	0.183798502382573
 WORDER:
+SV --> 0.132780082987552 --> VS
+OV --> 0.653169014084507 --> VO
 
 --------------------------------------------------------------------------------
 Nayini
@@ -1858,34 +2053,187 @@ OV --> 0.883629049637239 --> VO
 --------------------------------------------------------------------------------
 Old Church Slavonic
 SUBJECT:
+finite emptysubj                        	20802	0.5028038286764
+nonfin emptysubj                        	6879	0.166271874697863
+finite nsubj NOUN+Nom SV                	3412	0.08247123658513
+finite nsubj NOUN+Nom VS                	3101	0.0749540752199555
+finite nsubj PRON+Nom SV                	2834	0.0685004350768636
 OBJECT:
+obj NOUN+Acc VO                         	2722	0.210860639863661
+obj PRON+Acc VO                         	1454	0.112634596018282
+obj NOUN+Acc OV                         	1266	0.0980711131768534
+obj PRON+Acc OV                         	844	0.0653807421179022
+ccomp OTHER+NoCase VO                   	755	0.0584863273685026
+obj NOUN+Gen VO                         	709	0.0549229219924084
+obj NOUN+Acc SVO                        	498	0.0385777364629328
+obj PRON+Acc SVO                        	368	0.0285072430087536
+obj PRON+Gen VO                         	336	0.0260283523123402
+obj NOUN+Acc SOV                        	301	0.0233170656131381
+obj NOUN+Gen OV                         	298	0.0230846696103494
+obj PRON+Gen OV                         	291	0.0225424122705089
+obj OTHER+Acc VO                        	253	0.0195987295685181
+obj OTHER+Acc OV                        	193	0.014950809512743
+obj PRON+Acc VOS                        	173	0.0134015028274847
+obj NOUN+Gen SVO                        	168	0.0130141761561701
+obj NOUN+Acc VSO                        	154	0.0119296614764893
+ccomp OTHER+NoCase SVO                  	133	0.010302889456968
+obj PRON+Acc SOV                        	129	0.00999302811991634
 IOBJECT:
 AGREEMENT:
+finite Number=Sing|Person=3             	11126	0.268925843565697
+nonfin                                  	8108	0.195977956105579
+finite Gender=Masc|Number=Sing          	4577	0.110630378033453
+finite Number=Plur|Person=3             	4227	0.102170550130523
+finite Number=Sing|Person=2             	3004	0.0726094943440008
+finite Number=Sing|Person=1             	2496	0.0603306584163202
+finite Gender=Masc|Number=Plur          	1918	0.0463598569080538
 WORDER:
+SV --> 0.393470162880725 --> VS
+OV --> 0.675730110775428 --> VO
 
 --------------------------------------------------------------------------------
 Old East Slavic
 SUBJECT:
+finite emptysubj                        	20449	0.366285734756753
+nonfin emptysubj                        	14828	0.26560149029161
+finite nsubj NOUN+Nom SV                	4357	0.0780432757755965
+finite nsubj NOUN+Nom VS                	4220	0.0755893100236441
+finite nsubj PRON+Nom SV                	3128	0.0560292326431181
+nonfin nsubj NOUN+Nom SV                	1673	0.029967041627857
 OBJECT:
+obj NOUN+Acc VO                         	3369	0.190889002209757
+obj NOUN+Acc OV                         	2338	0.132472094736246
+obj NOUN+Gen VO                         	1275	0.0722420533741288
+obj PRON+Acc VO                         	980	0.0555272253385461
+obj NOUN+Acc SVO                        	962	0.0545073375262055
+obj PRON+Acc OV                         	885	0.0501444841067483
+obj NOUN+Gen OV                         	771	0.0436851946285909
+obj NOUN+Acc SOV                        	660	0.0373958864524902
+obj PRON+Gen OV                         	617	0.0349594877896765
+obj PRON+Gen VO                         	533	0.0302000113320868
+ccomp OTHER+NoCase VO                   	492	0.0278769335373109
+obj NOUN+Gen SVO                        	365	0.0206810584169075
+obj NOUN+Acc VSO                        	327	0.0185279619241883
+obj NOUN+Gen SOV                        	209	0.0118420307099552
+obj OTHER+Acc OV                        	193	0.0109354637656524
+obj PRON+Acc SVO                        	193	0.0109354637656524
+obj PRON+Gen SOV                        	193	0.0109354637656524
+obj NOUN+Gen VSO                        	189	0.0107088220295767
+obj PRON+Acc SOV                        	165	0.00934897161312256
+obj PRON+Acc OSV                        	160	0.00906566944302793
+ccomp OTHER+NoCase SVO                  	155	0.00878236727293331
 IOBJECT:
+iobj PRON+Dat IV                        	218	0.0809506126995915
+iobj NOUN+Dat IV                        	134	0.0497586334942443
+iobj PRON+Dat SIV                       	132	0.0490159673226885
+iobj NOUN+Dat VI                        	128	0.0475306349795767
+iobj PRON+Dat VI                        	127	0.0471593018937987
+iobj PRON+Dat VIO                       	125	0.0464166357222429
+iobj PRON+Dat IOV                       	101	0.0375046416635722
+iobj PRON+Dat OIV                       	96	0.0356479762346825
+iobj PRON+Dat VIS                       	81	0.0300779799480134
+iobj PRON+Dat IVS                       	74	0.0274786483475678
+iobj PRON+Dat ISV                       	72	0.0267359821760119
+iobj NOUN+Dat IOV                       	67	0.0248793167471222
+iobj NOUN+Dat VIO                       	67	0.0248793167471222
+iobj PRON+Dat IVO                       	62	0.0230226513182325
+iobj PRON+Dat VIOS                      	54	0.0200519866320089
+iobj NOUN+Dat ISV                       	51	0.0189379873746751
+iobj NOUN+Dat SVI                       	48	0.0178239881173413
+iobj PRON+Dat SVIO                      	47	0.0174526550315633
+iobj NOUN+Dat OVI                       	46	0.0170813219457854
+iobj NOUN+Dat IVS                       	42	0.0155959896026736
+iobj NOUN+Dat SIV                       	42	0.0155959896026736
+iobj PRON+Dat SIOV                      	42	0.0155959896026736
+iobj NOUN+Ins VOI                       	40	0.0148533234311177
+iobj NOUN+Dat IVO                       	39	0.0144819903453398
+iobj NOUN+Ins IV                        	39	0.0144819903453398
+iobj NOUN+Ins VI                        	38	0.0141106572595618
+iobj NOUN+Dat OIV                       	36	0.0133679910880059
+iobj NOUN+Dat VOI                       	36	0.0133679910880059
+iobj PRON+Dat SVI                       	36	0.0133679910880059
+iobj NOUN+Dat SVIO                      	28	0.0103973264017824
+iobj PRON+Dat OVI                       	24	0.00891199405867063
+iobj NOUN+Dat VIS                       	20	0.00742666171555886
+iobj PRON+Dat SIVO                      	20	0.00742666171555886
+iobj PRON+Dat SOIV                      	20	0.00742666171555886
+iobj NOUN+Dat SVOI                      	19	0.00705532862978091
+iobj NOUN+Ins OVI                       	18	0.00668399554400297
+iobj NOUN+Ins SIV                       	17	0.00631266245822503
+iobj NOUN+Ins SVI                       	17	0.00631266245822503
 AGREEMENT:
+nonfin                                  	15498	0.277602636669771
+finite Number=Sing|Person=3             	11988	0.214730959375224
+finite Number=Plur|Person=3             	5926	0.106147452891022
+finite Gender=Masc|Number=Sing          	4629	0.0829153829619546
+nonfin Gender=Masc|Number=Sing          	2628	0.0470731532564305
+finite Number=Sing|Person=2             	2305	0.0412875259726302
+finite Gender=Masc|Number=Plur          	2156	0.0386186143153973
+finite Number=Sing|Person=1             	1651	0.0295729741348427
+finite Number=Plur|Person=1             	1284	0.022999211865014
 WORDER:
+SV --> 0.379348936791397 --> VS
+OV --> 0.594481273726557 --> VO
 
 --------------------------------------------------------------------------------
 Old French
 SUBJECT:
+finite emptysubj                        	12819	0.371446785083017
+finite nsubj PRON+NoCase SV             	10031	0.290660948683029
+finite nsubj NOUN+NoCase SV             	4498	0.130335255425806
+nonfin emptysubj                        	3582	0.103792993538292
 OBJECT:
+obj NOUN+NoCase VO                      	2657	0.162766478804215
+obj PRON+NoCase SOV                     	2316	0.141876990933595
+obj PRON+NoCase OV                      	2243	0.137405047782406
+obj NOUN+NoCase SVO                     	2060	0.126194560156824
+obj NOUN+NoCase OV                      	1486	0.0910316098995344
+obj PRON+NoCase OSV                     	906	0.055501102670914
+ccomp OTHER+NoCase VO                   	842	0.0515804949767214
+ccomp OTHER+NoCase SVO                  	646	0.0395736339132566
+obj NOUN+NoCase SOV                     	506	0.0309973045822102
+obj PRON+NoCase VO                      	463	0.0283631462876746
 IOBJECT:
+iobj PRON+NoCase IV                     	608	0.169170840289371
+iobj PRON+NoCase SIV                    	589	0.163884251530328
+iobj PRON+NoCase IVO                    	414	0.115191986644407
+iobj PRON+NoCase SIVO                   	412	0.11463550361714
+iobj PRON+NoCase OIV                    	314	0.0873678352810239
+iobj PRON+NoCase OSIV                   	135	0.0375626043405676
+iobj PRON+NoCase SOIV                   	133	0.0370061213132999
+iobj PRON+NoCase IVS                    	115	0.0319977740678909
+iobj PRON+NoCase VIO                    	97	0.0269894268224819
+iobj PRON+NoCase OIVS                   	57	0.0158597662771285
+iobj PRON+NoCase VI                     	49	0.0136338341680579
+iobj PRON+NoCase IVSO                   	37	0.0102949360044519
+iobj PRON+NoCase SIOV                   	35	0.0097384529771842
+iobj PRON+a+NoCase SVI                  	32	0.00890372843628269
+iobj PRON+a+NoCase IV                   	30	0.00834724540901502
 AGREEMENT:
+finite                                  	30866	0.89438150155023
 WORDER:
+SV --> 0.183158475980121 --> VS
+OV --> 0.480213183043372 --> VO
 
 --------------------------------------------------------------------------------
 Old Irish
 SUBJECT:
+nonfin emptysubj                        	97	0.668965517241379
+nonfin nsubj OTHER+NoCase SV            	24	0.16551724137931
+nonfin nsubj NOUN+Nom VS                	18	0.124137931034483
 OBJECT:
+obj NOUN+Acc VO                         	10	0.476190476190476
+obj OTHER+NoCase VO                     	4	0.19047619047619
+obj NOUN+Nom VO                         	2	0.0952380952380952
+obj PRON+NoCase VO                      	2	0.0952380952380952
 IOBJECT:
 AGREEMENT:
+nonfin                                  	74	0.510344827586207
+nonfin Number=Sing|Person=3             	40	0.275862068965517
+nonfin Number=Sing|Person=1             	17	0.117241379310345
 WORDER:
+SV --> 0.4375 --> VS
+OV --> 0.904761904761905 --> VO
 
 --------------------------------------------------------------------------------
 Persian
@@ -2394,10 +2742,26 @@ OV --> 0.20082304526749 --> VO
 --------------------------------------------------------------------------------
 Scottish Gaelic
 SUBJECT:
+nonfin emptysubj                        	9281	0.579302165907247
+nonfin nsubj PRON+NoCase VS             	2683	0.167467698645528
+nonfin nsubj NOUN+Nom VS                	2265	0.141376942762624
 OBJECT:
+obj NOUN+Nom VSO                        	520	0.157623522279479
+obj PRON+NoCase OV                      	448	0.135798726886935
+ccomp OTHER+NoCase VO                   	392	0.118823886026069
+obj NOUN+Gen VO                         	356	0.107911488329797
+obj NOUN+Nom OV                         	342	0.10366777811458
+obj OTHER+NoCase OVS                    	213	0.0645650197029403
+obj PRON+NoCase VSO                     	176	0.0533494998484389
+ccomp OTHER+NoCase VSO                  	160	0.0484995453167627
+obj NOUN+Nom VO                         	126	0.0381933919369506
+obj NOUN+Nom SVO                        	75	0.0227341618672325
 IOBJECT:
 AGREEMENT:
+nonfin                                  	15773	0.984520317083827
 WORDER:
+SV --> 0.833679525222552 --> VS
+OV --> 0.652318884510458 --> VO
 
 --------------------------------------------------------------------------------
 Serbian
@@ -2677,10 +3041,29 @@ OV --> 0.92510967202841 --> VO
 --------------------------------------------------------------------------------
 Swiss German
 SUBJECT:
+nonfin emptysubj                        	53	0.34640522875817
+nonfin nsubj PRON+NoCase SV             	51	0.333333333333333
+nonfin nsubj NOUN+NoCase SV             	37	0.241830065359477
 OBJECT:
+obj NOUN+NoCase SOV                     	15	0.214285714285714
+ccomp OTHER+NoCase SVO                  	11	0.157142857142857
+obj NOUN+NoCase OV                      	10	0.142857142857143
+obj PRON+NoCase OV                      	8	0.114285714285714
+obj PRON+NoCase SOV                     	7	0.1
+ccomp OTHER+NoCase VO                   	4	0.0571428571428571
+obj PRON+NoCase OSV                     	3	0.0428571428571429
+obj PRON+NoCase SVO                     	3	0.0428571428571429
 IOBJECT:
+iobj PRON+NoCase IVO                    	2	0.285714285714286
+iobj PRON+NoCase IV                     	1	0.142857142857143
+iobj PRON+NoCase SIOV                   	1	0.142857142857143
+iobj PRON+NoCase SIV                    	1	0.142857142857143
+iobj PRON+NoCase SIVO                   	1	0.142857142857143
 AGREEMENT:
+nonfin                                  	153	1
 WORDER:
+SV --> 0.07 --> VS
+OV --> 0.342857142857143 --> VO
 
 --------------------------------------------------------------------------------
 Ukrainian
@@ -2771,10 +3154,49 @@ OV --> 0.111111111111111 --> VO
 --------------------------------------------------------------------------------
 Upper Sorbian
 SUBJECT:
+finite nsubj NOUN+Nom SV                	388	0.403326403326403
+nonfin emptysubj                        	160	0.166320166320166
+finite emptysubj                        	131	0.136174636174636
+finite nsubj NOUN+Nom VS                	116	0.120582120582121
+finite nsubj PRON+Nom SV                	104	0.108108108108108
 OBJECT:
+obj NOUN+Acc SVO                        	74	0.237179487179487
+obj NOUN+Acc VO                         	47	0.150641025641026
+obj NOUN+Acc OV                         	43	0.137820512820513
+obj NOUN+Acc SOV                        	22	0.0705128205128205
+obj NOUN+Acc VSO                        	14	0.0448717948717949
+obj PRON+Acc OV                         	10	0.032051282051282
+ccomp OTHER+NoCase VO                   	7	0.0224358974358974
+obj NOUN+na+Acc SVO                     	7	0.0224358974358974
+obj PRON+Acc SOV                        	7	0.0224358974358974
+obj NOUN+Acc OVS                        	6	0.0192307692307692
+obj NOUN+Gen SVO                        	5	0.016025641025641
+obj NOUN+Gen VO                         	5	0.016025641025641
+obj NOUN+Nom OV                         	4	0.0128205128205128
+ccomp OTHER+NoCase SVO                  	3	0.00961538461538462
+obj NOUN+k+Dat SVO                      	3	0.00961538461538462
+obj PRON+Acc OSV                        	3	0.00961538461538462
+obj NOUN+Gen OV                         	2	0.00641025641025641
+obj NOUN+Gen VSO                        	2	0.00641025641025641
+obj NOUN+Nom SVO                        	2	0.00641025641025641
 IOBJECT:
+iobj NOUN+Dat SIV                       	3	0.230769230769231
+iobj NOUN+Dat IV                        	1	0.0769230769230769
+iobj NOUN+Dat IVS                       	1	0.0769230769230769
+iobj NOUN+Dat SVI                       	1	0.0769230769230769
+iobj NOUN+Dat SVIO                      	1	0.0769230769230769
+iobj NOUN+Dat VSI                       	1	0.0769230769230769
+iobj NOUN+Gen VI                        	1	0.0769230769230769
+iobj PRON+Dat IVO                       	1	0.0769230769230769
+iobj PRON+Dat IVS                       	1	0.0769230769230769
+iobj PRON+Dat VI                        	1	0.0769230769230769
 AGREEMENT:
+finite Number=Sing|Person=3             	439	0.456340956340956
+finite Number=Plur|Person=3             	246	0.255717255717256
+nonfin                                  	169	0.175675675675676
 WORDER:
+SV --> 0.220566318926975 --> VS
+OV --> 0.621794871794872 --> VO
 
 --------------------------------------------------------------------------------
 Urdu
@@ -2890,10 +3312,61 @@ OV --> 0.810722100656455 --> VO
 --------------------------------------------------------------------------------
 Western Armenian
 SUBJECT:
+finite emptysubj                        	4193	0.295593937257667
+nonfin emptysubj                        	3631	0.255974621078604
+finite nsubj NOUN+Nom SV                	3478	0.245188579485372
+finite nsubj PRON+Nom SV                	1199	0.0845259076489249
 OBJECT:
+obj NOUN+Nom OV                         	1054	0.234639358860196
+obj NOUN+Nom SOV                        	567	0.126224398931434
+obj NOUN+Nom SVO                        	565	0.125779162956367
+obj NOUN+Nom VO                         	559	0.124443455031167
+ccomp OTHER+NoCase VO                   	265	0.0589937666963491
+obj NOUN+Dat SVO                        	171	0.0380676758682102
+obj NOUN+Dat VO                         	164	0.0365093499554764
+ccomp OTHER+NoCase SVO                  	153	0.0340605520926091
+obj NOUN+Dat OV                         	134	0.0298308103294746
+obj NOUN+Dat SOV                        	78	0.0173642030276046
+obj PRON+Acc OV                         	78	0.0173642030276046
+obj PRON+Nom OV                         	75	0.0166963490650045
 IOBJECT:
+iobj NOUN+Dat OVI                       	39	0.117469879518072
+iobj NOUN+Dat SOVI                      	34	0.102409638554217
+iobj NOUN+Dat IV                        	28	0.0843373493975904
+iobj NOUN+Dat SIVO                      	17	0.0512048192771084
+iobj NOUN+Dat IVO                       	14	0.0421686746987952
+iobj NOUN+Dat OIV                       	14	0.0421686746987952
+iobj NOUN+Dat SVI                       	14	0.0421686746987952
+iobj NOUN+Dat IVS                       	11	0.0331325301204819
+iobj PRON+Dat IV                        	11	0.0331325301204819
+iobj PRON+Dat IVO                       	10	0.0301204819277108
+iobj PRON+Dat OVI                       	10	0.0301204819277108
+iobj PRON+Dat IOV                       	9	0.0271084337349398
+iobj PRON+Dat SOVI                      	9	0.0271084337349398
+iobj NOUN+Dat SIOV                      	8	0.0240963855421687
+iobj NOUN+Dat IOV                       	7	0.0210843373493976
+iobj NOUN+Dat SIV                       	6	0.0180722891566265
+iobj NOUN+Nom OVI                       	5	0.0150602409638554
+iobj NOUN+Nom VI                        	4	0.0120481927710843
+iobj PRON+Dat OIV                       	4	0.0120481927710843
+iobj PRON+Dat VIO                       	4	0.0120481927710843
+iobj NOUN+Dat OSIV                      	3	0.00903614457831325
+iobj NOUN+Dat SOIV                      	3	0.00903614457831325
+iobj NOUN+Dat SVIO                      	3	0.00903614457831325
+iobj NOUN+Dat SVOI                      	3	0.00903614457831325
+iobj NOUN+Dat VI                        	3	0.00903614457831325
+iobj NOUN+Nom IVO                       	3	0.00903614457831325
+iobj NOUN+Nom SVI                       	3	0.00903614457831325
+iobj PRON+Dat IVS                       	3	0.00903614457831325
+iobj PRON+Dat SIV                       	3	0.00903614457831325
 AGREEMENT:
+finite Number=Sing|Person=3             	5285	0.372576665491717
+nonfin                                  	3645	0.256961579132887
+finite Number=Plur|Person=3             	1944	0.13704617553754
+finite                                  	1547	0.109058864998238
 WORDER:
+SV --> 0.177330608394906 --> VS
+OV --> 0.472172751558326 --> VO
 
 Uralic: 17: 12: Erzya (1), Estonian (2), Finnish (4), Hungarian (1), Karelian (1), Komi Permyak (1), Komi Zyrian (2), Livvi (1), Moksha (1), North Sami (1), Skolt Sami (1), Veps (1)
 --------------------------------------------------------------------------------
@@ -3113,18 +3586,66 @@ OV --> 0.803680981595092 --> VO
 --------------------------------------------------------------------------------
 Komi Permyak
 SUBJECT:
+nonfin emptysubj                        	58	0.341176470588235
+nonfin nsubj NOUN+Nom SV                	40	0.235294117647059
+nonfin nsubj PRON+Nom SV                	33	0.194117647058824
+nonfin nsubj NOUN+Nom VS                	12	0.0705882352941176
+finite emptysubj                        	7	0.0411764705882353
 OBJECT:
+obj NOUN+Acc SVO                        	10	0.208333333333333
+obj NOUN+Nom SVO                        	10	0.208333333333333
+obj NOUN+Acc OV                         	7	0.145833333333333
+obj PRON+Acc SOV                        	4	0.0833333333333333
+ccomp OTHER+NoCase SVO                  	3	0.0625
+ccomp OTHER+NoCase VO                   	3	0.0625
+obj NOUN+Acc VO                         	3	0.0625
+obj NOUN+Nom VO                         	3	0.0625
 IOBJECT:
 AGREEMENT:
+nonfin Number=Sing|Person=3             	75	0.441176470588235
+nonfin                                  	45	0.264705882352941
+nonfin Number=Plur|Person=3             	13	0.0764705882352941
+nonfin Number=Sing|Person=2             	12	0.0705882352941176
 WORDER:
+SV --> 0.180952380952381 --> VS
+OV --> 0.6875 --> VO
 
 --------------------------------------------------------------------------------
 Komi Zyrian
 SUBJECT:
+nonfin emptysubj                        	722	0.49656121045392
+nonfin nsubj NOUN+Nom SV                	256	0.176066024759285
+nonfin nsubj PRON+Nom SV                	161	0.110729023383769
+nonfin nsubj NOUN+Nom VS                	105	0.0722145804676754
 OBJECT:
+obj NOUN+Acc VO                         	31	0.106164383561644
+obj NOUN+Acc OV                         	24	0.0821917808219178
+obj NOUN+Nom OV                         	24	0.0821917808219178
+obj NOUN+Nom SVO                        	24	0.0821917808219178
+obj NOUN+Acc SVO                        	23	0.0787671232876712
+ccomp OTHER+NoCase VO                   	21	0.0719178082191781
+obj NOUN+Nom VO                         	17	0.0582191780821918
+ccomp OTHER+NoCase SVO                  	16	0.0547945205479452
+obj NOUN+Acc SOV                        	10	0.0342465753424658
+obj PRON+Acc OV                         	10	0.0342465753424658
+obj PRON+Nom OV                         	10	0.0342465753424658
+obj PRON+Acc SOV                        	9	0.0308219178082192
+obj PRON+Acc VO                         	8	0.0273972602739726
+obj OTHER+Acc OV                        	7	0.023972602739726
+obj NOUN+Acc OSV                        	5	0.0171232876712329
+obj NOUN+Nom SOV                        	5	0.0171232876712329
+obj PRON+Acc SVO                        	5	0.0171232876712329
 IOBJECT:
 AGREEMENT:
+nonfin Number=Sing|Person=3             	465	0.31980742778542
+nonfin                                  	416	0.286107290233838
+nonfin Number=Plur|Person=3             	157	0.107977991746905
+nonfin Number=Sing|Person=1             	92	0.063273727647868
+nonfin Number=Sing                      	60	0.0412654745529574
+nonfin Number=Sing|Person=2             	52	0.0357634112792297
 WORDER:
+SV --> 0.236959761549925 --> VS
+OV --> 0.565068493150685 --> VO
 
 --------------------------------------------------------------------------------
 Livvi
@@ -3205,18 +3726,60 @@ OV --> 0.7375 --> VO
 --------------------------------------------------------------------------------
 North Sami
 SUBJECT:
+finite nsubj NOUN+Nom SV                	1191	0.258913043478261
+finite nsubj PRON+Nom SV                	1117	0.242826086956522
+finite emptysubj                        	938	0.203913043478261
+nonfin emptysubj                        	595	0.129347826086957
+finite nsubj NOUN+Nom VS                	472	0.102608695652174
 OBJECT:
+obj NOUN+Acc SVO                        	582	0.39699863574352
+obj NOUN+Acc VO                         	260	0.177353342428377
+ccomp OTHER+NoCase SVO                  	91	0.0620736698499318
+obj PRON+Acc SVO                        	89	0.0607094133697135
+obj NOUN+Acc OV                         	84	0.0572987721691678
+obj PRON+Acc OSV                        	54	0.0368349249658936
+obj PRON+Acc OV                         	47	0.0320600272851296
+ccomp OTHER+NoCase VO                   	38	0.0259208731241473
+obj NOUN+Acc VSO                        	31	0.0211459754433834
 IOBJECT:
 AGREEMENT:
+finite Number=Sing|Person=3             	2008	0.436521739130435
+finite Number=Plur|Person=3             	877	0.190652173913043
+nonfin                                  	648	0.140869565217391
+finite Number=Sing|Person=1             	316	0.068695652173913
+finite Number=Sing|Person=2             	196	0.0426086956521739
 WORDER:
+SV --> 0.202151940006521 --> VS
+OV --> 0.814461118690314 --> VO
 
 --------------------------------------------------------------------------------
 Skolt Sami
 SUBJECT:
+nonfin emptysubj                        	181	0.495890410958904
+nonfin nsubj PRON+Nom SV                	81	0.221917808219178
+nonfin nsubj NOUN+Nom SV                	55	0.150684931506849
 OBJECT:
+ccomp OTHER+NoCase SVO                  	12	0.123711340206186
+ccomp OTHER+NoCase VO                   	11	0.11340206185567
+obj NOUN+Acc VO                         	10	0.103092783505155
+obj PRON+Acc OV                         	10	0.103092783505155
+obj NOUN+Acc SVO                        	9	0.0927835051546392
+obj NOUN+Acc OV                         	8	0.0824742268041237
+obj NOUN+Acc SOV                        	7	0.0721649484536082
+obj PRON+NoCase OV                      	5	0.0515463917525773
+obj PRON+Acc SVO                        	4	0.0412371134020619
+obj PRON+Acc OSV                        	3	0.0309278350515464
+obj PRON+Acc SOV                        	3	0.0309278350515464
+obj NOUN+Acc OSV                        	2	0.0206185567010309
 IOBJECT:
 AGREEMENT:
+nonfin Number=Sing|Person=3             	193	0.528767123287671
+nonfin                                  	61	0.167123287671233
+nonfin Number=Plur|Person=3             	37	0.101369863013699
+nonfin Number=Sing|Person=2             	30	0.0821917808219178
 WORDER:
+SV --> 0.0804597701149425 --> VS
+OV --> 0.515463917525773 --> VO
 
 --------------------------------------------------------------------------------
 Veps
@@ -3326,10 +3889,36 @@ OV --> 0.111111111111111 --> VO
 --------------------------------------------------------------------------------
 Ancient Hebrew
 SUBJECT:
+finite emptysubj                        	1316	0.360745614035088
+finite nsubj NOUN+NoCase VS             	933	0.255756578947368
+nonfin emptysubj                        	576	0.157894736842105
+finite nsubj NOUN+NoCase SV             	183	0.0501644736842105
+nonfin nsubj PRON+NoCase VS             	171	0.046875
 OBJECT:
+obj NOUN+NoCase VO                      	199	0.144727272727273
+ccomp OTHER+NoCase VSO                  	179	0.130181818181818
+obj NOUN+את+NoCase VSO                  	150	0.109090909090909
+ccomp OTHER+NoCase VO                   	149	0.108363636363636
+obj NOUN+את+NoCase VO                   	143	0.104
+obj PRON+NoCase VO                      	108	0.0785454545454545
+obj NOUN+NoCase VSO                     	79	0.0574545454545455
+obj PRON+את+NoCase VO                   	43	0.0312727272727273
+obj PRON+NoCase VOS                     	37	0.0269090909090909
+obj NOUN+את+NoCase SVO                  	29	0.0210909090909091
+ccomp NOUN+NoCase VSO                   	23	0.0167272727272727
+obj NOUN+NoCase OV                      	20	0.0145454545454545
+obj PRON+NoCase OV                      	19	0.0138181818181818
 IOBJECT:
 AGREEMENT:
+finite Gender=Masc|Number=Sing|Person=3 	1229	0.336896929824561
+nonfin                                  	1047	0.287006578947368
+finite Gender=Masc|Number=Sing|Person=2 	225	0.0616776315789474
+finite Gender=Fem|Number=Sing|Person=3  	223	0.0611293859649123
+finite Number=Sing|Person=1             	218	0.0597587719298246
+finite Gender=Masc|Number=Plur|Person=3 	160	0.043859649122807
 WORDER:
+SV --> 0.728359908883827 --> VS
+OV --> 0.945454545454545 --> VO
 
 --------------------------------------------------------------------------------
 Arabic
@@ -3590,10 +4179,26 @@ OV --> 0.95638789122627 --> VO
 --------------------------------------------------------------------------------
 South Levantine Arabic
 SUBJECT:
+nonfin emptysubj                        	114	0.75
+nonfin nsubj PRON+NoCase SV             	15	0.0986842105263158
+nonfin nsubj NOUN+NoCase VS             	10	0.0657894736842105
 OBJECT:
+obj NOUN+NoCase VO                      	28	0.424242424242424
+obj PRON+NoCase VO                      	13	0.196969696969697
+ccomp OTHER+NoCase VO                   	7	0.106060606060606
+obj NOUN+NoCase SVO                     	3	0.0454545454545455
+obj PRON+NoCase SVO                     	3	0.0454545454545455
+obj OTHER+NoCase VO                     	2	0.0303030303030303
+ccomp NOUN+NoCase VO                    	1	0.0151515151515152
 IOBJECT:
+iobj NOUN+NoCase OVI                    	1	0.333333333333333
+iobj NOUN+NoCase VOI                    	1	0.333333333333333
+iobj PRON+NoCase VIO                    	1	0.333333333333333
 AGREEMENT:
+nonfin                                  	152	1
 WORDER:
+SV --> 0.421052631578947 --> VS
+OV --> 0.939393939393939 --> VO
 
 --------------------------------------------------------------------------------
 Zaar
@@ -3659,10 +4264,20 @@ OV --> 0 --> VO
 --------------------------------------------------------------------------------
 Old Turkish
 SUBJECT:
+nonfin emptysubj                        	20	0.833333333333333
+nonfin nsubj NOUN+NoCase SV             	3	0.125
 OBJECT:
+ccomp OTHER+NoCase OV                   	2	0.25
+obj NOUN+𐰏+NoCase OV                    	2	0.25
+ccomp OTHER+NoCase SOV                  	1	0.125
+obj NOUN+NoCase OV                      	1	0.125
+obj NOUN+𐰣𐰃+NoCase OV                   	1	0.125
 IOBJECT:
 AGREEMENT:
+nonfin                                  	24	1
 WORDER:
+SV --> 0 --> VS
+OV --> 0 --> VO
 
 --------------------------------------------------------------------------------
 Tatar
@@ -3858,6 +4473,8 @@ nonfin Person[subj]=3                   	593	0.409813407049067
 nonfin                                  	562	0.388389771941949
 nonfin Person[subj]=3|||Person[subj]=3  	100	0.0691085003455425
 WORDER:
+SV --> 0 --> VS
+OV --> 0.521212121212121 --> VO
 
 --------------------------------------------------------------------------------
 Guarani
@@ -3954,10 +4571,26 @@ OV --> 0 --> VO
 --------------------------------------------------------------------------------
 Mbya Guarani
 SUBJECT:
+finite emptysubj                        	875	0.489373601789709
+finite nsubj NOUN+NoCase SV             	314	0.175615212527964
+nonfin emptysubj                        	261	0.145973154362416
+finite nsubj PRON+NoCase SV             	149	0.0833333333333333
 OBJECT:
+obj NOUN+NoCase OV                      	77	0.263698630136986
+obj NOUN+NoCase VO                      	69	0.236301369863014
+obj NOUN+NoCase SVO                     	38	0.13013698630137
+obj NOUN+NoCase SOV                     	27	0.0924657534246575
+obj PRON+NoCase OV                      	15	0.0513698630136986
+ccomp OTHER+NoCase VO                   	14	0.0479452054794521
+obj OTHER+NoCase VO                     	13	0.0445205479452055
 IOBJECT:
 AGREEMENT:
+finite Person[subj]=3                   	1055	0.590044742729307
+nonfin                                  	351	0.196308724832215
+finite Person[subj]=1                   	234	0.130872483221477
 WORDER:
+SV --> 0.118098159509202 --> VS
+OV --> 0.51027397260274 --> VO
 
 --------------------------------------------------------------------------------
 Munduruku
@@ -4140,10 +4773,28 @@ OV --> 0.967893611968654 --> VO
 --------------------------------------------------------------------------------
 Classical Chinese
 SUBJECT:
+nonfin emptysubj                        	54395	0.509693499873502
+nonfin nsubj NOUN+NoCase SV             	30869	0.289249538516318
+nonfin nsubj NOUN+Loc SV                	5799	0.0543379466084463
 OBJECT:
+obj NOUN+NoCase VO                      	17294	0.298914546460177
+obj NOUN+NoCase SVO                     	11137	0.19249516039823
+obj NOUN+Loc VO                         	5722	0.0989007190265487
+obj NOUN+Loc SVO                        	4268	0.0737693584070796
+ccomp OTHER+NoCase VO                   	3714	0.064193860619469
+obj OTHER+NoCase VO                     	3062	0.0529245022123894
+obj PRON+NoCase VO                      	3006	0.0519565818584071
+obj PRON+NoCase SVO                     	2645	0.0457169524336283
 IOBJECT:
+iobj PRON+NoCase VIO                    	375	0.325803649000869
+iobj NOUN+NoCase VIO                    	319	0.277150304083406
+iobj PRON+NoCase SVIO                   	196	0.170286707211121
+iobj NOUN+NoCase SVIO                   	122	0.105994787141616
 AGREEMENT:
+nonfin                                  	106721	1
 WORDER:
+SV --> 0.000363108206245461 --> VS
+OV --> 0.983476216814159 --> VO
 
 Austronesian: 7: 4: Cebuano (1), Indonesian (3), Javanese (1), Tagalog (2)
 --------------------------------------------------------------------------------
@@ -4483,18 +5134,73 @@ Uto-Aztecan: 2: 2: Highland Puebla Nahuatl (1), Western Sierra Puebla Nahuatl (1
 --------------------------------------------------------------------------------
 Highland Puebla Nahuatl
 SUBJECT:
+nonfin emptysubj                        	1109	0.623033707865169
+nonfin nsubj PRON+NoCase SV             	419	0.235393258426966
 OBJECT:
+obj NOUN+NoCase SVO                     	59	0.209219858156028
+obj NOUN+NoCase VO                      	36	0.127659574468085
+ccomp OTHER+NoCase VO                   	33	0.117021276595745
+obj NOUN+Abs SVO                        	31	0.109929078014184
+obj NOUN+Abs VO                         	29	0.102836879432624
+obj PRON+NoCase OV                      	22	0.0780141843971631
+obj PRON+NoCase OSV                     	19	0.0673758865248227
+ccomp OTHER+NoCase SVO                  	15	0.0531914893617021
 IOBJECT:
+iobj NOUN+NoCase VOI                    	2	0.25
+iobj PRON+NoCase IVO                    	2	0.25
+iobj NOUN+Abs SVI                       	1	0.125
+iobj NOUN+Abs VI                        	1	0.125
+iobj NOUN+Abs VOI                       	1	0.125
 AGREEMENT:
+nonfin                                  	634	0.356179775280899
+nonfin Number[subj]=Sing|Person[subj]=3 	493	0.276966292134831
+nonfin Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	258	0.144943820224719
+nonfin Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	144	0.0808988764044944
 WORDER:
+SV --> 0.207153502235469 --> VS
+OV --> 0.75886524822695 --> VO
 
 --------------------------------------------------------------------------------
 Western Sierra Puebla Nahuatl
 SUBJECT:
+nonfin emptysubj                        	767	0.521059782608696
+nonfin nsubj PRON+NoCase SV             	164	0.111413043478261
+nonfin nsubj NOUN+NoCase SV             	123	0.0835597826086956
+nonfin nsubj NOUN+NoCase VS             	99	0.0672554347826087
+finite emptysubj                        	93	0.063179347826087
+nonfin nsubj NOUN+Abs SV                	58	0.0394021739130435
 OBJECT:
+obj NOUN+NoCase VO                      	108	0.283464566929134
+obj NOUN+NoCase SVO                     	53	0.139107611548556
+ccomp OTHER+NoCase VO                   	52	0.136482939632546
+obj NOUN+Abs VO                         	46	0.120734908136483
+obj PRON+NoCase OV                      	27	0.0708661417322835
+obj NOUN+Abs SVO                        	26	0.068241469816273
+obj PRON+NoCase VO                      	14	0.036745406824147
 IOBJECT:
+iobj NOUN+NoCase VI                     	2	0.2
+iobj NOUN+NoCase VIO                    	2	0.2
+iobj PRON+NoCase IVO                    	2	0.2
+iobj NOUN+NoCase SVI                    	1	0.1
+iobj PRON+NoCase ISV                    	1	0.1
+iobj PRON+NoCase SVIO                   	1	0.1
 AGREEMENT:
+nonfin                                  	444	0.301630434782609
+nonfin Number[subj]=Sing|Person[subj]=3 	223	0.151494565217391
+nonfin Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	118	0.0801630434782609
+nonfin Number[subj]=Plur|Person[subj]=3 	104	0.0706521739130435
+nonfin Number[subj]=Sing|Person[subj]=1 	65	0.0441576086956522
+finite Number[subj]=Sing|Person[subj]=3 	64	0.0434782608695652
+nonfin Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=1	58	0.0394021739130435
+nonfin Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	40	0.0271739130434783
+nonfin Number[subj]=Plur|Person[subj]=1 	39	0.0264945652173913
+nonfin Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=1	34	0.0230978260869565
+nonfin Number[subj]=Sing|Person[subj]=2 	31	0.0210597826086957
+finite Number[subj]=Plur|Person[subj]=3 	27	0.0183423913043478
+finite Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	16	0.0108695652173913
 WORDER:
+SV --> 0.344771241830065 --> VS
+OV --> 0.860892388451444 --> VO
 
 Arawakan: 1: 1: Apurina (1)
 --------------------------------------------------------------------------------
@@ -5034,112 +5740,134 @@ SV --> 0.00127877237851662 --> VS
 OV --> 0 --> VO
 
 \begin{tikzpicture}[scale=3]
-\draw (1.31147540983607cm,1.06060606060606cm) node{abq};
-\draw (2.64041690793283cm,0.258964143426295cm) node{af};
-\draw (0.646840148698885cm,0.0978473581213307cm) node{akk};
-\draw (0.5cm,1.80232558139535cm) node{aqz};
-\draw (0cm,1.49253731343284cm) node{sq};
-\draw (1.11111111111111cm,3.97463002114165cm) node{am};
-\draw (9.14285714285714cm,3.03030303030303cm) node{apu};
-\draw (9.58622921777051cm,6.93168724279835cm) node{ar};
-\draw (5.27845036319613cm,1.85714285714286cm) node{hy};
-\draw (8.33333333333333cm,0.263157894736842cm) node{aii};
-\draw (1.78806133625411cm,1.97346600331675cm) node{eu};
-\draw (3.13725490196078cm,0.344827586206897cm) node{bej};
-\draw (7.97138129076219cm,2.8042358004417cm) node{be};
-\draw (0.714285714285714cm,0.571428571428571cm) node{bn};
-\draw (3.57615894039735cm,0.25cm) node{bho};
-\draw (3.6986301369863cm,0.363636363636364cm) node{bor};
-\draw (9.03394255874674cm,5.37753222836096cm) node{br};
-\draw (8.37025521440601cm,2.635998539613cm) node{bg};
-\draw (0.233160621761658cm,0.0615384615384615cm) node{bxr};
-\draw (9.73856209150327cm,0.164141414141414cm) node{yue};
-\draw (6.63868861867355cm,1.84229417765519cm) node{ca};
-\draw (9.78723404255319cm,7.66666666666667cm) node{ceb};
-\draw (9.67893611968654cm,0.0112063925160787cm) node{zh};
-\draw (3.84146341463415cm,2.01729106628242cm) node{ckt};
-\draw (9.99226903749517cm,1.30794341675735cm) node{cop};
-\draw (7.76133209990749cm,1.96722668211537cm) node{hr};
-\draw (6.90545357672938cm,3.63477100862284cm) node{cs};
-\draw (8.79704301075269cm,1.6628762541806cm) node{da};
-\draw (4.79991440188316cm,2.13642627468994cm) node{nl};
-\draw (9.54524961678338cm,0.601549356391095cm) node{en};
-\draw (6.09116022099447cm,3.16447368421053cm) node{myv};
-\draw (5.92857421951315cm,3.52598741744329cm) node{et};
-\draw (8.92975011786893cm,2.19448407037565cm) node{fo};
-\draw (7.26456009913259cm,1.75646785437645cm) node{fi};
-\draw (8.44904737740462cm,0.684528809003864cm) node{fr};
-\draw (8.19788425637834cm,1.38757489750867cm) node{gl};
-\draw (5.8974358974359cm,2.54658385093168cm) node{ka};
-\draw (4.07796380206333cm,2.03504610919531cm) node{de};
-\draw (6.84615384615385cm,2.65984654731458cm) node{aln};
-\draw (6.62941176470588cm,3.4125159642401cm) node{got};
-\draw (7.73505223382974cm,3.09132996632997cm) node{el};
-\draw (4cm,4.28571428571429cm) node{gn};
-\draw (9.72268525534172cm,3.33408884859474cm) node{he};
-\draw (2.93640663713492cm,0.162386272025798cm) node{hi};
-\draw (0.198019801980198cm,0.232558139534884cm) node{hit};
-\draw (5.24050632911392cm,2.66907123534716cm) node{hu};
-\draw (8.4608937405454cm,2.54020642603067cm) node{is};
-\draw (9.54789488556089cm,0.252402841621396cm) node{id};
-\draw (6.20689655172414cm,8.75919450138671cm) node{ga};
-\draw (8.67497448900708cm,2.06069802731411cm) node{it};
-\draw (9.51680672268908cm,0.526723470178156cm) node{jv};
-\draw (0.862068965517241cm,0.694444444444444cm) node{urb};
-\draw (1.06666666666667cm,0.0985221674876847cm) node{xnr};
-\draw (8.03680981595092cm,1.40449438202247cm) node{krl};
-\draw (1.25827814569536cm,0.815602836879433cm) node{arr};
-\draw (0cm,0.0900900900900901cm) node{kk};
-\draw (9.17322834645669cm,6.83684794672586cm) node{quc};
-\draw (0.0153276649892996cm,0.0107971082527462cm) node{ko};
-\draw (3.10850439882698cm,0.0762195121951219cm) node{kmr};
-\draw (4.57810762586951cm,2.6017432745971cm) node{la};
-\draw (7.12927110929964cm,2.7143421572501cm) node{lv};
-\draw (7.54789272030651cm,1.13846153846154cm) node{lij};
-\draw (7.6158940397351cm,2.70732402393844cm) node{lt};
-\draw (6.28571428571429cm,2.27722772277228cm) node{olo};
-\draw (6.88888888888889cm,1.78082191780822cm) node{mk};
-\draw (0cm,3.33333333333333cm) node{mpu};
-\draw (0.087719298245614cm,0.196078431372549cm) node{ml};
-\draw (9.5638789122627cm,2.38317757009346cm) node{mt};
-\draw (9.71300448430493cm,9.99140154772141cm) node{gv};
-\draw (0.645161290322581cm,0.306122448979592cm) node{mr};
-\draw (7.375cm,2.74143302180685cm) node{mdf};
-\draw (1.08108108108108cm,2.41935483870968cm) node{myu};
-\draw (9.42483660130719cm,2.27085053674649cm) node{yrl};
-\draw (8.83629049637239cm,2.12017907750442cm) node{no};
-\draw (3.14097458547535cm,0.216769531838025cm) node{fa};
-\draw (8.20716526667341cm,2.74537646325414cm) node{pl};
-\draw (7.00175336060783cm,2.65715153355603cm) node{qpm};
-\draw (9.16145978429578cm,1.18833311336941cm) node{pt};
-\draw (7.36878453038674cm,3.16624750672101cm) node{ro};
-\draw (7.95482575143592cm,2.772777730339cm) node{ru};
-\draw (2.0082304526749cm,2.24719101123595cm) node{sa};
-\draw (8.96635197288792cm,1.71901077226521cm) node{sr};
-\draw (6.47636039250669cm,3.29037926489969cm) node{sk};
-\draw (6.59296223006109cm,3.03792446842272cm) node{sl};
-\draw (8.48224541776956cm,1.85888829215897cm) node{es};
-\draw (9.2510967202841cm,1.80051094079751cm) node{sv};
-\draw (9.4392523364486cm,9.17073170731707cm) node{tl};
-\draw (0.0369458128078818cm,0.163636363636364cm) node{ta};
-\draw (0cm,0.310077519379845cm) node{tt};
-\draw (4.16267942583732cm,1.36363636363636cm) node{eme};
-\draw (0.111111111111111cm,0.02601908065915cm) node{te};
-\draw (2.18446601941748cm,4.06779661016949cm) node{tpn};
-\draw (0.330171689278425cm,0.284274986422967cm) node{tr};
-\draw (7.49335514209773cm,2.57478791486828cm) node{uk};
-\draw (1.11111111111111cm,1.33333333333333cm) node{xum};
-\draw (3.01979097175895cm,0.0356339084771193cm) node{ur};
-\draw (0.0226039783001808cm,0.420194418312951cm) node{ug};
-\draw (9.42307692307692cm,2.5cm) node{vep};
-\draw (9.96596858638743cm,0.0182815356489945cm) node{vi};
-\draw (1.66666666666667cm,0.892857142857143cm) node{wbp};
-\draw (8.10722100656455cm,6.85146876292925cm) node{cy};
-\draw (7.20213396561944cm,0.0141709966934341cm) node{wo};
-\draw (3.63636363636364cm,0.186915887850467cm) node{xav};
-\draw (0cm,0.0127877237851662cm) node{sjo};
-\draw (0.32258064516129cm,0.105820105820106cm) node{sah};
-\draw (8.96825396825397cm,0.0988467874794069cm) node{yo};
-\draw (5.08474576271186cm,0.289017341040462cm) node{ess};
-\draw (0cm,0.16cm) node{say};
+\draw (6.25cm,2.5625cm) node{abq};
+\draw (12.5cm,0.625cm) node{af};
+\draw (3cm,0.25cm) node{akk};
+\draw (2.5cm,4.375cm) node{aqz};
+\draw (0cm,3.625cm) node{sq};
+\draw (5.25cm,9.6875cm) node{am};
+\draw (25cm,8.4375cm) node{grc};
+\draw (45cm,17.75cm) node{hbo};
+\draw (43.5cm,7.375cm) node{apu};
+\draw (45.5cm,16.875cm) node{ar};
+\draw (25cm,4.5cm) node{hy};
+\draw (39.5cm,0.625cm) node{aii};
+\draw (8.5cm,4.8125cm) node{eu};
+\draw (15cm,0.8125cm) node{bej};
+\draw (37.75cm,6.8125cm) node{be};
+\draw (3.5cm,1.375cm) node{bn};
+\draw (17cm,0.625cm) node{bho};
+\draw (17.5cm,0.875cm) node{bor};
+\draw (43cm,13.125cm) node{br};
+\draw (39.75cm,6.4375cm) node{bg};
+\draw (1cm,0.125cm) node{bxr};
+\draw (46.25cm,0.375cm) node{yue};
+\draw (31.5cm,4.5cm) node{ca};
+\draw (46.5cm,18.6875cm) node{ceb};
+\draw (46cm,0cm) node{zh};
+\draw (18.25cm,4.9375cm) node{ckt};
+\draw (34.5cm,9.9375cm) node{xcl};
+\draw (46.75cm,0cm) node{lzh};
+\draw (47.5cm,3.1875cm) node{cop};
+\draw (36.75cm,4.8125cm) node{hr};
+\draw (32.75cm,8.875cm) node{cs};
+\draw (41.75cm,4.0625cm) node{da};
+\draw (22.75cm,5.1875cm) node{nl};
+\draw (45.25cm,1.4375cm) node{en};
+\draw (29cm,7.6875cm) node{myv};
+\draw (28.25cm,8.625cm) node{et};
+\draw (42.5cm,5.375cm) node{fo};
+\draw (34.5cm,4.3125cm) node{fi};
+\draw (40.25cm,1.6875cm) node{fr};
+\draw (39cm,3.375cm) node{gl};
+\draw (28cm,6.1875cm) node{ka};
+\draw (19.25cm,4.9375cm) node{de};
+\draw (32.5cm,6.5cm) node{aln};
+\draw (31.5cm,8.3125cm) node{got};
+\draw (36.75cm,7.5625cm) node{el};
+\draw (19cm,10.4375cm) node{gn};
+\draw (46.25cm,8.125cm) node{he};
+\draw (36cm,5.0625cm) node{azz};
+\draw (14cm,0.375cm) node{hi};
+\draw (1cm,0.5625cm) node{hit};
+\draw (25cm,6.5cm) node{hu};
+\draw (40.25cm,6.1875cm) node{is};
+\draw (45.25cm,0.625cm) node{id};
+\draw (29.5cm,21.375cm) node{ga};
+\draw (41.25cm,5cm) node{it};
+\draw (45.25cm,1.3125cm) node{jv};
+\draw (4cm,1.6875cm) node{urb};
+\draw (5cm,0.25cm) node{xnr};
+\draw (38.25cm,3.4375cm) node{krl};
+\draw (6cm,2cm) node{arr};
+\draw (0cm,0.25cm) node{kk};
+\draw (43.5cm,16.6875cm) node{quc};
+\draw (32.75cm,4.4375cm) node{koi};
+\draw (26.75cm,5.75cm) node{kpv};
+\draw (0cm,0cm) node{ko};
+\draw (14.75cm,0.1875cm) node{kmr};
+\draw (21.75cm,6.3125cm) node{la};
+\draw (33.75cm,6.625cm) node{lv};
+\draw (35.75cm,2.75cm) node{lij};
+\draw (36.25cm,6.625cm) node{lt};
+\draw (29.75cm,5.5625cm) node{olo};
+\draw (17cm,4.5cm) node{nds};
+\draw (32.75cm,4.3125cm) node{mk};
+\draw (0cm,8.125cm) node{mpu};
+\draw (0.5cm,0.5cm) node{ml};
+\draw (45.5cm,5.8125cm) node{mt};
+\draw (46.25cm,24.375cm) node{gv};
+\draw (3cm,0.75cm) node{mr};
+\draw (24.25cm,2.875cm) node{gun};
+\draw (31cm,3.25cm) node{frm};
+\draw (35cm,6.6875cm) node{mdf};
+\draw (5.25cm,5.875cm) node{myu};
+\draw (44.75cm,5.5625cm) node{yrl};
+\draw (38.75cm,4.9375cm) node{sme};
+\draw (42cm,5.1875cm) node{no};
+\draw (32cm,9.5625cm) node{cu};
+\draw (28.25cm,9.25cm) node{orv};
+\draw (22.75cm,4.4375cm) node{fro};
+\draw (43cm,10.6875cm) node{sga};
+\draw (15cm,0.5cm) node{fa};
+\draw (39cm,6.6875cm) node{pl};
+\draw (33.25cm,6.5cm) node{qpm};
+\draw (43.5cm,2.875cm) node{pt};
+\draw (35cm,7.6875cm) node{ro};
+\draw (37.75cm,6.75cm) node{ru};
+\draw (9.5cm,5.5cm) node{sa};
+\draw (31cm,20.3125cm) node{gd};
+\draw (42.5cm,4.1875cm) node{sr};
+\draw (24.5cm,1.9375cm) node{sms};
+\draw (30.75cm,8cm) node{sk};
+\draw (31.25cm,7.375cm) node{sl};
+\draw (44.5cm,10.25cm) node{ajp};
+\draw (40.25cm,4.5cm) node{es};
+\draw (44cm,4.375cm) node{sv};
+\draw (16.25cm,1.6875cm) node{gsw};
+\draw (44.75cm,22.375cm) node{tl};
+\draw (0.25cm,0.375cm) node{ta};
+\draw (0cm,0.75cm) node{tt};
+\draw (19.75cm,3.3125cm) node{eme};
+\draw (0.5cm,0.0625cm) node{te};
+\draw (10.5cm,9.9375cm) node{tpn};
+\draw (1.5cm,0.6875cm) node{tr};
+\draw (35.5cm,6.25cm) node{uk};
+\draw (5.25cm,3.25cm) node{xum};
+\draw (29.5cm,5.375cm) node{hsb};
+\draw (14.25cm,0.0625cm) node{ur};
+\draw (0cm,1cm) node{ug};
+\draw (44.75cm,6.125cm) node{vep};
+\draw (47.25cm,0.0625cm) node{vi};
+\draw (8cm,2.1875cm) node{wbp};
+\draw (38.5cm,16.6875cm) node{cy};
+\draw (22.5cm,4.3125cm) node{hyw};
+\draw (41cm,8.375cm) node{nhi};
+\draw (34.25cm,0.0625cm) node{wo};
+\draw (17.25cm,0.4375cm) node{xav};
+\draw (0cm,0cm) node{sjo};
+\draw (1.5cm,0.25cm) node{sah};
+\draw (42.5cm,0.25cm) node{yo};
+\draw (24.25cm,0.6875cm) node{ess};
+\draw (0cm,0.375cm) node{say};
 \end{tikzpicture}
