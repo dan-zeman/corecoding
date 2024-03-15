@@ -80,7 +80,9 @@ foreach my $family (@families)
         {
             print("--------------------------------------------------------------------------------\n");
             print("$language\n");
-            my $command = "cat $udpath/UD_$language*/*.conllu | udapy read.Conllu bundles_per_doc=1000 my.CoreCoding arg=all 2>/dev/null | ./summary.pl";
+            my $language_underscores = $language;
+            $language_underscores =~ s/ /_/g;
+            my $command = "cat $udpath/UD_$language_underscores*/*.conllu | udapy read.Conllu bundles_per_doc=1000 my.CoreCoding arg=all 2>/dev/null | ./summary.pl";
             #system($command);
             open(SUMMARY, "$command|") or die("Cannod pipe from '$command': $!");
             while(<SUMMARY>)
