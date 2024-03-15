@@ -11,11 +11,11 @@ binmode(STDERR, ':utf8');
 use Carp;
 use udlib;
 
-#my $udpath = '/net/data/universal-dependencies-2.13';
-my $udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
+my $udpath = '/net/data/universal-dependencies-2.13';
+#my $udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
 my @folders = udlib::list_ud_folders($udpath);
-#my $dev_udpath = '/net/work/people/zeman/unidep';
-my $dev_udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
+my $dev_udpath = '/net/work/people/zeman/unidep';
+#my $dev_udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
 my $lhash = udlib::get_language_hash($dev_udpath.'/docs-automation/codes_and_flags.yaml');
 my %families;
 my %folders_by_families;
