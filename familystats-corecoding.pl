@@ -126,7 +126,7 @@ foreach my $language (@languages)
     my $y = $svs{$language} // 0;
     my $x = $ovo{$language} // 0;
     my ($xcell, $ycell) = find_cell($x, $y);
-    ($x, $y) = cell2coord($xcell, $ycell);
+    ($x, $y) = cell2cm($xcell, $ycell);
     if($lhash->{$language}{family} =~ m/^IE/)
     {
         $lcode = "\\textcolor{blue}{$lcode}";
@@ -211,7 +211,7 @@ sub distance
 
 
 #------------------------------------------------------------------------------
-# Converts metric coordinates to cell coordinates (rounding the numbers to the
+# Converts 0-1 coordinates to cell coordinates (rounding the numbers to the
 # cell to which the original point falls).
 #------------------------------------------------------------------------------
 sub coord2cell
@@ -228,7 +228,7 @@ sub coord2cell
 
 
 #------------------------------------------------------------------------------
-# Converts cell coordinates to metric coordinates (giving the center of the
+# Converts cell coordinates to 0-1 coordinates (giving the center of the
 # cell).
 #------------------------------------------------------------------------------
 sub cell2coord
@@ -236,8 +236,23 @@ sub cell2coord
     my $xcell = shift;
     my $ycell = shift;
     # Project $xcell from <0;19> to <0;1>.
-    my $x = 0.25 + $xcell * 0.5;
+    my $x = $xcell/19;
     # Project $ycell from <0;39> to <0;1>.
+    my $y = $ycell/39;
+    return ($x, $y);
+}
+
+
+
+#------------------------------------------------------------------------------
+# Converts cell coordinates to metric coordinates (for the purpose of tikz
+# positioning, giving the center of the cell).
+#------------------------------------------------------------------------------
+sub cell2cm
+{
+    my $xcell = shift;
+    my $ycell = shift;
+    my $x = 0.25 + $xcell * 0.5;
     my $y = 0.125 + $ycell * 0.25;
     return ($x, $y);
 }
