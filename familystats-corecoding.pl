@@ -133,11 +133,11 @@ foreach my $language (@languages)
     }
     elsif($lhash->{$language}{family} =~ m/^Uralic/)
     {
-        $lcode = "\\textcolor{green}{$lcode}";
+        $lcode = "\\textcolor{teal}{$lcode}";
     }
     elsif($lhash->{$language}{family} =~ m/^Afro-Asiatic/)
     {
-        $lcode = "\\textcolor{yellow}{$lcode}";
+        $lcode = "\\textcolor{orange}{$lcode}";
     }
     elsif($lhash->{$language}{family} =~ m/^Turkic/)
     {
@@ -145,16 +145,19 @@ foreach my $language (@languages)
     }
     elsif($lhash->{$language}{family} =~ m/^Tupian/)
     {
-        $lcode = "\\textcolor{purple}{$lcode}";
+        $lcode = "\\textcolor{violet}{$lcode}";
     }
     elsif($lhash->{$language}{family} =~ m/^Sino-Tibetan/)
     {
+        $lcode = "\\textcolor{magenta}{$lcode}";
     }
     elsif($lhash->{$language}{family} =~ m/^Austronesian/)
     {
+        $lcode = "\\textcolor{cyan}{$lcode}";
     }
     elsif($lhash->{$language}{family} =~ m/^Dravidian/)
     {
+        $lcode = "\\textcolor{olive}{$lcode}";
     }
     print("  \\draw (${x}cm,${y}cm) node{$lcode}; \% $language\n");
 }
