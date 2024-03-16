@@ -104,6 +104,11 @@ foreach my $family (@families)
 }
 # Print tikz code of the SVS/OVO language plot.
 print('\begin{tikzpicture}[scale=3]', "\n");
+print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
+print("  \\draw[gray] (-0.5cm,0cm) node{SV};\n");
+print("  \\draw[gray] (-0.5cm,10cm) node{VS};\n");
+print("  \\draw[gray] (0cm,-0.5cm) node{OV};\n");
+print("  \\draw[gray] (10cm,-0.5cm) node{VO};\n");
 #foreach my $language (sort(keys(%svs)))
 #{
 #    my $lcode = $lhash->{$language}{lcode};
@@ -114,36 +119,58 @@ print('\begin{tikzpicture}[scale=3]', "\n");
 # Zkusit rezervovat pro každý jazyk 5 mm na šířku a 2,5 mm na výšku, aby se kódy jazyků nepřepisovaly přes sebe.
 # Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
 # K dispozici je 800 pozic na 148 jazyků.
-foreach my $language (sort(keys(%svs)))
+my @languages = sort {distance($ovo{$a}, $svs{$a}) <=> distance($ovo{$b}, $svs{$b})} (keys(%svs));
+foreach my $language (@languages)
 {
     my $lcode = $lhash->{$language}{lcode};
     my $y = $svs{$language} // 0;
     my $x = $ovo{$language} // 0;
     my ($xcell, $ycell) = find_cell($x, $y);
-    $x = 0.25 + $xcell * 0.5;
-    $y = 0.125 + $ycell * 0.25;
-    print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
+    ($x, $y) = cell2coord($xcell, $ycell);
+    if($lhash->{$language}{family} =~ m/^IE/)
+    {
+        $lcode = "\\textcolor{blue}{$lcode}";
+    }
+    elsif($lhash->{$language}{family} =~ m/^Uralic/)
+    {
+        $lcode = "\\textcolor{green}{$lcode}";
+    }
+    elsif($lhash->{$language}{family} =~ m/^Afro-Asiatic/)
+    {
+        $lcode = "\\textcolor{yellow}{$lcode}";
+    }
+    elsif($lhash->{$language}{family} =~ m/^Turkic/)
+    {
+        $lcode = "\\textcolor{red}{$lcode}";
+    }
+    elsif($lhash->{$language}{family} =~ m/^Tupian/)
+    {
+        $lcode = "\\textcolor{purple}{$lcode}";
+    }
+    elsif($lhash->{$language}{family} =~ m/^Sino-Tibetan/)
+    {
+    }
+    elsif($lhash->{$language}{family} =~ m/^Austronesian/)
+    {
+    }
+    elsif($lhash->{$language}{family} =~ m/^Dravidian/)
+    {
+    }
+    print("  \\draw (${x}cm,${y}cm) node{$lcode}; \% $language\n");
 }
 print('\end{tikzpicture}', "\n");
 
-sub coord2cell
-{
-    my $x = shift;
-    my $y = shift;
-    # Project $x from <0;1> to <0;19>.
-    my $xcell = sprintf("%d", $x*19+0.5);
-    # Project $y from <0;1> to <0;39>.
-    my $ycell = sprintf("%d", $y*39+0.5);
-    return ($xcell, $ycell);
-}
 
-# Find the cell that is available and its distance from the ideal cell is minimal.
+
+#------------------------------------------------------------------------------
+# Finds the cell that is available and its distance from the ideal cell is
+# minimal.
+#------------------------------------------------------------------------------
 my @matrix;
 sub find_cell
 {
     my $x = shift;
     my $y = shift;
-    my ($idealxc, $idealyc) = coord2cell($x, $y);
     ###!!! There is probably a better algorithm that searches the cells in increasing distance from ideal and stops when an empty cell is found.
     my ($minxc, $minyc, $mindistance);
     for(my $i = 0; $i < 20; $i++)
@@ -152,7 +179,7 @@ sub find_cell
         {
             if(!defined($matrix[$i][$j]))
             {
-                my $distance = sqrt(($i-$idealxc)**2 + ($j-$idealyc)**2);
+                my $distance = distance(cell2coord($i, $j), $x, $y);
                 if(!defined($mindistance) || $distance < $mindistance)
                 {
                     $mindistance = $distance;
@@ -164,4 +191,53 @@ sub find_cell
     }
     $matrix[$minxc][$minyc] = 1;
     return ($minxc, $minyc);
+}
+
+
+
+#------------------------------------------------------------------------------
+# Computes distance of two points. If only one point is given, computes its
+# distance from [0;0].
+#------------------------------------------------------------------------------
+sub distance
+{
+    my $x1 = shift // 0;
+    my $y1 = shift // 0;
+    my $x0 = shift // 0;
+    my $y0 = shift // 0;
+    return sqrt(($x1-$x0)**2 + ($y1-$y0)**2);
+}
+
+
+
+#------------------------------------------------------------------------------
+# Converts metric coordinates to cell coordinates (rounding the numbers to the
+# cell to which the original point falls).
+#------------------------------------------------------------------------------
+sub coord2cell
+{
+    my $x = shift;
+    my $y = shift;
+    # Project $x from <0;1> to <0;19>.
+    my $xcell = sprintf("%d", $x*19+0.5);
+    # Project $y from <0;1> to <0;39>.
+    my $ycell = sprintf("%d", $y*39+0.5);
+    return ($xcell, $ycell);
+}
+
+
+
+#------------------------------------------------------------------------------
+# Converts cell coordinates to metric coordinates (giving the center of the
+# cell).
+#------------------------------------------------------------------------------
+sub cell2coord
+{
+    my $xcell = shift;
+    my $ycell = shift;
+    # Project $xcell from <0;19> to <0;1>.
+    my $x = 0.25 + $xcell * 0.5;
+    # Project $ycell from <0;39> to <0;1>.
+    my $y = 0.125 + $ycell * 0.25;
+    return ($x, $y);
 }
