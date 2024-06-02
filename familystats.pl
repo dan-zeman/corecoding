@@ -1,5 +1,5 @@
 #!/usr/bin/env perl
-# Statistics about UD 2.13 for a paper.
+# Statistics about UD 2.14 for a paper.
 # Copyright © 2024 Dan Zeman <zeman@ufal.mff.cuni.cz>
 # License: GNU GPL
 
@@ -10,7 +10,7 @@ binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 use udlib;
 
-my $udpath = '/net/data/universal-dependencies-2.13';
+my $udpath = '/net/data/universal-dependencies-2.14';
 my @folders = udlib::list_ud_folders($udpath);
 my $dev_udpath = '/net/work/people/zeman/unidep';
 my $lhash = udlib::get_language_hash($dev_udpath.'/docs-automation/codes_and_flags.yaml');
