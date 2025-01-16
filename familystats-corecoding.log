@@ -6213,8 +6213,8 @@ OV --> 0.000000 --> VO
   \draw[gray] (-0.5cm,10cm) node{VS};
   \draw[gray] (0cm,-0.5cm) node{OV};
   \draw[gray] (10cm,-0.5cm) node{VO};
-  \draw (0.25cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (0.25cm,0.375cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (0.25cm,0.125cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (0.25cm,0.375cm) node{\textcolor{blue}{si}}; % Sinhala
   \draw (0.25cm,0.625cm) node{jaa}; % Madi
   \draw (0.75cm,0.125cm) node{ja}; % Japanese
   \draw (0.75cm,0.375cm) node{sjo}; % Xibe
@@ -6348,8 +6348,8 @@ OV --> 0.000000 --> VO
   \draw (9.25cm,2.125cm) node{\textcolor{orange}{mt}}; % Maltese
   \draw (9.75cm,0.625cm) node{vi}; % Vietnamese
   \draw (9.75cm,0.875cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (9.75cm,1.125cm) node{tn}; % Tswana
-  \draw (9.25cm,1.125cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (9.75cm,1.125cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (9.25cm,1.125cm) node{tn}; % Tswana
   \draw (8.75cm,4.375cm) node{\textcolor{blue}{sga}}; % Old Irish
   \draw (9.75cm,1.375cm) node{\textcolor{orange}{cop}}; % Coptic
   \draw (9.75cm,1.625cm) node{\textcolor{blue}{sq}}; % Albanian
