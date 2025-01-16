@@ -11,7 +11,7 @@ binmode(STDERR, ':utf8');
 use Carp;
 use udlib;
 
-my $udpath = '/net/data/universal-dependencies-2.14';
+my $udpath = '/net/data/universal-dependencies-2.15';
 #my $udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
 my @folders = udlib::list_ud_folders($udpath);
 my $dev_udpath = '/net/work/people/zeman/unidep';
