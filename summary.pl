@@ -80,6 +80,7 @@ while(<>)
             if($adp)
             {
                 $h{ADPOSITION}{$upos.'1'}++;
+                $h{CASE}{$type}{$case}++;
             }
             else
             {
@@ -94,6 +95,7 @@ while(<>)
                 elsif($mcase ne 'NOCASE')
                 {
                     $h{MORPHCASE}{$upos.'1'}++;
+                    $h{CASE}{$type}{$mcase}++;
                 }
             }
         }
@@ -155,4 +157,16 @@ if(exists($h{MORPHCASE}))
     my $proncase = $n>0 ? $h{MORPHCASE}{'PRON1'} / $n : 0;
     printf("NOUN without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $nouncase);
     printf("PRON without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $proncase);
+}
+if(exists($h{CASE}))
+{
+    foreach my $type (qw(SUBJECT OBJECT IOBJECT))
+    {
+        if(exists($h{CASE}{$type}))
+        {
+            my @cases = sort {$h{CASE}{$type}{$b} <=> $h{CASE}{$type}{$a}} (keys(%{$h{CASE}{$type}}));
+            my $cases = join(', ', map {"$_:$h{CASE}{$type}{$_}"} (@cases));
+            print("CASES $type ==> $cases\n");
+        }
+    }
 }
