@@ -124,6 +124,11 @@ print_2d_plot('SV', 'VS', \%svs, 'OV', 'VO', \%ovo, $lhash);
 print_2d_plot('P0', 'PA', \%padp, 'N0', 'NA', \%nadp, $lhash);
 # Print tikz code of the NOUN/PRON morphological Case language plot.
 print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
+###!!! We should skip treebanks with the following in README
+###!!! Features: not available
+###!!! when counting the morphological cases. Especially if there are two treebanks
+###!!! of one language, one of them with features and the other without, summing
+###!!! up over them will distort the results.
 
 
 
