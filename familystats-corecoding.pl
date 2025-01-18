@@ -184,7 +184,16 @@ sub print_2d_plot
     my %langs;
     map {$langs{$_}++} (keys(%xlangs));
     map {$langs{$_}++} (keys(%ylangs));
-    my @languages = sort {distance($xlangs{$a}, $ylangs{$a}) <=> distance($xlangs{$b}, $ylangs{$b})} (keys(%langs));
+    my @languages = sort
+    {
+        my $r = distance($xlangs{$a}, $ylangs{$a}) <=> distance($xlangs{$b}, $ylangs{$b});
+        unless($r)
+        {
+            $r = $a cmp $b;
+        }
+        $r
+    }
+    (keys(%langs));
     print('\begin{tikzpicture}', "\n");
     print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
     print("  \\draw[gray] (-0.5cm,0cm) node{$y0label};\n");
