@@ -9,6 +9,13 @@ binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
 
+# We read the output of udapy my.CoreCoding. The output lines may look like this:
+# SUBJECT finite nsubj NOUN+Nom SV
+# OBJECT obj NOUN+Acc SVO
+# IOBJECT iobj PRON+Dat SVOI
+# AGREEMENT finite Number=Sing|Person=3
+# Clause types are 'finite' or 'nonfin' and they are not printed for objects.
+# Argument type could be 'nsubj' or 'csubj' for SUBJECT, 'obj' or 'ccomp' for OBJECT etc.
 while(<>)
 {
     chomp;
@@ -54,6 +61,40 @@ while(<>)
                 }
             }
         }
+        # Aggregate hits where a NOUN or PRON subject had morphological case
+        # vs. hits where it did not. Same for objects and indirect objects,
+        # but only for the nominal versions (nsubj, obj, iobj), not clauses.
+        if($type =~ m/^(SUBJECT|OBJECT|IOBJECT)$/ && $label =~ m/^(?:(?:finite|nonfin) nsubj|obj|iobj) (NOUN|PRON)\+(\S+)/)
+        {
+            my $upos = $1;
+            my $case = $2;
+            # Case may include adposition(s), e.g. 'от+NoCase' or 'в+Nom'.
+            my $mcase = $case;
+            my $adp = '';
+            if($case =~ m/^(.+)\+([^\+]+)$/)
+            {
+                $adp = $1;
+                $mcase = $2;
+            }
+            # Count whether there is or is not adposition. Disregard morphological case.
+            if($adp)
+            {
+                $h{ADPOSITION}{$upos.'1'}++;
+            }
+            else
+            {
+                $h{ADPOSITION}{$upos.'0'}++;
+                # Count whether there is morphological case. Only if there is no adposition.
+                if($mcase eq 'NoCase')
+                {
+                    $h{MORPHCASE}{$upos.'0'}++;
+                }
+                else
+                {
+                    $h{MORPHCASE}{$upos.'1'}++;
+                }
+            }
+        }
     }
     else
     {
@@ -78,6 +119,7 @@ foreach my $type (qw(SUBJECT OBJECT IOBJECT AGREEMENT))
         last if($portion >= 0.85);
     }
 }
+# Summarize word order tendencies for subjects and objects.
 print("WORDER:\n");
 my $n = $h{WORDER}{SV}+$h{WORDER}{VS};
 my $svs = $n>0 ? $h{WORDER}{VS} / $n : 0;
@@ -85,3 +127,17 @@ $n = $h{WORDER}{OV}+$h{WORDER}{VO};
 my $ovo = $n>0 ? $h{WORDER}{VO} / $n : 0;
 printf("SV --> %.6f --> VS\n", $svs);
 printf("OV --> %.6f --> VO\n", $ovo);
+# Summarize presence of case markers for nouns and pronouns.
+print("CASE MARKERS (nsubj+obj+iobj together):\n");
+$n = $h{ADPOSITION}{'NOUN0'}+$h{ADPOSITION}{'NOUN1'};
+my $nounadp = $n>0 ? $h{ADPOSITION}{'NOUN1'} / $n : 0;
+$n = $h{ADPOSITION}{'PRON0'}+$h{ADPOSITION}{'PRON1'};
+my $pronadp = $n>0 ? $h{ADPOSITION}{'PRON1'} / $n : 0;
+printf("NOUN without ADP --> %.6f --> with ADP\n", $nounadp);
+printf("PRON without ADP --> %.6f --> with ADP\n", $pronadp);
+$n = $h{MORPHCASE}{'NOUN0'}+$h{MORPHCASE}{'NOUN1'};
+my $nouncase = $n>0 ? $h{MORPHCASE}{'NOUN1'} / $n : 0;
+$n = $h{MORPHCASE}{'PRON0'}+$h{MORPHCASE}{'PRON1'};
+my $proncase = $n>0 ? $h{MORPHCASE}{'PRON1'} / $n : 0;
+printf("NOUN without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $nounadp);
+printf("PRON without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $pronadp);

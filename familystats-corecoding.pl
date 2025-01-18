@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Statistics about UD 2.14 for a paper.
-# Copyright © 2024 Dan Zeman <zeman@ufal.mff.cuni.cz>
+# Statistics about UD 2.15 for a paper. Calls Udapi my.CoreCoding and ./summary.pl.
+# Copyright © 2024, 2025 Dan Zeman <zeman@ufal.mff.cuni.cz>
 # License: GNU GPL
 
 use utf8;
@@ -12,10 +12,10 @@ use Carp;
 use udlib;
 
 my $udpath = '/net/data/universal-dependencies-2.15';
-#my $udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
+#my $udpath = 'C:/Users/zeman/Documents/lingvistika-projekty/ud-repos';
 my @folders = udlib::list_ud_folders($udpath);
 my $dev_udpath = '/net/work/people/zeman/unidep';
-#my $dev_udpath = 'C:/Users/Dan/Documents/Lingvistika/Projekty/universal-dependencies';
+#my $dev_udpath = 'C:/Users/zeman/Documents/lingvistika-projekty/ud-repos';
 my $lhash = udlib::get_language_hash($dev_udpath.'/docs-automation/codes_and_flags.yaml');
 my %families;
 my %folders_by_families;
@@ -34,7 +34,7 @@ foreach my $folder (@folders)
                 $genus = $2;
             }
             # Skip special pseudo-families.
-            next if($family =~ m/^(Creole|Code switching|Sign Language)$/);
+            #next if($family =~ m/^(Creole|Code switching|Sign Language)$/);
             # Ignore treebanks that do not contain underlying text.
             my $metadata = udlib::read_readme($folder, $udpath);
             next if($metadata->{'Includes text'} ne 'yes');
@@ -95,6 +95,22 @@ foreach my $family (@families)
                 {
                     $ovo{$language} = $1;
                 }
+                if(m/^NOUN without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
+                {
+                    $nadp{$language} = $1;
+                }
+                if(m/^PRON without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
+                {
+                    $padp{$language} = $1;
+                }
+                if(m/^NOUN without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
+                {
+                    $nmcase{$language} = $1;
+                }
+                if(m/^PRON without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
+                {
+                    $pmcase{$language} = $1;
+                }
                 print;
             }
             close(SUMMARY);
@@ -103,65 +119,89 @@ foreach my $family (@families)
     }
 }
 # Print tikz code of the SVS/OVO language plot.
-print('\begin{tikzpicture}[scale=3]', "\n");
-print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
-print("  \\draw[gray] (-0.5cm,0cm) node{SV};\n");
-print("  \\draw[gray] (-0.5cm,10cm) node{VS};\n");
-print("  \\draw[gray] (0cm,-0.5cm) node{OV};\n");
-print("  \\draw[gray] (10cm,-0.5cm) node{VO};\n");
-#foreach my $language (sort(keys(%svs)))
-#{
-#    my $lcode = $lhash->{$language}{lcode};
-#    my $y = ($svs{$language} // 0) * 10;
-#    my $x = ($ovo{$language} // 0) * 10;
-#    print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
-#}
-# Zkusit rezervovat pro každý jazyk 5 mm na šířku a 2,5 mm na výšku, aby se kódy jazyků nepřepisovaly přes sebe.
-# Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
-# K dispozici je 800 pozic na 148 jazyků.
-my @languages = sort {distance($ovo{$a}, $svs{$a}) <=> distance($ovo{$b}, $svs{$b})} (keys(%svs));
-foreach my $language (@languages)
+print_2d_plot('SV', 'VS', \%svs, 'OV', 'VO', \%ovo, $lhash);
+# Print tikz code of the NOUN/PRON ADP language plot.
+print_2d_plot('P0', 'PA', \%padp, 'N0', 'NA', \%nadp, $lhash);
+# Print tikz code of the NOUN/PRON morphological Case language plot.
+print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
+
+
+
+#------------------------------------------------------------------------------
+# Draws a 2D plot of languages on the SV-VS and OV-VO scales. Generates LaTeX
+# tikz code.
+#------------------------------------------------------------------------------
+sub print_2d_plot
 {
-    my $lcode = $lhash->{$language}{lcode};
-    my $y = $svs{$language} // 0;
-    my $x = $ovo{$language} // 0;
-    my ($xcell, $ycell) = find_cell($x, $y);
-    ($x, $y) = cell2cm($xcell, $ycell);
-    if($lhash->{$language}{family} =~ m/^IE/)
+    my $y0label = shift; # SV
+    my $y1label = shift; # VS
+    my $svshash = shift;
+    my $x0label = shift; # OV
+    my $x1label = shift; # VO
+    my $ovohash = shift;
+    my $lhash = shift;
+    my %svs = %{$svshash};
+    my %ovo = %{$ovohash};
+    print('\begin{tikzpicture}[scale=3]', "\n");
+    print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
+    print("  \\draw[gray] (-0.5cm,0cm) node{$y0label};\n");
+    print("  \\draw[gray] (-0.5cm,10cm) node{$y1label};\n");
+    print("  \\draw[gray] (0cm,-0.5cm) node{$x0label};\n");
+    print("  \\draw[gray] (10cm,-0.5cm) node{$x1label};\n");
+    #foreach my $language (sort(keys(%svs)))
+    #{
+    #    my $lcode = $lhash->{$language}{lcode};
+    #    my $y = ($svs{$language} // 0) * 10;
+    #    my $x = ($ovo{$language} // 0) * 10;
+    #    print("\\draw (${x}cm,${y}cm) node{$lcode};\n");
+    #}
+    # Zkusit rezervovat pro každý jazyk 5 mm na šířku a 2,5 mm na výšku, aby se kódy jazyků nepřepisovaly přes sebe.
+    # Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
+    # K dispozici je 800 pozic na 148 jazyků.
+    my @languages = sort {distance($ovo{$a}, $svs{$a}) <=> distance($ovo{$b}, $svs{$b})} (keys(%svs));
+    foreach my $language (@languages)
     {
-        $lcode = "\\textcolor{blue}{$lcode}";
+        my $lcode = $lhash->{$language}{lcode};
+        my $y = $svs{$language} // 0;
+        my $x = $ovo{$language} // 0;
+        my ($xcell, $ycell) = find_cell($x, $y);
+        ($x, $y) = cell2cm($xcell, $ycell);
+        if($lhash->{$language}{family} =~ m/^IE/)
+        {
+            $lcode = "\\textcolor{blue}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Uralic/)
+        {
+            $lcode = "\\textcolor{teal}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Afro-Asiatic/)
+        {
+            $lcode = "\\textcolor{orange}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Turkic/)
+        {
+            $lcode = "\\textcolor{red}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Tupian/)
+        {
+            $lcode = "\\textcolor{violet}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Sino-Tibetan/)
+        {
+            $lcode = "\\textcolor{magenta}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Austronesian/)
+        {
+            $lcode = "\\textcolor{cyan}{$lcode}";
+        }
+        elsif($lhash->{$language}{family} =~ m/^Dravidian/)
+        {
+            $lcode = "\\textcolor{olive}{$lcode}";
+        }
+        print("  \\draw (${x}cm,${y}cm) node{$lcode}; \% $language\n");
     }
-    elsif($lhash->{$language}{family} =~ m/^Uralic/)
-    {
-        $lcode = "\\textcolor{teal}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Afro-Asiatic/)
-    {
-        $lcode = "\\textcolor{orange}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Turkic/)
-    {
-        $lcode = "\\textcolor{red}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Tupian/)
-    {
-        $lcode = "\\textcolor{violet}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Sino-Tibetan/)
-    {
-        $lcode = "\\textcolor{magenta}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Austronesian/)
-    {
-        $lcode = "\\textcolor{cyan}{$lcode}";
-    }
-    elsif($lhash->{$language}{family} =~ m/^Dravidian/)
-    {
-        $lcode = "\\textcolor{olive}{$lcode}";
-    }
-    print("  \\draw (${x}cm,${y}cm) node{$lcode}; \% $language\n");
+    print('\end{tikzpicture}', "\n");
 }
-print('\end{tikzpicture}', "\n");
 
 
 
