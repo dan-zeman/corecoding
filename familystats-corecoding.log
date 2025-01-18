@@ -33,11 +33,19 @@ finite                                  	724	0.225615456528514
 WORDER:
 SV --> 0.025896 --> VS
 OV --> 0.264042 --> VO
+ADP NOUN 0 2073
+ADP NOUN 1 44
+ADP PRON 0 1529
+ADP PRON 1 6
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.020784 --> with ADP
 PRON without ADP --> 0.003909 --> with ADP
-NOUN without Case (and ADP) --> 0.020784 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.003909 --> with Case (but without ADP)
+CASE NOUN 0 2073
+CASE NOUN 1 
+CASE PRON 0 636
+CASE PRON 1 893
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.584042 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Albanian
@@ -89,11 +97,19 @@ finite Number=Sing|Person=3             	27	0.0528375733855186
 WORDER:
 SV --> 0.210970 --> VS
 OV --> 0.630332 --> VO
+ADP NOUN 0 247
+ADP NOUN 1 1
+ADP PRON 0 215
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004032 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.004032 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 9
+CASE NOUN 1 238
+CASE PRON 0 49
+CASE PRON 1 166
+NOUN without Case (and ADP) --> 0.963563 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.772093 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ancient Greek
@@ -182,11 +198,19 @@ finite Number=Sing|Person=1             	3961	0.0527872916028093
 WORDER:
 SV --> 0.347110 --> VS
 OV --> 0.527472 --> VO
+ADP NOUN 0 30519
+ADP NOUN 1 104
+ADP PRON 0 16429
+ADP PRON 1 35
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003396 --> with ADP
 PRON without ADP --> 0.002126 --> with ADP
-NOUN without Case (and ADP) --> 0.003396 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002126 --> with Case (but without ADP)
+CASE NOUN 0 317
+CASE NOUN 1 30202
+CASE PRON 0 6
+CASE PRON 1 16423
+NOUN without Case (and ADP) --> 0.989613 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.999635 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Armenian
@@ -240,11 +264,19 @@ finite Number=Plur|Person=3             	1342	0.128139024157357
 WORDER:
 SV --> 0.185714 --> VS
 OV --> 0.527845 --> VO
+ADP NOUN 0 5423
+ADP NOUN 1 1
+ADP PRON 0 1566
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000184 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000184 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 5423
+CASE PRON 0 94
+CASE PRON 1 1472
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.939974 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bavarian
@@ -270,10 +302,18 @@ nonfin                                  	1559	1
 WORDER:
 SV --> 0.163004 --> VS
 OV --> 0.523669 --> VO
+ADP NOUN 0 852
+ADP NOUN 1 2
+ADP PRON 0 748
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002342 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.002342 --> with Case (but without ADP)
+CASE NOUN 0 852
+CASE NOUN 1 
+CASE PRON 0 748
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -336,11 +376,19 @@ finite Gender=Fem|Number=Sing           	1974	0.0550182558042309
 WORDER:
 SV --> 0.280424 --> VS
 OV --> 0.797138 --> VO
+ADP NOUN 0 19703
+ADP NOUN 1 133
+ADP PRON 0 6551
+ADP PRON 1 7
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.006705 --> with ADP
 PRON without ADP --> 0.001067 --> with ADP
-NOUN without Case (and ADP) --> 0.006705 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001067 --> with Case (but without ADP)
+CASE NOUN 0 194
+CASE NOUN 1 19509
+CASE PRON 0 7
+CASE PRON 1 6544
+NOUN without Case (and ADP) --> 0.990154 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.998931 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bengali
@@ -370,11 +418,19 @@ finite Person=2                         	14	0.208955223880597
 WORDER:
 SV --> 0.057143 --> VS
 OV --> 0.071429 --> VO
+ADP NOUN 0 33
+ADP NOUN 1 
+ADP PRON 0 30
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 33
+CASE PRON 0 6
+CASE PRON 1 24
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bhojpuri
@@ -442,11 +498,19 @@ finite Gender=Masc                      	6	0.00883652430044183
 WORDER:
 SV --> 0.025000 --> VS
 OV --> 0.357616 --> VO
+ADP NOUN 0 166
+ADP NOUN 1 45
+ADP PRON 0 47
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.213270 --> with ADP
 PRON without ADP --> 0.078431 --> with ADP
-NOUN without Case (and ADP) --> 0.213270 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.078431 --> with Case (but without ADP)
+CASE NOUN 0 19
+CASE NOUN 1 147
+CASE PRON 0 2
+CASE PRON 1 45
+NOUN without Case (and ADP) --> 0.885542 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.957447 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Breton
@@ -472,11 +536,19 @@ finite Number=Plur|Person=3             	51	0.0399686520376176
 WORDER:
 SV --> 0.537753 --> VS
 OV --> 0.903394 --> VO
+ADP NOUN 0 751
+ADP NOUN 1 8
+ADP PRON 0 96
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.010540 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.010540 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 751
+CASE NOUN 1 
+CASE PRON 0 37
+CASE PRON 1 59
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.614583 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bulgarian
@@ -593,11 +665,19 @@ finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	452	0.0254992666140133
 WORDER:
 SV --> 0.263600 --> VS
 OV --> 0.837026 --> VO
+ADP NOUN 0 10950
+ADP NOUN 1 2398
+ADP PRON 0 3794
+ADP PRON 1 270
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.179652 --> with ADP
 PRON without ADP --> 0.066437 --> with ADP
-NOUN without Case (and ADP) --> 0.179652 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.066437 --> with Case (but without ADP)
+CASE NOUN 0 10949
+CASE NOUN 1 1
+CASE PRON 0 140
+CASE PRON 1 3654
+NOUN without Case (and ADP) --> 0.000091 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.963100 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Cappadocian
@@ -641,11 +721,19 @@ finite Number=Sing|Person=2             	55	0.106382978723404
 WORDER:
 SV --> 0.478873 --> VS
 OV --> 0.702564 --> VO
+ADP NOUN 0 248
+ADP NOUN 1 2
+ADP PRON 0 147
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.008000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.008000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 2
+CASE NOUN 1 246
+CASE PRON 0 2
+CASE PRON 1 145
+NOUN without Case (and ADP) --> 0.991935 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.986395 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Catalan
@@ -676,11 +764,19 @@ finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	3974	0.0930112811870992
 WORDER:
 SV --> 0.184229 --> VS
 OV --> 0.663869 --> VO
+ADP NOUN 0 32072
+ADP NOUN 1 467
+ADP PRON 0 16043
+ADP PRON 1 71
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.014352 --> with ADP
 PRON without ADP --> 0.004406 --> with ADP
-NOUN without Case (and ADP) --> 0.014352 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004406 --> with Case (but without ADP)
+CASE NOUN 0 32072
+CASE NOUN 1 
+CASE PRON 0 8146
+CASE PRON 1 7897
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.492240 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Classical Armenian
@@ -738,11 +834,19 @@ finite Number=Sing                      	715	0.0585969513194558
 WORDER:
 SV --> 0.351917 --> VS
 OV --> 0.727923 --> VO
+ADP NOUN 0 3450
+ADP NOUN 1 1173
+ADP PRON 0 3286
+ADP PRON 1 1230
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.253731 --> with ADP
 PRON without ADP --> 0.272365 --> with ADP
-NOUN without Case (and ADP) --> 0.253731 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.272365 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 3450
+CASE PRON 0 
+CASE PRON 1 3286
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Croatian
@@ -820,11 +924,19 @@ finite                                  	419	0.0211947999392989
 WORDER:
 SV --> 0.196723 --> VS
 OV --> 0.776133 --> VO
+ADP NOUN 0 14717
+ADP NOUN 1 86
+ADP PRON 0 4299
+ADP PRON 1 63
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005810 --> with ADP
 PRON without ADP --> 0.014443 --> with ADP
-NOUN without Case (and ADP) --> 0.005810 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.014443 --> with Case (but without ADP)
+CASE NOUN 0 18
+CASE NOUN 1 14699
+CASE PRON 0 
+CASE PRON 1 4299
+NOUN without Case (and ADP) --> 0.998777 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Czech
@@ -887,11 +999,19 @@ finite Number=Plur|Person=1             	6141	0.0268098036305215
 WORDER:
 SV --> 0.363032 --> VS
 OV --> 0.690541 --> VO
+ADP NOUN 0 134963
+ADP NOUN 1 168
+ADP PRON 0 33915
+ADP PRON 1 6
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001243 --> with ADP
 PRON without ADP --> 0.000177 --> with ADP
-NOUN without Case (and ADP) --> 0.001243 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000177 --> with Case (but without ADP)
+CASE NOUN 0 2287
+CASE NOUN 1 132676
+CASE PRON 0 154
+CASE PRON 1 33761
+NOUN without Case (and ADP) --> 0.983055 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.995459 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Danish
@@ -928,11 +1048,19 @@ nonfin                                  	2050	0.2
 WORDER:
 SV --> 0.166288 --> VS
 OV --> 0.879704 --> VO
+ADP NOUN 0 5968
+ADP NOUN 1 25
+ADP PRON 0 4653
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004172 --> with ADP
 PRON without ADP --> 0.000215 --> with ADP
-NOUN without Case (and ADP) --> 0.004172 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000215 --> with Case (but without ADP)
+CASE NOUN 0 5932
+CASE NOUN 1 36
+CASE PRON 0 981
+CASE PRON 1 3672
+NOUN without Case (and ADP) --> 0.006032 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.789168 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Dutch
@@ -984,11 +1112,19 @@ finite Number=Plur                      	8334	0.15650116427552
 WORDER:
 SV --> 0.210543 --> VS
 OV --> 0.468855 --> VO
+ADP NOUN 0 28198
+ADP NOUN 1 3
+ADP PRON 0 13377
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000106 --> with ADP
 PRON without ADP --> 0.000374 --> with ADP
-NOUN without Case (and ADP) --> 0.000106 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000374 --> with Case (but without ADP)
+CASE NOUN 0 28198
+CASE NOUN 1 
+CASE PRON 0 7079
+CASE PRON 1 6298
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.470808 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 English
@@ -1020,11 +1156,19 @@ finite Number=Sing|Person=1             	5926	0.0652362971851297
 WORDER:
 SV --> 0.059600 --> VS
 OV --> 0.955373 --> VO
+ADP NOUN 0 42220
+ADP NOUN 1 123
+ADP PRON 0 36577
+ADP PRON 1 9
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002905 --> with ADP
 PRON without ADP --> 0.000246 --> with ADP
-NOUN without Case (and ADP) --> 0.002905 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000246 --> with Case (but without ADP)
+CASE NOUN 0 42220
+CASE NOUN 1 
+CASE PRON 0 11419
+CASE PRON 1 25158
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.687809 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Faroese
@@ -1067,11 +1211,19 @@ finite                                  	713	0.114981454604096
 WORDER:
 SV --> 0.219448 --> VS
 OV --> 0.892975 --> VO
+ADP NOUN 0 2718
+ADP NOUN 1 3
+ADP PRON 0 3117
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001103 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.001103 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 3
+CASE NOUN 1 2715
+CASE PRON 0 30
+CASE PRON 1 3087
+NOUN without Case (and ADP) --> 0.998896 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.990375 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 French
@@ -1106,11 +1258,19 @@ finite Gender=Fem|Number=Sing           	1632	0.0276558607717205
 WORDER:
 SV --> 0.068431 --> VS
 OV --> 0.845518 --> VO
+ADP NOUN 0 28517
+ADP NOUN 1 81
+ADP PRON 0 20961
+ADP PRON 1 9
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002832 --> with ADP
 PRON without ADP --> 0.000429 --> with ADP
-NOUN without Case (and ADP) --> 0.002832 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000429 --> with Case (but without ADP)
+CASE NOUN 0 28517
+CASE NOUN 1 
+CASE PRON 0 20961
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Galician
@@ -1171,11 +1331,19 @@ finite Number=Sing|Person=3             	1128	0.0685422616515768
 WORDER:
 SV --> 0.131933 --> VS
 OV --> 0.833408 --> VO
+ADP NOUN 0 9259
+ADP NOUN 1 199
+ADP PRON 0 4317
+ADP PRON 1 23
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.021040 --> with ADP
 PRON without ADP --> 0.005300 --> with ADP
-NOUN without Case (and ADP) --> 0.021040 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.005300 --> with Case (but without ADP)
+CASE NOUN 0 9259
+CASE NOUN 1 
+CASE PRON 0 4089
+CASE PRON 1 228
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.052814 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 German
@@ -1212,11 +1380,19 @@ nonfin                                  	52476	0.16892648819871
 WORDER:
 SV --> 0.203496 --> VS
 OV --> 0.411281 --> VO
+ADP NOUN 0 268424
+ADP NOUN 1 8900
+ADP PRON 0 73670
+ADP PRON 1 3
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.032092 --> with ADP
 PRON without ADP --> 0.000041 --> with ADP
-NOUN without Case (and ADP) --> 0.032092 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000041 --> with Case (but without ADP)
+CASE NOUN 0 222702
+CASE NOUN 1 45722
+CASE PRON 0 1463
+CASE PRON 1 72207
+NOUN without Case (and ADP) --> 0.170335 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.980141 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gheg
@@ -1265,11 +1441,19 @@ finite                                  	177	0.103267211201867
 WORDER:
 SV --> 0.265985 --> VS
 OV --> 0.684615 --> VO
+ADP NOUN 0 907
+ADP NOUN 1 5
+ADP PRON 0 775
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005482 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.005482 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 9
+CASE NOUN 1 898
+CASE PRON 0 182
+CASE PRON 1 593
+NOUN without Case (and ADP) --> 0.990077 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.765161 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gothic
@@ -1304,11 +1488,19 @@ finite Gender=Masc|Number=Plur          	577	0.046838217387775
 WORDER:
 SV --> 0.341252 --> VS
 OV --> 0.662941 --> VO
+ADP NOUN 0 3121
+ADP NOUN 1 27
+ADP PRON 0 2764
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.008577 --> with ADP
 PRON without ADP --> 0.001445 --> with ADP
-NOUN without Case (and ADP) --> 0.008577 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001445 --> with Case (but without ADP)
+CASE NOUN 0 20
+CASE NOUN 1 3101
+CASE PRON 0 
+CASE PRON 1 2764
+NOUN without Case (and ADP) --> 0.993592 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Greek
@@ -1345,11 +1537,19 @@ finite Number=Plur|Person=1             	778	0.0787130716309187
 WORDER:
 SV --> 0.309133 --> VS
 OV --> 0.773505 --> VO
+ADP NOUN 0 4949
+ADP NOUN 1 2
+ADP PRON 0 2188
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000404 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000404 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 79
+CASE NOUN 1 4870
+CASE PRON 0 34
+CASE PRON 1 2154
+NOUN without Case (and ADP) --> 0.984037 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.984461 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gujarati
@@ -1375,11 +1575,19 @@ nonfin                                  	253	0.996062992125984
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.087379 --> VO
+ADP NOUN 0 159
+ADP NOUN 1 2
+ADP PRON 0 81
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.012422 --> with ADP
 PRON without ADP --> 0.012195 --> with ADP
-NOUN without Case (and ADP) --> 0.012422 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.012195 --> with Case (but without ADP)
+CASE NOUN 0 147
+CASE NOUN 1 12
+CASE PRON 0 79
+CASE PRON 1 2
+NOUN without Case (and ADP) --> 0.075472 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.024691 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hindi
@@ -1451,11 +1659,19 @@ finite Gender=Masc|Number=Plur|Person=3 	241	0.00807099799062291
 WORDER:
 SV --> 0.016123 --> VS
 OV --> 0.293597 --> VO
+ADP NOUN 0 12361
+ADP NOUN 1 10311
+ADP PRON 0 4394
+ADP PRON 1 96
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.454790 --> with ADP
 PRON without ADP --> 0.021381 --> with ADP
-NOUN without Case (and ADP) --> 0.454790 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.021381 --> with Case (but without ADP)
+CASE NOUN 0 59
+CASE NOUN 1 12302
+CASE PRON 0 156
+CASE PRON 1 4238
+NOUN without Case (and ADP) --> 0.995227 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.964497 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hittite
@@ -1492,11 +1708,19 @@ finite Number=Sing|Person=2             	18	0.0952380952380952
 WORDER:
 SV --> 0.023256 --> VS
 OV --> 0.019802 --> VO
+ADP NOUN 0 121
+ADP NOUN 1 
+ADP PRON 0 75
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.013158 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.013158 --> with Case (but without ADP)
+CASE NOUN 0 27
+CASE NOUN 1 94
+CASE PRON 0 2
+CASE PRON 1 73
+NOUN without Case (and ADP) --> 0.776860 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.973333 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Icelandic
@@ -1589,11 +1813,19 @@ finite Number=Sing|Person=2             	3931	0.0275983599651773
 WORDER:
 SV --> 0.253979 --> VS
 OV --> 0.846082 --> VO
+ADP NOUN 0 60827
+ADP NOUN 1 27
+ADP PRON 0 65117
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000444 --> with ADP
 PRON without ADP --> 0.000077 --> with ADP
-NOUN without Case (and ADP) --> 0.000444 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000077 --> with Case (but without ADP)
+CASE NOUN 0 1505
+CASE NOUN 1 59322
+CASE PRON 0 706
+CASE PRON 1 64411
+NOUN without Case (and ADP) --> 0.975258 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.989158 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Irish
@@ -1623,11 +1855,19 @@ nonfin                                  	18858	0.888229475766568
 WORDER:
 SV --> 0.875979 --> VS
 OV --> 0.620823 --> VO
+ADP NOUN 0 8296
+ADP NOUN 1 145
+ADP PRON 0 2336
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.017178 --> with ADP
 PRON without ADP --> 0.001709 --> with ADP
-NOUN without Case (and ADP) --> 0.017178 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001709 --> with Case (but without ADP)
+CASE NOUN 0 1684
+CASE NOUN 1 6612
+CASE PRON 0 2336
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.797011 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Italian
@@ -1668,11 +1908,19 @@ finite Gender=Masc|Number=Plur          	1601	0.0168311939529652
 WORDER:
 SV --> 0.207416 --> VS
 OV --> 0.836325 --> VO
+ADP NOUN 0 47571
+ADP NOUN 1 60
+ADP PRON 0 22308
+ADP PRON 1 26
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001260 --> with ADP
 PRON without ADP --> 0.001164 --> with ADP
-NOUN without Case (and ADP) --> 0.001260 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001164 --> with Case (but without ADP)
+CASE NOUN 0 47571
+CASE NOUN 1 
+CASE PRON 0 22245
+CASE PRON 1 63
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.002824 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kangri
@@ -1727,11 +1975,19 @@ nonfin Gender=Masc|Number=Sing          	4	0.0104712041884817
 WORDER:
 SV --> 0.009901 --> VS
 OV --> 0.102564 --> VO
+ADP NOUN 0 150
+ADP NOUN 1 17
+ADP PRON 0 102
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.101796 --> with ADP
 PRON without ADP --> 0.046729 --> with ADP
-NOUN without Case (and ADP) --> 0.101796 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.046729 --> with Case (but without ADP)
+CASE NOUN 0 9
+CASE NOUN 1 141
+CASE PRON 0 27
+CASE PRON 1 75
+NOUN without Case (and ADP) --> 0.940000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.735294 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Khunsari
@@ -1754,9 +2010,17 @@ finite Number=Sing|Person=1             	1	0.0588235294117647
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.500000 --> VO
+ADP NOUN 0 7
+ADP NOUN 1 
+ADP PRON 0 3
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 7
+CASE NOUN 1 
+CASE PRON 0 3
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -1790,11 +2054,19 @@ nonfin                                  	102	0.0966824644549763
 WORDER:
 SV --> 0.007622 --> VS
 OV --> 0.310850 --> VO
+ADP NOUN 0 645
+ADP NOUN 1 22
+ADP PRON 0 223
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.032984 --> with ADP
 PRON without ADP --> 0.004464 --> with ADP
-NOUN without Case (and ADP) --> 0.032984 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004464 --> with Case (but without ADP)
+CASE NOUN 0 9
+CASE NOUN 1 636
+CASE PRON 0 24
+CASE PRON 1 199
+NOUN without Case (and ADP) --> 0.986047 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.892377 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latgalian
@@ -1818,11 +2090,19 @@ finite Number=Sing|Person=2             	5	0.138888888888889
 WORDER:
 SV --> 0.142857 --> VS
 OV --> 0.916667 --> VO
+ADP NOUN 0 20
+ADP NOUN 1 
+ADP PRON 0 12
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 19
+CASE PRON 0 
+CASE PRON 1 12
+NOUN without Case (and ADP) --> 0.950000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latin
@@ -1872,11 +2152,19 @@ finite Gender=Fem|Number=Sing           	5013	0.0298376872667536
 WORDER:
 SV --> 0.262325 --> VS
 OV --> 0.456014 --> VO
+ADP NOUN 0 53112
+ADP NOUN 1 66
+ADP PRON 0 32395
+ADP PRON 1 22
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001241 --> with ADP
 PRON without ADP --> 0.000679 --> with ADP
-NOUN without Case (and ADP) --> 0.001241 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000679 --> with Case (but without ADP)
+CASE NOUN 0 897
+CASE NOUN 1 52215
+CASE PRON 0 398
+CASE PRON 1 31997
+NOUN without Case (and ADP) --> 0.983111 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.987714 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latvian
@@ -2043,11 +2331,19 @@ finite Gender=Masc|Number=Sing|||Person=3	1087	0.0256078024877497
 WORDER:
 SV --> 0.271371 --> VS
 OV --> 0.711688 --> VO
+ADP NOUN 0 24255
+ADP NOUN 1 2412
+ADP PRON 0 9775
+ADP PRON 1 528
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.090449 --> with ADP
 PRON without ADP --> 0.051247 --> with ADP
-NOUN without Case (and ADP) --> 0.090449 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.051247 --> with Case (but without ADP)
+CASE NOUN 0 563
+CASE NOUN 1 23692
+CASE PRON 0 
+CASE PRON 1 9775
+NOUN without Case (and ADP) --> 0.976788 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ligurian
@@ -2083,11 +2379,19 @@ finite Gender=Masc|Number=Sing|||Number=Sing|Person=1	18	0.0255681818181818
 WORDER:
 SV --> 0.113846 --> VS
 OV --> 0.754789 --> VO
+ADP NOUN 0 215
+ADP NOUN 1 7
+ADP PRON 0 380
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.031532 --> with ADP
 PRON without ADP --> 0.005236 --> with ADP
-NOUN without Case (and ADP) --> 0.031532 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.005236 --> with Case (but without ADP)
+CASE NOUN 0 215
+CASE NOUN 1 
+CASE PRON 0 380
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Lithuanian
@@ -2147,11 +2451,19 @@ finite Gender=Neut                      	287	0.0288674311003822
 WORDER:
 SV --> 0.270732 --> VS
 OV --> 0.758314 --> VO
+ADP NOUN 0 4044
+ADP NOUN 1 1
+ADP PRON 0 1014
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000247 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000247 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 11
+CASE NOUN 1 4033
+CASE PRON 0 134
+CASE PRON 1 880
+NOUN without Case (and ADP) --> 0.997280 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.867850 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Low Saxon
@@ -2222,11 +2534,19 @@ finite Number=Plur|Person=3             	45	0.0206991720331187
 WORDER:
 SV --> 0.214198 --> VS
 OV --> 0.409404 --> VO
+ADP NOUN 0 850
+ADP NOUN 1 5
+ADP PRON 0 1505
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005848 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.005848 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 119
+CASE NOUN 1 731
+CASE PRON 0 11
+CASE PRON 1 1494
+NOUN without Case (and ADP) --> 0.860000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.992691 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Luxembourgish
@@ -2249,10 +2569,18 @@ nonfin                                  	27	1
 WORDER:
 SV --> 0.136364 --> VS
 OV --> 0.250000 --> VO
+ADP NOUN 0 17
+ADP NOUN 1 1
+ADP PRON 0 17
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.055556 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.055556 --> with Case (but without ADP)
+CASE NOUN 0 17
+CASE NOUN 1 
+CASE PRON 0 17
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -2283,11 +2611,19 @@ finite Number=Plur|Person=1             	17	0.0723404255319149
 WORDER:
 SV --> 0.178082 --> VS
 OV --> 0.688889 --> VO
+ADP NOUN 0 78
+ADP NOUN 1 2
+ADP PRON 0 73
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.025000 --> with ADP
 PRON without ADP --> 0.013514 --> with ADP
-NOUN without Case (and ADP) --> 0.025000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.013514 --> with Case (but without ADP)
+CASE NOUN 0 78
+CASE NOUN 1 
+CASE PRON 0 8
+CASE PRON 1 65
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.890411 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Manx
@@ -2308,11 +2644,19 @@ nonfin                                  	4152	0.958670053105518
 WORDER:
 SV --> 0.999140 --> VS
 OV --> 0.971300 --> VO
+ADP NOUN 0 1497
+ADP NOUN 1 4
+ADP PRON 0 1844
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002665 --> with ADP
 PRON without ADP --> 0.001083 --> with ADP
-NOUN without Case (and ADP) --> 0.002665 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001083 --> with Case (but without ADP)
+CASE NOUN 0 1497
+CASE NOUN 1 
+CASE PRON 0 1844
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Marathi
@@ -2363,11 +2707,19 @@ finite Number=Sing|Person=2             	18	0.0270676691729323
 WORDER:
 SV --> 0.030612 --> VS
 OV --> 0.064516 --> VO
+ADP NOUN 0 391
+ADP NOUN 1 10
+ADP PRON 0 202
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.024938 --> with ADP
 PRON without ADP --> 0.004926 --> with ADP
-NOUN without Case (and ADP) --> 0.024938 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004926 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 391
+CASE PRON 0 10
+CASE PRON 1 192
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.950495 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Middle French
@@ -2397,11 +2749,19 @@ nonfin                                  	270	0.183798502382573
 WORDER:
 SV --> 0.132780 --> VS
 OV --> 0.653169 --> VO
+ADP NOUN 0 578
+ADP NOUN 1 14
+ADP PRON 0 710
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.023649 --> with ADP
 PRON without ADP --> 0.005602 --> with ADP
-NOUN without Case (and ADP) --> 0.023649 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.005602 --> with Case (but without ADP)
+CASE NOUN 0 578
+CASE NOUN 1 
+CASE PRON 0 710
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Nayini
@@ -2425,9 +2785,17 @@ finite Number=Sing|Person=1             	1	0.0588235294117647
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.500000 --> VO
+ADP NOUN 0 7
+ADP NOUN 1 
+ADP PRON 0 4
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 7
+CASE NOUN 1 
+CASE PRON 0 4
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -2443,9 +2811,17 @@ nonfin                                  	1	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 1.000000 --> VO
+ADP NOUN 0 2
+ADP NOUN 1 
+ADP PRON 0 
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 2
+CASE NOUN 1 
+CASE PRON 0 
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -2481,11 +2857,19 @@ nonfin                                  	17135	0.22636000951148
 WORDER:
 SV --> 0.212018 --> VS
 OV --> 0.883629 --> VO
+ADP NOUN 0 43788
+ADP NOUN 1 32
+ADP PRON 0 23557
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000730 --> with ADP
 PRON without ADP --> 0.000085 --> with ADP
-NOUN without Case (and ADP) --> 0.000730 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000085 --> with Case (but without ADP)
+CASE NOUN 0 43777
+CASE NOUN 1 11
+CASE PRON 0 6647
+CASE PRON 1 16910
+NOUN without Case (and ADP) --> 0.000251 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.717833 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Church Slavonic
@@ -2527,11 +2911,19 @@ finite Gender=Masc|Number=Plur          	1918	0.0463598569080538
 WORDER:
 SV --> 0.393470 --> VS
 OV --> 0.675730 --> VO
+ADP NOUN 0 14156
+ADP NOUN 1 69
+ADP PRON 0 7968
+ADP PRON 1 25
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004851 --> with ADP
 PRON without ADP --> 0.003128 --> with ADP
-NOUN without Case (and ADP) --> 0.004851 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.003128 --> with Case (but without ADP)
+CASE NOUN 0 42
+CASE NOUN 1 14114
+CASE PRON 0 29
+CASE PRON 1 7939
+NOUN without Case (and ADP) --> 0.997033 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.996360 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old East Slavic
@@ -2619,11 +3011,19 @@ nonfin Number=Plur                      	1443	0.0219832117121921
 WORDER:
 SV --> 0.373426 --> VS
 OV --> 0.582536 --> VO
+ADP NOUN 0 30141
+ADP NOUN 1 171
+ADP PRON 0 13878
+ADP PRON 1 14
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005641 --> with ADP
 PRON without ADP --> 0.001008 --> with ADP
-NOUN without Case (and ADP) --> 0.005641 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001008 --> with Case (but without ADP)
+CASE NOUN 0 61
+CASE NOUN 1 30080
+CASE PRON 0 26
+CASE PRON 1 13852
+NOUN without Case (and ADP) --> 0.997976 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.998127 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old French
@@ -2664,11 +3064,19 @@ finite                                  	32090	0.894669343147095
 WORDER:
 SV --> 0.185246 --> VS
 OV --> 0.485322 --> VO
+ADP NOUN 0 14329
+ADP NOUN 1 166
+ADP PRON 0 21809
+ADP PRON 1 478
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.011452 --> with ADP
 PRON without ADP --> 0.021447 --> with ADP
-NOUN without Case (and ADP) --> 0.011452 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.021447 --> with Case (but without ADP)
+CASE NOUN 0 14329
+CASE NOUN 1 
+CASE PRON 0 21809
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Irish
@@ -2690,10 +3098,18 @@ nonfin Number=Sing|Person=1             	17	0.114093959731544
 WORDER:
 SV --> 0.431373 --> VS
 OV --> 0.909091 --> VO
+ADP NOUN 0 36
+ADP NOUN 1 
+ADP PRON 0 3
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 4
+CASE NOUN 1 32
+CASE PRON 0 3
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.888889 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -2722,11 +3138,19 @@ finite Gender=Fem|Number=Sing|||Gender=Fem|Number=Sing|Person=3	3	0.031914893617
 WORDER:
 SV --> 0.058824 --> VS
 OV --> 0.090909 --> VO
+ADP NOUN 0 63
+ADP NOUN 1 
+ADP PRON 0 17
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 63
+CASE PRON 0 6
+CASE PRON 1 11
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.647059 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Persian
@@ -2758,11 +3182,19 @@ nonfin Number=Sing|Person=3|||Number=Sing|Person=3	2326	0.0325387499300543
 WORDER:
 SV --> 0.021677 --> VS
 OV --> 0.314097 --> VO
+ADP NOUN 0 31992
+ADP NOUN 1 11947
+ADP PRON 0 5149
+ADP PRON 1 1682
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.271900 --> with ADP
 PRON without ADP --> 0.246230 --> with ADP
-NOUN without Case (and ADP) --> 0.271900 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.246230 --> with Case (but without ADP)
+CASE NOUN 0 31992
+CASE NOUN 1 
+CASE PRON 0 5149
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Phrygian
@@ -2785,11 +3217,19 @@ nonfin                                  	24	0.108597285067873
 WORDER:
 SV --> 0.021053 --> VS
 OV --> 0.097087 --> VO
+ADP NOUN 0 214
+ADP NOUN 1 
+ADP PRON 0 113
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 213
+CASE PRON 0 2
+CASE PRON 1 111
+NOUN without Case (and ADP) --> 0.995327 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.982301 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Polish
@@ -2865,11 +3305,19 @@ finite Number=Plur|Person=1             	1379	0.0206387691570881
 WORDER:
 SV --> 0.274538 --> VS
 OV --> 0.820717 --> VO
+ADP NOUN 0 39764
+ADP NOUN 1 6
+ADP PRON 0 10255
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000151 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000151 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 221
+CASE NOUN 1 39543
+CASE PRON 0 60
+CASE PRON 1 10195
+NOUN without Case (and ADP) --> 0.994442 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.994149 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Pomak
@@ -2956,11 +3404,19 @@ finite Gender=Neut|Number=Sing|||Number=Sing|Person=3	176	0.0398912058023572
 WORDER:
 SV --> 0.368060 --> VS
 OV --> 0.644509 --> VO
+ADP NOUN 0 1915
+ADP NOUN 1 132
+ADP PRON 0 1422
+ADP PRON 1 16
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.064485 --> with ADP
 PRON without ADP --> 0.011127 --> with ADP
-NOUN without Case (and ADP) --> 0.064485 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.011127 --> with Case (but without ADP)
+CASE NOUN 0 7
+CASE NOUN 1 1908
+CASE PRON 0 171
+CASE PRON 1 1251
+NOUN without Case (and ADP) --> 0.996345 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.879747 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Portuguese
@@ -3025,11 +3481,19 @@ finite Gender=Fem|Number=Sing           	2771	0.0193389444886451
 WORDER:
 SV --> 0.117418 --> VS
 OV --> 0.916031 --> VO
+ADP NOUN 0 92618
+ADP NOUN 1 2563
+ADP PRON 0 18982
+ADP PRON 1 224
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.026928 --> with ADP
 PRON without ADP --> 0.011663 --> with ADP
-NOUN without Case (and ADP) --> 0.026928 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.011663 --> with Case (but without ADP)
+CASE NOUN 0 92618
+CASE NOUN 1 
+CASE PRON 0 15765
+CASE PRON 1 3217
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.169476 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Romanian
@@ -3117,11 +3581,19 @@ finite Number=Plur|Person=2             	1813	0.0187109757985448
 WORDER:
 SV --> 0.316299 --> VS
 OV --> 0.737209 --> VO
+ADP NOUN 0 47570
+ADP NOUN 1 363
+ADP PRON 0 28692
+ADP PRON 1 314
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.007573 --> with ADP
 PRON without ADP --> 0.010825 --> with ADP
-NOUN without Case (and ADP) --> 0.007573 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.010825 --> with Case (but without ADP)
+CASE NOUN 0 5364
+CASE NOUN 1 42206
+CASE PRON 0 47
+CASE PRON 1 28645
+NOUN without Case (and ADP) --> 0.887240 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.998362 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Russian
@@ -3184,11 +3656,19 @@ finite Gender=Fem|Number=Sing           	12743	0.0616867399891565
 WORDER:
 SV --> 0.277275 --> VS
 OV --> 0.795483 --> VO
+ADP NOUN 0 111354
+ADP NOUN 1 261
+ADP PRON 0 46468
+ADP PRON 1 15
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002338 --> with ADP
 PRON without ADP --> 0.000323 --> with ADP
-NOUN without Case (and ADP) --> 0.002338 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000323 --> with Case (but without ADP)
+CASE NOUN 0 620
+CASE NOUN 1 110734
+CASE PRON 0 6
+CASE PRON 1 46462
+NOUN without Case (and ADP) --> 0.994432 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.999871 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Sanskrit
@@ -3275,11 +3755,19 @@ nonfin Number=Sing|Person=2             	2392	0.0469959526896931
 WORDER:
 SV --> 0.259642 --> VS
 OV --> 0.172812 --> VO
+ADP NOUN 0 18700
+ADP NOUN 1 10
+ADP PRON 0 11546
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000534 --> with ADP
 PRON without ADP --> 0.000433 --> with ADP
-NOUN without Case (and ADP) --> 0.000534 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000433 --> with Case (but without ADP)
+CASE NOUN 0 489
+CASE NOUN 1 18211
+CASE PRON 0 9
+CASE PRON 1 11537
+NOUN without Case (and ADP) --> 0.973850 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.999221 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Scottish Gaelic
@@ -3306,10 +3794,18 @@ finite                                  	6547	0.407861948666833
 WORDER:
 SV --> 0.835420 --> VS
 OV --> 0.652651 --> VO
+ADP NOUN 0 4049
+ADP NOUN 1 
+ADP PRON 0 3427
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 297
+CASE NOUN 1 3752
+CASE PRON 0 3427
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.926649 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -3343,11 +3839,19 @@ finite Gender=Neut|Number=Sing|||Number=Sing|Person=3	269	0.0275107383923093
 WORDER:
 SV --> 0.171901 --> VS
 OV --> 0.896635 --> VO
+ADP NOUN 0 7581
+ADP NOUN 1 44
+ADP PRON 0 1684
+ADP PRON 1 3
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005770 --> with ADP
 PRON without ADP --> 0.001778 --> with ADP
-NOUN without Case (and ADP) --> 0.005770 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001778 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 7581
+CASE PRON 0 
+CASE PRON 1 1684
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Sinhala
@@ -3381,11 +3885,19 @@ finite                                  	62	0.452554744525547
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 106
+ADP NOUN 1 10
+ADP PRON 0 24
+ADP PRON 1 3
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.086207 --> with ADP
 PRON without ADP --> 0.111111 --> with ADP
-NOUN without Case (and ADP) --> 0.086207 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.111111 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 105
+CASE PRON 0 
+CASE PRON 1 24
+NOUN without Case (and ADP) --> 0.990566 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Slovak
@@ -3431,11 +3943,19 @@ finite Animacy=Inan|Gender=Masc|Number=Sing	528	0.0349923785539134
 WORDER:
 SV --> 0.329038 --> VS
 OV --> 0.646506 --> VO
+ADP NOUN 0 8128
+ADP NOUN 1 
+ADP PRON 0 2660
+ADP PRON 1 30
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.011152 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.011152 --> with Case (but without ADP)
+CASE NOUN 0 28
+CASE NOUN 1 8100
+CASE PRON 0 51
+CASE PRON 1 2609
+NOUN without Case (and ADP) --> 0.996555 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.980827 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Slovenian
@@ -3509,11 +4029,19 @@ finite Gender=Masc|Number=Sing|||Number=Sing|Person=1	491	0.0140748172567006
 WORDER:
 SV --> 0.307008 --> VS
 OV --> 0.645588 --> VO
+ADP NOUN 0 19339
+ADP NOUN 1 20
+ADP PRON 0 6502
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001033 --> with ADP
 PRON without ADP --> 0.000308 --> with ADP
-NOUN without Case (and ADP) --> 0.001033 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000308 --> with Case (but without ADP)
+CASE NOUN 0 93
+CASE NOUN 1 19246
+CASE PRON 0 69
+CASE PRON 1 6433
+NOUN without Case (and ADP) --> 0.995191 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.989388 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Soi
@@ -3539,9 +4067,17 @@ nonfin Number=Sing|Person=1|||Number=Sing|Person=1	1	0.0909090909090909
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.200000 --> VO
+ADP NOUN 0 5
+ADP NOUN 1 
+ADP PRON 0 4
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 5
+CASE NOUN 1 
+CASE PRON 0 4
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -3579,11 +4115,19 @@ finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4011	0.04468682457274
 WORDER:
 SV --> 0.186123 --> VS
 OV --> 0.862160 --> VO
+ADP NOUN 0 56562
+ADP NOUN 1 2857
+ADP PRON 0 13704
+ADP PRON 1 221
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.048082 --> with ADP
 PRON without ADP --> 0.015871 --> with ADP
-NOUN without Case (and ADP) --> 0.048082 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.015871 --> with Case (but without ADP)
+CASE NOUN 0 56562
+CASE NOUN 1 
+CASE PRON 0 10169
+CASE PRON 1 3535
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.257954 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swedish
@@ -3621,11 +4165,19 @@ nonfin                                  	6609	0.262940123333996
 WORDER:
 SV --> 0.179581 --> VS
 OV --> 0.924685 --> VO
+ADP NOUN 0 12867
+ADP NOUN 1 42
+ADP PRON 0 10651
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003254 --> with ADP
 PRON without ADP --> 0.000375 --> with ADP
-NOUN without Case (and ADP) --> 0.003254 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000375 --> with Case (but without ADP)
+CASE NOUN 0 200
+CASE NOUN 1 12667
+CASE PRON 0 4129
+CASE PRON 1 6522
+NOUN without Case (and ADP) --> 0.984456 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.612337 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swiss German
@@ -3653,9 +4205,17 @@ nonfin                                  	153	1
 WORDER:
 SV --> 0.070000 --> VS
 OV --> 0.342857 --> VO
+ADP NOUN 0 69
+ADP NOUN 1 
+ADP PRON 0 81
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 69
+CASE NOUN 1 
+CASE PRON 0 81
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -3719,11 +4279,19 @@ finite Number=Sing|Person=1             	1003	0.0523568408414679
 WORDER:
 SV --> 0.239553 --> VS
 OV --> 0.767726 --> VO
+ADP NOUN 0 10275
+ADP NOUN 1 6
+ADP PRON 0 5302
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000584 --> with ADP
 PRON without ADP --> 0.000189 --> with ADP
-NOUN without Case (and ADP) --> 0.000584 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000189 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 10275
+CASE PRON 0 1
+CASE PRON 1 5301
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.999811 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Umbrian
@@ -3754,11 +4322,19 @@ nonfin Number=Plur|Person=3             	15	0.0742574257425743
 WORDER:
 SV --> 0.133333 --> VS
 OV --> 0.111111 --> VO
+ADP NOUN 0 110
+ADP NOUN 1 1
+ADP PRON 0 14
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.009009 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.009009 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 34
+CASE NOUN 1 76
+CASE PRON 0 3
+CASE PRON 1 11
+NOUN without Case (and ADP) --> 0.690909 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.785714 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Upper Sorbian
@@ -3806,11 +4382,19 @@ nonfin                                  	169	0.175675675675676
 WORDER:
 SV --> 0.220566 --> VS
 OV --> 0.621795 --> VO
+ADP NOUN 0 780
+ADP NOUN 1 31
+ADP PRON 0 141
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.038224 --> with ADP
 PRON without ADP --> 0.027586 --> with ADP
-NOUN without Case (and ADP) --> 0.038224 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.027586 --> with Case (but without ADP)
+CASE NOUN 0 3
+CASE NOUN 1 777
+CASE PRON 0 1
+CASE PRON 1 140
+NOUN without Case (and ADP) --> 0.996154 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.992908 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Urdu
@@ -3899,11 +4483,19 @@ finite Gender=Fem|Number=Sing|||Gender=Fem|Number=Sing|Person=3	77	0.00775193798
 WORDER:
 SV --> 0.003563 --> VS
 OV --> 0.301979 --> VO
+ADP NOUN 0 3977
+ADP NOUN 1 3370
+ADP PRON 0 973
+ADP PRON 1 699
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.458691 --> with ADP
 PRON without ADP --> 0.418062 --> with ADP
-NOUN without Case (and ADP) --> 0.458691 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.418062 --> with Case (but without ADP)
+CASE NOUN 0 22
+CASE NOUN 1 3955
+CASE PRON 0 66
+CASE PRON 1 907
+NOUN without Case (and ADP) --> 0.994468 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.932169 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Welsh
@@ -3927,11 +4519,19 @@ finite Number=Sing|Person=1             	331	0.0408087782024411
 WORDER:
 SV --> 0.689053 --> VS
 OV --> 0.811697 --> VO
+ADP NOUN 0 3050
+ADP NOUN 1 78
+ADP PRON 0 1478
+ADP PRON 1 123
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.024936 --> with ADP
 PRON without ADP --> 0.076827 --> with ADP
-NOUN without Case (and ADP) --> 0.024936 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.076827 --> with Case (but without ADP)
+CASE NOUN 0 3050
+CASE NOUN 1 
+CASE PRON 0 1478
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Western Armenian
@@ -3991,11 +4591,19 @@ finite                                  	1547	0.109058864998238
 WORDER:
 SV --> 0.177331 --> VS
 OV --> 0.472173 --> VO
+ADP NOUN 0 7832
+ADP NOUN 1 8
+ADP PRON 0 1947
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001020 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.001020 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 7832
+CASE PRON 0 76
+CASE PRON 1 1871
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.960966 --> with Case (but without ADP)
 
 Turkic: 20: 10: Azerbaijani (1), Kazakh (1), Kyrgyz (2), Old Turkish (1), Ottoman Turkish (2), Tatar (1), Turkish (9), Uyghur (1), Uzbek (1), Yakut (1)
 --------------------------------------------------------------------------------
@@ -4014,9 +4622,17 @@ nonfin                                  	148	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.073171 --> VO
+ADP NOUN 0 111
+ADP NOUN 1 
+ADP PRON 0 12
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 111
+CASE NOUN 1 
+CASE PRON 0 12
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -4052,11 +4668,19 @@ nonfin Number[psor]=Plur,Sing|Person[psor]=3	71	0.0367875647668394
 WORDER:
 SV --> 0.009009 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 1115
+ADP NOUN 1 1
+ADP PRON 0 248
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000896 --> with ADP
 PRON without ADP --> 0.004016 --> with ADP
-NOUN without Case (and ADP) --> 0.000896 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004016 --> with Case (but without ADP)
+CASE NOUN 0 6
+CASE NOUN 1 1109
+CASE PRON 0 1
+CASE PRON 1 247
+NOUN without Case (and ADP) --> 0.994619 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kyrgyz
@@ -4092,11 +4716,19 @@ nonfin Person=3                         	244	0.0562860438292964
 WORDER:
 SV --> 0.001676 --> VS
 OV --> 0.001339 --> VO
+ADP NOUN 0 2537
+ADP NOUN 1 48
+ADP PRON 0 91
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.018569 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.018569 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 202
+CASE NOUN 1 2335
+CASE PRON 0 27
+CASE PRON 1 64
+NOUN without Case (and ADP) --> 0.920378 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.703297 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Turkish
@@ -4115,10 +4747,18 @@ nonfin                                  	24	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 4
+ADP NOUN 1 4
+ADP PRON 0 1
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.500000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.500000 --> with Case (but without ADP)
+CASE NOUN 0 4
+CASE NOUN 1 
+CASE PRON 0 1
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -4168,11 +4808,19 @@ finite Number[psor]=Sing|Person[psor]=3 	40	0.0282087447108604
 WORDER:
 SV --> 0.005859 --> VS
 OV --> 0.049815 --> VO
+ADP NOUN 0 791
+ADP NOUN 1 3
+ADP PRON 0 89
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003778 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.003778 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 5
+CASE NOUN 1 786
+CASE PRON 0 10
+CASE PRON 1 79
+NOUN without Case (and ADP) --> 0.993679 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.887640 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tatar
@@ -4200,11 +4848,19 @@ finite                                  	31	0.135964912280702
 WORDER:
 SV --> 0.031008 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 146
+ADP NOUN 1 
+ADP PRON 0 11
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 145
+CASE PRON 0 1
+CASE PRON 1 10
+NOUN without Case (and ADP) --> 0.993151 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.909091 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Turkish
@@ -4272,11 +4928,19 @@ finite Number=Plur|Person=3             	2806	0.0214041618356014
 WORDER:
 SV --> 0.028428 --> VS
 OV --> 0.032994 --> VO
+ADP NOUN 0 73459
+ADP NOUN 1 923
+ADP PRON 0 8648
+ADP PRON 1 91
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.012409 --> with ADP
 PRON without ADP --> 0.010413 --> with ADP
-NOUN without Case (and ADP) --> 0.012409 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.010413 --> with Case (but without ADP)
+CASE NOUN 0 816
+CASE NOUN 1 72643
+CASE PRON 0 4250
+CASE PRON 1 4398
+NOUN without Case (and ADP) --> 0.988892 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.508557 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Uyghur
@@ -4310,11 +4974,19 @@ finite Number=Sing|Person=3             	995	0.135632497273719
 WORDER:
 SV --> 0.042019 --> VS
 OV --> 0.002260 --> VO
+ADP NOUN 0 3501
+ADP NOUN 1 7
+ADP PRON 0 1012
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001995 --> with ADP
 PRON without ADP --> 0.000987 --> with ADP
-NOUN without Case (and ADP) --> 0.001995 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000987 --> with Case (but without ADP)
+CASE NOUN 0 993
+CASE NOUN 1 2508
+CASE PRON 0 120
+CASE PRON 1 892
+NOUN without Case (and ADP) --> 0.716367 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.881423 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Uzbek
@@ -4361,11 +5033,19 @@ finite                                  	149	0.174677608440797
 WORDER:
 SV --> 0.004000 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 671
+ADP NOUN 1 6
+ADP PRON 0 89
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.008863 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.008863 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 8
+CASE NOUN 1 663
+CASE PRON 0 29
+CASE PRON 1 60
+NOUN without Case (and ADP) --> 0.988077 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.674157 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Yakut
@@ -4395,11 +5075,19 @@ nonfin Number=Plur|Person=3             	37	0.121710526315789
 WORDER:
 SV --> 0.010582 --> VS
 OV --> 0.032258 --> VO
+ADP NOUN 0 238
+ADP NOUN 1 
+ADP PRON 0 77
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 13
+CASE NOUN 1 225
+CASE PRON 0 20
+CASE PRON 1 57
+NOUN without Case (and ADP) --> 0.945378 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.740260 --> with Case (but without ADP)
 
 Afro-Asiatic: 18: 13: Akkadian (2), Amharic (1), Ancient Hebrew (1), Arabic (2), Assyrian (1), Beja (1), Coptic (1), Egyptian (1), Hausa (2), Hebrew (3), Maltese (1), South Levantine Arabic (1), Zaar (1)
 --------------------------------------------------------------------------------
@@ -4432,11 +5120,19 @@ finite Gender=Masc|Number=Plur|Person=3 	140	0.058503969912244
 WORDER:
 SV --> 0.009785 --> VS
 OV --> 0.064684 --> VO
+ADP NOUN 0 1524
+ADP NOUN 1 6
+ADP PRON 0 304
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003922 --> with ADP
 PRON without ADP --> 0.006536 --> with ADP
-NOUN without Case (and ADP) --> 0.003922 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.006536 --> with Case (but without ADP)
+CASE NOUN 0 1193
+CASE NOUN 1 331
+CASE PRON 0 304
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.217192 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Amharic
@@ -4479,11 +5175,19 @@ nonfin                                  	355	0.200338600451467
 WORDER:
 SV --> 0.397463 --> VS
 OV --> 0.111111 --> VO
+ADP NOUN 0 671
+ADP NOUN 1 251
+ADP PRON 0 903
+ADP PRON 1 10
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.272234 --> with ADP
 PRON without ADP --> 0.010953 --> with ADP
-NOUN without Case (and ADP) --> 0.272234 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.010953 --> with Case (but without ADP)
+CASE NOUN 0 671
+CASE NOUN 1 
+CASE PRON 0 903
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ancient Hebrew
@@ -4518,11 +5222,19 @@ finite Gender=Masc|Number=Plur|Person=3 	160	0.043859649122807
 WORDER:
 SV --> 0.728360 --> VS
 OV --> 0.945455 --> VO
+ADP NOUN 0 1630
+ADP NOUN 1 354
+ADP PRON 0 572
+ADP PRON 1 82
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.178427 --> with ADP
 PRON without ADP --> 0.125382 --> with ADP
-NOUN without Case (and ADP) --> 0.178427 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.125382 --> with Case (but without ADP)
+CASE NOUN 0 1630
+CASE NOUN 1 
+CASE PRON 0 572
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Arabic
@@ -4609,11 +5321,19 @@ nonfin Gender=Masc|Number=Plur|Person=3 	3179	0.037836229469174
 WORDER:
 SV --> 0.693169 --> VS
 OV --> 0.958690 --> VO
+ADP NOUN 0 52897
+ADP NOUN 1 29801
+ADP PRON 0 11356
+ADP PRON 1 4497
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.360359 --> with ADP
 PRON without ADP --> 0.283669 --> with ADP
-NOUN without Case (and ADP) --> 0.360359 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.283669 --> with Case (but without ADP)
+CASE NOUN 0 5424
+CASE NOUN 1 47473
+CASE PRON 0 2191
+CASE PRON 1 9165
+NOUN without Case (and ADP) --> 0.897461 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.807062 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Assyrian
@@ -4653,11 +5373,19 @@ nonfin Number=Plur                      	2	0.0256410256410256
 WORDER:
 SV --> 0.026316 --> VS
 OV --> 0.833333 --> VO
+ADP NOUN 0 31
+ADP NOUN 1 4
+ADP PRON 0 28
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.114286 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.114286 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 31
+CASE NOUN 1 
+CASE PRON 0 17
+CASE PRON 1 11
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.392857 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Beja
@@ -4683,11 +5411,19 @@ nonfin Gender=Fem|Number=Sing           	121	0.0720238095238095
 WORDER:
 SV --> 0.003861 --> VS
 OV --> 0.119940 --> VO
+ADP NOUN 0 538
+ADP NOUN 1 
+ADP PRON 0 167
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 538
+CASE NOUN 1 
+CASE PRON 0 64
+CASE PRON 1 103
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.616766 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Coptic
@@ -4715,11 +5451,19 @@ nonfin                                  	1150	0.174348089751364
 WORDER:
 SV --> 0.135475 --> VS
 OV --> 0.999220 --> VO
+ADP NOUN 0 1179
+ADP NOUN 1 478
+ADP PRON 0 4539
+ADP PRON 1 257
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.288473 --> with ADP
 PRON without ADP --> 0.053586 --> with ADP
-NOUN without Case (and ADP) --> 0.288473 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.053586 --> with Case (but without ADP)
+CASE NOUN 0 1179
+CASE NOUN 1 
+CASE PRON 0 4539
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Egyptian
@@ -4756,11 +5500,19 @@ finite Gender=Masc|Number=Sing          	151	0.0612327656123277
 WORDER:
 SV --> 0.755821 --> VS
 OV --> 0.991597 --> VO
+ADP NOUN 0 1569
+ADP NOUN 1 77
+ADP PRON 0 884
+ADP PRON 1 89
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.046780 --> with ADP
 PRON without ADP --> 0.091470 --> with ADP
-NOUN without Case (and ADP) --> 0.046780 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.091470 --> with Case (but without ADP)
+CASE NOUN 0 1539
+CASE NOUN 1 30
+CASE PRON 0 884
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.019120 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hausa
@@ -4789,11 +5541,19 @@ nonfin Number=Plur|Person=3             	178	0.0476317902060476
 WORDER:
 SV --> 0.322857 --> VS
 OV --> 0.994753 --> VO
+ADP NOUN 0 703
+ADP NOUN 1 13
+ADP PRON 0 388
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.018156 --> with ADP
 PRON without ADP --> 0.002571 --> with ADP
-NOUN without Case (and ADP) --> 0.018156 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002571 --> with Case (but without ADP)
+CASE NOUN 0 703
+CASE NOUN 1 
+CASE PRON 0 253
+CASE PRON 1 135
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.347938 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hebrew
@@ -4829,11 +5589,19 @@ finite Gender=Fem|Number=Sing|Person=3  	673	0.0214652505342391
 WORDER:
 SV --> 0.312938 --> VS
 OV --> 0.973324 --> VO
+ADP NOUN 0 14750
+ADP NOUN 1 2914
+ADP PRON 0 3395
+ADP PRON 1 597
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.164968 --> with ADP
 PRON without ADP --> 0.149549 --> with ADP
-NOUN without Case (and ADP) --> 0.164968 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.149549 --> with Case (but without ADP)
+CASE NOUN 0 14750
+CASE NOUN 1 
+CASE PRON 0 3365
+CASE PRON 1 30
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.008837 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Maltese
@@ -4879,11 +5647,19 @@ nonfin                                  	6312	1
 WORDER:
 SV --> 0.238318 --> VS
 OV --> 0.956388 --> VO
+ADP NOUN 0 2537
+ADP NOUN 1 157
+ADP PRON 0 563
+ADP PRON 1 26
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.058278 --> with ADP
 PRON without ADP --> 0.044143 --> with ADP
-NOUN without Case (and ADP) --> 0.058278 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.044143 --> with Case (but without ADP)
+CASE NOUN 0 2537
+CASE NOUN 1 
+CASE PRON 0 563
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 South Levantine Arabic
@@ -4908,11 +5684,19 @@ nonfin                                  	152	1
 WORDER:
 SV --> 0.421053 --> VS
 OV --> 0.939394 --> VO
+ADP NOUN 0 53
+ADP NOUN 1 3
+ADP PRON 0 36
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.053571 --> with ADP
 PRON without ADP --> 0.027027 --> with ADP
-NOUN without Case (and ADP) --> 0.053571 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.027027 --> with Case (but without ADP)
+CASE NOUN 0 53
+CASE NOUN 1 
+CASE PRON 0 36
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Zaar
@@ -4935,11 +5719,19 @@ nonfin Number=Sing|Person=2             	211	0.0718175629680054
 WORDER:
 SV --> 0.010345 --> VS
 OV --> 0.998861 --> VO
+ADP NOUN 0 569
+ADP NOUN 1 3
+ADP PRON 0 389
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.005245 --> with ADP
 PRON without ADP --> 0.012690 --> with ADP
-NOUN without Case (and ADP) --> 0.005245 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.012690 --> with Case (but without ADP)
+CASE NOUN 0 569
+CASE NOUN 1 
+CASE PRON 0 389
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Uralic: 17: 12: Erzya (1), Estonian (2), Finnish (4), Hungarian (1), Karelian (1), Komi Permyak (1), Komi Zyrian (2), Livvi (1), Moksha (1), North Sami (1), Skolt Sami (1), Veps (1)
 --------------------------------------------------------------------------------
@@ -4979,11 +5771,19 @@ nonfin Number[subj]=Sing|Person[subj]=1 	86	0.0276794335371741
 WORDER:
 SV --> 0.316897 --> VS
 OV --> 0.609116 --> VO
+ADP NOUN 0 1560
+ADP NOUN 1 4
+ADP PRON 0 431
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002558 --> with ADP
 PRON without ADP --> 0.002315 --> with ADP
-NOUN without Case (and ADP) --> 0.002558 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002315 --> with Case (but without ADP)
+CASE NOUN 0 9
+CASE NOUN 1 1551
+CASE PRON 0 13
+CASE PRON 1 418
+NOUN without Case (and ADP) --> 0.994231 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.969838 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Estonian
@@ -5026,11 +5826,19 @@ finite Number=Plur|Person=3             	6738	0.088937580021383
 WORDER:
 SV --> 0.353295 --> VS
 OV --> 0.591339 --> VO
+ADP NOUN 0 35412
+ADP NOUN 1 9
+ADP PRON 0 11343
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000254 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000254 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 341
+CASE NOUN 1 35071
+CASE PRON 0 3
+CASE PRON 1 11340
+NOUN without Case (and ADP) --> 0.990370 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.999736 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Finnish
@@ -5075,11 +5883,19 @@ finite                                  	3503	0.0534703036038649
 WORDER:
 SV --> 0.176511 --> VS
 OV --> 0.726456 --> VO
+ADP NOUN 0 31935
+ADP NOUN 1 6
+ADP PRON 0 10024
+ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000188 --> with ADP
 PRON without ADP --> 0.000399 --> with ADP
-NOUN without Case (and ADP) --> 0.000188 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000399 --> with Case (but without ADP)
+CASE NOUN 0 4
+CASE NOUN 1 31931
+CASE PRON 0 
+CASE PRON 1 10024
+NOUN without Case (and ADP) --> 0.999875 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hungarian
@@ -5135,11 +5951,19 @@ finite Number=Plur|Person=3             	629	0.182107701215981
 WORDER:
 SV --> 0.266907 --> VS
 OV --> 0.524051 --> VO
+ADP NOUN 0 2935
+ADP NOUN 1 
+ADP PRON 0 477
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 2935
+CASE PRON 0 
+CASE PRON 1 477
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Karelian
@@ -5175,11 +5999,19 @@ finite Number=Sing|Person=2             	15	0.045045045045045
 WORDER:
 SV --> 0.140449 --> VS
 OV --> 0.803681 --> VO
+ADP NOUN 0 198
+ADP NOUN 1 2
+ADP PRON 0 94
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.010000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.010000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 198
+CASE PRON 0 
+CASE PRON 1 94
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Komi Permyak
@@ -5208,11 +6040,19 @@ nonfin Number=Sing|Person=2             	14	0.0760869565217391
 WORDER:
 SV --> 0.186441 --> VS
 OV --> 0.647059 --> VO
+ADP NOUN 0 98
+ADP NOUN 1 
+ADP PRON 0 47
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 98
+CASE PRON 0 
+CASE PRON 1 47
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Komi Zyrian
@@ -5250,11 +6090,19 @@ nonfin Number=Sing|Person=2             	52	0.0357880247763248
 WORDER:
 SV --> 0.235821 --> VS
 OV --> 0.565068 --> VO
+ADP NOUN 0 537
+ADP NOUN 1 4
+ADP PRON 0 242
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.007394 --> with ADP
 PRON without ADP --> 0.004115 --> with ADP
-NOUN without Case (and ADP) --> 0.007394 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004115 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 536
+CASE PRON 0 7
+CASE PRON 1 235
+NOUN without Case (and ADP) --> 0.998138 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.971074 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Livvi
@@ -5290,11 +6138,19 @@ finite Number=Sing|Person=2             	8	0.0425531914893617
 WORDER:
 SV --> 0.227723 --> VS
 OV --> 0.628571 --> VO
+ADP NOUN 0 118
+ADP NOUN 1 
+ADP PRON 0 27
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 117
+CASE PRON 0 
+CASE PRON 1 27
+NOUN without Case (and ADP) --> 0.991525 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Moksha
@@ -5335,11 +6191,19 @@ nonfin Number=Sing                      	9	0.0128755364806867
 WORDER:
 SV --> 0.282209 --> VS
 OV --> 0.723529 --> VO
+ADP NOUN 0 327
+ADP NOUN 1 2
+ADP PRON 0 79
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.006079 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.006079 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 3
+CASE NOUN 1 324
+CASE PRON 0 
+CASE PRON 1 79
+NOUN without Case (and ADP) --> 0.990826 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 North Sami
@@ -5369,11 +6233,19 @@ finite Number=Sing|Person=2             	196	0.0426086956521739
 WORDER:
 SV --> 0.202152 --> VS
 OV --> 0.814461 --> VO
+ADP NOUN 0 2840
+ADP NOUN 1 
+ADP PRON 0 1436
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 57
+CASE NOUN 1 2783
+CASE PRON 0 4
+CASE PRON 1 1432
+NOUN without Case (and ADP) --> 0.979930 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.997214 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Skolt Sami
@@ -5403,11 +6275,19 @@ nonfin Number=Sing|Person=2             	31	0.0833333333333333
 WORDER:
 SV --> 0.084746 --> VS
 OV --> 0.525253 --> VO
+ADP NOUN 0 115
+ADP NOUN 1 1
+ADP PRON 0 123
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.008621 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.008621 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 114
+CASE PRON 0 6
+CASE PRON 1 117
+NOUN without Case (and ADP) --> 0.991304 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.951220 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Veps
@@ -5439,11 +6319,19 @@ finite Number=Sing|Person=1             	27	0.159763313609467
 WORDER:
 SV --> 0.250000 --> VS
 OV --> 0.942308 --> VO
+ADP NOUN 0 73
+ADP NOUN 1 
+ADP PRON 0 50
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 73
+CASE PRON 0 
+CASE PRON 1 50
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 Tupian: 11: 11: Akuntsu (1), Guajajara (1), Guarani (1), Kaapor (1), Karo (1), Makurap (1), Mbya Guarani (1), Munduruku (1), Nheengatu (1), Teko (1), Tupinamba (1)
 --------------------------------------------------------------------------------
@@ -5464,11 +6352,19 @@ nonfin Person=3                         	66	0.1875
 WORDER:
 SV --> 0.180233 --> VS
 OV --> 0.050000 --> VO
+ADP NOUN 0 204
+ADP NOUN 1 1
+ADP PRON 0 87
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004878 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.004878 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 201
+CASE NOUN 1 3
+CASE PRON 0 80
+CASE PRON 1 7
+NOUN without Case (and ADP) --> 0.014706 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.080460 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Guajajara
@@ -5490,11 +6386,19 @@ nonfin Person[subj]=3|||Person[subj]=3  	100	0.0691085003455425
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.521212 --> VO
+ADP NOUN 0 311
+ADP NOUN 1 12
+ADP PRON 0 31
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.037152 --> with ADP
 PRON without ADP --> 0.060606 --> with ADP
-NOUN without Case (and ADP) --> 0.037152 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.060606 --> with Case (but without ADP)
+CASE NOUN 0 308
+CASE NOUN 1 3
+CASE PRON 0 31
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.009646 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Guarani
@@ -5517,10 +6421,18 @@ nonfin Number[subj]=Sing|Person[obj]=3|Person[subj]=1	3	0.0476190476190476
 WORDER:
 SV --> 0.428571 --> VS
 OV --> 0.400000 --> VO
+ADP NOUN 0 8
+ADP NOUN 1 
+ADP PRON 0 5
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 6
+CASE NOUN 1 2
+CASE PRON 0 5
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.250000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -5552,11 +6464,19 @@ nonfin Person=1                         	10	0.111111111111111
 WORDER:
 SV --> 0.069444 --> VS
 OV --> 0.086207 --> VO
+ADP NOUN 0 77
+ADP NOUN 1 1
+ADP PRON 0 55
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.012821 --> with ADP
 PRON without ADP --> 0.017857 --> with ADP
-NOUN without Case (and ADP) --> 0.012821 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.017857 --> with Case (but without ADP)
+CASE NOUN 0 59
+CASE NOUN 1 18
+CASE PRON 0 42
+CASE PRON 1 13
+NOUN without Case (and ADP) --> 0.233766 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.236364 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Karo
@@ -5579,11 +6499,19 @@ nonfin Number=Sing|Person=2             	34	0.0480225988700565
 WORDER:
 SV --> 0.081560 --> VS
 OV --> 0.125828 --> VO
+ADP NOUN 0 236
+ADP NOUN 1 10
+ADP PRON 0 160
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.040650 --> with ADP
 PRON without ADP --> 0.006211 --> with ADP
-NOUN without Case (and ADP) --> 0.040650 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.006211 --> with Case (but without ADP)
+CASE NOUN 0 236
+CASE NOUN 1 
+CASE PRON 0 158
+CASE PRON 1 2
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.012500 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Makurap
@@ -5602,10 +6530,18 @@ nonfin Person=3                         	11	0.261904761904762
 WORDER:
 SV --> 0.333333 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 11
+ADP NOUN 1 
+ADP PRON 0 7
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 8
+CASE NOUN 1 3
+CASE PRON 0 7
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.272727 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -5631,11 +6567,19 @@ finite Person[subj]=1                   	234	0.130872483221477
 WORDER:
 SV --> 0.118098 --> VS
 OV --> 0.510274 --> VO
+ADP NOUN 0 663
+ADP NOUN 1 5
+ADP PRON 0 201
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.007485 --> with ADP
 PRON without ADP --> 0.009852 --> with ADP
-NOUN without Case (and ADP) --> 0.007485 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.009852 --> with Case (but without ADP)
+CASE NOUN 0 663
+CASE NOUN 1 
+CASE PRON 0 201
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Munduruku
@@ -5657,10 +6601,18 @@ nonfin Number=Sing|Person=3             	7	0.0348258706467662
 WORDER:
 SV --> 0.241935 --> VS
 OV --> 0.108108 --> VO
+ADP NOUN 0 74
+ADP NOUN 1 2
+ADP PRON 0 19
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.026316 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.026316 --> with Case (but without ADP)
+CASE NOUN 0 74
+CASE NOUN 1 
+CASE PRON 0 19
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -5717,11 +6669,19 @@ finite Number=Plur|Person=1             	123	0.0398187115571382
 WORDER:
 SV --> 0.229412 --> VS
 OV --> 0.933219 --> VO
+ADP NOUN 0 1548
+ADP NOUN 1 38
+ADP PRON 0 1046
+ADP PRON 1 70
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.023960 --> with ADP
 PRON without ADP --> 0.062724 --> with ADP
-NOUN without Case (and ADP) --> 0.023960 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.062724 --> with Case (but without ADP)
+CASE NOUN 0 1548
+CASE NOUN 1 
+CASE PRON 0 994
+CASE PRON 1 52
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.049713 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Teko
@@ -5749,11 +6709,19 @@ nonfin Number=Sing|Person=2             	51	0.0491803278688525
 WORDER:
 SV --> 0.136364 --> VS
 OV --> 0.416268 --> VO
+ADP NOUN 0 349
+ADP NOUN 1 4
+ADP PRON 0 44
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.011331 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.011331 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 304
+CASE NOUN 1 45
+CASE PRON 0 37
+CASE PRON 1 7
+NOUN without Case (and ADP) --> 0.128940 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.159091 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tupinamba
@@ -5786,11 +6754,19 @@ nonfin Number=Sing|Person[subj]=1       	17	0.0188053097345133
 WORDER:
 SV --> 0.406780 --> VS
 OV --> 0.218447 --> VO
+ADP NOUN 0 270
+ADP NOUN 1 7
+ADP PRON 0 78
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.025271 --> with ADP
 PRON without ADP --> 0.012658 --> with ADP
-NOUN without Case (and ADP) --> 0.025271 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.012658 --> with Case (but without ADP)
+CASE NOUN 0 155
+CASE NOUN 1 115
+CASE PRON 0 78
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.425926 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Sino-Tibetan: 10: 3: Cantonese (1), Chinese (7), Classical Chinese (2)
 --------------------------------------------------------------------------------
@@ -5815,11 +6791,19 @@ nonfin                                  	2089	1
 WORDER:
 SV --> 0.016414 --> VS
 OV --> 0.973856 --> VO
+ADP NOUN 0 731
+ADP NOUN 1 15
+ADP PRON 0 719
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.020107 --> with ADP
 PRON without ADP --> 0.002774 --> with ADP
-NOUN without Case (and ADP) --> 0.020107 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002774 --> with Case (but without ADP)
+CASE NOUN 0 731
+CASE NOUN 1 
+CASE PRON 0 719
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Chinese
@@ -5846,11 +6830,19 @@ nonfin                                  	41646	1
 WORDER:
 SV --> 0.001121 --> VS
 OV --> 0.967894 --> VO
+ADP NOUN 0 26305
+ADP NOUN 1 900
+ADP PRON 0 4256
+ADP PRON 1 13
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.033082 --> with ADP
 PRON without ADP --> 0.003045 --> with ADP
-NOUN without Case (and ADP) --> 0.033082 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.003045 --> with Case (but without ADP)
+CASE NOUN 0 26305
+CASE NOUN 1 
+CASE PRON 0 4256
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Classical Chinese
@@ -5877,11 +6869,19 @@ nonfin                                  	106864	1
 WORDER:
 SV --> 0.000363 --> VS
 OV --> 0.983394 --> VO
+ADP NOUN 0 77152
+ADP NOUN 1 2305
+ADP PRON 0 11083
+ADP PRON 1 59
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.029009 --> with ADP
 PRON without ADP --> 0.005295 --> with ADP
-NOUN without Case (and ADP) --> 0.029009 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.005295 --> with Case (but without ADP)
+CASE NOUN 0 59944
+CASE NOUN 1 17208
+CASE PRON 0 11083
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.223040 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Austronesian: 7: 4: Cebuano (1), Indonesian (3), Javanese (1), Tagalog (2)
 --------------------------------------------------------------------------------
@@ -5917,11 +6917,19 @@ nonfin                                  	245	1
 WORDER:
 SV --> 0.777070 --> VS
 OV --> 0.970588 --> VO
+ADP NOUN 0 24
+ADP NOUN 1 103
+ADP PRON 0 104
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.811024 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.811024 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 24
+CASE NOUN 1 
+CASE PRON 0 3
+CASE PRON 1 101
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.971154 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Indonesian
@@ -5946,11 +6954,19 @@ nonfin                                  	18376	1
 WORDER:
 SV --> 0.025485 --> VS
 OV --> 0.954783 --> VO
+ADP NOUN 0 11198
+ADP NOUN 1 32
+ADP PRON 0 4179
+ADP PRON 1 5
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002850 --> with ADP
 PRON without ADP --> 0.001195 --> with ADP
-NOUN without Case (and ADP) --> 0.002850 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001195 --> with Case (but without ADP)
+CASE NOUN 0 11198
+CASE NOUN 1 
+CASE PRON 0 4179
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Javanese
@@ -5971,11 +6987,19 @@ nonfin Polite=Infm                      	461	0.203621908127208
 WORDER:
 SV --> 0.053406 --> VS
 OV --> 0.951782 --> VO
+ADP NOUN 0 1040
+ADP NOUN 1 8
+ADP PRON 0 472
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.007634 --> with ADP
 PRON without ADP --> 0.002114 --> with ADP
-NOUN without Case (and ADP) --> 0.007634 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002114 --> with Case (but without ADP)
+CASE NOUN 0 1040
+CASE NOUN 1 
+CASE PRON 0 472
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tagalog
@@ -6011,11 +7035,19 @@ nonfin                                  	279	1
 WORDER:
 SV --> 0.917073 --> VS
 OV --> 0.943925 --> VO
+ADP NOUN 0 20
+ADP NOUN 1 155
+ADP PRON 0 67
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.885714 --> with ADP
 PRON without ADP --> 0.028986 --> with ADP
-NOUN without Case (and ADP) --> 0.885714 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.028986 --> with Case (but without ADP)
+CASE NOUN 0 20
+CASE NOUN 1 
+CASE PRON 0 44
+CASE PRON 1 23
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.343284 --> with Case (but without ADP)
 
 Code switching: 4: 4: Frisian Dutch (1), Maghrebi Arabic French (1), Telugu English (1), Turkish German (1)
 --------------------------------------------------------------------------------
@@ -6059,11 +7091,19 @@ nonfin                                  	529	1
 WORDER:
 SV --> 0.244514 --> VS
 OV --> 0.490446 --> VO
+ADP NOUN 0 142
+ADP NOUN 1 15
+ADP PRON 0 280
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.095541 --> with ADP
 PRON without ADP --> 0.003559 --> with ADP
-NOUN without Case (and ADP) --> 0.095541 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.003559 --> with Case (but without ADP)
+CASE NOUN 0 142
+CASE NOUN 1 
+CASE PRON 0 280
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Maghrebi Arabic French
@@ -6095,11 +7135,19 @@ nonfin Gender=Masc|Number=Sing|Person=1 	159	0.0702607158638975
 WORDER:
 SV --> 0.098972 --> VS
 OV --> 0.953171 --> VO
+ADP NOUN 0 1048
+ADP NOUN 1 25
+ADP PRON 0 489
+ADP PRON 1 10
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.023299 --> with ADP
 PRON without ADP --> 0.020040 --> with ADP
-NOUN without Case (and ADP) --> 0.023299 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.020040 --> with Case (but without ADP)
+CASE NOUN 0 1048
+CASE NOUN 1 
+CASE PRON 0 489
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Telugu English
@@ -6121,10 +7169,18 @@ nonfin                                  	110	1
 WORDER:
 SV --> 0.051282 --> VS
 OV --> 0.111111 --> VO
+ADP NOUN 0 70
+ADP NOUN 1 2
+ADP PRON 0 58
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.027778 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.027778 --> with Case (but without ADP)
+CASE NOUN 0 70
+CASE NOUN 1 
+CASE PRON 0 58
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -6190,11 +7246,19 @@ finite Number=Sing                      	105	0.0262565641410353
 WORDER:
 SV --> 0.120000 --> VS
 OV --> 0.364454 --> VO
+ADP NOUN 0 1364
+ADP NOUN 1 39
+ADP PRON 0 1653
+ADP PRON 1 9
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.027798 --> with ADP
 PRON without ADP --> 0.005415 --> with ADP
-NOUN without Case (and ADP) --> 0.027798 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.005415 --> with Case (but without ADP)
+CASE NOUN 0 28
+CASE NOUN 1 1336
+CASE PRON 0 3
+CASE PRON 1 1650
+NOUN without Case (and ADP) --> 0.979472 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.998185 --> with Case (but without ADP)
 
 Dravidian: 4: 3: Malayalam (1), Tamil (2), Telugu (1)
 --------------------------------------------------------------------------------
@@ -6224,11 +7288,19 @@ nonfin                                  	152	0.451038575667656
 WORDER:
 SV --> 0.019608 --> VS
 OV --> 0.008772 --> VO
+ADP NOUN 0 249
+ADP NOUN 1 1
+ADP PRON 0 43
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.004000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 249
+CASE PRON 0 
+CASE PRON 1 43
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tamil
@@ -6277,11 +7349,19 @@ finite Gender=Com|Number=Plur|Person=3|Polite=Form	58	0.0306716023268112
 WORDER:
 SV --> 0.016364 --> VS
 OV --> 0.003695 --> VO
+ADP NOUN 0 1475
+ADP NOUN 1 3
+ADP PRON 0 244
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002030 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.002030 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 1
+CASE NOUN 1 1474
+CASE PRON 0 9
+CASE PRON 1 235
+NOUN without Case (and ADP) --> 0.999322 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.963115 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Telugu
@@ -6307,11 +7387,19 @@ nonfin                                  	1769	1
 WORDER:
 SV --> 0.005686 --> VS
 OV --> 0.020202 --> VO
+ADP NOUN 0 840
+ADP NOUN 1 4
+ADP PRON 0 848
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004739 --> with ADP
 PRON without ADP --> 0.002353 --> with ADP
-NOUN without Case (and ADP) --> 0.004739 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002353 --> with Case (but without ADP)
+CASE NOUN 0 840
+CASE NOUN 1 
+CASE PRON 0 848
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Japanese: 4: 1: Japanese (4)
 --------------------------------------------------------------------------------
@@ -6330,11 +7418,19 @@ nonfin                                  	361268	1
 WORDER:
 SV --> 0.000037 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 
+ADP NOUN 1 163380
+ADP PRON 0 
+ADP PRON 1 8128
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 1.000000 --> with ADP
 PRON without ADP --> 1.000000 --> with ADP
-NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 
+CASE PRON 0 
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Korean: 4: 1: Korean (4)
 --------------------------------------------------------------------------------
@@ -6359,11 +7455,19 @@ nonfin                                  	129644	0.994339709469098
 WORDER:
 SV --> 0.000793 --> VS
 OV --> 0.001396 --> VO
+ADP NOUN 0 48357
+ADP NOUN 1 457
+ADP PRON 0 3199
+ADP PRON 1 10
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.009362 --> with ADP
 PRON without ADP --> 0.003116 --> with ADP
-NOUN without Case (and ADP) --> 0.009362 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.003116 --> with Case (but without ADP)
+CASE NOUN 0 46653
+CASE NOUN 1 1704
+CASE PRON 0 2991
+CASE PRON 1 208
+NOUN without Case (and ADP) --> 0.035238 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.065020 --> with Case (but without ADP)
 
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
 --------------------------------------------------------------------------------
@@ -6381,11 +7485,19 @@ nonfin                                  	511	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.989418 --> VO
+ADP NOUN 0 294
+ADP NOUN 1 
+ADP PRON 0 249
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.004000 --> with ADP
+CASE NOUN 0 294
+CASE NOUN 1 
+CASE PRON 0 249
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.004000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tswana
@@ -6404,9 +7516,17 @@ nonfin                                  	31	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 1.000000 --> VO
+ADP NOUN 0 19
+ADP NOUN 1 
+ADP PRON 0 13
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 19
+CASE NOUN 1 
+CASE PRON 0 13
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6455,11 +7575,19 @@ finite Number=Sing|Person=3             	1046	0.146519120324975
 WORDER:
 SV --> 0.001417 --> VS
 OV --> 0.720213 --> VO
+ADP NOUN 0 2607
+ADP NOUN 1 10
+ADP PRON 0 4512
+ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003821 --> with ADP
 PRON without ADP --> 0.000222 --> with ADP
-NOUN without Case (and ADP) --> 0.003821 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000222 --> with Case (but without ADP)
+CASE NOUN 0 2221
+CASE NOUN 1 386
+CASE PRON 0 2058
+CASE PRON 1 2454
+NOUN without Case (and ADP) --> 0.148063 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.543883 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Yoruba
@@ -6486,11 +7614,19 @@ nonfin                                  	798	0.9975
 WORDER:
 SV --> 0.009885 --> VS
 OV --> 0.896825 --> VO
+ADP NOUN 0 397
+ADP NOUN 1 27
+ADP PRON 0 423
+ADP PRON 1 17
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.063679 --> with ADP
 PRON without ADP --> 0.038636 --> with ADP
-NOUN without Case (and ADP) --> 0.063679 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.038636 --> with Case (but without ADP)
+CASE NOUN 0 395
+CASE NOUN 1 2
+CASE PRON 0 128
+CASE PRON 1 295
+NOUN without Case (and ADP) --> 0.005038 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.697400 --> with Case (but without ADP)
 
 Arawan: 2: 2: Madi (1), Paumari (1)
 --------------------------------------------------------------------------------
@@ -6511,9 +7647,17 @@ nonfin Gender=Fem|Number[subj]=Sing|Person[subj]=1	4	0.173913043478261
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 9
+ADP NOUN 1 
+ADP PRON 0 19
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 9
+CASE NOUN 1 
+CASE PRON 0 19
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6539,9 +7683,17 @@ nonfin                                  	122	1
 WORDER:
 SV --> 0.375000 --> VS
 OV --> 0.520833 --> VO
+ADP NOUN 0 55
+ADP NOUN 1 
+ADP PRON 0 27
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 55
+CASE NOUN 1 
+CASE PRON 0 27
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6568,11 +7720,19 @@ nonfin                                  	9570	1
 WORDER:
 SV --> 0.003769 --> VS
 OV --> 0.993126 --> VO
+ADP NOUN 0 6185
+ADP NOUN 1 22
+ADP PRON 0 764
+ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.003544 --> with ADP
 PRON without ADP --> 0.002611 --> with ADP
-NOUN without Case (and ADP) --> 0.003544 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.002611 --> with Case (but without ADP)
+CASE NOUN 0 6185
+CASE NOUN 1 
+CASE PRON 0 764
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Creole: 2: 2: Haitian Creole (1), Naija (1)
 --------------------------------------------------------------------------------
@@ -6597,10 +7757,18 @@ nonfin                                  	417	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.952381 --> VO
+ADP NOUN 0 289
+ADP NOUN 1 3
+ADP PRON 0 222
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.010274 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.010274 --> with Case (but without ADP)
+CASE NOUN 0 289
+CASE NOUN 1 
+CASE PRON 0 222
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -6626,11 +7794,19 @@ nonfin                                  	17986	0.969386655168697
 WORDER:
 SV --> 0.020183 --> VS
 OV --> 0.999557 --> VO
+ADP NOUN 0 5433
+ADP NOUN 1 24
+ADP PRON 0 11135
+ADP PRON 1 21
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.004398 --> with ADP
 PRON without ADP --> 0.001882 --> with ADP
-NOUN without Case (and ADP) --> 0.004398 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.001882 --> with Case (but without ADP)
+CASE NOUN 0 5433
+CASE NOUN 1 
+CASE PRON 0 669
+CASE PRON 1 10466
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.939919 --> with Case (but without ADP)
 
 Northwest Caucasian: 2: 2: Abaza (1), Abkhaz (1)
 --------------------------------------------------------------------------------
@@ -6709,9 +7885,17 @@ finite Gender[io]=Neut|Number[erg]=Sing|Number[io]=Sing|Person[erg]=1|Person[io]
 WORDER:
 SV --> 0.106061 --> VS
 OV --> 0.131148 --> VO
+ADP NOUN 0 78
+ADP NOUN 1 
+ADP PRON 0 44
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 78
+CASE NOUN 1 
+CASE PRON 0 44
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6904,9 +8088,17 @@ nonfin Gender[io]=Neut|Number[io]=Sing|Person[io]=3|Person[obj]=3	2	0.0011191941
 WORDER:
 SV --> 0.225649 --> VS
 OV --> 0.041667 --> VO
+ADP NOUN 0 582
+ADP NOUN 1 
+ADP PRON 0 186
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 582
+CASE NOUN 1 
+CASE PRON 0 186
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6934,9 +8126,17 @@ nonfin                                  	534	1
 WORDER:
 SV --> 0.099099 --> VS
 OV --> 0.511111 --> VO
+ADP NOUN 0 275
+ADP NOUN 1 
+ADP PRON 0 31
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 275
+CASE NOUN 1 
+CASE PRON 0 31
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -6963,9 +8163,17 @@ nonfin                                  	298	1
 WORDER:
 SV --> 0.172414 --> VS
 OV --> 0.796296 --> VO
+ADP NOUN 0 117
+ADP NOUN 1 
+ADP PRON 0 83
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 117
+CASE NOUN 1 
+CASE PRON 0 83
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -7000,11 +8208,19 @@ finite Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	144	0.080
 WORDER:
 SV --> 0.207154 --> VS
 OV --> 0.758865 --> VO
+ADP NOUN 0 396
+ADP NOUN 1 
+ADP PRON 0 489
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 231
+CASE NOUN 1 165
+CASE PRON 0 479
+CASE PRON 1 10
+NOUN without Case (and ADP) --> 0.416667 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.020450 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Western Sierra Puebla Nahuatl
@@ -7048,11 +8264,19 @@ finite Number[dat]=Sing|Number[subj]=Sing|Person[dat]=3|Person[subj]=3	10	0.0067
 WORDER:
 SV --> 0.344771 --> VS
 OV --> 0.860892 --> VO
+ADP NOUN 0 618
+ADP NOUN 1 6
+ADP PRON 0 255
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.009615 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.009615 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 431
+CASE NOUN 1 187
+CASE PRON 0 254
+CASE PRON 1 1
+NOUN without Case (and ADP) --> 0.302589 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.003922 --> with Case (but without ADP)
 
 Arawakan: 1: 1: Apurina (1)
 --------------------------------------------------------------------------------
@@ -7079,11 +8303,19 @@ nonfin Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	20	0.103626943005181
 WORDER:
 SV --> 0.316547 --> VS
 OV --> 0.915493 --> VO
+ADP NOUN 0 139
+ADP NOUN 1 
+ADP PRON 0 53
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 77
+CASE NOUN 1 62
+CASE PRON 0 9
+CASE PRON 1 44
+NOUN without Case (and ADP) --> 0.446043 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.830189 --> with Case (but without ADP)
 
 Basque: 1: 1: Basque (1)
 --------------------------------------------------------------------------------
@@ -7146,11 +8378,19 @@ finite Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	312	0.01693
 WORDER:
 SV --> 0.197347 --> VS
 OV --> 0.178806 --> VO
+ADP NOUN 0 13215
+ADP NOUN 1 15
+ADP PRON 0 859
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001134 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.001134 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 3493
+CASE NOUN 1 9722
+CASE PRON 0 184
+CASE PRON 1 675
+NOUN without Case (and ADP) --> 0.735679 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.785797 --> with Case (but without ADP)
 
 Bororoan: 1: 1: Bororo (1)
 --------------------------------------------------------------------------------
@@ -7181,10 +8421,18 @@ nonfin Number=Plur|Person=3             	131	0.102745098039216
 WORDER:
 SV --> 0.037398 --> VS
 OV --> 0.393651 --> VO
+ADP NOUN 0 502
+ADP NOUN 1 10
+ADP PRON 0 276
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.019531 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.019531 --> with Case (but without ADP)
+CASE NOUN 0 502
+CASE NOUN 1 
+CASE PRON 0 276
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Chibchan: 1: 1: Pesh (1)
@@ -7208,11 +8456,19 @@ nonfin                                  	399	0.87308533916849
 WORDER:
 SV --> 0.256098 --> VS
 OV --> 0.115044 --> VO
+ADP NOUN 0 67
+ADP NOUN 1 18
+ADP PRON 0 26
+ADP PRON 1 22
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.211765 --> with ADP
 PRON without ADP --> 0.458333 --> with ADP
-NOUN without Case (and ADP) --> 0.211765 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.458333 --> with Case (but without ADP)
+CASE NOUN 0 67
+CASE NOUN 1 
+CASE PRON 0 26
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Chukotko-Kamchatkan: 1: 1: Chukchi (1)
 --------------------------------------------------------------------------------
@@ -7236,9 +8492,17 @@ nonfin                                  	1127	1
 WORDER:
 SV --> 0.201729 --> VS
 OV --> 0.384146 --> VO
+ADP NOUN 0 344
+ADP NOUN 1 
+ADP PRON 0 145
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 344
+CASE NOUN 1 
+CASE PRON 0 145
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -7260,11 +8524,19 @@ nonfin                                  	433	1
 WORDER:
 SV --> 0.028902 --> VS
 OV --> 0.508475 --> VO
+ADP NOUN 0 279
+ADP NOUN 1 
+ADP PRON 0 10
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 222
+CASE NOUN 1 57
+CASE PRON 0 6
+CASE PRON 1 4
+NOUN without Case (and ADP) --> 0.204301 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.400000 --> with Case (but without ADP)
 
 Kartvelian: 1: 1: Georgian (1)
 --------------------------------------------------------------------------------
@@ -7318,11 +8590,19 @@ nonfin Number[subj]=Sing|Person[io]=3|Person[subj]=3	216	0.046242774566474
 WORDER:
 SV --> 0.216287 --> VS
 OV --> 0.594398 --> VO
+ADP NOUN 0 4647
+ADP NOUN 1 4
+ADP PRON 0 789
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000860 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000860 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 15
+CASE NOUN 1 4632
+CASE PRON 0 
+CASE PRON 1 789
+NOUN without Case (and ADP) --> 0.996772 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 Macro-Je: 1: 1: Xavante (1)
 --------------------------------------------------------------------------------
@@ -7349,11 +8629,19 @@ nonfin Person[abs]=3                    	39	0.178082191780822
 WORDER:
 SV --> 0.025210 --> VS
 OV --> 0.347826 --> VO
+ADP NOUN 0 154
+ADP NOUN 1 
+ADP PRON 0 43
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 153
+CASE NOUN 1 1
+CASE PRON 0 24
+CASE PRON 1 19
+NOUN without Case (and ADP) --> 0.006494 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.441860 --> with Case (but without ADP)
 
 Mande: 1: 1: Bambara (1)
 --------------------------------------------------------------------------------
@@ -7373,9 +8661,17 @@ nonfin                                  	1861	0.985177342509264
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.037851 --> VO
+ADP NOUN 0 820
+ADP NOUN 1 
+ADP PRON 0 1201
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 820
+CASE NOUN 1 
+CASE PRON 0 1201
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -7408,9 +8704,17 @@ nonfin Number[subj]=Sing|Person[subj]=3 	62	0.0330490405117271
 WORDER:
 SV --> 0.683685 --> VS
 OV --> 0.917323 --> VO
+ADP NOUN 0 1123
+ADP NOUN 1 
+ADP PRON 0 96
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 1123
+CASE NOUN 1 
+CASE PRON 0 96
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -7459,11 +8763,19 @@ finite                                  	74	0.0508241758241758
 WORDER:
 SV --> 0.006154 --> VS
 OV --> 0.023316 --> VO
+ADP NOUN 0 881
+ADP NOUN 1 1
+ADP PRON 0 131
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.001134 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.001134 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 27
+CASE NOUN 1 854
+CASE PRON 0 11
+CASE PRON 1 120
+NOUN without Case (and ADP) --> 0.969353 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.916031 --> with Case (but without ADP)
 
 Na-Dene: 1: 1: Gwichin (1)
 --------------------------------------------------------------------------------
@@ -7479,9 +8791,17 @@ nonfin                                  	331	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 125
+ADP NOUN 1 
+ADP PRON 0 1
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 125
+CASE NOUN 1 
+CASE PRON 0 1
+CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
@@ -7516,11 +8836,19 @@ nonfin Person[dat]=3                    	3	0.0428571428571429
 WORDER:
 SV --> 0.089286 --> VS
 OV --> 0.166667 --> VO
+ADP NOUN 0 89
+ADP NOUN 1 
+ADP PRON 0 22
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+CASE NOUN 0 
+CASE NOUN 1 89
+CASE PRON 0 
+CASE PRON 1 22
+NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 Tai-Kadai: 1: 1: Thai (1)
 --------------------------------------------------------------------------------
@@ -7544,10 +8872,18 @@ nonfin                                  	4034	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.906304 --> VO
+ADP NOUN 0 1933
+ADP NOUN 1 1
+ADP PRON 0 816
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000517 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-NOUN without Case (and ADP) --> 0.000517 --> with Case (but without ADP)
+CASE NOUN 0 1933
+CASE NOUN 1 
+CASE PRON 0 816
+CASE PRON 1 
+NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Tungusic: 1: 1: Xibe (1)
@@ -7574,11 +8910,19 @@ finite                                  	1211	0.4162942591956
 WORDER:
 SV --> 0.001279 --> VS
 OV --> 0.000000 --> VO
+ADP NOUN 0 722
+ADP NOUN 1 522
+ADP PRON 0 251
+ADP PRON 1 11
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.419614 --> with ADP
 PRON without ADP --> 0.041985 --> with ADP
-NOUN without Case (and ADP) --> 0.419614 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.041985 --> with Case (but without ADP)
+CASE NOUN 0 713
+CASE NOUN 1 9
+CASE PRON 0 224
+CASE PRON 1 27
+NOUN without Case (and ADP) --> 0.012465 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.107570 --> with Case (but without ADP)
 
 \begin{tikzpicture}[scale=3]
   \draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);
@@ -7586,10 +8930,10 @@ PRON without Case (and ADP) --> 0.041985 --> with Case (but without ADP)
   \draw[gray] (-0.5cm,10cm) node{VS};
   \draw[gray] (0cm,-0.5cm) node{OV};
   \draw[gray] (10cm,-0.5cm) node{VO};
-  \draw (0.25cm,0.125cm) node{gwi}; % Gwichin
-  \draw (0.25cm,0.375cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (0.25cm,0.625cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (0.75cm,0.125cm) node{jaa}; % Madi
+  \draw (0.25cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (0.25cm,0.375cm) node{gwi}; % Gwichin
+  \draw (0.25cm,0.625cm) node{jaa}; % Madi
+  \draw (0.75cm,0.125cm) node{\textcolor{red}{otk}}; % Old Turkish
   \draw (0.75cm,0.375cm) node{ja}; % Japanese
   \draw (0.75cm,0.625cm) node{sjo}; % Xibe
   \draw (0.25cm,0.875cm) node{ko}; % Korean
@@ -7761,44 +9105,44 @@ PRON without Case (and ADP) --> 0.041985 --> with Case (but without ADP)
   \draw[gray] (-0.5cm,10cm) node{PA};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NA};
-  \draw (0.25cm,1.875cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (0.25cm,2.125cm) node{swl}; % Swedish Sign Language
-  \draw (0.75cm,2.125cm) node{ssp}; % Spanish Sign Language
-  \draw (1.25cm,2.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (0.25cm,2.375cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (0.25cm,2.625cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (0.25cm,1.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (0.25cm,2.125cm) node{tn}; % Tswana
+  \draw (0.75cm,2.125cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (1.25cm,2.125cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (0.25cm,2.375cm) node{xav}; % Xavante
+  \draw (0.25cm,2.625cm) node{ess}; % Yupik
   \draw (2.25cm,1.625cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (0.75cm,2.625cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (2.75cm,0.625cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (2.75cm,0.875cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (2.25cm,1.875cm) node{bm}; % Bambara
-  \draw (1.75cm,2.375cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (0.25cm,2.875cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (2.75cm,1.125cm) node{jaa}; % Madi
-  \draw (0.75cm,2.875cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (2.25cm,2.125cm) node{tn}; % Tswana
-  \draw (1.25cm,2.875cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
-  \draw (2.75cm,1.625cm) node{ess}; % Yupik
-  \draw (0.25cm,3.125cm) node{quc}; % Kiche
+  \draw (0.75cm,2.625cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (2.75cm,0.625cm) node{gwi}; % Gwichin
+  \draw (2.75cm,0.875cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (2.25cm,1.875cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (1.75cm,2.375cm) node{swl}; % Swedish Sign Language
+  \draw (0.25cm,2.875cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (2.75cm,1.125cm) node{bm}; % Bambara
+  \draw (0.75cm,2.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (2.25cm,2.125cm) node{wbp}; % Warlpiri
+  \draw (1.25cm,2.875cm) node{ssp}; % Spanish Sign Language
+  \draw (2.75cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (0.25cm,3.125cm) node{\textcolor{blue}{ps}}; % Pashto
   \draw (0.75cm,3.125cm) node{apu}; % Apurina
   \draw (2.25cm,2.375cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (2.75cm,1.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (1.75cm,2.875cm) node{abq}; % Abaza
-  \draw (3.25cm,0.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (1.25cm,3.125cm) node{gwi}; % Gwichin
-  \draw (2.25cm,2.625cm) node{xav}; % Xavante
-  \draw (3.25cm,1.125cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (2.75cm,1.875cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (1.75cm,2.875cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (3.25cm,0.875cm) node{ab}; % Abkhaz
+  \draw (1.25cm,3.125cm) node{pad}; % Paumari
+  \draw (2.25cm,2.625cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (3.25cm,1.125cm) node{jaa}; % Madi
   \draw (2.75cm,2.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
   \draw (0.75cm,3.375cm) node{ckt}; % Chukchi
-  \draw (3.25cm,1.375cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (1.75cm,3.125cm) node{wbp}; % Warlpiri
-  \draw (1.25cm,3.375cm) node{ab}; % Abkhaz
-  \draw (2.75cm,2.375cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (3.25cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (2.25cm,2.875cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (0.25cm,3.625cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (0.75cm,3.625cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (3.25cm,1.875cm) node{pad}; % Paumari
+  \draw (3.25cm,1.375cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (1.75cm,3.125cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (1.25cm,3.375cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (2.75cm,2.375cm) node{abq}; % Abaza
+  \draw (3.25cm,1.625cm) node{quc}; % Kiche
+  \draw (2.25cm,2.875cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (0.25cm,3.625cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (0.75cm,3.625cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (3.25cm,1.875cm) node{\textcolor{teal}{sme}}; % North Sami
   \draw (2.75cm,2.625cm) node{\textcolor{blue}{pl}}; % Polish
   \draw (1.75cm,3.375cm) node{\textcolor{blue}{hy}}; % Armenian
   \draw (2.25cm,3.125cm) node{\textcolor{blue}{lt}}; % Lithuanian
@@ -7815,8 +9159,8 @@ PRON without Case (and ADP) --> 0.041985 --> with Case (but without ADP)
   \draw (1.25cm,3.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
   \draw (2.75cm,3.125cm) node{\textcolor{blue}{sl}}; % Slovenian
   \draw (3.25cm,2.625cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (3.75cm,1.875cm) node{bxr}; % Buryat
-  \draw (0.25cm,4.125cm) node{eu}; % Basque
+  \draw (3.75cm,1.875cm) node{eu}; % Basque
+  \draw (0.25cm,4.125cm) node{bxr}; % Buryat
   \draw (0.75cm,4.125cm) node{\textcolor{blue}{cs}}; % Czech
   \draw (1.75cm,3.875cm) node{\textcolor{blue}{la}}; % Latin
   \draw (2.25cm,3.625cm) node{\textcolor{blue}{it}}; % Italian
@@ -7936,172 +9280,172 @@ PRON without Case (and ADP) --> 0.041985 --> with Case (but without ADP)
   \draw[gray] (-0.5cm,10cm) node{PC};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NC};
-  \draw (0.25cm,5.875cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (0.75cm,5.875cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (1.25cm,5.875cm) node{pad}; % Paumari
-  \draw (2.25cm,5.625cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (1.75cm,5.875cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (0.25cm,6.125cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (0.75cm,6.125cm) node{ab}; % Abkhaz
-  \draw (2.75cm,5.625cm) node{wbp}; % Warlpiri
-  \draw (3.25cm,5.375cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (1.25cm,6.125cm) node{ckt}; % Chukchi
-  \draw (2.25cm,5.875cm) node{\textcolor{violet}{mpu}}; % Makurap
-  \draw (3.75cm,5.125cm) node{xav}; % Xavante
-  \draw (1.75cm,6.125cm) node{gwi}; % Gwichin
-  \draw (0.25cm,6.375cm) node{\textcolor{blue}{xpg}}; % Phrygian
-  \draw (0.75cm,6.375cm) node{abq}; % Abaza
-  \draw (4.25cm,4.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (5.75cm,2.875cm) node{apu}; % Apurina
-  \draw (2.75cm,5.875cm) node{quc}; % Kiche
-  \draw (3.25cm,5.625cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (1.25cm,6.375cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (6.25cm,1.625cm) node{tn}; % Tswana
-  \draw (2.25cm,6.125cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (3.75cm,5.375cm) node{jaa}; % Madi
-  \draw (5.75cm,3.125cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (1.75cm,6.375cm) node{ess}; % Yupik
-  \draw (4.75cm,4.625cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (0.25cm,5.875cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (0.75cm,5.875cm) node{qte}; % Telugu English
+  \draw (1.25cm,5.875cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (2.25cm,5.625cm) node{\textcolor{orange}{mt}}; % Maltese
+  \draw (1.75cm,5.875cm) node{ckt}; % Chukchi
+  \draw (0.25cm,6.125cm) node{bor}; % Bororo
+  \draw (0.75cm,6.125cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (2.75cm,5.625cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (3.25cm,5.375cm) node{qaf}; % Maghrebi Arabic French
+  \draw (1.25cm,6.125cm) node{jaa}; % Madi
+  \draw (2.25cm,5.875cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (3.75cm,5.125cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (1.75cm,6.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (0.25cm,6.375cm) node{\textcolor{blue}{fr}}; % French
+  \draw (0.75cm,6.375cm) node{pad}; % Paumari
+  \draw (4.25cm,4.875cm) node{qfn}; % Frisian Dutch
+  \draw (5.75cm,2.875cm) node{ht}; % Haitian Creole
+  \draw (2.75cm,5.875cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (3.25cm,5.625cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (1.25cm,6.375cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (6.25cm,1.625cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (2.25cm,6.125cm) node{quc}; % Kiche
+  \draw (3.75cm,5.375cm) node{abq}; % Abaza
+  \draw (5.75cm,3.125cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
+  \draw (1.75cm,6.375cm) node{\textcolor{blue}{bar}}; % Bavarian
+  \draw (4.75cm,4.625cm) node{\textcolor{orange}{say}}; % Zaar
   \draw (4.25cm,5.125cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (0.25cm,6.625cm) node{bm}; % Bambara
-  \draw (5.25cm,4.125cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (5.75cm,3.375cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (0.75cm,6.625cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (3.25cm,5.875cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (2.75cm,6.125cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (3.75cm,5.625cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (2.25cm,6.375cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (1.25cm,6.625cm) node{swl}; % Swedish Sign Language
-  \draw (4.75cm,4.875cm) node{ssp}; % Spanish Sign Language
-  \draw (5.25cm,4.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (4.25cm,5.375cm) node{\textcolor{blue}{pl}}; % Polish
-  \draw (6.75cm,0.125cm) node{\textcolor{blue}{hy}}; % Armenian
-  \draw (6.75cm,0.375cm) node{\textcolor{blue}{lt}}; % Lithuanian
-  \draw (1.75cm,6.625cm) node{\textcolor{teal}{et}}; % Estonian
-  \draw (6.75cm,0.625cm) node{\textcolor{blue}{nl}}; % Dutch
-  \draw (6.75cm,0.875cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (3.25cm,6.125cm) node{\textcolor{teal}{fi}}; % Finnish
-  \draw (6.75cm,1.125cm) node{\textcolor{blue}{is}}; % Icelandic
-  \draw (0.25cm,6.875cm) node{th}; % Thai
-  \draw (2.75cm,6.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
-  \draw (0.75cm,6.875cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (3.75cm,5.875cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (6.75cm,1.375cm) node{ka}; % Georgian
-  \draw (4.75cm,5.125cm) node{\textcolor{blue}{hyw}}; % Western Armenian
-  \draw (2.25cm,6.625cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (5.25cm,4.625cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (1.25cm,6.875cm) node{eu}; % Basque
-  \draw (4.25cm,5.625cm) node{bxr}; % Buryat
-  \draw (5.75cm,4.125cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (1.75cm,6.875cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (6.75cm,2.125cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (3.25cm,6.375cm) node{\textcolor{olive}{ta}}; % Tamil
-  \draw (5.25cm,4.875cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (4.75cm,5.375cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (2.75cm,6.625cm) node{\textcolor{blue}{ru}}; % Russian
-  \draw (3.75cm,6.125cm) node{\textcolor{blue}{fr}}; % French
-  \draw (0.25cm,7.125cm) node{\textcolor{blue}{gv}}; % Manx
-  \draw (6.75cm,2.375cm) node{\textcolor{blue}{en}}; % English
-  \draw (0.75cm,7.125cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (5.75cm,4.375cm) node{\textcolor{blue}{sv}}; % Swedish
-  \draw (2.25cm,6.875cm) node{\textcolor{teal}{myv}}; % Erzya
-  \draw (4.25cm,5.875cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (1.25cm,7.125cm) node{wo}; % Wolof
-  \draw (5.25cm,5.125cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (1.75cm,7.125cm) node{gya}; % Northwest Gbaya
-  \draw (4.75cm,5.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (7.25cm,0.375cm) node{\textcolor{blue}{sq}}; % Albanian
-  \draw (3.25cm,6.625cm) node{\textcolor{red}{kk}}; % Kazakh
-  \draw (7.25cm,0.625cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (6.25cm,3.875cm) node{vi}; % Vietnamese
-  \draw (6.75cm,2.875cm) node{pcm}; % Naija
-  \draw (7.25cm,0.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (3.75cm,6.375cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (5.75cm,4.625cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (2.75cm,6.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
-  \draw (4.25cm,6.125cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (7.25cm,1.375cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (0.25cm,7.375cm) node{\textcolor{blue}{sr}}; % Serbian
-  \draw (6.75cm,3.125cm) node{\textcolor{teal}{mdf}}; % Moksha
-  \draw (0.75cm,7.375cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (2.25cm,7.125cm) node{\textcolor{orange}{akk}}; % Akkadian
-  \draw (7.25cm,1.625cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (6.25cm,4.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
-  \draw (5.25cm,5.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
-  \draw (1.25cm,7.375cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (5.75cm,4.875cm) node{\textcolor{blue}{got}}; % Gothic
-  \draw (4.75cm,5.875cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (3.25cm,6.875cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (3.75cm,6.625cm) node{nhi}; % Western Sierra Puebla Nahuatl
-  \draw (1.75cm,7.375cm) node{ko}; % Korean
-  \draw (6.25cm,4.375cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (2.75cm,7.125cm) node{ht}; % Haitian Creole
-  \draw (4.25cm,6.375cm) node{\textcolor{blue}{br}}; % Breton
-  \draw (0.25cm,7.625cm) node{\textcolor{blue}{sk}}; % Slovak
-  \draw (7.25cm,2.375cm) node{\textcolor{violet}{eme}}; % Teko
-  \draw (5.25cm,5.625cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (0.75cm,7.625cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (2.25cm,7.375cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (5.75cm,5.125cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (4.75cm,6.125cm) node{\textcolor{blue}{ca}}; % Catalan
-  \draw (1.25cm,7.625cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (6.25cm,4.625cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (0.25cm,6.625cm) node{gwi}; % Gwichin
+  \draw (5.25cm,4.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (5.75cm,3.375cm) node{swl}; % Swedish Sign Language
+  \draw (0.75cm,6.625cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (3.25cm,5.875cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (2.75cm,6.125cm) node{gya}; % Northwest Gbaya
+  \draw (3.75cm,5.625cm) node{pay}; % Pesh
+  \draw (2.25cm,6.375cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
+  \draw (1.25cm,6.625cm) node{tn}; % Tswana
+  \draw (4.75cm,4.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (5.25cm,4.375cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (4.25cm,5.375cm) node{th}; % Thai
+  \draw (6.75cm,0.125cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (6.75cm,0.375cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (1.75cm,6.625cm) node{ja}; % Japanese
+  \draw (6.75cm,0.625cm) node{ab}; % Abkhaz
+  \draw (6.75cm,0.875cm) node{\textcolor{olive}{te}}; % Telugu
+  \draw (3.25cm,6.125cm) node{\textcolor{blue}{gv}}; % Manx
+  \draw (6.75cm,1.125cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (0.25cm,6.875cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (2.75cm,6.375cm) node{ssp}; % Spanish Sign Language
+  \draw (0.75cm,6.875cm) node{bm}; % Bambara
+  \draw (3.75cm,5.875cm) node{vi}; % Vietnamese
+  \draw (6.75cm,1.375cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (2.25cm,6.625cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (4.75cm,5.125cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (1.25cm,6.875cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (5.25cm,4.625cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (1.75cm,6.875cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (4.25cm,5.625cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (3.25cm,6.375cm) node{ko}; % Korean
+  \draw (5.75cm,4.125cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (2.75cm,6.625cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (0.25cm,7.125cm) node{sjo}; % Xibe
+  \draw (0.75cm,7.125cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (4.75cm,5.375cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (6.75cm,2.125cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (7.25cm,0.375cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (7.25cm,0.625cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (1.25cm,7.125cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (7.25cm,0.875cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (6.75cm,2.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (5.25cm,4.875cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (0.25cm,7.375cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (0.75cm,7.375cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (1.75cm,7.125cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (7.25cm,1.375cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (7.25cm,1.625cm) node{\textcolor{violet}{tpn}}; % Tupinamba
+  \draw (1.25cm,7.375cm) node{xav}; % Xavante
+  \draw (3.75cm,6.125cm) node{ess}; % Yupik
+  \draw (0.25cm,7.625cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (0.75cm,7.625cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (2.25cm,6.875cm) node{wo}; % Wolof
+  \draw (0.25cm,7.875cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (1.25cm,7.625cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (0.75cm,7.875cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (0.25cm,8.125cm) node{\textcolor{blue}{en}}; % English
+  \draw (0.75cm,8.125cm) node{yo}; % Yoruba
+  \draw (0.25cm,8.375cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (0.75cm,8.375cm) node{\textcolor{blue}{da}}; % Danish
   \draw (7.75cm,0.375cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (3.75cm,6.875cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (7.75cm,0.625cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (7.75cm,0.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
-  \draw (5.75cm,5.375cm) node{bor}; % Bororo
-  \draw (3.25cm,7.125cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (5.25cm,5.875cm) node{\textcolor{blue}{af}}; % Afrikaans
-  \draw (4.25cm,6.625cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (1.75cm,7.625cm) node{\textcolor{violet}{urb}}; % Kaapor
-  \draw (7.75cm,1.125cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (2.75cm,7.375cm) node{\textcolor{blue}{fro}}; % Old French
-  \draw (6.75cm,4.125cm) node{\textcolor{blue}{mr}}; % Marathi
-  \draw (6.25cm,4.875cm) node{\textcolor{violet}{myu}}; % Munduruku
-  \draw (7.75cm,1.625cm) node{qte}; % Telugu English
-  \draw (4.75cm,6.375cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (5.75cm,5.625cm) node{qtd}; % Turkish German
-  \draw (2.25cm,7.625cm) node{\textcolor{blue}{mk}}; % Macedonian
-  \draw (6.75cm,4.375cm) node{\textcolor{blue}{pt}}; % Portuguese
-  \draw (5.25cm,6.125cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (0.25cm,7.875cm) node{qaf}; % Maghrebi Arabic French
-  \draw (6.25cm,5.125cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (3.75cm,7.125cm) node{\textcolor{blue}{de}}; % German
-  \draw (4.25cm,6.875cm) node{\textcolor{magenta}{zh}}; % Chinese
-  \draw (0.75cm,7.875cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (3.25cm,7.375cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (1.25cm,7.875cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (6.75cm,4.625cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (7.25cm,3.875cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (4.75cm,6.625cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (5.75cm,5.875cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (1.75cm,7.875cm) node{\textcolor{violet}{yrl}}; % Nheengatu
-  \draw (2.75cm,7.625cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (6.25cm,5.375cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (5.25cm,6.375cm) node{yo}; % Yoruba
-  \draw (2.25cm,7.875cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (8.25cm,0.125cm) node{qfn}; % Frisian Dutch
-  \draw (3.75cm,7.375cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (7.25cm,4.125cm) node{\textcolor{blue}{lv}}; % Latvian
-  \draw (6.25cm,5.625cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (8.25cm,1.125cm) node{\textcolor{orange}{aii}}; % Assyrian
-  \draw (4.25cm,7.125cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (7.75cm,3.375cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (5.75cm,6.125cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
-  \draw (4.75cm,6.875cm) node{\textcolor{orange}{he}}; % Hebrew
-  \draw (8.25cm,1.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (7.75cm,3.625cm) node{\textcolor{orange}{am}}; % Amharic
-  \draw (7.25cm,4.375cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (6.75cm,5.125cm) node{\textcolor{blue}{fa}}; % Persian
-  \draw (5.25cm,6.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
-  \draw (8.75cm,1.125cm) node{sjo}; % Xibe
-  \draw (8.25cm,3.125cm) node{\textcolor{blue}{hi}}; % Hindi
-  \draw (6.25cm,5.875cm) node{\textcolor{orange}{ar}}; % Arabic
-  \draw (7.75cm,3.875cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (3.25cm,7.625cm) node{pay}; % Pesh
-  \draw (5.75cm,6.375cm) node{\textcolor{blue}{ur}}; % Urdu
-  \draw (9.75cm,1.875cm) node{\textcolor{cyan}{ceb}}; % Cebuano
-  \draw (9.75cm,2.125cm) node{\textcolor{cyan}{tl}}; % Tagalog
-  \draw (9.75cm,9.625cm) node{ja}; % Japanese
+  \draw (8.25cm,0.125cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (0.25cm,8.875cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (8.75cm,1.125cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (0.25cm,9.375cm) node{pcm}; % Naija
+  \draw (4.25cm,8.125cm) node{apu}; % Apurina
+  \draw (0.25cm,9.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (0.25cm,9.875cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (1.75cm,9.625cm) node{\textcolor{blue}{de}}; % German
+  \draw (6.75cm,7.875cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (7.25cm,7.875cm) node{eu}; % Basque
+  \draw (9.75cm,5.125cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (7.25cm,8.625cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (8.75cm,7.125cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (9.75cm,6.125cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (9.75cm,6.375cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (9.25cm,7.375cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (9.75cm,6.625cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (8.75cm,7.375cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (8.75cm,7.875cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (9.25cm,7.875cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (7.75cm,9.625cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (9.75cm,7.625cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (9.75cm,7.875cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (8.75cm,9.375cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (8.25cm,9.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (9.75cm,8.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (9.75cm,8.875cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (9.75cm,9.125cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (9.75cm,8.375cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (9.25cm,8.875cm) node{bxr}; % Buryat
+  \draw (8.75cm,9.875cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (9.75cm,9.375cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (9.75cm,9.625cm) node{\textcolor{blue}{ur}}; % Urdu
+  \draw (9.25cm,9.375cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (9.25cm,9.625cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (8.75cm,9.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (9.25cm,8.625cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (8.75cm,9.125cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (8.75cm,8.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (9.25cm,8.375cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (8.75cm,8.625cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (8.25cm,9.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (8.25cm,9.375cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (9.75cm,8.125cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (8.25cm,9.125cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (8.25cm,8.875cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (8.75cm,8.375cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (9.25cm,8.125cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (8.25cm,8.625cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (8.75cm,8.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (7.75cm,9.875cm) node{qtd}; % Turkish German
+  \draw (8.25cm,8.375cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (7.75cm,9.375cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (7.75cm,9.125cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (7.75cm,8.875cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (8.25cm,8.125cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (7.75cm,8.625cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (8.75cm,7.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (8.25cm,7.875cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (7.75cm,8.375cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (7.25cm,9.875cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (7.25cm,9.625cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (7.25cm,9.375cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (7.25cm,9.125cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (7.75cm,8.125cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (8.25cm,7.625cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (7.25cm,8.875cm) node{\textcolor{blue}{ru}}; % Russian
+  \draw (9.75cm,7.125cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (7.75cm,7.875cm) node{ka}; % Georgian
+  \draw (8.25cm,7.375cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (7.25cm,8.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (9.75cm,6.875cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (7.75cm,7.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (6.75cm,9.875cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (6.75cm,9.625cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (7.25cm,8.125cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (6.75cm,9.375cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (8.25cm,7.125cm) node{wbp}; % Warlpiri
+  \draw (6.75cm,9.125cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (7.75cm,7.375cm) node{\textcolor{teal}{koi}}; % Komi Permyak
 \end{tikzpicture}
