@@ -80,7 +80,6 @@ while(<>)
             if($adp)
             {
                 $h{ADPOSITION}{$upos.'1'}++;
-                $h{CASE}{$type}{$case}++;
             }
             else
             {
@@ -95,9 +94,9 @@ while(<>)
                 elsif($mcase ne 'NOCASE')
                 {
                     $h{MORPHCASE}{$upos.'1'}++;
-                    $h{CASE}{$type}{$mcase}++;
                 }
             }
+            $h{CASE}{$type}{$case}++;
         }
     }
     else
@@ -165,8 +164,21 @@ if(exists($h{CASE}))
         if(exists($h{CASE}{$type}))
         {
             my @cases = sort {$h{CASE}{$type}{$b} <=> $h{CASE}{$type}{$a}} (keys(%{$h{CASE}{$type}}));
-            my $cases = join(', ', map {"$_:$h{CASE}{$type}{$_}"} (@cases));
-            print("CASES $type ==> $cases\n");
+            my $n = 0; map {$n += $h{CASE}{$type}{$_}} (@cases);
+            if($n>0)
+            {
+                my @cases_to_print;
+                my $psum = 0;
+                foreach my $c (@cases)
+                {
+                    my $p = $h{CASE}{$type}{$c}/$n;
+                    push(@cases_to_print, "$c:$p");
+                    $psum += $p;
+                    last if($psum >= 0.85);
+                }
+                my $cases = join(', ', @cases_to_print);
+                print("CASES $type ==> $cases\n");
+            }
         }
     }
 }
