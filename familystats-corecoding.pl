@@ -119,10 +119,13 @@ foreach my $family (@families)
     }
 }
 # Print tikz code of the SVS/OVO language plot.
+print("\n\n\nSV-VS vs. OV-VO plot\n");
 print_2d_plot('SV', 'VS', \%svs, 'OV', 'VO', \%ovo, $lhash);
 # Print tikz code of the NOUN/PRON ADP language plot.
+print("\n\n\nPRON ADP vs. NOUN ADP plot\n");
 print_2d_plot('P0', 'PA', \%padp, 'N0', 'NA', \%nadp, $lhash);
 # Print tikz code of the NOUN/PRON morphological Case language plot.
+print("\n\n\nPRON Case vs. NOUN Case plot\n");
 print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
 ###!!! We should skip treebanks with the following in README
 ###!!! Features: not available
@@ -147,7 +150,7 @@ sub print_2d_plot
     my $lhash = shift;
     my %svs = %{$svshash};
     my %ovo = %{$ovohash};
-    print('\begin{tikzpicture}[scale=3]', "\n");
+    print('\begin{tikzpicture}', "\n");
     print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
     print("  \\draw[gray] (-0.5cm,0cm) node{$y0label};\n");
     print("  \\draw[gray] (-0.5cm,10cm) node{$y1label};\n");
@@ -164,12 +167,13 @@ sub print_2d_plot
     # Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
     # K dispozici je 800 pozic na 148 jazyků.
     my @languages = sort {distance($ovo{$a}, $svs{$a}) <=> distance($ovo{$b}, $svs{$b})} (keys(%svs));
+    my @matrix;
     foreach my $language (@languages)
     {
         my $lcode = $lhash->{$language}{lcode};
         my $y = $svs{$language} // 0;
         my $x = $ovo{$language} // 0;
-        my ($xcell, $ycell) = find_cell($x, $y);
+        my ($xcell, $ycell) = find_cell($x, $y, \@matrix);
         ($x, $y) = cell2cm($xcell, $ycell);
         if($lhash->{$language}{family} =~ m/^IE/)
         {
@@ -214,18 +218,18 @@ sub print_2d_plot
 # Finds the cell that is available and its distance from the ideal cell is
 # minimal.
 #------------------------------------------------------------------------------
-my @matrix;
 sub find_cell
 {
     my $x = shift;
     my $y = shift;
+    my $matrix = shift; # array ref
     ###!!! There is probably a better algorithm that searches the cells in increasing distance from ideal and stops when an empty cell is found.
     my ($minxc, $minyc, $mindistance);
     for(my $i = 0; $i < 20; $i++)
     {
         for(my $j = 0; $j < 40; $j++)
         {
-            if(!defined($matrix[$i][$j]))
+            if(!defined($matrix->[$i][$j]))
             {
                 my $distance = distance(cell2coord($i, $j), $x, $y);
                 if(!defined($mindistance) || $distance < $mindistance)
@@ -237,7 +241,7 @@ sub find_cell
             }
         }
     }
-    $matrix[$minxc][$minyc] = 1;
+    $matrix->[$minxc][$minyc] = 1;
     return ($minxc, $minyc);
 }
 
