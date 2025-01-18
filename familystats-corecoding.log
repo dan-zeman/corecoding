@@ -1,6 +1,7 @@
 IE: 161: 76: Afrikaans (1), Albanian (2), Ancient Greek (3), Armenian (2), Bavarian (1), Belarusian (1), Bengali (1), Bhojpuri (1), Breton (1), Bulgarian (1), Cappadocian (2), Catalan (1), Classical Armenian (1), Croatian (1), Czech (6), Danish (1), Dutch (2), English (10), Faroese (2), French (7), Galician (3), German (4), Gheg (1), Gothic (1), Greek (2), Gujarati (1), Hindi (2), Hittite (1), Icelandic (4), Irish (3), Italian (10), Kangri (1), Khunsari (1), Kurmanji (1), Latgalian (1), Latin (6), Latvian (2), Ligurian (1), Lithuanian (2), Low Saxon (1), Luxembourgish (1), Macedonian (1), Manx (1), Marathi (1), Middle French (1), Nayini (1), Neapolitan (1), Norwegian (2), Old Church Slavonic (1), Old East Slavic (4), Old French (1), Old Irish (2), Pashto (1), Persian (2), Phrygian (1), Polish (3), Pomak (1), Portuguese (7), Romanian (5), Russian (5), Sanskrit (2), Scottish Gaelic (1), Serbian (1), Sinhala (1), Slovak (1), Slovenian (2), Soi (1), Spanish (4), Swedish (3), Swiss German (1), Ukrainian (2), Umbrian (1), Upper Sorbian (1), Urdu (1), Welsh (1), Western Armenian (1)
 --------------------------------------------------------------------------------
 Afrikaans
+(UD_Afrikaans-AfriBooms)
 SUBJECT:
 nonfin emptysubj                        	657	0.204736678092864
 nonfin nsubj NOUN+NoCase SV             	605	0.18853225303833
@@ -49,6 +50,7 @@ PRON without Case (and ADP) --> 0.584042 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Albanian
+(UD_Albanian-STAF, UD_Albanian-TSA)
 SUBJECT:
 nonfin emptysubj                        	235	0.459882583170254
 nonfin nsubj NOUN+Nom SV                	95	0.185909980430528
@@ -113,6 +115,7 @@ PRON without Case (and ADP) --> 0.772093 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ancient Greek
+(UD_Ancient_Greek-PROIEL, UD_Ancient_Greek-PTNK, UD_Ancient_Greek-Perseus)
 SUBJECT:
 finite emptysubj                        	34865	0.464637445526873
 nonfin emptysubj                        	12250	0.163252795287658
@@ -214,6 +217,7 @@ PRON without Case (and ADP) --> 0.999635 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Armenian
+(UD_Armenian-ArmTDP, UD_Armenian-BSUT)
 SUBJECT:
 finite emptysubj                        	3157	0.301441802730832
 nonfin emptysubj                        	2626	0.250739998090327
@@ -280,6 +284,7 @@ PRON without Case (and ADP) --> 0.939974 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bavarian
+(UD_Bavarian-MaiBaam)
 SUBJECT:
 nonfin nsubj PRON+NOCASE SV             	514	0.329698524695318
 nonfin emptysubj                        	467	0.299550994227069
@@ -312,6 +317,7 @@ PRON without ADP --> 0.000000 --> with ADP
 
 --------------------------------------------------------------------------------
 Belarusian
+(UD_Belarusian-HSE)
 SUBJECT:
 nonfin emptysubj                        	11737	0.327127288943393
 finite emptysubj                        	6483	0.180690654700521
@@ -386,6 +392,7 @@ PRON without Case (and ADP) --> 0.998931 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bengali
+(UD_Bengali-BRU)
 SUBJECT:
 finite emptysubj                        	22	0.328358208955224
 finite nsubj PRON+Nom SV                	18	0.26865671641791
@@ -428,6 +435,7 @@ PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bhojpuri
+(UD_Bhojpuri-BHTB)
 SUBJECT:
 nonfin emptysubj                        	304	0.447717231222386
 finite emptysubj                        	135	0.198821796759941
@@ -508,6 +516,7 @@ PRON without Case (and ADP) --> 0.957447 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Breton
+(UD_Breton-KEB)
 SUBJECT:
 finite emptysubj                        	379	0.297021943573668
 nonfin emptysubj                        	354	0.27742946708464
@@ -546,6 +555,7 @@ PRON without Case (and ADP) --> 0.614583 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Bulgarian
+(UD_Bulgarian-BTB)
 SUBJECT:
 finite emptysubj                        	6074	0.342660498702471
 finite nsubj NOUN+NoCase SV             	4751	0.268024370980481
@@ -675,6 +685,7 @@ PRON without Case (and ADP) --> 0.963100 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Cappadocian
+(UD_Cappadocian-AMGiC, UD_Cappadocian-TueCL)
 SUBJECT:
 finite emptysubj                        	257	0.497098646034816
 finite nsubj NOUN+Nom VS                	63	0.121856866537718
@@ -731,6 +742,7 @@ PRON without Case (and ADP) --> 0.986395 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Catalan
+(UD_Catalan-AnCora)
 SUBJECT:
 finite nsubj NOUN+NoCase SV             	14899	0.348710387117914
 nonfin emptysubj                        	8372	0.195946262229088
@@ -774,6 +786,7 @@ PRON without Case (and ADP) --> 0.492240 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Classical Armenian
+(UD_Classical_Armenian-CAVaL)
 SUBJECT:
 finite emptysubj                        	5457	0.447221766923455
 finite nsubj PRON+Nom SV                	1903	0.155958039665629
@@ -844,6 +857,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Croatian
+(UD_Croatian-SET)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	6758	0.341848348424301
 finite emptysubj                        	4256	0.215286559765289
@@ -934,6 +948,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Czech
+(UD_Czech-CAC, UD_Czech-CLTT, UD_Czech-FicTree, UD_Czech-PDT, UD_Czech-PUD, UD_Czech-Poetry)
 SUBJECT:
 nonfin emptysubj                        	56555	0.24690253123663
 finite nsubj NOUN+Nom SV                	50634	0.221053183036611
@@ -1009,6 +1024,7 @@ PRON without Case (and ADP) --> 0.995459 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Danish
+(UD_Danish-DDT)
 SUBJECT:
 finite nsubj NOUN+NoCase SV             	2673	0.260780487804878
 nonfin emptysubj                        	2030	0.198048780487805
@@ -1058,6 +1074,7 @@ PRON without Case (and ADP) --> 0.789168 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Dutch
+(UD_Dutch-Alpino, UD_Dutch-LassySmall)
 SUBJECT:
 nonfin emptysubj                        	15576	0.292496056486141
 finite nsubj NOUN+NoCase SV             	12524	0.235183655073988
@@ -1122,6 +1139,7 @@ PRON without Case (and ADP) --> 0.470808 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 English
+(UD_English-Atis, UD_English-CTeTex, UD_English-ESLSpok, UD_English-EWT, UD_English-GENTLE, UD_English-GUM, UD_English-LinES, UD_English-PUD, UD_English-ParTUT, UD_English-Pronouns)
 SUBJECT:
 nonfin emptysubj                        	26192	0.295630777565832
 finite nsubj PRON+Nom SV                	18648	0.210481167533889
@@ -1171,6 +1189,7 @@ PRON without Case (and ADP) --> 0.729143 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Faroese
+(UD_Faroese-FarPaHC, UD_Faroese-OFT)
 SUBJECT:
 nonfin emptysubj                        	1801	0.290437026286083
 nonfin nsubj NOUN+Nom SV                	1322	0.213191420738591
@@ -1226,6 +1245,7 @@ PRON without Case (and ADP) --> 0.990375 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 French
+(UD_French-FQB, UD_French-GSD, UD_French-PUD, UD_French-ParTUT, UD_French-ParisStories, UD_French-Rhapsodie, UD_French-Sequoia)
 SUBJECT:
 nonfin emptysubj                        	13565	0.229872396671807
 finite nsubj PRON+NoCase SV             	12843	0.21763738963922
@@ -1280,6 +1300,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Galician
+(UD_Galician-CTG, UD_Galician-PUD, UD_Galician-TreeGal)
 SUBJECT:
 nonfin emptysubj                        	8037	0.488363614267485
 nonfin nsubj NOUN+NOCASE SV             	2667	0.162058698426202
@@ -1365,6 +1386,7 @@ PRON without Case (and ADP) --> 0.216936 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 German
+(UD_German-GSD, UD_German-HDT, UD_German-LIT, UD_German-PUD)
 SUBJECT:
 finite nsubj NOUN+NoCase SV             	95251	0.306624303060738
 nonfin emptysubj                        	49348	0.158857083993253
@@ -1414,6 +1436,7 @@ PRON without Case (and ADP) --> 0.980620 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gheg
+(UD_Gheg-GPS)
 SUBJECT:
 finite emptysubj                        	793	0.462660443407235
 finite nsubj PRON+Nom SV                	220	0.128354725787631
@@ -1475,6 +1498,7 @@ PRON without Case (and ADP) --> 0.765161 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gothic
+(UD_Gothic-PROIEL)
 SUBJECT:
 finite emptysubj                        	5511	0.447357740076305
 nonfin emptysubj                        	2893	0.234840490299537
@@ -1522,6 +1546,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Greek
+(UD_Greek-GDT, UD_Greek-GUD)
 SUBJECT:
 finite emptysubj                        	4216	0.426547956292999
 finite nsubj NOUN+Nom SV                	1626	0.164508296236342
@@ -1571,6 +1596,7 @@ PRON without Case (and ADP) --> 0.984461 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gujarati
+(UD_Gujarati-GujTB)
 SUBJECT:
 nonfin emptysubj                        	93	0.366141732283465
 nonfin nsubj NOUN+NoCase SV             	70	0.275590551181102
@@ -1609,6 +1635,7 @@ PRON without Case (and ADP) --> 0.024691 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hindi
+(UD_Hindi-HDTB, UD_Hindi-PUD)
 SUBJECT:
 finite emptysubj                        	6741	0.225753516409913
 nonfin emptysubj                        	5752	0.192632283991962
@@ -1693,6 +1720,7 @@ PRON without Case (and ADP) --> 0.964497 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hittite
+(UD_Hittite-HitTB)
 SUBJECT:
 finite emptysubj                        	87	0.46031746031746
 finite nsubj NOUN+Nom SV                	43	0.227513227513228
@@ -1742,6 +1770,7 @@ PRON without Case (and ADP) --> 0.973333 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Icelandic
+(UD_Icelandic-GC, UD_Icelandic-IcePaHC, UD_Icelandic-Modern, UD_Icelandic-PUD)
 SUBJECT:
 nonfin emptysubj                        	35455	0.248918812659721
 finite nsubj PRON+Nom SV                	29709	0.208577887612682
@@ -1847,6 +1876,7 @@ PRON without Case (and ADP) --> 0.989158 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Irish
+(UD_Irish-Cadhan, UD_Irish-IDT, UD_Irish-TwittIrish)
 SUBJECT:
 nonfin emptysubj                        	12287	0.578729216711413
 nonfin nsubj NOUN+Nom VS                	3383	0.159342470915171
@@ -1892,6 +1922,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Italian
+(UD_Italian-ISDT, UD_Italian-MarkIT, UD_Italian-Old, UD_Italian-PUD, UD_Italian-ParTUT, UD_Italian-ParlaMint, UD_Italian-PoSTWITA, UD_Italian-TWITTIRO, UD_Italian-VIT, UD_Italian-Valico)
 SUBJECT:
 nonfin emptysubj                        	26324	0.276742254602033
 finite emptysubj                        	23897	0.251227384068712
@@ -1945,6 +1976,7 @@ PRON without Case (and ADP) --> 0.002824 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kangri
+(UD_Kangri-KDTB)
 SUBJECT:
 finite emptysubj                        	99	0.259162303664921
 nonfin emptysubj                        	81	0.212041884816754
@@ -2012,6 +2044,7 @@ PRON without Case (and ADP) --> 0.735294 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Khunsari
+(UD_Khunsari-AHA)
 SUBJECT:
 nonfin emptysubj                        	9	0.529411764705882
 nonfin nsubj NOUN+NoCase SV             	4	0.235294117647059
@@ -2047,6 +2080,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kurmanji
+(UD_Kurmanji-MG)
 SUBJECT:
 finite emptysubj                        	307	0.290995260663507
 finite nsubj NOUN+Nom SV                	186	0.176303317535545
@@ -2091,6 +2125,7 @@ PRON without Case (and ADP) --> 0.892377 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latgalian
+(UD_Latgalian-Cairo)
 SUBJECT:
 finite nsubj PRON+Nom SV                	11	0.305555555555556
 nonfin emptysubj                        	11	0.305555555555556
@@ -2127,6 +2162,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latin
+(UD_Latin-CIRCSE, UD_Latin-ITTB, UD_Latin-LLCT, UD_Latin-PROIEL, UD_Latin-Perseus, UD_Latin-UDante)
 SUBJECT:
 finite emptysubj                        	56572	0.336720056663631
 nonfin emptysubj                        	30507	0.181579558237952
@@ -2189,6 +2225,7 @@ PRON without Case (and ADP) --> 0.987714 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Latvian
+(UD_Latvian-Cairo, UD_Latvian-LVTB)
 SUBJECT:
 nonfin emptysubj                        	12035	0.283523369770072
 finite nsubj NOUN+Nom SV                	8303	0.195604033169996
@@ -2368,6 +2405,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ligurian
+(UD_Ligurian-GLT)
 SUBJECT:
 finite nsubj PRON+NoCase SV             	206	0.292613636363636
 finite emptysubj                        	193	0.274147727272727
@@ -2416,6 +2454,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Lithuanian
+(UD_Lithuanian-ALKSNIS, UD_Lithuanian-HSE)
 SUBJECT:
 finite emptysubj                        	3403	0.342285254475961
 nonfin emptysubj                        	3030	0.304767652383826
@@ -2488,6 +2527,7 @@ PRON without Case (and ADP) --> 0.867850 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Low Saxon
+(UD_Low_Saxon-LSDC)
 SUBJECT:
 nonfin nsubj PRON+Nom SV                	734	0.337626494940202
 nonfin emptysubj                        	525	0.241490340386385
@@ -2571,6 +2611,7 @@ PRON without Case (and ADP) --> 0.992691 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Luxembourgish
+(UD_Luxembourgish-LuxBank)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	11	0.407407407407407
 nonfin nsubj NOUN+NoCase SV             	8	0.296296296296296
@@ -2606,6 +2647,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Macedonian
+(UD_Macedonian-MTB)
 SUBJECT:
 finite emptysubj                        	158	0.672340425531915
 finite nsubj NOUN+NoCase SV             	28	0.119148936170213
@@ -2648,6 +2690,7 @@ PRON without Case (and ADP) --> 0.890411 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Manx
+(UD_Manx-Cadhan)
 SUBJECT:
 nonfin emptysubj                        	2005	0.462941583929808
 nonfin nsubj PRON+NoCase VS             	1619	0.373816670514893
@@ -2681,6 +2724,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Marathi
+(UD_Marathi-UFAL)
 SUBJECT:
 finite emptysubj                        	143	0.215037593984962
 finite nsubj NOUN+Nom SV                	136	0.204511278195489
@@ -2744,6 +2788,7 @@ PRON without Case (and ADP) --> 0.950495 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Middle French
+(UD_Middle_French-PROFITEROLE)
 SUBJECT:
 finite emptysubj                        	481	0.327433628318584
 finite nsubj PRON+NoCase SV             	403	0.274336283185841
@@ -2786,6 +2831,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Nayini
+(UD_Nayini-AHA)
 SUBJECT:
 nonfin emptysubj                        	8	0.470588235294118
 nonfin nsubj NOUN+NoCase SV             	4	0.235294117647059
@@ -2822,6 +2868,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Neapolitan
+(UD_Neapolitan-RB)
 SUBJECT:
 nonfin nsubj NOUN+NoCase SV             	1	1
 OBJECT:
@@ -2848,6 +2895,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Norwegian
+(UD_Norwegian-Bokmaal, UD_Norwegian-Nynorsk)
 SUBJECT:
 finite nsubj NOUN+NoCase SV             	20120	0.265793019630638
 nonfin emptysubj                        	17036	0.225052181035166
@@ -2894,6 +2942,7 @@ PRON without Case (and ADP) --> 0.717833 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Church Slavonic
+(UD_Old_Church_Slavonic-PROIEL)
 SUBJECT:
 finite emptysubj                        	20802	0.5028038286764
 nonfin emptysubj                        	6879	0.166271874697863
@@ -2948,6 +2997,7 @@ PRON without Case (and ADP) --> 0.996360 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old East Slavic
+(UD_Old_East_Slavic-Birchbark, UD_Old_East_Slavic-RNC, UD_Old_East_Slavic-Ruthenian, UD_Old_East_Slavic-TOROT)
 SUBJECT:
 finite emptysubj                        	21791	0.331972395301717
 nonfin emptysubj                        	19157	0.291845035876967
@@ -3048,6 +3098,7 @@ PRON without Case (and ADP) --> 0.998127 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old French
+(UD_Old_French-PROFITEROLE)
 SUBJECT:
 finite emptysubj                        	13165	0.367040258726441
 finite nsubj PRON+NoCase SV             	10481	0.292210326753652
@@ -3101,6 +3152,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Irish
+(UD_Old_Irish-DipSGG, UD_Old_Irish-DipWBG)
 SUBJECT:
 nonfin emptysubj                        	98	0.657718120805369
 nonfin nsubj OTHER+NoCase SV            	24	0.161073825503356
@@ -3135,6 +3187,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Pashto
+(UD_Pashto-Sikaram)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	26	0.276595744680851
 nonfin emptysubj                        	22	0.234042553191489
@@ -3175,6 +3228,7 @@ PRON without Case (and ADP) --> 0.647059 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Persian
+(UD_Persian-PerDT, UD_Persian-Seraji)
 SUBJECT:
 nonfin emptysubj                        	34292	0.479715740585306
 nonfin nsubj NOUN+NoCase SV             	21489	0.300612724525768
@@ -3219,6 +3273,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Phrygian
+(UD_Phrygian-KUL)
 SUBJECT:
 finite nsubj PRON+Nom SV                	96	0.434389140271493
 finite csubj OTHER+NoCase SV            	70	0.316742081447964
@@ -3254,6 +3309,7 @@ PRON without Case (and ADP) --> 0.982301 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Polish
+(UD_Polish-LFG, UD_Polish-PDB, UD_Polish-PUD)
 SUBJECT:
 finite emptysubj                        	26703	0.399649784482759
 finite nsubj NOUN+Nom SV                	15298	0.228957136015326
@@ -3342,6 +3398,7 @@ PRON without Case (and ADP) --> 0.994149 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Pomak
+(UD_Pomak-Philotis)
 SUBJECT:
 finite emptysubj                        	2612	0.592021758839529
 finite nsubj NOUN+Nom SV                	531	0.120353581142339
@@ -3441,6 +3498,7 @@ PRON without Case (and ADP) --> 0.879747 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Portuguese
+(UD_Portuguese-Bosque, UD_Portuguese-CINTIL, UD_Portuguese-DANTEStocks, UD_Portuguese-GSD, UD_Portuguese-PUD, UD_Portuguese-PetroGold, UD_Portuguese-Porttinari)
 SUBJECT:
 nonfin emptysubj                        	38237	0.266857892606396
 finite nsubj NOUN+NoCase SV             	38020	0.265343438996134
@@ -3518,6 +3576,7 @@ PRON without Case (and ADP) --> 0.169476 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Romanian
+(UD_Romanian-ArT, UD_Romanian-Nonstandard, UD_Romanian-RRT, UD_Romanian-SiMoNERo, UD_Romanian-TueCL)
 SUBJECT:
 finite emptysubj                        	32408	0.334465142680221
 nonfin emptysubj                        	18170	0.187522575984313
@@ -3618,6 +3677,7 @@ PRON without Case (and ADP) --> 0.998362 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Russian
+(UD_Russian-GSD, UD_Russian-PUD, UD_Russian-Poetry, UD_Russian-SynTagRus, UD_Russian-Taiga)
 SUBJECT:
 nonfin emptysubj                        	58057	0.28104426458059
 finite nsubj NOUN+Nom SV                	35674	0.172691890635892
@@ -3693,6 +3753,7 @@ PRON without Case (and ADP) --> 0.999871 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Sanskrit
+(UD_Sanskrit-UFAL, UD_Sanskrit-Vedic)
 SUBJECT:
 nonfin emptysubj                        	28793	0.565700027505992
 nonfin nsubj PRON+Nom SV                	5820	0.1143463397383
@@ -3792,6 +3853,7 @@ PRON without Case (and ADP) --> 0.999221 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Scottish Gaelic
+(UD_Scottish_Gaelic-ARCOSG)
 SUBJECT:
 nonfin emptysubj                        	8632	0.537752305008722
 finite nsubj PRON+NoCase VS             	2647	0.164901569897832
@@ -3831,6 +3893,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Serbian
+(UD_Serbian-SET)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	3898	0.398650030681121
 finite emptysubj                        	2354	0.240744528533442
@@ -3876,6 +3939,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Sinhala
+(UD_Sinhala-STB)
 SUBJECT:
 nonfin nsubj NOUN+Nom SV                	26	0.18978102189781
 finite nsubj NOUN+Nom SV                	20	0.145985401459854
@@ -3922,6 +3986,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Slovak
+(UD_Slovak-SNK)
 SUBJECT:
 finite emptysubj                        	5725	0.379415468221883
 finite nsubj NOUN+Nom SV                	3193	0.211611107429253
@@ -3980,6 +4045,7 @@ PRON without Case (and ADP) --> 0.980827 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Slovenian
+(UD_Slovenian-SSJ, UD_Slovenian-SST)
 SUBJECT:
 finite emptysubj                        	14237	0.408112369213129
 finite nsubj NOUN+Nom SV                	7391	0.211867564855955
@@ -4066,6 +4132,7 @@ PRON without Case (and ADP) --> 0.989388 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Soi
+(UD_Soi-AHA)
 SUBJECT:
 nonfin emptysubj                        	4	0.363636363636364
 nonfin nsubj PRON+NoCase SV             	3	0.272727272727273
@@ -4104,6 +4171,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Spanish
+(UD_Spanish-AnCora, UD_Spanish-COSER, UD_Spanish-GSD, UD_Spanish-PUD)
 SUBJECT:
 finite nsubj NOUN+NoCase SV             	26139	0.292959293463642
 finite emptysubj                        	24704	0.276876176813413
@@ -4145,6 +4213,7 @@ PRON without Case (and ADP) --> 0.258539 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swedish
+(UD_Swedish-LinES, UD_Swedish-PUD, UD_Swedish-Talbanken)
 SUBJECT:
 nonfin emptysubj                        	5797	0.233401779603012
 finite nsubj NOUN+Nom SV                	5239	0.210935298143898
@@ -4194,6 +4263,7 @@ PRON without Case (and ADP) --> 0.617146 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swiss German
+(UD_Swiss_German-UZH)
 SUBJECT:
 nonfin emptysubj                        	53	0.34640522875817
 nonfin nsubj PRON+NOCASE SV             	51	0.333333333333333
@@ -4228,6 +4298,7 @@ PRON without ADP --> 0.000000 --> with ADP
 
 --------------------------------------------------------------------------------
 Ukrainian
+(UD_Ukrainian-IU, UD_Ukrainian-ParlaMint)
 SUBJECT:
 nonfin emptysubj                        	5781	0.301769588140105
 finite emptysubj                        	3612	0.18854726731743
@@ -4302,6 +4373,7 @@ PRON without Case (and ADP) --> 0.999811 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Umbrian
+(UD_Umbrian-IKUVINA)
 SUBJECT:
 nonfin emptysubj                        	91	0.450495049504951
 finite emptysubj                        	81	0.400990099009901
@@ -4345,6 +4417,7 @@ PRON without Case (and ADP) --> 0.785714 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Upper Sorbian
+(UD_Upper_Sorbian-UFAL)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	388	0.403326403326403
 nonfin emptysubj                        	160	0.166320166320166
@@ -4405,6 +4478,7 @@ PRON without Case (and ADP) --> 0.992908 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Urdu
+(UD_Urdu-UDTB)
 SUBJECT:
 finite emptysubj                        	2570	0.258733514547468
 nonfin emptysubj                        	2031	0.204469948655995
@@ -4506,6 +4580,7 @@ PRON without Case (and ADP) --> 0.932169 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Welsh
+(UD_Welsh-CCG)
 SUBJECT:
 nonfin emptysubj                        	4447	0.548267784490199
 finite emptysubj                        	1088	0.134138823819504
@@ -4542,6 +4617,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Western Armenian
+(UD_Western_Armenian-ArmTDP)
 SUBJECT:
 finite emptysubj                        	4193	0.295593937257667
 nonfin emptysubj                        	3631	0.255974621078604
@@ -4615,6 +4691,7 @@ PRON without Case (and ADP) --> 0.960966 --> with Case (but without ADP)
 Turkic: 20: 10: Azerbaijani (1), Kazakh (1), Kyrgyz (2), Old Turkish (1), Ottoman Turkish (2), Tatar (1), Turkish (9), Uyghur (1), Uzbek (1), Yakut (1)
 --------------------------------------------------------------------------------
 Azerbaijani
+(UD_Azerbaijani-TueCL)
 SUBJECT:
 nonfin nsubj NOUN+NOCASE SV             	82	0.554054054054054
 nonfin emptysubj                        	54	0.364864864864865
@@ -4639,6 +4716,7 @@ PRON without ADP --> 0.000000 --> with ADP
 
 --------------------------------------------------------------------------------
 Kazakh
+(UD_Kazakh-KTB)
 SUBJECT:
 nonfin emptysubj                        	532	0.275647668393782
 finite nsubj NOUN+Nom SV                	460	0.238341968911917
@@ -4685,6 +4763,7 @@ PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kyrgyz
+(UD_Kyrgyz-KTMU, UD_Kyrgyz-TueCL)
 SUBJECT:
 nonfin emptysubj                        	1583	0.365167243367935
 finite nsubj NOUN+Nom SV                	558	0.128719723183391
@@ -4733,6 +4812,7 @@ PRON without Case (and ADP) --> 0.703297 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Old Turkish
+(UD_Old_Turkish-Clausal)
 SUBJECT:
 nonfin emptysubj                        	20	0.833333333333333
 nonfin nsubj NOUN+NOCASE SV             	3	0.125
@@ -4758,6 +4838,7 @@ PRON without ADP --> 0.000000 --> with ADP
 
 --------------------------------------------------------------------------------
 Ottoman Turkish
+(UD_Ottoman_Turkish-BOUN, UD_Ottoman_Turkish-DUDU)
 SUBJECT:
 nonfin emptysubj                        	677	0.477433004231312
 nonfin nsubj NOUN+Nom SV                	280	0.197461212976023
@@ -4819,6 +4900,7 @@ PRON without Case (and ADP) --> 0.887640 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tatar
+(UD_Tatar-NMCTT)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	67	0.293859649122807
 nonfin emptysubj                        	56	0.245614035087719
@@ -4859,6 +4941,7 @@ PRON without Case (and ADP) --> 0.909091 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Turkish
+(UD_Turkish-Atis, UD_Turkish-BOUN, UD_Turkish-FrameNet, UD_Turkish-GB, UD_Turkish-IMST, UD_Turkish-Kenet, UD_Turkish-PUD, UD_Turkish-Penn, UD_Turkish-Tourism)
 SUBJECT:
 nonfin emptysubj                        	44162	0.347466895363384
 finite emptysubj                        	31537	0.248133315499186
@@ -4934,6 +5017,7 @@ PRON without Case (and ADP) --> 0.392852 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Uyghur
+(UD_Uyghur-UDT)
 SUBJECT:
 nonfin emptysubj                        	3476	0.473827699018539
 nonfin nsubj NOUN+Nom SV                	942	0.128407851690294
@@ -4980,6 +5064,7 @@ PRON without Case (and ADP) --> 0.881423 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Uzbek
+(UD_Uzbek-UT)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	241	0.28253223915592
 nonfin emptysubj                        	241	0.28253223915592
@@ -5039,6 +5124,7 @@ PRON without Case (and ADP) --> 0.674157 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Yakut
+(UD_Yakut-YKTDT)
 SUBJECT:
 nonfin emptysubj                        	115	0.378289473684211
 nonfin nsubj NOUN+Nom SV                	109	0.358552631578947
@@ -5082,6 +5168,7 @@ PRON without Case (and ADP) --> 0.740260 --> with Case (but without ADP)
 Afro-Asiatic: 18: 13: Akkadian (2), Amharic (1), Ancient Hebrew (1), Arabic (2), Assyrian (1), Beja (1), Coptic (1), Egyptian (1), Hausa (2), Hebrew (3), Maltese (1), South Levantine Arabic (1), Zaar (1)
 --------------------------------------------------------------------------------
 Akkadian
+(UD_Akkadian-PISANDUB, UD_Akkadian-RIAO)
 SUBJECT:
 finite emptysubj                        	1419	0.592979523610531
 nonfin emptysubj                        	463	0.193480986209779
@@ -5126,6 +5213,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Amharic
+(UD_Amharic-ATT)
 SUBJECT:
 finite nsubj PRON+NoCase VS             	485	0.273702031602709
 finite nsubj NOUN+NoCase SV             	385	0.217268623024831
@@ -5181,6 +5269,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ancient Hebrew
+(UD_Ancient_Hebrew-PTNK)
 SUBJECT:
 finite emptysubj                        	1316	0.360745614035088
 finite nsubj NOUN+NoCase VS             	933	0.255756578947368
@@ -5228,6 +5317,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Arabic
+(UD_Arabic-PADT, UD_Arabic-PUD)
 SUBJECT:
 nonfin emptysubj                        	8747	0.387962388006742
 finite emptysubj                        	2705	0.11997693604187
@@ -5293,6 +5383,7 @@ PRON without Case (and ADP) --> 0.976338 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Assyrian
+(UD_Assyrian-AS)
 SUBJECT:
 nonfin emptysubj                        	34	0.435897435897436
 nonfin nsubj NOUN+NoCase SV             	11	0.141025641025641
@@ -5345,6 +5436,7 @@ PRON without Case (and ADP) --> 0.392857 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Beja
+(UD_Beja-Autogramm)
 SUBJECT:
 nonfin emptysubj                        	1421	0.845833333333333
 nonfin nsubj NOUN+NoCase SV             	197	0.117261904761905
@@ -5383,6 +5475,7 @@ PRON without Case (and ADP) --> 0.616766 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Coptic
+(UD_Coptic-Scriptorium)
 SUBJECT:
 finite nsubj PRON+NoCase SV             	3286	0.498180715585203
 finite emptysubj                        	1007	0.152668283808369
@@ -5423,6 +5516,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Egyptian
+(UD_Egyptian-UJaen)
 SUBJECT:
 nonfin emptysubj                        	569	0.23073803730738
 finite nsubj PRON+NoCase VS             	377	0.152879156528792
@@ -5472,6 +5566,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hausa
+(UD_Hausa-NorthernAutogramm, UD_Hausa-SouthernAutogramm)
 SUBJECT:
 nonfin emptysubj                        	3362	0.8996521273749
 OBJECT:
@@ -5513,6 +5608,7 @@ PRON without Case (and ADP) --> 0.347938 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hebrew
+(UD_Hebrew-HTB, UD_Hebrew-IAHLTknesset, UD_Hebrew-IAHLTwiki)
 SUBJECT:
 nonfin emptysubj                        	11824	0.377124996013141
 nonfin nsubj NOUN+NoCase SV             	5213	0.166267980735496
@@ -5561,6 +5657,7 @@ PRON without Case (and ADP) --> 0.008837 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Maltese
+(UD_Maltese-MUDT)
 SUBJECT:
 nonfin emptysubj                        	4172	0.660963244613435
 nonfin nsubj NOUN+NOCASE SV             	1088	0.172370088719899
@@ -5613,6 +5710,7 @@ PRON without ADP --> 0.044143 --> with ADP
 
 --------------------------------------------------------------------------------
 South Levantine Arabic
+(UD_South_Levantine_Arabic-MADAR)
 SUBJECT:
 nonfin emptysubj                        	114	0.75
 nonfin nsubj PRON+NOCASE SV             	15	0.0986842105263158
@@ -5644,6 +5742,7 @@ PRON without ADP --> 0.027027 --> with ADP
 
 --------------------------------------------------------------------------------
 Zaar
+(UD_Zaar-Autogramm)
 SUBJECT:
 nonfin emptysubj                        	2648	0.901293396868618
 OBJECT:
@@ -5680,6 +5779,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Uralic: 17: 12: Erzya (1), Estonian (2), Finnish (4), Hungarian (1), Karelian (1), Komi Permyak (1), Komi Zyrian (2), Livvi (1), Moksha (1), North Sami (1), Skolt Sami (1), Veps (1)
 --------------------------------------------------------------------------------
 Erzya
+(UD_Erzya-JR)
 SUBJECT:
 nonfin emptysubj                        	1528	0.49179272610235
 nonfin nsubj NOUN+Nom SV                	625	0.201158673962021
@@ -5731,6 +5831,7 @@ PRON without Case (and ADP) --> 0.969838 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Estonian
+(UD_Estonian-EDT, UD_Estonian-EWT)
 SUBJECT:
 finite emptysubj                        	18851	0.248821953247713
 nonfin emptysubj                        	18520	0.244452950726627
@@ -5786,6 +5887,7 @@ PRON without Case (and ADP) --> 0.999736 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Finnish
+(UD_Finnish-FTB, UD_Finnish-OOD, UD_Finnish-PUD, UD_Finnish-TDT)
 SUBJECT:
 finite emptysubj                        	21006	0.320638651870621
 nonfin emptysubj                        	12390	0.189122769526659
@@ -5843,6 +5945,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Hungarian
+(UD_Hungarian-Szeged)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	1169	0.338448176027794
 finite emptysubj                        	756	0.218876664736537
@@ -5911,6 +6014,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Karelian
+(UD_Karelian-KKPP)
 SUBJECT:
 finite emptysubj                        	92	0.276276276276276
 finite nsubj NOUN+Nom SV                	66	0.198198198198198
@@ -5959,6 +6063,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Komi Permyak
+(UD_Komi_Permyak-UH)
 SUBJECT:
 nonfin emptysubj                        	59	0.320652173913043
 nonfin nsubj NOUN+Nom SV                	44	0.239130434782609
@@ -6000,6 +6105,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Komi Zyrian
+(UD_Komi_Zyrian-IKDP, UD_Komi_Zyrian-Lattice)
 SUBJECT:
 nonfin emptysubj                        	721	0.496214728148658
 nonfin nsubj NOUN+Nom SV                	256	0.17618719889883
@@ -6050,6 +6156,7 @@ PRON without Case (and ADP) --> 0.971074 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Livvi
+(UD_Livvi-KKPP)
 SUBJECT:
 finite emptysubj                        	54	0.287234042553192
 finite nsubj NOUN+Nom SV                	42	0.223404255319149
@@ -6098,6 +6205,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Moksha
+(UD_Moksha-JR)
 SUBJECT:
 nonfin emptysubj                        	280	0.400572246065808
 finite emptysubj                        	93	0.133047210300429
@@ -6151,6 +6259,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 North Sami
+(UD_North_Sami-Giella)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	1191	0.258913043478261
 finite nsubj PRON+Nom SV                	1117	0.242826086956522
@@ -6193,6 +6302,7 @@ PRON without Case (and ADP) --> 0.997214 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Skolt Sami
+(UD_Skolt_Sami-Giellagas)
 SUBJECT:
 nonfin emptysubj                        	185	0.497311827956989
 nonfin nsubj PRON+Nom SV                	83	0.223118279569892
@@ -6235,6 +6345,7 @@ PRON without Case (and ADP) --> 0.951220 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Veps
+(UD_Veps-VWT)
 SUBJECT:
 finite nsubj PRON+Nom SV                	41	0.242603550295858
 nonfin emptysubj                        	29	0.171597633136095
@@ -6280,6 +6391,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 Tupian: 11: 11: Akuntsu (1), Guajajara (1), Guarani (1), Kaapor (1), Karo (1), Makurap (1), Mbya Guarani (1), Munduruku (1), Nheengatu (1), Teko (1), Tupinamba (1)
 --------------------------------------------------------------------------------
 Akuntsu
+(UD_Akuntsu-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	180	0.511363636363636
 nonfin nsubj NOUN+NoCase SV             	79	0.224431818181818
@@ -6312,6 +6424,7 @@ PRON without Case (and ADP) --> 0.080460 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Guajajara
+(UD_Guajajara-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	1447	1
 OBJECT:
@@ -6346,6 +6459,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Guarani
+(UD_Guarani-OldTuDeT)
 SUBJECT:
 nonfin emptysubj                        	56	0.888888888888889
 OBJECT:
@@ -6381,6 +6495,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kaapor
+(UD_Kaapor-TuDeT)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	34	0.377777777777778
 nonfin nsubj NOUN+NoCase SV             	24	0.266666666666667
@@ -6424,6 +6539,7 @@ PRON without Case (and ADP) --> 0.236364 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Karo
+(UD_Karo-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	426	0.601694915254237
 nonfin nsubj PRON+NoCase SV             	146	0.206214689265537
@@ -6459,6 +6575,7 @@ PRON without Case (and ADP) --> 0.012500 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Makurap
+(UD_Makurap-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	33	0.785714285714286
 nonfin nsubj PRON+NoCase SV             	3	0.0714285714285714
@@ -6490,6 +6607,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Mbya Guarani
+(UD_Mbya_Guarani-Thomas)
 SUBJECT:
 finite emptysubj                        	82	0.471264367816092
 finite nsubj PRON+NoCase SV             	39	0.224137931034483
@@ -6531,6 +6649,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Munduruku
+(UD_Munduruku-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	139	0.691542288557214
 nonfin nsubj NOUN+NoCase SV             	40	0.199004975124378
@@ -6565,6 +6684,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Nheengatu
+(UD_Nheengatu-CompLin)
 SUBJECT:
 finite emptysubj                        	1173	0.379734541922952
 finite nsubj NOUN+NoCase SV             	629	0.203625768857235
@@ -6633,6 +6753,7 @@ PRON without Case (and ADP) --> 0.049713 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Teko
+(UD_Teko-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	817	0.787849566055931
 nonfin nsubj NOUN+NoCase SV             	134	0.129218900675024
@@ -6673,6 +6794,7 @@ PRON without Case (and ADP) --> 0.159091 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tupinamba
+(UD_Tupinamba-TuDeT)
 SUBJECT:
 nonfin emptysubj                        	727	0.804203539823009
 nonfin nsubj NOUN+NoCase SV             	39	0.043141592920354
@@ -6719,6 +6841,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Sino-Tibetan: 10: 3: Cantonese (1), Chinese (7), Classical Chinese (2)
 --------------------------------------------------------------------------------
 Cantonese
+(UD_Cantonese-HK)
 SUBJECT:
 nonfin emptysubj                        	1297	0.62087123025371
 nonfin nsubj PRON+NoCase SV             	543	0.259932982288176
@@ -6755,6 +6878,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Chinese
+(UD_Chinese-Beginner, UD_Chinese-CFL, UD_Chinese-GSD, UD_Chinese-GSDSimp, UD_Chinese-HK, UD_Chinese-PUD, UD_Chinese-PatentChar)
 SUBJECT:
 nonfin emptysubj                        	21122	0.507179561062287
 nonfin nsubj NOUN+NoCase SV             	12677	0.30439898189502
@@ -6794,6 +6918,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Classical Chinese
+(UD_Classical_Chinese-Kyoto, UD_Classical_Chinese-TueCL)
 SUBJECT:
 nonfin emptysubj                        	54463	0.509647776613265
 nonfin nsubj NOUN+NoCase SV             	30896	0.289115136996556
@@ -6834,6 +6959,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Austronesian: 7: 4: Cebuano (1), Indonesian (3), Javanese (1), Tagalog (2)
 --------------------------------------------------------------------------------
 Cebuano
+(UD_Cebuano-GJA)
 SUBJECT:
 nonfin emptysubj                        	88	0.359183673469388
 nonfin nsubj PRON+Nom VS                	46	0.187755102040816
@@ -6881,6 +7007,7 @@ PRON without Case (and ADP) --> 0.971154 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Indonesian
+(UD_Indonesian-CSUI, UD_Indonesian-GSD, UD_Indonesian-PUD)
 SUBJECT:
 nonfin emptysubj                        	6408	0.348715716151502
 nonfin nsubj NOUN+NoCase SV             	5270	0.286787113626469
@@ -6918,6 +7045,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Javanese
+(UD_Javanese-CSUI)
 SUBJECT:
 nonfin emptysubj                        	972	0.429328621908127
 nonfin nsubj NOUN+NoCase SV             	582	0.257067137809187
@@ -6951,6 +7079,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tagalog
+(UD_Tagalog-TRG, UD_Tagalog-Ugnayan)
 SUBJECT:
 nonfin emptysubj                        	74	0.265232974910394
 nonfin nsubj NOUN+ang+NoCase VS         	58	0.207885304659498
@@ -7007,6 +7136,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 Code switching: 4: 4: Frisian Dutch (1), Maghrebi Arabic French (1), Telugu English (1), Turkish German (1)
 --------------------------------------------------------------------------------
 Frisian Dutch
+(UD_Frisian_Dutch-Fame)
 SUBJECT:
 nonfin emptysubj                        	210	0.396975425330813
 nonfin nsubj PRON+NOCASE SV             	179	0.338374291115312
@@ -7056,6 +7186,7 @@ PRON without ADP --> 0.003559 --> with ADP
 
 --------------------------------------------------------------------------------
 Maghrebi Arabic French
+(UD_Maghrebi_Arabic_French-Arabizi)
 SUBJECT:
 nonfin emptysubj                        	1458	0.644277507733098
 nonfin nsubj PRON+NoCase SV             	360	0.159080866106938
@@ -7100,6 +7231,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Telugu English
+(UD_Telugu_English-TECT)
 SUBJECT:
 nonfin nsubj PRON+NOCASE SV             	48	0.436363636363636
 nonfin emptysubj                        	32	0.290909090909091
@@ -7128,6 +7260,7 @@ PRON without ADP --> 0.000000 --> with ADP
 
 --------------------------------------------------------------------------------
 Turkish German
+(UD_Turkish_German-SAGT)
 SUBJECT:
 nonfin emptysubj                        	1629	0.40735183795949
 finite nsubj PRON+Nom SV                	841	0.210302575643911
@@ -7206,6 +7339,7 @@ PRON without Case (and ADP) --> 0.998185 --> with Case (but without ADP)
 Dravidian: 4: 3: Malayalam (1), Tamil (2), Telugu (1)
 --------------------------------------------------------------------------------
 Malayalam
+(UD_Malayalam-UFAL)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	87	0.258160237388724
 nonfin emptysubj                        	87	0.258160237388724
@@ -7247,6 +7381,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tamil
+(UD_Tamil-MWTT, UD_Tamil-TTB)
 SUBJECT:
 finite nsubj NOUN+Nom SV                	487	0.25753569539926
 finite emptysubj                        	485	0.256478053939714
@@ -7308,6 +7443,7 @@ PRON without Case (and ADP) --> 0.963115 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Telugu
+(UD_Telugu-MTG)
 SUBJECT:
 nonfin nsubj PRON+NOCASE SV             	620	0.373719107896323
 nonfin emptysubj                        	506	0.305003013863773
@@ -7342,6 +7478,7 @@ PRON without ADP --> 0.002525 --> with ADP
 Japanese: 4: 1: Japanese (4)
 --------------------------------------------------------------------------------
 Japanese
+(UD_Japanese-GSD, UD_Japanese-GSDLUW, UD_Japanese-PUD, UD_Japanese-PUDLUW)
 SUBJECT:
 nonfin emptysubj                        	33538	0.647339265378602
 nonfin nsubj NOUN+が+NOCASE SV           	7338	0.141635623154278
@@ -7366,6 +7503,7 @@ PRON without ADP --> 1.000000 --> with ADP
 Korean: 4: 1: Korean (4)
 --------------------------------------------------------------------------------
 Korean
+(UD_Korean-GSD, UD_Korean-KSL, UD_Korean-Kaist, UD_Korean-PUD)
 SUBJECT:
 nonfin emptysubj                        	101203	0.776203770459112
 nonfin nsubj NOUN+NOCASE SV             	16381	0.125638508383059
@@ -7406,6 +7544,7 @@ PRON without Case (and ADP) --> 0.159632 --> with Case (but without ADP)
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
 --------------------------------------------------------------------------------
 Northwest Gbaya
+(UD_Northwest_Gbaya-Autogramm)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	243	0.475538160469667
 nonfin emptysubj                        	138	0.270058708414873
@@ -7435,6 +7574,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Tswana
+(UD_Tswana-Popapolelo)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	13	0.419354838709677
 nonfin nsubj NOUN+NoCase SV             	10	0.32258064516129
@@ -7466,6 +7606,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Wolof
+(UD_Wolof-WTB)
 SUBJECT:
 finite nsubj PRON+Nom SV                	1711	0.239669421487603
 finite emptysubj                        	1638	0.229443899705841
@@ -7525,6 +7666,7 @@ PRON without Case (and ADP) --> 0.543883 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Yoruba
+(UD_Yoruba-YTB)
 SUBJECT:
 nonfin nsubj NOUN+NoCase SV             	212	0.265
 nonfin nsubj PRON+Nom SV                	200	0.25
@@ -7565,6 +7707,7 @@ PRON without Case (and ADP) --> 0.697400 --> with Case (but without ADP)
 Arawan: 2: 2: Madi (1), Paumari (1)
 --------------------------------------------------------------------------------
 Madi
+(UD_Madi-Jarawara)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	11	0.478260869565217
 nonfin emptysubj                        	9	0.391304347826087
@@ -7597,6 +7740,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Paumari
+(UD_Paumari-TueCL)
 SUBJECT:
 nonfin emptysubj                        	90	0.737704918032787
 nonfin nsubj NOUN+NOCASE SV             	13	0.10655737704918
@@ -7628,6 +7772,7 @@ PRON without ADP --> 0.000000 --> with ADP
 Austro-Asiatic: 2: 1: Vietnamese (2)
 --------------------------------------------------------------------------------
 Vietnamese
+(UD_Vietnamese-TueCL, UD_Vietnamese-VTB)
 SUBJECT:
 nonfin emptysubj                        	5590	0.584117032392894
 nonfin nsubj NOUN+NoCase SV             	2873	0.300208986415883
@@ -7665,6 +7810,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Creole: 2: 2: Haitian Creole (1), Naija (1)
 --------------------------------------------------------------------------------
 Haitian Creole
+(UD_Haitian_Creole-Autogramm)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	189	0.453237410071942
 nonfin nsubj NOUN+NoCase SV             	146	0.350119904076739
@@ -7701,6 +7847,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Naija
+(UD_Naija-NSC)
 SUBJECT:
 nonfin nsubj PRON+Nom SV                	8070	0.434946642233481
 nonfin emptysubj                        	7216	0.38891883151881
@@ -7739,6 +7886,7 @@ PRON without Case (and ADP) --> 0.939919 --> with Case (but without ADP)
 Northwest Caucasian: 2: 2: Abaza (1), Abkhaz (1)
 --------------------------------------------------------------------------------
 Abaza
+(UD_Abaza-ATB)
 SUBJECT:
 nonfin emptysubj                        	75	0.405405405405405
 finite emptysubj                        	44	0.237837837837838
@@ -7829,6 +7977,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Abkhaz
+(UD_Abkhaz-AbNC)
 SUBJECT:
 nonfin emptysubj                        	756	0.423055400111919
 finite emptysubj                        	415	0.23223279238948
@@ -8033,6 +8182,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Sign Language: 2: 2: Spanish Sign Language (1), Swedish Sign Language (1)
 --------------------------------------------------------------------------------
 Spanish Sign Language
+(UD_Spanish_Sign_Language-LSE)
 SUBJECT:
 nonfin emptysubj                        	312	0.584269662921348
 nonfin nsubj NOUN+NoCase SV             	169	0.316479400749064
@@ -8070,6 +8220,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swedish Sign Language
+(UD_Swedish_Sign_Language-SSLC)
 SUBJECT:
 nonfin emptysubj                        	124	0.416107382550336
 nonfin nsubj NOUN+NOCASE SV             	70	0.23489932885906
@@ -8102,6 +8253,7 @@ PRON without ADP --> 0.000000 --> with ADP
 Uto-Aztecan: 2: 2: Highland Puebla Nahuatl (1), Western Sierra Puebla Nahuatl (1)
 --------------------------------------------------------------------------------
 Highland Puebla Nahuatl
+(UD_Highland_Puebla_Nahuatl-ITML)
 SUBJECT:
 finite emptysubj                        	609	0.342134831460674
 nonfin emptysubj                        	500	0.280898876404494
@@ -8146,6 +8298,7 @@ PRON without Case (and ADP) --> 0.020450 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Western Sierra Puebla Nahuatl
+(UD_Western_Sierra_Puebla_Nahuatl-ITML)
 SUBJECT:
 finite emptysubj                        	747	0.507472826086957
 finite nsubj PRON+NoCase SV             	147	0.0998641304347826
@@ -8203,6 +8356,7 @@ PRON without Case (and ADP) --> 0.003922 --> with Case (but without ADP)
 Arawakan: 1: 1: Apurina (1)
 --------------------------------------------------------------------------------
 Apurina
+(UD_Apurina-UFPA)
 SUBJECT:
 nonfin emptysubj                        	54	0.27979274611399
 nonfin nsubj PRON+Nom SV                	38	0.196891191709845
@@ -8242,6 +8396,7 @@ PRON without Case (and ADP) --> 0.830189 --> with Case (but without ADP)
 Basque: 1: 1: Basque (1)
 --------------------------------------------------------------------------------
 Basque
+(UD_Basque-BDT)
 SUBJECT:
 finite emptysubj                        	9616	0.52206960204137
 finite nsubj NOUN+Erg SV                	2032	0.110320864324882
@@ -8317,6 +8472,7 @@ PRON without Case (and ADP) --> 0.785797 --> with Case (but without ADP)
 Bororoan: 1: 1: Bororo (1)
 --------------------------------------------------------------------------------
 Bororo
+(UD_Bororo-BDT)
 SUBJECT:
 nonfin emptysubj                        	660	0.517647058823529
 nonfin nsubj NOUN+NoCase SV             	324	0.254117647058824
@@ -8360,6 +8516,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Chibchan: 1: 1: Pesh (1)
 --------------------------------------------------------------------------------
 Pesh
+(UD_Pesh-ChibErgIS)
 SUBJECT:
 nonfin emptysubj                        	375	0.820568927789934
 nonfin nsubj NOUN+NoCase SV             	25	0.0547045951859956
@@ -8395,6 +8552,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Chukotko-Kamchatkan: 1: 1: Chukchi (1)
 --------------------------------------------------------------------------------
 Chukchi
+(UD_Chukchi-HSE)
 SUBJECT:
 nonfin emptysubj                        	780	0.692102928127773
 nonfin nsubj NOUN+NOCASE SV             	157	0.139307897071872
@@ -8425,6 +8583,7 @@ PRON without ADP --> 0.000000 --> with ADP
 Eskimo-Aleut: 1: 1: Yupik (1)
 --------------------------------------------------------------------------------
 Yupik
+(UD_Yupik-SLI)
 SUBJECT:
 nonfin emptysubj                        	260	0.600461893764434
 nonfin nsubj NOUN+NoCase SV             	127	0.293302540415704
@@ -8457,6 +8616,7 @@ PRON without Case (and ADP) --> 0.400000 --> with Case (but without ADP)
 Kartvelian: 1: 1: Georgian (1)
 --------------------------------------------------------------------------------
 Georgian
+(UD_Georgian-GLC)
 SUBJECT:
 nonfin nsubj NOUN+Nom SV                	1888	0.404196103618069
 nonfin emptysubj                        	840	0.179833012202954
@@ -8523,6 +8683,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 Macro-Je: 1: 1: Xavante (1)
 --------------------------------------------------------------------------------
 Xavante
+(UD_Xavante-XDT)
 SUBJECT:
 nonfin emptysubj                        	100	0.45662100456621
 nonfin nsubj NOUN+NoCase SV             	89	0.406392694063927
@@ -8562,6 +8723,7 @@ PRON without Case (and ADP) --> 0.441860 --> with Case (but without ADP)
 Mande: 1: 1: Bambara (1)
 --------------------------------------------------------------------------------
 Bambara
+(UD_Bambara-CRB)
 SUBJECT:
 nonfin nsubj PRON+NoCase SV             	801	0.424033880359979
 nonfin emptysubj                        	644	0.340921122286924
@@ -8594,6 +8756,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Mayan: 1: 1: Kiche (1)
 --------------------------------------------------------------------------------
 Kiche
+(UD_Kiche-IU)
 SUBJECT:
 finite emptysubj                        	829	0.441897654584222
 finite nsubj NOUN+NoCase VS             	271	0.144456289978678
@@ -8637,6 +8800,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Mongolic: 1: 1: Buryat (1)
 --------------------------------------------------------------------------------
 Buryat
+(UD_Buryat-BDT)
 SUBJECT:
 nonfin emptysubj                        	654	0.449175824175824
 nonfin nsubj NOUN+Nom SV                	320	0.21978021978022
@@ -8696,6 +8860,7 @@ PRON without Case (and ADP) --> 0.916031 --> with Case (but without ADP)
 Na-Dene: 1: 1: Gwichin (1)
 --------------------------------------------------------------------------------
 Gwichin
+(UD_Gwichin-TueCL)
 SUBJECT:
 nonfin emptysubj                        	302	0.91238670694864
 OBJECT:
@@ -8718,6 +8883,7 @@ PRON without ADP --> 0.000000 --> with ADP
 Pama-Nyungan: 1: 1: Warlpiri (1)
 --------------------------------------------------------------------------------
 Warlpiri
+(UD_Warlpiri-UFAL)
 SUBJECT:
 nonfin nsubj NOUN+Erg SV                	17	0.242857142857143
 nonfin emptysubj                        	14	0.2
@@ -8763,6 +8929,7 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 Tai-Kadai: 1: 1: Thai (1)
 --------------------------------------------------------------------------------
 Thai
+(UD_Thai-PUD)
 SUBJECT:
 nonfin emptysubj                        	2385	0.591224590976698
 nonfin nsubj NOUN+NoCase SV             	809	0.200545364402578
@@ -8799,6 +8966,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Tungusic: 1: 1: Xibe (1)
 --------------------------------------------------------------------------------
 Xibe
+(UD_Xibe-XDT)
 SUBJECT:
 nonfin emptysubj                        	1349	0.463733241663802
 finite emptysubj                        	778	0.267445857683053
@@ -8844,6 +9012,174 @@ SV-VS vs. OV-VO plot
   \draw[gray] (-0.5cm,10cm) node{VS};
   \draw[gray] (0cm,-0.5cm) node{OV};
   \draw[gray] (10cm,-0.5cm) node{VO};
+  \draw (0.25cm,0.125cm) node{ja}; % Japanese
+  \draw (0.25cm,0.375cm) node{gwi}; % Gwichin
+  \draw (0.25cm,0.625cm) node{jaa}; % Madi
+  \draw (0.75cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (0.75cm,0.375cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (0.75cm,0.625cm) node{sjo}; % Xibe
+  \draw (0.25cm,0.875cm) node{ko}; % Korean
+  \draw (0.75cm,0.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (0.25cm,1.125cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (1.25cm,0.125cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (1.25cm,0.375cm) node{\textcolor{olive}{te}}; % Telugu
+  \draw (0.75cm,1.125cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (1.25cm,0.625cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (1.25cm,0.875cm) node{bxr}; % Buryat
+  \draw (0.25cm,1.375cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (0.75cm,1.375cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (1.25cm,1.125cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (1.75cm,0.125cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (1.75cm,0.375cm) node{bm}; % Bambara
+  \draw (0.25cm,1.625cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (1.75cm,0.625cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (1.75cm,0.875cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (1.25cm,1.375cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (1.75cm,1.125cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (2.25cm,0.125cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (0.75cm,1.625cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (2.25cm,0.375cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (2.25cm,0.625cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (1.75cm,1.375cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (2.25cm,0.875cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (2.25cm,1.125cm) node{qte}; % Telugu English
+  \draw (1.75cm,1.625cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (1.25cm,1.875cm) node{abq}; % Abaza
+  \draw (1.75cm,1.875cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (0.75cm,1.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (2.25cm,1.375cm) node{wbp}; % Warlpiri
+  \draw (2.75cm,0.125cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (0.75cm,2.375cm) node{ab}; % Abkhaz
+  \draw (1.25cm,2.375cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (2.75cm,0.375cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (1.75cm,2.125cm) node{eu}; % Basque
+  \draw (1.25cm,2.625cm) node{pay}; % Pesh
+  \draw (2.75cm,1.375cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (3.25cm,0.375cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (3.25cm,0.125cm) node{\textcolor{blue}{ur}}; % Urdu
+  \draw (3.25cm,0.625cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (1.75cm,2.625cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (3.75cm,0.375cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (0.25cm,3.375cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (3.75cm,0.125cm) node{xav}; % Xavante
+  \draw (3.75cm,0.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (3.75cm,0.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (3.75cm,1.375cm) node{qtd}; % Turkish German
+  \draw (4.25cm,0.375cm) node{bor}; % Bororo
+  \draw (1.25cm,4.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (3.75cm,2.125cm) node{ckt}; % Chukchi
+  \draw (4.25cm,1.375cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (4.25cm,2.125cm) node{\textcolor{blue}{de}}; % German
+  \draw (2.25cm,4.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
+  \draw (4.25cm,2.375cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (4.75cm,1.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (5.25cm,0.125cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (4.75cm,0.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (4.75cm,1.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (5.25cm,0.375cm) node{ess}; % Yupik
+  \draw (4.75cm,2.125cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (4.75cm,1.625cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (5.25cm,1.125cm) node{ssp}; % Spanish Sign Language
+  \draw (5.25cm,0.625cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (4.75cm,2.625cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (5.25cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (4.75cm,2.375cm) node{qfn}; % Frisian Dutch
+  \draw (5.25cm,1.625cm) node{\textcolor{blue}{bar}}; % Bavarian
+  \draw (5.25cm,1.875cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (4.25cm,4.375cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (5.25cm,2.625cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (5.75cm,2.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (5.25cm,3.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (5.75cm,2.125cm) node{ka}; % Georgian
+  \draw (5.25cm,3.875cm) node{pad}; % Paumari
+  \draw (6.25cm,2.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (6.25cm,2.125cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (6.25cm,1.375cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (6.25cm,2.625cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (6.25cm,1.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (6.25cm,3.125cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (5.75cm,3.625cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (6.75cm,1.875cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (5.75cm,3.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (6.75cm,1.625cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (6.25cm,2.875cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (7.25cm,0.125cm) node{wo}; % Wolof
+  \draw (6.25cm,3.375cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (6.75cm,2.625cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (6.25cm,3.625cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (6.75cm,3.375cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (7.25cm,1.875cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (7.25cm,2.875cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (7.25cm,1.125cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (7.25cm,3.125cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (6.75cm,3.625cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (6.75cm,3.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (7.25cm,2.125cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (7.75cm,2.125cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (7.25cm,3.375cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (7.75cm,2.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (7.25cm,2.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (7.25cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (7.75cm,1.875cm) node{swl}; % Swedish Sign Language
+  \draw (7.75cm,1.375cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (7.75cm,3.125cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (8.25cm,0.375cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (8.25cm,2.125cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (7.75cm,2.875cm) node{\textcolor{blue}{ru}}; % Russian
+  \draw (8.25cm,1.375cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (7.75cm,2.625cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (8.25cm,0.875cm) node{\textcolor{blue}{fr}}; % French
+  \draw (6.75cm,4.875cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (8.25cm,2.375cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (8.25cm,2.875cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (8.25cm,2.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (8.25cm,1.875cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (8.75cm,2.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (8.75cm,1.625cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (8.75cm,0.125cm) node{yo}; % Yoruba
+  \draw (8.75cm,0.375cm) node{th}; % Thai
+  \draw (8.75cm,2.125cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (8.75cm,1.875cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (8.75cm,2.375cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (8.75cm,1.375cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (8.25cm,3.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (9.25cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (9.25cm,1.875cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (9.25cm,0.125cm) node{ht}; % Haitian Creole
+  \draw (9.25cm,0.625cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (9.25cm,0.375cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (9.25cm,0.875cm) node{\textcolor{blue}{en}}; % English
+  \draw (9.25cm,1.125cm) node{qaf}; % Maghrebi Arabic French
+  \draw (9.25cm,2.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (9.75cm,0.125cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (8.75cm,3.125cm) node{apu}; % Apurina
+  \draw (9.75cm,0.375cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (9.25cm,2.625cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (9.75cm,0.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (9.25cm,2.125cm) node{\textcolor{orange}{mt}}; % Maltese
+  \draw (9.75cm,0.875cm) node{gya}; % Northwest Gbaya
+  \draw (9.75cm,1.125cm) node{vi}; % Vietnamese
+  \draw (8.75cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (9.75cm,1.375cm) node{pcm}; % Naija
+  \draw (8.75cm,0.875cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (9.25cm,1.375cm) node{tn}; % Tswana
+  \draw (8.75cm,4.375cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (9.75cm,1.625cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (9.25cm,3.125cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (9.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
+  \draw (9.75cm,3.375cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (8.75cm,5.375cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (6.25cm,8.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (7.75cm,6.875cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (6.25cm,8.625cm) node{\textcolor{blue}{ga}}; % Irish
+  \draw (9.75cm,4.375cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (8.75cm,6.875cm) node{quc}; % Kiche
+  \draw (9.25cm,7.125cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
+  \draw (9.25cm,7.625cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (9.75cm,7.375cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (9.25cm,9.125cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (9.25cm,9.875cm) node{\textcolor{blue}{gv}}; % Manx
 \end{tikzpicture}
 
 
@@ -8855,6 +9191,174 @@ PRON ADP vs. NOUN ADP plot
   \draw[gray] (-0.5cm,10cm) node{PA};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NA};
+  \draw (0.25cm,0.125cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (0.25cm,0.375cm) node{tn}; % Tswana
+  \draw (0.25cm,0.625cm) node{wbp}; % Warlpiri
+  \draw (0.75cm,0.125cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (0.75cm,0.375cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (0.75cm,0.625cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (0.25cm,0.875cm) node{ess}; % Yupik
+  \draw (0.75cm,0.875cm) node{xav}; % Xavante
+  \draw (0.25cm,1.125cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (1.25cm,0.125cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (1.25cm,0.375cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (0.75cm,1.125cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (1.25cm,0.625cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (0.25cm,1.375cm) node{ssp}; % Spanish Sign Language
+  \draw (1.25cm,0.875cm) node{ab}; % Abkhaz
+  \draw (0.75cm,1.375cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (1.25cm,1.125cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (0.25cm,1.625cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (1.75cm,0.125cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (1.75cm,0.375cm) node{bm}; % Bambara
+  \draw (0.75cm,1.625cm) node{swl}; % Swedish Sign Language
+  \draw (1.25cm,1.375cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (1.75cm,0.625cm) node{jaa}; % Madi
+  \draw (1.75cm,0.875cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (0.25cm,1.875cm) node{abq}; % Abaza
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (0.75cm,1.875cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (1.75cm,1.125cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (1.75cm,1.375cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (0.25cm,2.125cm) node{apu}; % Apurina
+  \draw (1.25cm,1.875cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (2.25cm,0.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (0.75cm,2.125cm) node{ckt}; % Chukchi
+  \draw (2.25cm,0.375cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (2.25cm,0.625cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (1.75cm,1.625cm) node{pad}; % Paumari
+  \draw (2.25cm,0.875cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (1.25cm,2.125cm) node{gwi}; % Gwichin
+  \draw (0.25cm,2.375cm) node{quc}; % Kiche
+  \draw (2.25cm,1.125cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (0.75cm,2.375cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (1.75cm,1.875cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (2.25cm,1.375cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (1.25cm,2.375cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (0.25cm,2.625cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (1.75cm,2.125cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (2.25cm,1.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (0.75cm,2.625cm) node{th}; % Thai
+  \draw (2.75cm,0.125cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (2.75cm,0.375cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (2.75cm,0.625cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (2.75cm,0.875cm) node{ka}; % Georgian
+  \draw (2.25cm,1.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (1.25cm,2.625cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (1.75cm,2.375cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (2.75cm,1.125cm) node{bxr}; % Buryat
+  \draw (0.25cm,2.875cm) node{eu}; % Basque
+  \draw (0.75cm,2.875cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (2.75cm,1.375cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (2.25cm,2.125cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (1.75cm,2.625cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (1.25cm,2.875cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (2.75cm,1.625cm) node{\textcolor{blue}{bar}}; % Bavarian
+  \draw (0.25cm,3.125cm) node{\textcolor{blue}{ru}}; % Russian
+  \draw (2.25cm,2.375cm) node{\textcolor{blue}{fr}}; % French
+  \draw (0.75cm,3.125cm) node{\textcolor{blue}{gv}}; % Manx
+  \draw (3.25cm,0.125cm) node{\textcolor{blue}{en}}; % English
+  \draw (3.25cm,0.375cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (2.75cm,1.875cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (3.25cm,0.625cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (1.75cm,2.875cm) node{\textcolor{olive}{te}}; % Telugu
+  \draw (3.25cm,0.875cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (1.25cm,3.125cm) node{wo}; % Wolof
+  \draw (3.25cm,1.125cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (2.25cm,2.625cm) node{gya}; % Northwest Gbaya
+  \draw (2.75cm,2.125cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (0.25cm,3.375cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (0.75cm,3.375cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (3.25cm,1.375cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (1.75cm,3.125cm) node{vi}; % Vietnamese
+  \draw (2.75cm,2.375cm) node{pcm}; % Naija
+  \draw (3.25cm,1.625cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (1.25cm,3.375cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (2.25cm,2.875cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (3.25cm,1.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (0.25cm,3.625cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (0.75cm,3.625cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (2.75cm,2.625cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (3.75cm,0.125cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (3.75cm,0.375cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (1.75cm,3.375cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (3.75cm,0.625cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (2.25cm,3.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (1.25cm,3.625cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (3.75cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (3.25cm,2.125cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (3.75cm,1.125cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (2.75cm,2.875cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (3.75cm,1.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (0.25cm,3.875cm) node{ko}; % Korean
+  \draw (3.25cm,2.375cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (0.75cm,3.875cm) node{ht}; % Haitian Creole
+  \draw (1.75cm,3.625cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (2.25cm,3.375cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (3.75cm,1.625cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (1.25cm,3.875cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (2.75cm,3.125cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (3.25cm,2.625cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (3.75cm,1.875cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (0.25cm,4.125cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (2.25cm,3.625cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (4.25cm,0.125cm) node{\textcolor{blue}{ga}}; % Irish
+  \draw (1.75cm,3.875cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (4.25cm,0.375cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (3.75cm,2.125cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (4.25cm,0.625cm) node{bor}; % Bororo
+  \draw (3.25cm,2.875cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (4.25cm,0.875cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (0.75cm,4.125cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (2.75cm,3.375cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (4.25cm,1.125cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (1.25cm,4.125cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (3.75cm,2.375cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (4.25cm,1.375cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (3.25cm,3.125cm) node{qte}; % Telugu English
+  \draw (2.25cm,3.875cm) node{\textcolor{violet}{tpn}}; % Tupinamba
+  \draw (4.25cm,1.625cm) node{qtd}; % Turkish German
+  \draw (1.75cm,4.125cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (2.75cm,3.625cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (3.75cm,2.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (0.25cm,4.375cm) node{qaf}; % Maghrebi Arabic French
+  \draw (4.25cm,1.875cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (0.75cm,4.375cm) node{\textcolor{blue}{de}}; % German
+  \draw (3.25cm,3.375cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (3.75cm,2.875cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (4.25cm,2.125cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (1.25cm,4.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (4.75cm,0.375cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (4.75cm,0.125cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (2.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
+  \draw (4.75cm,0.625cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (1.75cm,4.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (2.75cm,3.875cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (3.25cm,3.625cm) node{\textcolor{orange}{mt}}; % Maltese
+  \draw (4.25cm,2.375cm) node{yo}; % Yoruba
+  \draw (0.25cm,4.625cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (4.75cm,0.875cm) node{qfn}; % Frisian Dutch
+  \draw (0.75cm,4.625cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (3.75cm,3.125cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (4.75cm,1.125cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (4.75cm,1.375cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (2.75cm,4.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (4.75cm,1.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (4.25cm,2.625cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
+  \draw (3.75cm,3.375cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (4.75cm,1.875cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (5.25cm,0.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (5.25cm,0.625cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (3.25cm,3.875cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (3.75cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (5.25cm,0.375cm) node{sjo}; % Xibe
+  \draw (5.25cm,0.875cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (5.75cm,0.125cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (2.25cm,4.625cm) node{pay}; % Pesh
+  \draw (4.75cm,4.125cm) node{\textcolor{blue}{ur}}; % Urdu
+  \draw (7.75cm,0.125cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (8.75cm,0.375cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (9.75cm,9.875cm) node{ja}; % Japanese
 \end{tikzpicture}
 
 
@@ -8866,4 +9370,158 @@ PRON Case vs. NOUN Case plot
   \draw[gray] (-0.5cm,10cm) node{PC};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NC};
+  \draw (0.25cm,0.125cm) node{\textcolor{blue}{gv}}; % Manx
+  \draw (0.25cm,0.375cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (0.25cm,0.625cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (0.75cm,0.125cm) node{pay}; % Pesh
+  \draw (0.75cm,0.375cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (0.75cm,0.625cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
+  \draw (0.25cm,0.875cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (0.75cm,0.875cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (0.25cm,1.125cm) node{tn}; % Tswana
+  \draw (1.25cm,0.125cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (1.25cm,0.375cm) node{ssp}; % Spanish Sign Language
+  \draw (0.75cm,1.125cm) node{ab}; % Abkhaz
+  \draw (1.25cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (0.25cm,1.375cm) node{th}; % Thai
+  \draw (1.25cm,0.875cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (0.75cm,1.375cm) node{gya}; % Northwest Gbaya
+  \draw (1.25cm,1.125cm) node{qaf}; % Maghrebi Arabic French
+  \draw (0.25cm,1.625cm) node{bor}; % Bororo
+  \draw (1.75cm,0.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (1.75cm,0.375cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (0.75cm,1.625cm) node{vi}; % Vietnamese
+  \draw (1.25cm,1.375cm) node{abq}; % Abaza
+  \draw (1.75cm,0.625cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (1.75cm,0.875cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (0.25cm,1.875cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (0.75cm,1.875cm) node{bm}; % Bambara
+  \draw (1.75cm,1.125cm) node{jaa}; % Madi
+  \draw (1.75cm,1.375cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (0.25cm,2.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (1.25cm,1.875cm) node{quc}; % Kiche
+  \draw (2.25cm,0.125cm) node{\textcolor{blue}{fr}}; % French
+  \draw (0.75cm,2.125cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (2.25cm,0.375cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (2.25cm,0.625cm) node{ht}; % Haitian Creole
+  \draw (1.75cm,1.625cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (2.25cm,0.875cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (0.25cm,2.375cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (2.25cm,1.125cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (1.25cm,2.125cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (1.75cm,1.875cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (0.75cm,2.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (2.25cm,1.375cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (1.25cm,2.375cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (0.25cm,2.625cm) node{sjo}; % Xibe
+  \draw (0.75cm,2.625cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (1.75cm,2.125cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (1.75cm,2.375cm) node{ko}; % Korean
+  \draw (0.25cm,2.875cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (2.75cm,0.125cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (2.75cm,0.375cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (2.75cm,0.625cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (0.25cm,3.125cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (3.25cm,0.125cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (3.25cm,0.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (2.25cm,2.375cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (0.25cm,3.625cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (0.25cm,3.875cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (4.25cm,0.375cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (4.25cm,0.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
+  \draw (0.25cm,4.375cm) node{xav}; % Xavante
+  \draw (2.25cm,4.125cm) node{ess}; % Yupik
+  \draw (0.25cm,4.625cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (0.25cm,4.875cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (1.75cm,5.375cm) node{wo}; % Wolof
+  \draw (0.25cm,5.875cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (0.25cm,6.125cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (0.25cm,6.375cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (0.25cm,6.875cm) node{yo}; % Yoruba
+  \draw (0.25cm,7.125cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (0.25cm,7.375cm) node{\textcolor{blue}{en}}; % English
+  \draw (0.25cm,7.875cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (8.75cm,0.125cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (0.25cm,8.875cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (9.25cm,0.125cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (0.25cm,9.375cm) node{pcm}; % Naija
+  \draw (4.25cm,8.125cm) node{apu}; % Apurina
+  \draw (9.25cm,0.375cm) node{\textcolor{blue}{ga}}; % Irish
+  \draw (0.25cm,9.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (0.25cm,9.875cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (1.75cm,9.625cm) node{\textcolor{blue}{de}}; % German
+  \draw (0.75cm,9.875cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (6.75cm,7.875cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (9.75cm,3.875cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (7.25cm,7.875cm) node{eu}; % Basque
+  \draw (7.25cm,8.625cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (8.75cm,6.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (9.75cm,6.125cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (9.75cm,6.375cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (9.25cm,7.375cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (9.75cm,6.625cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (9.25cm,7.125cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (9.25cm,7.625cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (7.75cm,9.625cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (9.75cm,7.625cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (9.75cm,7.875cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (8.75cm,9.375cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (8.25cm,9.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (9.75cm,8.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (9.75cm,8.875cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (9.75cm,9.125cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (9.75cm,8.375cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (9.25cm,9.125cm) node{bxr}; % Buryat
+  \draw (8.75cm,9.875cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (9.75cm,9.375cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (9.75cm,9.625cm) node{\textcolor{blue}{ur}}; % Urdu
+  \draw (9.25cm,9.375cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (9.75cm,9.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (9.25cm,9.875cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (9.25cm,9.625cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (8.75cm,9.625cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (9.25cm,8.875cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (9.25cm,8.625cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (8.75cm,9.125cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (8.75cm,8.875cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (8.25cm,9.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (9.25cm,8.375cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (8.75cm,8.625cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (8.25cm,9.375cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (8.25cm,9.125cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (8.25cm,8.875cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (8.75cm,8.375cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (9.75cm,8.125cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (9.25cm,8.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (8.25cm,8.625cm) node{qtd}; % Turkish German
+  \draw (8.75cm,8.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (7.75cm,9.875cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (9.25cm,7.875cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (7.75cm,9.375cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (8.25cm,8.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (7.75cm,9.125cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (7.75cm,8.875cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (8.75cm,7.875cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (8.25cm,8.125cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (7.75cm,8.625cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (8.75cm,7.625cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (8.25cm,7.875cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (7.75cm,8.375cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (9.75cm,7.375cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (7.25cm,9.875cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (7.25cm,9.625cm) node{\textcolor{blue}{ru}}; % Russian
+  \draw (7.25cm,9.375cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (7.25cm,9.125cm) node{ka}; % Georgian
+  \draw (7.75cm,8.125cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (8.75cm,7.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (8.25cm,7.625cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (9.75cm,7.125cm) node{wbp}; % Warlpiri
+  \draw (7.25cm,8.875cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (7.75cm,7.875cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (8.75cm,7.125cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (8.25cm,7.375cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (7.25cm,8.375cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (9.75cm,6.875cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (9.25cm,6.875cm) node{\textcolor{teal}{vep}}; % Veps
 \end{tikzpicture}
