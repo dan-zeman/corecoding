@@ -281,21 +281,21 @@ PRON without Case (and ADP) --> 0.939974 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Bavarian
 SUBJECT:
-nonfin nsubj PRON+NoCase SV             	514	0.329698524695318
+nonfin nsubj PRON+NOCASE SV             	514	0.329698524695318
 nonfin emptysubj                        	467	0.299550994227069
-nonfin nsubj NOUN+NoCase SV             	331	0.212315586914689
-nonfin nsubj NOUN+NoCase VS             	90	0.0577293136626042
+nonfin nsubj NOUN+NOCASE SV             	331	0.212315586914689
+nonfin nsubj NOUN+NOCASE VS             	90	0.0577293136626042
 OBJECT:
-obj NOUN+NoCase SOV                     	151	0.223372781065089
-obj NOUN+NoCase VO                      	135	0.199704142011834
-ccomp OTHER+NoCase SVO                  	50	0.0739644970414201
-obj NOUN+NoCase SVO                     	48	0.0710059171597633
-obj NOUN+NoCase OV                      	41	0.0606508875739645
-obj PRON+NoCase SOV                     	40	0.0591715976331361
-obj NOUN+NoCase VSO                     	36	0.0532544378698225
-obj PRON+NoCase OSV                     	32	0.0473372781065089
-obj PRON+NoCase VO                      	30	0.0443786982248521
-obj PRON+NoCase OV                      	17	0.0251479289940828
+obj NOUN+NOCASE SOV                     	151	0.223372781065089
+obj NOUN+NOCASE VO                      	135	0.199704142011834
+ccomp OTHER+NOCASE SVO                  	50	0.0739644970414201
+obj NOUN+NOCASE SVO                     	48	0.0710059171597633
+obj NOUN+NOCASE OV                      	41	0.0606508875739645
+obj PRON+NOCASE SOV                     	40	0.0591715976331361
+obj NOUN+NOCASE VSO                     	36	0.0532544378698225
+obj PRON+NOCASE OSV                     	32	0.0473372781065089
+obj PRON+NOCASE VO                      	30	0.0443786982248521
+obj PRON+NOCASE OV                      	17	0.0251479289940828
 IOBJECT:
 AGREEMENT:
 nonfin                                  	1559	1
@@ -309,12 +309,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002342 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 852
-CASE NOUN 1 
-CASE PRON 0 748
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Belarusian
@@ -1129,46 +1123,51 @@ PRON without Case (and ADP) --> 0.470808 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 English
 SUBJECT:
-nonfin emptysubj                        	26789	0.294906372813439
-finite nsubj PRON+Nom SV                	19334	0.212838098173692
-finite nsubj NOUN+NoCase SV             	14991	0.16502823677055
-finite emptysubj                        	10661	0.117361485705479
-finite nsubj PRON+NoCase SV             	6767	0.0744944352095466
+nonfin emptysubj                        	26192	0.295630777565832
+finite nsubj PRON+Nom SV                	18648	0.210481167533889
+finite nsubj NOUN+NoCase SV             	12570	0.141878393173584
+finite emptysubj                        	10432	0.117746650563789
+finite nsubj PRON+NoCase SV             	5053	0.0570335338668352
+finite nsubj NOUN+NOCASE SV             	2099	0.0236915471178482
+finite nsubj:pass NOUN+NoCase SV        	2015	0.0227434337505785
 OBJECT:
-obj NOUN+NoCase SVO                     	12619	0.364027116688302
-obj NOUN+NoCase VO                      	10551	0.304370402423193
-ccomp OTHER+NoCase SVO                  	2826	0.0815231501514496
-obj PRON+Acc SVO                        	1496	0.0431559209577384
-obj PRON+Acc VO                         	1279	0.0368960046156065
-ccomp OTHER+NoCase VO                   	1000	0.0288475407471513
+obj NOUN+NoCase SVO                     	10731	0.317363144352764
+obj NOUN+NoCase VO                      	9437	0.279093839647473
+ccomp OTHER+NoCase SVO                  	2401	0.0710081921154586
+obj NOUN+NOCASE SVO                     	1607	0.0475260994292136
+obj PRON+Acc SVO                        	1456	0.0430603613994617
+obj PRON+Acc VO                         	1233	0.0364652648389673
+obj NOUN+NOCASE VO                      	927	0.0274154910833112
+ccomp OTHER+NoCase VO                   	866	0.0256114512169875
+obj PRON+NoCase SVO                     	718	0.02123443645935
 IOBJECT:
-iobj PRON+Acc VIO                       	1285	0.545415959252971
-iobj PRON+Acc SVIO                      	394	0.16723259762309
-iobj PRON+Acc SVI                       	121	0.051358234295416
-iobj NOUN+NoCase SVIO                   	109	0.0462648556876061
-iobj NOUN+NoCase SVI                    	83	0.0352292020373514
-iobj PRON+Acc VI                        	76	0.032258064516129
+iobj PRON+Acc VIO                       	1279	0.552483801295896
+iobj PRON+Acc SVIO                      	384	0.165874730021598
+iobj PRON+Acc SVI                       	112	0.0483801295896328
+iobj NOUN+NoCase SVIO                   	99	0.0427645788336933
+iobj NOUN+NoCase SVI                    	77	0.0332613390928726
+iobj PRON+Acc VI                        	74	0.0319654427645788
 AGREEMENT:
-nonfin                                  	30885	0.339997137793239
-finite                                  	21246	0.233886326357622
-finite Number=Sing|Person=3             	19521	0.214896685344401
-finite Number=Sing|Person=1             	5926	0.0652362971851297
+nonfin                                  	30280	0.341772294772961
+finite                                  	20905	0.235956070747317
+finite Number=Sing|Person=3             	18936	0.213731841935957
+finite Number=Sing|Person=1             	5692	0.0642459676964231
 WORDER:
-SV --> 0.059600 --> VS
-OV --> 0.955373 --> VO
-ADP NOUN 0 42220
+SV --> 0.059608 --> VS
+OV --> 0.954869 --> VO
+ADP NOUN 0 41363
 ADP NOUN 1 123
-ADP PRON 0 36577
+ADP PRON 0 35470
 ADP PRON 1 9
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.002905 --> with ADP
-PRON without ADP --> 0.000246 --> with ADP
-CASE NOUN 0 42220
+NOUN without ADP --> 0.002965 --> with ADP
+PRON without ADP --> 0.000254 --> with ADP
+CASE NOUN 0 36301
 CASE NOUN 1 
-CASE PRON 0 11419
-CASE PRON 1 25158
+CASE PRON 0 9045
+CASE PRON 1 24349
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.687809 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.729143 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Faroese
@@ -1228,24 +1227,31 @@ PRON without Case (and ADP) --> 0.990375 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 French
 SUBJECT:
-finite nsubj PRON+NoCase SV             	15400	0.260968294046873
 nonfin emptysubj                        	13565	0.229872396671807
-finite nsubj NOUN+NoCase SV             	12822	0.217281523783701
+finite nsubj PRON+NoCase SV             	12843	0.21763738963922
+finite nsubj NOUN+NoCase SV             	12488	0.211621562081646
 finite emptysubj                        	9731	0.164901459050008
+finite nsubj:pass NOUN+NoCase SV        	3068	0.0519903068919354
 OBJECT:
-obj NOUN+NoCase SVO                     	8255	0.381011723437644
-obj NOUN+NoCase VO                      	5816	0.268439028893197
-ccomp OTHER+NoCase SVO                  	1448	0.0668328256254039
-obj PRON+NoCase SOV                     	1337	0.0617095910643404
-obj PRON+NoCase OV                      	1039	0.0479553217022062
-ccomp OTHER+NoCase VO                   	756	0.0348933813348103
+obj NOUN+NoCase SVO                     	7731	0.35682636388812
+obj NOUN+NoCase VO                      	5436	0.25090002769316
+ccomp OTHER+NoCase SVO                  	1271	0.0586633434874919
+obj PRON+NoCase SOV                     	1168	0.0539093510569556
+obj PRON+NoCase OV                      	921	0.0425090002769316
+ccomp OTHER+NoCase VO                   	638	0.0294470599095357
+obj NOUN+NOCASE SVO                     	524	0.0241853595495246
+obj PRON+NoCase OSV                     	503	0.023216098956891
+obj:lvc NOUN+NoCase SVO                 	415	0.019154435521093
 IOBJECT:
-iobj PRON+NoCase SIVO                   	513	0.337056504599212
-iobj PRON+NoCase SIV                    	384	0.252299605781866
-iobj PRON+NoCase IVO                    	198	0.130091984231275
-iobj PRON+NoCase IV                     	121	0.0795006570302234
-iobj PRON+NoCase ISV                    	66	0.0433639947437582
-iobj PRON+NoCase IVS                    	54	0.0354796320630749
+iobj PRON+NoCase SIVO                   	449	0.295006570302234
+iobj PRON+NoCase SIV                    	353	0.231931668856767
+iobj PRON+NoCase IVO                    	168	0.110381077529566
+iobj PRON+NoCase IV                     	108	0.0709592641261498
+iobj PRON+NoCase ISV                    	65	0.0427069645203679
+iobj PRON+NOCASE SIVO                   	64	0.0420499342969777
+iobj PRON+NoCase IVS                    	53	0.0348226018396846
+iobj PRON+NOCASE SIV                    	31	0.0203679369250986
+iobj PRON+NOCASE IVO                    	30	0.0197109067017083
 AGREEMENT:
 finite Number=Sing|Person=3             	19943	0.3379539407907
 nonfin                                  	13630	0.230973886224602
@@ -1265,9 +1271,9 @@ ADP PRON 1 9
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002832 --> with ADP
 PRON without ADP --> 0.000429 --> with ADP
-CASE NOUN 0 28517
+CASE NOUN 0 27247
 CASE NOUN 1 
-CASE PRON 0 20961
+CASE PRON 0 17730
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
@@ -1276,55 +1282,67 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Galician
 SUBJECT:
 nonfin emptysubj                        	8037	0.488363614267485
-nonfin nsubj NOUN+NoCase SV             	3417	0.207632010694537
-nonfin nsubj PRON+NoCase SV             	1962	0.119219784893966
+nonfin nsubj NOUN+NOCASE SV             	2667	0.162058698426202
+nonfin nsubj PRON+NOCASE SV             	1692	0.102813392477365
 finite emptysubj                        	848	0.0515282250713982
+nonfin nsubj NOUN+NoCase SV             	750	0.0455733122683357
 OBJECT:
-obj NOUN+NoCase VO                      	2471	0.274983307367015
-obj NOUN+NoCase SVO                     	2022	0.225016692632985
-ccomp OTHER+NoCase SVO                  	490	0.0545292677498331
-obj PRON+NoCase SOV                     	465	0.0517471622523926
-ccomp OTHER+NoCase VO                   	464	0.051635878032495
-obj PRON+NoCase OV                      	456	0.050745604273314
-obj OTHER+NoCase SVO                    	413	0.0459603828177165
-obj OTHER+NoCase VO                     	315	0.0350545292677498
-obj PRON+NoCase VO                      	200	0.0222568439795237
-obj PRON+NoCase OVS                     	164	0.0182506120632094
-obj PRON+NoCase OSV                     	81	0.0090140218117071
-obj PRON+NoCase SVO                     	81	0.0090140218117071
-ccomp OTHER+a+NoCase SVO                	57	0.00634320053416426
+obj NOUN+NOCASE VO                      	1695	0.188626752726463
+obj NOUN+NOCASE SVO                     	1406	0.156465613176052
+obj NOUN+NoCase VO                      	776	0.086356554640552
+obj NOUN+NoCase SVO                     	616	0.068551079456933
+obj PRON+NOCASE SOV                     	458	0.0509681727131093
+obj OTHER+NOCASE SVO                    	395	0.0439572668595593
+obj PRON+NOCASE OV                      	390	0.0434008457600712
+ccomp OTHER+NOCASE SVO                  	347	0.0386156243044736
+ccomp OTHER+NOCASE VO                   	323	0.0359448030269308
+obj OTHER+NOCASE VO                     	302	0.0336078344090808
+obj PRON+NOCASE VO                      	167	0.0185844647229023
+ccomp OTHER+NoCase SVO                  	143	0.0159136434453594
+ccomp OTHER+NoCase VO                   	141	0.0156910750055642
+obj PRON+NOCASE OVS                     	119	0.0132428221678166
+obj PRON+NOCASE SVO                     	75	0.00834631649232139
+obj PRON+NoCase OV                      	66	0.00734475851324282
+obj PRON+NOCASE OSV                     	59	0.00656576897395949
+ccomp OTHER+a+NOCASE SVO                	56	0.00623191631426664
+ccomp OTHER+a+NOCASE VO                 	48	0.00534164255508569
+ccomp OTHER+para+NOCASE SVO             	47	0.00523035833518807
+obj PRON+Acc VO                         	45	0.00500778989539283
 IOBJECT:
-iobj OTHER+NoCase VI                    	75	0.126475548060708
-iobj PRON+NoCase VIO                    	54	0.0910623946037099
-iobj PRON+NoCase IVO                    	44	0.0741989881956155
-iobj OTHER+NoCase SVOI                  	41	0.0691399662731872
-iobj OTHER+NoCase VOI                   	32	0.0539629005059022
-iobj PRON+NoCase SIVO                   	32	0.0539629005059022
-iobj PRON+NoCase SIV                    	25	0.0421585160202361
-iobj OTHER+NoCase SVI                   	20	0.0337268128161889
+iobj OTHER+NOCASE VI                    	75	0.126475548060708
+iobj PRON+NOCASE VIO                    	53	0.0893760539629005
+iobj PRON+NOCASE IVO                    	42	0.0708263069139966
+iobj OTHER+NOCASE SVOI                  	41	0.0691399662731872
+iobj OTHER+NOCASE VOI                   	32	0.0539629005059022
+iobj PRON+NOCASE SIVO                   	31	0.0522765598650927
+iobj OTHER+NOCASE SVI                   	20	0.0337268128161889
+iobj PRON+NOCASE SIV                    	18	0.03035413153457
 iobj PRON+Dat VIO                       	17	0.0286677908937605
 iobj PRON+Dat SIV                       	14	0.0236087689713322
 iobj NOUN+a+NoCase SVIO                 	12	0.0202360876897133
-iobj PRON+NoCase IVS                    	11	0.0185497470489039
 iobj NOUN+a+NoCase VOI                  	10	0.0168634064080944
-iobj OTHER+NoCase OVI                   	10	0.0168634064080944
+iobj OTHER+NOCASE OVI                   	10	0.0168634064080944
 iobj PRON+Dat SIVO                      	10	0.0168634064080944
+iobj PRON+NOCASE IVS                    	10	0.0168634064080944
 iobj NOUN+a+NoCase SVOI                 	9	0.015177065767285
-iobj PRON+NoCase OIV                    	9	0.015177065767285
+iobj PRON+NOCASE OIV                    	9	0.015177065767285
 iobj NOUN+a+NoCase SVI                  	8	0.0134907251264755
 iobj PRON+Dat IVO                       	8	0.0134907251264755
 iobj NOUN+a+NoCase VI                   	7	0.0118043844856661
-iobj OTHER+NoCase IVO                   	7	0.0118043844856661
+iobj OTHER+NOCASE IVO                   	7	0.0118043844856661
 iobj PRON+Dat SVI                       	7	0.0118043844856661
 iobj PRON+Dat VI                        	7	0.0118043844856661
-iobj OTHER+NoCase SOVI                  	6	0.0101180438448567
+iobj PRON+NoCase SIV                    	7	0.0118043844856661
+iobj OTHER+NOCASE SOVI                  	6	0.0101180438448567
 iobj PRON+Dat SVIO                      	6	0.0101180438448567
-iobj PRON+NoCase SIOV                   	5	0.00843170320404722
-iobj OTHER+NoCase OSVI                  	4	0.00674536256323777
-iobj PRON+NoCase IOV                    	4	0.00674536256323777
-iobj PRON+NoCase ISV                    	4	0.00674536256323777
-iobj PRON+NoCase SVIO                   	4	0.00674536256323777
-iobj PRON+NoCase SVOI                   	4	0.00674536256323777
+iobj PRON+NOCASE SIOV                   	5	0.00843170320404722
+iobj OTHER+NOCASE OSVI                  	4	0.00674536256323777
+iobj PRON+NOCASE IOV                    	4	0.00674536256323777
+iobj PRON+NOCASE SVOI                   	4	0.00674536256323777
+iobj NOUN+a+NoCase IVS                  	3	0.00505902192242833
+iobj NOUN+a+NoCase VIO                  	3	0.00505902192242833
+iobj OTHER+NOCASE IVS                   	3	0.00505902192242833
+iobj OTHER+NOCASE SVIO                  	3	0.00505902192242833
 AGREEMENT:
 nonfin                                  	12887	0.783071033602722
 finite Number=Sing|Person=3             	1128	0.0685422616515768
@@ -1338,17 +1356,17 @@ ADP PRON 1 23
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.021040 --> with ADP
 PRON without ADP --> 0.005300 --> with ADP
-CASE NOUN 0 9259
+CASE NOUN 0 2927
 CASE NOUN 1 
-CASE PRON 0 4089
+CASE PRON 0 823
 CASE PRON 1 228
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.052814 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.216936 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 German
 SUBJECT:
-finite nsubj NOUN+NoCase SV             	95252	0.30662752217973
+finite nsubj NOUN+NoCase SV             	95251	0.306624303060738
 nonfin emptysubj                        	49348	0.158857083993253
 finite nsubj PRON+Nom SV                	44475	0.143170317147603
 finite nsubj NOUN+NoCase VS             	28672	0.0922985797247009
@@ -1357,10 +1375,10 @@ finite nsubj:pass NOUN+NoCase SV        	20225	0.0651066816033788
 finite nsubj PRON+Nom VS                	9508	0.0306073833713189
 OBJECT:
 obj NOUN+NoCase SOV                     	43270	0.282249647758702
-obj NOUN+NoCase SVO                     	22173	0.144634190888692
+obj NOUN+NoCase SVO                     	22172	0.144627667901686
 obj NOUN+NoCase VSO                     	13151	0.0857838021186662
-obj NOUN+NoCase OV                      	13000	0.0847988310807285
-ccomp OTHER+NoCase SVO                  	7725	0.0503900746229713
+obj NOUN+NoCase OV                      	12999	0.0847923080937223
+ccomp OTHER+NoCase SVO                  	7670	0.0500313103376298
 obj PRON+Acc OSV                        	4928	0.0321452799666023
 obj NOUN+Acc SOV                        	4024	0.0262484997129886
 obj PRON+Acc SOV                        	3852	0.0251265459479205
@@ -1368,7 +1386,7 @@ obj NOUN+NoCase OVS                     	3610	0.0235479830924177
 obj NOUN+NoCase OSV                     	2878	0.018773156603872
 obj NOUN+Acc SVO                        	2835	0.018492668162605
 obj PRON+Acc SVO                        	2649	0.01727939257945
-ccomp OTHER+NoCase VSO                  	2150	0.0140244220633512
+ccomp OTHER+NoCase VSO                  	2140	0.0139591921932892
 obj PRON+Acc VOS                        	1973	0.0128698533632521
 obj NOUN+Acc VSO                        	1645	0.0107303136252153
 obj NOUN+Acc OV                         	1539	0.010038877002557
@@ -1387,12 +1405,12 @@ ADP PRON 1 3
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.032092 --> with ADP
 PRON without ADP --> 0.000041 --> with ADP
-CASE NOUN 0 222702
+CASE NOUN 0 222698
 CASE NOUN 1 45722
-CASE PRON 0 1463
+CASE PRON 0 1427
 CASE PRON 1 72207
-NOUN without Case (and ADP) --> 0.170335 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.980141 --> with Case (but without ADP)
+NOUN without Case (and ADP) --> 0.170338 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.980620 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Gheg
@@ -1832,24 +1850,27 @@ Irish
 SUBJECT:
 nonfin emptysubj                        	12287	0.578729216711413
 nonfin nsubj NOUN+Nom VS                	3383	0.159342470915171
-nonfin nsubj PRON+NoCase VS             	1826	0.0860063115255994
-nonfin nsubj NOUN+NoCase VS             	994	0.0468183316848005
+nonfin nsubj PRON+NoCase VS             	1410	0.0664123216051999
+nonfin nsubj OTHER+NoCase SV            	758	0.0357025104799586
+nonfin nsubj NOUN+NOCASE VS             	729	0.0343365832980076
 OBJECT:
 obj NOUN+Nom OV                         	1168	0.205416813225466
 obj NOUN+Nom VO                         	879	0.154590221596905
 obj NOUN+Nom VSO                        	736	0.129440731621527
-ccomp OTHER+NoCase VSO                  	346	0.060851213506859
-obj OTHER+NoCase OV                     	276	0.0485402743580725
-obj NOUN+NoCase VO                      	273	0.0480126626802673
-ccomp OTHER+NoCase VO                   	253	0.0444952514948998
-obj NOUN+NoCase OV                      	198	0.0348223707351389
+ccomp OTHER+NoCase VSO                  	308	0.0541681322546606
+obj NOUN+NOCASE VO                      	252	0.0443193809356314
+obj OTHER+NoCase OV                     	249	0.0437917692578262
 obj NOUN+Nom SVO                        	198	0.0348223707351389
-obj OTHER+NoCase OVS                    	163	0.0286669011607457
-obj PRON+NoCase VO                      	159	0.0279634189236722
-obj PRON+NoCase OV                      	155	0.0272599366865987
+ccomp OTHER+NoCase VO                   	195	0.0342947590573338
+obj NOUN+NOCASE OV                      	183	0.0321843123461133
 obj NOUN+Gen VO                         	147	0.0258529722124516
+obj OTHER+NoCase OVS                    	138	0.0242701371790362
+obj PRON+NoCase VO                      	126	0.0221596904678157
+obj PRON+NoCase OV                      	123	0.0216320787900106
+obj NOUN+NOCASE VSO                     	107	0.0188181498417165
+obj PRON+NoCase VSO                     	72	0.0126626802673232
 IOBJECT:
-iobj PRON+NoCase VIS                    	1	1
+iobj PRON+NOCASE VIS                    	1	1
 AGREEMENT:
 nonfin                                  	18858	0.888229475766568
 WORDER:
@@ -1862,11 +1883,11 @@ ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.017178 --> with ADP
 PRON without ADP --> 0.001709 --> with ADP
-CASE NOUN 0 1684
+CASE NOUN 0 331
 CASE NOUN 1 6612
-CASE PRON 0 2336
+CASE PRON 0 1802
 CASE PRON 1 
-NOUN without Case (and ADP) --> 0.797011 --> with Case (but without ADP)
+NOUN without Case (and ADP) --> 0.952326 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
@@ -4084,122 +4105,114 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Spanish
 SUBJECT:
-finite nsubj NOUN+NoCase SV             	26139	0.29121638182669
-finite emptysubj                        	24704	0.275228948951625
-nonfin emptysubj                        	19842	0.221061075335903
-finite nsubj PRON+NoCase SV             	7425	0.0827224314267252
+finite nsubj NOUN+NoCase SV             	26139	0.292959293463642
+finite emptysubj                        	24704	0.276876176813413
+nonfin emptysubj                        	19530	0.218887294898234
+finite nsubj PRON+NoCase SV             	7425	0.0832175199497893
 OBJECT:
-obj NOUN+NoCase VO                      	13428	0.336103323988787
-obj NOUN+NoCase SVO                     	9643	0.241364637565078
-ccomp OTHER+NoCase SVO                  	3028	0.0757909491389668
-ccomp OTHER+NoCase VO                   	1875	0.0469313175810973
-obj NOUN+a+NoCase VO                    	1497	0.0374699639567481
-obj NOUN+a+NoCase SVO                   	1230	0.0307869443331998
-obj PRON+NoCase OV                      	933	0.023353023628354
-obj OTHER+NoCase SVO                    	854	0.0213756507809371
-obj PRON+Acc VO                         	834	0.0208750500600721
-ccomp OTHER+NoCase OVS                  	764	0.0191229475370445
+obj NOUN+NoCase VO                      	13421	0.336686568661884
+obj NOUN+NoCase SVO                     	9610	0.241081731975315
+ccomp OTHER+NoCase SVO                  	3027	0.0759369825899353
+ccomp OTHER+NoCase VO                   	1875	0.0470372786112087
+obj NOUN+a+NoCase VO                    	1497	0.037554563243189
+obj NOUN+a+NoCase SVO                   	1230	0.0308564547689529
+obj PRON+NoCase OV                      	932	0.0233806632883448
+obj OTHER+NoCase SVO                    	854	0.0214239124981185
+obj PRON+Acc VO                         	834	0.0209221815262656
+ccomp OTHER+NoCase OVS                  	764	0.0191661231247805
 IOBJECT:
-iobj NOUN+NoCase SOVI                   	3	0.272727272727273
-iobj NOUN+NoCase SVIO                   	2	0.181818181818182
-iobj NOUN+NoCase IOV                    	1	0.0909090909090909
-iobj NOUN+NoCase ISOV                   	1	0.0909090909090909
-iobj NOUN+NoCase ISVO                   	1	0.0909090909090909
-iobj NOUN+NoCase SIV                    	1	0.0909090909090909
-iobj PRON+NoCase SIVO                   	1	0.0909090909090909
 AGREEMENT:
-finite Number=Sing|Person=3             	41629	0.463791528331736
-nonfin                                  	20438	0.227701151986452
-finite Number=Plur|Person=3             	12810	0.142717083713987
-finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4011	0.04468682457274
+finite Number=Sing|Person=3             	41629	0.466567291311755
+nonfin                                  	19904	0.223078992199408
+finite Number=Plur|Person=3             	12810	0.143571236438626
+finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4011	0.0449542723930781
 WORDER:
-SV --> 0.186123 --> VS
-OV --> 0.862160 --> VO
-ADP NOUN 0 56562
+SV --> 0.186553 --> VS
+OV --> 0.862952 --> VO
+ADP NOUN 0 56287
 ADP NOUN 1 2857
-ADP PRON 0 13704
+ADP PRON 0 13673
 ADP PRON 1 221
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.048082 --> with ADP
-PRON without ADP --> 0.015871 --> with ADP
-CASE NOUN 0 56562
+NOUN without ADP --> 0.048306 --> with ADP
+PRON without ADP --> 0.015906 --> with ADP
+CASE NOUN 0 56287
 CASE NOUN 1 
-CASE PRON 0 10169
+CASE PRON 0 10138
 CASE PRON 1 3535
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.257954 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.258539 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swedish
 SUBJECT:
-nonfin emptysubj                        	5921	0.235567933160931
-finite nsubj NOUN+Nom SV                	5239	0.208434453948677
-finite nsubj PRON+Nom SV                	4151	0.165148199721504
-finite nsubj PRON+NoCase SV             	2904	0.115536105032823
-finite nsubj NOUN+Nom VS                	1287	0.0512035010940919
-finite emptysubj                        	1172	0.0466282076785359
-finite nsubj:pass NOUN+Nom SV           	1011	0.0402227968967575
+nonfin emptysubj                        	5797	0.233401779603012
+finite nsubj NOUN+Nom SV                	5239	0.210935298143898
+finite nsubj PRON+Nom SV                	4151	0.167129685549785
+finite nsubj PRON+NoCase SV             	2904	0.116922333615171
+finite nsubj NOUN+Nom VS                	1287	0.0518178523976326
+finite emptysubj                        	1172	0.0471876635664533
+finite nsubj:pass NOUN+Nom SV           	1011	0.0407053992028023
 OBJECT:
-obj NOUN+Nom SVO                        	3729	0.387912202226152
-obj NOUN+Nom VO                         	1543	0.160511806928118
-obj PRON+Acc SVO                        	756	0.0786435035888901
-ccomp OTHER+NoCase SVO                  	693	0.0720898782898159
-obj NOUN+Nom VSO                        	510	0.0530531571829814
-obj PRON+NoCase OSV                     	334	0.0347446166649329
-obj PRON+NoCase SVO                     	302	0.0314157911161968
-obj PRON+Acc VO                         	286	0.0297513783418288
-ccomp OTHER+NoCase VO                   	145	0.0150837407677104
+obj NOUN+Nom SVO                        	3729	0.390103567318757
+obj NOUN+Nom VO                         	1543	0.161418558426614
+obj PRON+Acc SVO                        	756	0.0790877706873104
+ccomp OTHER+NoCase SVO                  	687	0.071869442410294
+obj NOUN+Nom VSO                        	510	0.0533528611779475
+obj PRON+NoCase OSV                     	332	0.0347316664923109
+obj PRON+NoCase SVO                     	301	0.031488649440318
+obj PRON+Acc VO                         	286	0.0299194476409666
 IOBJECT:
-iobj PRON+Acc SVIO                      	103	0.36140350877193
-iobj NOUN+Nom SVIO                      	38	0.133333333333333
-iobj PRON+Acc VIO                       	36	0.126315789473684
-iobj NOUN+Nom VIO                       	25	0.087719298245614
-iobj PRON+Acc OSVI                      	12	0.0421052631578947
-iobj PRON+Acc VSIO                      	10	0.0350877192982456
-iobj PRON+Acc SVI                       	8	0.0280701754385965
-iobj PRON+Gen SVIO                      	6	0.0210526315789474
-iobj NOUN+Nom SVI                       	5	0.0175438596491228
+iobj PRON+Acc SVIO                      	103	0.362676056338028
+iobj NOUN+Nom SVIO                      	38	0.133802816901408
+iobj PRON+Acc VIO                       	36	0.126760563380282
+iobj NOUN+Nom VIO                       	25	0.0880281690140845
+iobj PRON+Acc OSVI                      	12	0.0422535211267606
+iobj PRON+Acc VSIO                      	10	0.0352112676056338
+iobj PRON+Acc SVI                       	8	0.028169014084507
+iobj PRON+Gen SVIO                      	6	0.0211267605633803
+iobj NOUN+Nom SVI                       	5	0.0176056338028169
 AGREEMENT:
-finite                                  	18476	0.73507061865924
-nonfin                                  	6609	0.262940123333996
+finite                                  	18476	0.743890163868422
+nonfin                                  	6311	0.254096710552804
 WORDER:
-SV --> 0.179581 --> VS
-OV --> 0.924685 --> VO
-ADP NOUN 0 12867
+SV --> 0.179651 --> VS
+OV --> 0.925411 --> VO
+ADP NOUN 0 12750
 ADP NOUN 1 42
-ADP PRON 0 10651
+ADP PRON 0 10568
 ADP PRON 1 4
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.003254 --> with ADP
-PRON without ADP --> 0.000375 --> with ADP
-CASE NOUN 0 200
+NOUN without ADP --> 0.003283 --> with ADP
+PRON without ADP --> 0.000378 --> with ADP
+CASE NOUN 0 83
 CASE NOUN 1 12667
-CASE PRON 0 4129
+CASE PRON 0 4046
 CASE PRON 1 6522
-NOUN without Case (and ADP) --> 0.984456 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.612337 --> with Case (but without ADP)
+NOUN without Case (and ADP) --> 0.993490 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.617146 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Swiss German
 SUBJECT:
 nonfin emptysubj                        	53	0.34640522875817
-nonfin nsubj PRON+NoCase SV             	51	0.333333333333333
-nonfin nsubj NOUN+NoCase SV             	37	0.241830065359477
+nonfin nsubj PRON+NOCASE SV             	51	0.333333333333333
+nonfin nsubj NOUN+NOCASE SV             	37	0.241830065359477
 OBJECT:
-obj NOUN+NoCase SOV                     	15	0.214285714285714
-ccomp OTHER+NoCase SVO                  	11	0.157142857142857
-obj NOUN+NoCase OV                      	10	0.142857142857143
-obj PRON+NoCase OV                      	8	0.114285714285714
-obj PRON+NoCase SOV                     	7	0.1
-ccomp OTHER+NoCase VO                   	4	0.0571428571428571
-obj PRON+NoCase OSV                     	3	0.0428571428571429
-obj PRON+NoCase SVO                     	3	0.0428571428571429
+obj NOUN+NOCASE SOV                     	15	0.214285714285714
+ccomp OTHER+NOCASE SVO                  	11	0.157142857142857
+obj NOUN+NOCASE OV                      	10	0.142857142857143
+obj PRON+NOCASE OV                      	8	0.114285714285714
+obj PRON+NOCASE SOV                     	7	0.1
+ccomp OTHER+NOCASE VO                   	4	0.0571428571428571
+obj PRON+NOCASE OSV                     	3	0.0428571428571429
+obj PRON+NOCASE SVO                     	3	0.0428571428571429
 IOBJECT:
-iobj PRON+NoCase IVO                    	2	0.285714285714286
-iobj PRON+NoCase IV                     	1	0.142857142857143
-iobj PRON+NoCase SIOV                   	1	0.142857142857143
-iobj PRON+NoCase SIV                    	1	0.142857142857143
-iobj PRON+NoCase SIVO                   	1	0.142857142857143
+iobj PRON+NOCASE IVO                    	2	0.285714285714286
+iobj PRON+NOCASE IV                     	1	0.142857142857143
+iobj PRON+NOCASE SIOV                   	1	0.142857142857143
+iobj PRON+NOCASE SIV                    	1	0.142857142857143
+iobj PRON+NOCASE SIVO                   	1	0.142857142857143
 AGREEMENT:
 nonfin                                  	153	1
 WORDER:
@@ -4212,12 +4225,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 69
-CASE NOUN 1 
-CASE PRON 0 81
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ukrainian
@@ -4609,13 +4616,13 @@ Turkic: 20: 10: Azerbaijani (1), Kazakh (1), Kyrgyz (2), Old Turkish (1), Ottoma
 --------------------------------------------------------------------------------
 Azerbaijani
 SUBJECT:
-nonfin nsubj NOUN+NoCase SV             	82	0.554054054054054
+nonfin nsubj NOUN+NOCASE SV             	82	0.554054054054054
 nonfin emptysubj                        	54	0.364864864864865
 OBJECT:
-obj NOUN+NoCase SOV                     	19	0.463414634146341
-obj NOUN+NoCase OV                      	10	0.24390243902439
-ccomp OTHER+NoCase OV                   	3	0.0731707317073171
-ccomp OTHER+NoCase VO                   	3	0.0731707317073171
+obj NOUN+NOCASE SOV                     	19	0.463414634146341
+obj NOUN+NOCASE OV                      	10	0.24390243902439
+ccomp OTHER+NOCASE OV                   	3	0.0731707317073171
+ccomp OTHER+NOCASE VO                   	3	0.0731707317073171
 IOBJECT:
 AGREEMENT:
 nonfin                                  	148	1
@@ -4629,12 +4636,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 111
-CASE NOUN 1 
-CASE PRON 0 12
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Kazakh
@@ -4734,13 +4735,13 @@ PRON without Case (and ADP) --> 0.703297 --> with Case (but without ADP)
 Old Turkish
 SUBJECT:
 nonfin emptysubj                        	20	0.833333333333333
-nonfin nsubj NOUN+NoCase SV             	3	0.125
+nonfin nsubj NOUN+NOCASE SV             	3	0.125
 OBJECT:
-ccomp OTHER+NoCase OV                   	2	0.25
-obj NOUN+𐰏+NoCase OV                    	2	0.25
-ccomp OTHER+NoCase SOV                  	1	0.125
-obj NOUN+NoCase OV                      	1	0.125
-obj NOUN+𐰣𐰃+NoCase OV                   	1	0.125
+ccomp OTHER+NOCASE OV                   	2	0.25
+obj NOUN+𐰏+NOCASE OV                    	2	0.25
+ccomp OTHER+NOCASE SOV                  	1	0.125
+obj NOUN+NOCASE OV                      	1	0.125
+obj NOUN+𐰣𐰃+NOCASE OV                   	1	0.125
 IOBJECT:
 AGREEMENT:
 nonfin                                  	24	1
@@ -4754,12 +4755,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.500000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 4
-CASE NOUN 1 
-CASE PRON 0 1
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Ottoman Turkish
@@ -4865,82 +4860,77 @@ PRON without Case (and ADP) --> 0.909091 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Turkish
 SUBJECT:
-nonfin emptysubj                        	45791	0.34929364740343
-finite emptysubj                        	31907	0.243386525904681
-finite nsubj NOUN+Nom SV                	24100	0.183834747055593
-nonfin nsubj NOUN+Nom SV                	12829	0.0978595838164399
+nonfin emptysubj                        	44162	0.347466895363384
+finite emptysubj                        	31537	0.248133315499186
+finite nsubj NOUN+Nom SV                	23970	0.188596111631274
+nonfin nsubj NOUN+Nom SV                	12429	0.0977914506243263
 OBJECT:
-obj NOUN+Acc OV                         	8890	0.213476131015272
-obj NOUN+Nom OV                         	8660	0.207953126500816
-obj NOUN+Acc SOV                        	3975	0.0954519258476611
-obj NOUN+Nom SOV                        	3131	0.0751849005859187
-ccomp NOUN+Acc SOV                      	1422	0.034146575737201
-ccomp NOUN+Acc OV                       	1162	0.0279031793295553
-ccomp OTHER+NoCase OV                   	1088	0.0261262126596869
-obj NOUN+Dat OV                         	1062	0.0255018730189223
-obj PRON+NoCase OV                      	912	0.0218999135529728
-obj NOUN+Dat SOV                        	767	0.018418019402555
-obj NOUN+Abl OV                         	714	0.0171453270579195
-obj PRON+Acc OV                         	592	0.0142157333589473
-ccomp NOUN+Nom OV                       	476	0.011430218038613
-obj OTHER+NoCase OV                     	466	0.0111900874075497
-obj PRON+NoCase SOV                     	449	0.0107818653347421
-ccomp NOUN+Dat OV                       	426	0.0102295648832965
-ccomp OTHER+Acc OV                      	401	0.00962923830563827
-ccomp OTHER+NoCase SOV                  	376	0.00902891172798002
-obj OTHER+Acc OV                        	360	0.00864470271827874
-ccomp NOUN+Dat SOV                      	338	0.00811641532993949
+obj NOUN+Acc OV                         	8700	0.216428678043684
+obj NOUN+Nom OV                         	8501	0.211478182994179
+obj NOUN+Acc SOV                        	3821	0.0950544803224041
+obj NOUN+Nom SOV                        	3079	0.0765958505398279
+ccomp NOUN+Acc SOV                      	1422	0.0353748942733469
+ccomp NOUN+Acc OV                       	1162	0.0289069107915817
+ccomp OTHER+NoCase OV                   	1062	0.0264192248370566
+obj NOUN+Dat OV                         	1062	0.0264192248370566
+obj PRON+NoCase OV                      	912	0.0226876959052689
+obj NOUN+Dat SOV                        	767	0.0190805512712075
+obj NOUN+Abl OV                         	714	0.0177620777153092
+obj PRON+Acc OV                         	531	0.0132096124185283
+ccomp NOUN+Nom OV                       	474	0.011791631424449
+obj OTHER+NoCase OV                     	465	0.0115677396885417
+obj PRON+NoCase SOV                     	449	0.0111697099358177
+ccomp NOUN+Dat OV                       	426	0.0105975421662769
+ccomp OTHER+Acc OV                      	396	0.0098512363799194
+ccomp OTHER+NoCase SOV                  	375	0.00932882232946913
 IOBJECT:
-iobj NOUN+Dat OIV                       	191	0.181386514719848
-iobj NOUN+Dat IOV                       	177	0.168091168091168
-iobj NOUN+Dat SIOV                      	71	0.0674264007597341
-iobj NOUN+Dat SOIV                      	62	0.0588793922127255
-iobj NOUN+Dat SIV                       	59	0.0560303893637227
-iobj NOUN+Dat IV                        	53	0.050332383665717
-iobj PRON+NoCase IOV                    	33	0.0313390313390313
-iobj PRON+Dat IOV                       	28	0.0265906932573599
-iobj NOUN+Dat ISV                       	18	0.0170940170940171
-iobj PRON+NoCase OIV                    	17	0.0161443494776828
-iobj PRON+Dat SIOV                      	16	0.0151946818613485
-iobj PRON+Dat SIV                       	16	0.0151946818613485
-iobj NOUN+Nom OIV                       	15	0.0142450142450142
-iobj OTHER+Dat IV                       	14	0.01329534662868
-iobj NOUN+Dat OVI                       	13	0.0123456790123457
-iobj PRON+Dat IV                        	13	0.0123456790123457
-iobj OTHER+Dat SIOV                     	12	0.0113960113960114
-iobj PRON+Dat OIV                       	12	0.0113960113960114
-iobj PRON+NoCase SIOV                   	12	0.0113960113960114
-iobj OTHER+Dat IOV                      	10	0.00949667616334283
-iobj OTHER+Dat SIV                      	10	0.00949667616334283
-iobj OTHER+Dat OIV                      	9	0.00854700854700855
-iobj OTHER+NoCase OIV                   	9	0.00854700854700855
-iobj NOUN+Nom IOV                       	8	0.00759734093067426
-iobj NOUN+Nom SOIV                      	8	0.00759734093067426
-iobj NOUN+Dat SOVI                      	7	0.00664767331433998
-iobj NOUN+Dat ISOV                      	6	0.0056980056980057
+iobj NOUN+Dat OIV                       	191	0.187254901960784
+iobj NOUN+Dat IOV                       	177	0.173529411764706
+iobj NOUN+Dat SIOV                      	71	0.0696078431372549
+iobj NOUN+Dat SOIV                      	62	0.0607843137254902
+iobj NOUN+Dat SIV                       	59	0.057843137254902
+iobj NOUN+Dat IV                        	53	0.0519607843137255
+iobj PRON+NoCase IOV                    	33	0.0323529411764706
+iobj PRON+Dat IOV                       	28	0.0274509803921569
+iobj NOUN+Dat ISV                       	18	0.0176470588235294
+iobj PRON+NoCase OIV                    	17	0.0166666666666667
+iobj NOUN+Nom OIV                       	15	0.0147058823529412
+iobj OTHER+Dat IV                       	14	0.0137254901960784
+iobj NOUN+Dat OVI                       	13	0.0127450980392157
+iobj OTHER+Dat SIOV                     	12	0.0117647058823529
+iobj PRON+Dat SIOV                      	12	0.0117647058823529
+iobj PRON+NoCase SIOV                   	12	0.0117647058823529
+iobj PRON+Dat IV                        	11	0.0107843137254902
+iobj PRON+Dat OIV                       	11	0.0107843137254902
+iobj OTHER+Dat IOV                      	10	0.00980392156862745
+iobj OTHER+Dat SIV                      	10	0.00980392156862745
+iobj PRON+Dat SIV                       	10	0.00980392156862745
+iobj OTHER+Dat OIV                      	9	0.00882352941176471
+iobj OTHER+NoCase OIV                   	9	0.00882352941176471
+iobj NOUN+Nom IOV                       	8	0.00784313725490196
+iobj NOUN+Nom SOIV                      	8	0.00784313725490196
 AGREEMENT:
-nonfin                                  	49950	0.381018490266675
-finite Number=Sing|Person=3             	40515	0.309048330994081
-nonfin Number=Sing|Person=3             	9409	0.0717718313297126
-finite Number=Sing|Person=1             	7574	0.0577744553609569
-finite                                  	2947	0.0224797095258437
-finite Number=Plur|Person=3             	2806	0.0214041618356014
+nonfin                                  	49146	0.386681038891555
+finite Number=Sing|Person=3             	39995	0.314680913003454
+nonfin Number=Sing|Person=3             	8908	0.0700882003509131
+finite Number=Sing|Person=1             	7169	0.0564057373502128
+finite                                  	2914	0.0229273704336058
 WORDER:
-SV --> 0.028428 --> VS
-OV --> 0.032994 --> VO
-ADP NOUN 0 73459
-ADP NOUN 1 923
-ADP PRON 0 8648
-ADP PRON 1 91
+SV --> 0.024865 --> VS
+OV --> 0.021071 --> VO
+ADP NOUN 0 72095
+ADP NOUN 1 884
+ADP PRON 0 6995
+ADP PRON 1 82
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.012409 --> with ADP
-PRON without ADP --> 0.010413 --> with ADP
-CASE NOUN 0 816
-CASE NOUN 1 72643
-CASE PRON 0 4250
-CASE PRON 1 4398
-NOUN without Case (and ADP) --> 0.988892 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.508557 --> with Case (but without ADP)
+NOUN without ADP --> 0.012113 --> with ADP
+PRON without ADP --> 0.011587 --> with ADP
+CASE NOUN 0 788
+CASE NOUN 1 71307
+CASE PRON 0 4247
+CASE PRON 1 2748
+NOUN without Case (and ADP) --> 0.989070 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.392852 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Uyghur
@@ -5239,101 +5229,67 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Arabic
 SUBJECT:
-nonfin emptysubj                        	44865	0.533980004760771
-nonfin nsubj NOUN+Nom VS                	17738	0.211116400856939
-nonfin nsubj NOUN+NoCase VS             	3537	0.0420971197333968
-finite emptysubj                        	2705	0.0321947155439181
-nonfin nsubj NOUN+Nom SV                	2515	0.0299333492025708
-nonfin nsubj NOUN+Acc SV                	1683	0.0200309450130921
+nonfin emptysubj                        	8747	0.387962388006742
+finite emptysubj                        	2705	0.11997693604187
+nonfin nsubj NOUN+Nom VS                	2085	0.0924776013483545
+finite nsubj NOUN+Nom VS                	1171	0.0519382595582365
+finite nsubj NOUN+Acc SV                	1104	0.0489665572607114
+nonfin nsubj NOUN+Acc SV                	893	0.0396079127117892
+finite nsubj PRON+Gen SV                	773	0.0342854608356249
+nonfin nsubj PRON+Gen SV                	715	0.0317129424288122
+finite nsubj PRON+Acc SV                	395	0.0175197374257074
+nonfin nsubj PRON+Acc SV                	392	0.0173866761288033
+finite nsubj NOUN+Nom SV                	343	0.0152133416127029
 OBJECT:
-obj NOUN+Acc VO                         	9910	0.168471516243646
-obj NOUN+_+Gen VO                       	6531	0.111027999251993
-obj NOUN+Acc VSO                        	4831	0.0821277391496524
-ccomp OTHER+NoCase VO                   	3126	0.0531424782823045
-obj NOUN+Acc SVO                        	3031	0.0515274637471737
-obj NOUN+_+Gen VSO                      	3023	0.0513914625231627
-obj PRON+Acc VOS                        	2878	0.048926440337963
-obj NOUN+b+Gen VO                       	2036	0.0346123115108036
-obj PRON+Acc VO                         	2011	0.0341873076857692
-obj PRON+_+NoCase VO                    	1531	0.0260272342451082
-ccomp OTHER+NoCase VSO                  	1289	0.021913197218775
-obj PRON+_+NoCase VOS                   	1287	0.0218791969127722
-obj NOUN+_+Gen SVO                      	951	0.0161671455043095
-obj NOUN+l+Gen VO                       	920	0.0156401407612669
-obj NOUN+b+Gen VSO                      	790	0.0134301208710878
-obj NOUN+_+Gen OVS                      	727	0.0123591112320011
-obj NOUN+_+NoCase VO                    	686	0.0116621049589446
-obj PRON+Acc SVO                        	622	0.0105740951668565
-obj NOUN+NoCase VO                      	603	0.0102510922598303
-obj PRON+NoCase VO                      	587	0.00997908981180831
-ccomp OTHER+NoCase SVO                  	486	0.00826207435866923
-obj OTHER+NoCase VO                     	455	0.00773506961562654
-obj NOUN+Gen VO                         	433	0.00736106624959625
-obj NOUN+l+Gen VSO                      	421	0.00715706441357972
-obj NOUN+_+NoCase VSO                   	392	0.00666405997653979
-obj NOUN+Nom VO                         	388	0.00659605936453428
-obj NOUN+_+Acc VO                       	378	0.00642605783452051
+obj NOUN+Acc SVO                        	1701	0.236447039199333
+obj NOUN+Acc VO                         	1199	0.166666666666667
+obj NOUN+Acc VSO                        	696	0.0967472894078399
+obj PRON+Acc SVO                        	521	0.0724214623297192
+obj PRON+Acc VOS                        	421	0.0585209897136503
+ccomp OTHER+NoCase VO                   	417	0.0579649708090075
+ccomp OTHER+NoCase VSO                  	335	0.046566583263831
+obj PRON+Acc VO                         	290	0.0403113705865999
+ccomp OTHER+NoCase SVO                  	229	0.0318320822907979
+obj OTHER+NoCase VO                     	229	0.0318320822907979
+obj OTHER+NoCase SVO                    	219	0.030442035029191
 IOBJECT:
-iobj NOUN+_+Gen VOI                     	3038	0.199226178765821
-iobj NOUN+_+Gen VSOI                    	1215	0.0796773558921896
-iobj NOUN+Acc VOI                       	1040	0.0682011935208866
-iobj NOUN+b+Gen VOI                     	895	0.0586923732703784
-iobj NOUN+l+Gen VOI                     	734	0.0481343038887796
-iobj NOUN+_+Gen VOSI                    	653	0.0428224801626336
-iobj NOUN+Acc VSOI                      	490	0.0321332546396485
-iobj NOUN+Acc OVSI                      	423	0.0277395239032068
-iobj NOUN+b+Gen VSOI                    	416	0.0272804774083546
-iobj NOUN+_+Gen SVOI                    	378	0.0247885107220146
-iobj NOUN+_+NoCase VOI                  	334	0.0219030756115155
-iobj NOUN+l+Gen VSOI                    	289	0.0189520624303233
-iobj NOUN+_+Gen OVSI                    	269	0.0176405010164601
-iobj OTHER+_+Gen VOI                    	266	0.0174437668043806
-iobj PRON+_+NoCase VOI                  	218	0.0142960194111089
-iobj NOUN+b+Gen VOSI                    	167	0.0109515378057578
-iobj NOUN+l+Gen VOSI                    	157	0.0102957570988262
-iobj NOUN+Acc SVOI                      	150	0.00983671060397403
-iobj NOUN+b+Gen SVOI                    	136	0.00891861761426979
-iobj NOUN+Acc OVI                       	135	0.00885303954357663
-iobj NOUN+_+NoCase VSOI                 	128	0.00839399304872451
-iobj PRON+NoCase VOI                    	120	0.00786936848317923
-iobj NOUN+_+Acc VOI                     	118	0.0077382123417929
-iobj NOUN+_+Gen OVI                     	109	0.00714800970555446
-iobj NOUN+Acc VOSI                      	106	0.00695127549347498
-iobj OTHER+_+Gen VSOI                   	105	0.00688569742278182
-iobj PRON+NoCase VSOI                   	96	0.00629549478654338
-iobj NOUN+l+Gen SVOI                    	95	0.00622991671585022
-iobj PRON+_+NoCase VSOI                 	94	0.00616433864515706
-iobj PRON+l+NoCase VOI                  	90	0.00590202636238442
-iobj NOUN+_+NoCase VOSI                 	84	0.00550855793822546
-iobj NOUN+b+Gen OVSI                    	72	0.00472162108990754
-iobj PRON+b+NoCase VOI                  	70	0.00459046494852121
-iobj OTHER+_+Gen SVOI                   	68	0.00445930880713489
-iobj OTHER+_+Gen VOSI                   	65	0.00426257459505541
-iobj OTHER+Acc VOI                      	62	0.00406584038297593
-iobj NOUN+_+NoCase SVOI                 	61	0.00400026231228277
-iobj NOUN+Nom VOI                       	56	0.00367237195881697
+iobj NOUN+Acc VIO                       	8	0.129032258064516
+iobj PRON+Acc SVIO                      	7	0.112903225806452
+iobj PRON+Acc VIO                       	5	0.0806451612903226
+iobj NOUN+Acc SVIO                      	4	0.0645161290322581
+iobj NOUN+Acc VOI                       	4	0.0645161290322581
+iobj NOUN+Acc VSIO                      	4	0.0645161290322581
+iobj OTHER+NoCase VIO                   	4	0.0645161290322581
+iobj NOUN+Nom VOSI                      	3	0.0483870967741935
+iobj OTHER+NoCase SVIO                  	3	0.0483870967741935
+iobj OTHER+NoCase VSIO                  	3	0.0483870967741935
+iobj NOUN+Acc SVOI                      	2	0.032258064516129
+iobj OTHER+NoCase SVOI                  	2	0.032258064516129
+iobj OTHER+NoCase VOI                   	2	0.032258064516129
+iobj NOUN+Gen OVSI                      	1	0.0161290322580645
+iobj NOUN+Gen VOI                       	1	0.0161290322580645
 AGREEMENT:
-nonfin Gender=Masc|Number=Sing|Person=3 	33772	0.401951916210426
-nonfin Gender=Fem|Number=Sing|Person=3  	20605	0.245239228755058
-nonfin                                  	12886	0.153368245655796
-finite Gender=Masc|Number=Sing|Person=3 	3631	0.0432159009759581
-nonfin Gender=Masc|Number=Plur|Person=3 	3179	0.037836229469174
+nonfin                                  	7421	0.329149294775126
+nonfin Gender=Masc|Number=Sing|Person=3 	3927	0.174177237647476
+finite Gender=Masc|Number=Sing|Person=3 	3631	0.161048523019604
+finite Gender=Fem|Number=Sing|Person=3  	3170	0.140601437062007
+nonfin Gender=Fem|Number=Sing|Person=3  	2796	0.124013128714628
 WORDER:
-SV --> 0.693169 --> VS
-OV --> 0.958690 --> VO
-ADP NOUN 0 52897
-ADP NOUN 1 29801
-ADP PRON 0 11356
-ADP PRON 1 4497
+SV --> 0.424734 --> VS
+OV --> 0.994023 --> VO
+ADP NOUN 0 10065
+ADP NOUN 1 54
+ADP PRON 0 4184
+ADP PRON 1 6
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.360359 --> with ADP
-PRON without ADP --> 0.283669 --> with ADP
-CASE NOUN 0 5424
-CASE NOUN 1 47473
-CASE PRON 0 2191
-CASE PRON 1 9165
-NOUN without Case (and ADP) --> 0.897461 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.807062 --> with Case (but without ADP)
+NOUN without ADP --> 0.005336 --> with ADP
+PRON without ADP --> 0.001432 --> with ADP
+CASE NOUN 0 233
+CASE NOUN 1 9832
+CASE PRON 0 99
+CASE PRON 1 4085
+NOUN without Case (and ADP) --> 0.976850 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.976338 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Assyrian
@@ -5607,41 +5563,41 @@ PRON without Case (and ADP) --> 0.008837 --> with Case (but without ADP)
 Maltese
 SUBJECT:
 nonfin emptysubj                        	4172	0.660963244613435
-nonfin nsubj NOUN+NoCase SV             	1088	0.172370088719899
-nonfin nsubj NOUN+NoCase VS             	357	0.0565589353612167
+nonfin nsubj NOUN+NOCASE SV             	1088	0.172370088719899
+nonfin nsubj NOUN+NOCASE VS             	357	0.0565589353612167
 OBJECT:
-obj NOUN+NoCase VO                      	773	0.396613648024628
-ccomp OTHER+NoCase VO                   	348	0.178553104155977
-obj NOUN+NoCase SVO                     	275	0.141097998973833
-ccomp OTHER+NoCase SVO                  	149	0.0764494612621857
-obj PRON+NoCase VO                      	71	0.0364289379168804
-obj NOUN+NoCase OV                      	31	0.0159055926115957
-obj NOUN+lill-+NoCase VO                	30	0.0153925089789636
+obj NOUN+NOCASE VO                      	773	0.396613648024628
+ccomp OTHER+NOCASE VO                   	348	0.178553104155977
+obj NOUN+NOCASE SVO                     	275	0.141097998973833
+ccomp OTHER+NOCASE SVO                  	149	0.0764494612621857
+obj PRON+NOCASE VO                      	71	0.0364289379168804
+obj NOUN+NOCASE OV                      	31	0.0159055926115957
+obj NOUN+lill-+NOCASE VO                	30	0.0153925089789636
 IOBJECT:
-iobj NOUN+lil+NoCase VI                 	8	0.123076923076923
-iobj NOUN+lill-+NoCase VOI              	6	0.0923076923076923
-iobj PRON+lil+NoCase VOI                	6	0.0923076923076923
-iobj NOUN+lil+NoCase VOI                	4	0.0615384615384615
-iobj NOUN+lill-+NoCase VI               	4	0.0615384615384615
-iobj NOUN+lil+NoCase SVI                	3	0.0461538461538462
-iobj NOUN+lil+NoCase IV                 	2	0.0307692307692308
-iobj NOUN+lil+NoCase SVIO               	2	0.0307692307692308
-iobj NOUN+lill-+NoCase SVI              	2	0.0307692307692308
-iobj NOUN+lill-+NoCase SVOI             	2	0.0307692307692308
-iobj NOUN+lill-+NoCase VSI              	2	0.0307692307692308
-iobj PRON+NoCase OVI                    	2	0.0307692307692308
-iobj PRON+NoCase VI                     	2	0.0307692307692308
-iobj NOUN+NoCase IV                     	1	0.0153846153846154
-iobj NOUN+NoCase IVO                    	1	0.0153846153846154
-iobj NOUN+NoCase IVS                    	1	0.0153846153846154
-iobj NOUN+NoCase OVI                    	1	0.0153846153846154
-iobj NOUN+lil+NoCase VIS                	1	0.0153846153846154
-iobj NOUN+lill-+NoCase OVI              	1	0.0153846153846154
-iobj NOUN+lill-+NoCase OVSI             	1	0.0153846153846154
-iobj NOUN+lill-+NoCase VIO              	1	0.0153846153846154
-iobj NOUN+lin-+NoCase VI                	1	0.0153846153846154
-iobj NOUN+lis-+NoCase IV                	1	0.0153846153846154
-iobj NOUN+lit-+NoCase VI                	1	0.0153846153846154
+iobj NOUN+lil+NOCASE VI                 	8	0.123076923076923
+iobj NOUN+lill-+NOCASE VOI              	6	0.0923076923076923
+iobj PRON+lil+NOCASE VOI                	6	0.0923076923076923
+iobj NOUN+lil+NOCASE VOI                	4	0.0615384615384615
+iobj NOUN+lill-+NOCASE VI               	4	0.0615384615384615
+iobj NOUN+lil+NOCASE SVI                	3	0.0461538461538462
+iobj NOUN+lil+NOCASE IV                 	2	0.0307692307692308
+iobj NOUN+lil+NOCASE SVIO               	2	0.0307692307692308
+iobj NOUN+lill-+NOCASE SVI              	2	0.0307692307692308
+iobj NOUN+lill-+NOCASE SVOI             	2	0.0307692307692308
+iobj NOUN+lill-+NOCASE VSI              	2	0.0307692307692308
+iobj PRON+NOCASE OVI                    	2	0.0307692307692308
+iobj PRON+NOCASE VI                     	2	0.0307692307692308
+iobj NOUN+NOCASE IV                     	1	0.0153846153846154
+iobj NOUN+NOCASE IVO                    	1	0.0153846153846154
+iobj NOUN+NOCASE IVS                    	1	0.0153846153846154
+iobj NOUN+NOCASE OVI                    	1	0.0153846153846154
+iobj NOUN+lil+NOCASE VIS                	1	0.0153846153846154
+iobj NOUN+lill-+NOCASE OVI              	1	0.0153846153846154
+iobj NOUN+lill-+NOCASE OVSI             	1	0.0153846153846154
+iobj NOUN+lill-+NOCASE VIO              	1	0.0153846153846154
+iobj NOUN+lin-+NOCASE VI                	1	0.0153846153846154
+iobj NOUN+lis-+NOCASE IV                	1	0.0153846153846154
+iobj NOUN+lit-+NOCASE VI                	1	0.0153846153846154
 AGREEMENT:
 nonfin                                  	6312	1
 WORDER:
@@ -5654,31 +5610,25 @@ ADP PRON 1 26
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.058278 --> with ADP
 PRON without ADP --> 0.044143 --> with ADP
-CASE NOUN 0 2537
-CASE NOUN 1 
-CASE PRON 0 563
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 South Levantine Arabic
 SUBJECT:
 nonfin emptysubj                        	114	0.75
-nonfin nsubj PRON+NoCase SV             	15	0.0986842105263158
-nonfin nsubj NOUN+NoCase VS             	10	0.0657894736842105
+nonfin nsubj PRON+NOCASE SV             	15	0.0986842105263158
+nonfin nsubj NOUN+NOCASE VS             	10	0.0657894736842105
 OBJECT:
-obj NOUN+NoCase VO                      	28	0.424242424242424
-obj PRON+NoCase VO                      	13	0.196969696969697
-ccomp OTHER+NoCase VO                   	7	0.106060606060606
-obj NOUN+NoCase SVO                     	3	0.0454545454545455
-obj PRON+NoCase SVO                     	3	0.0454545454545455
-obj OTHER+NoCase VO                     	2	0.0303030303030303
-ccomp NOUN+NoCase VO                    	1	0.0151515151515152
+obj NOUN+NOCASE VO                      	28	0.424242424242424
+obj PRON+NOCASE VO                      	13	0.196969696969697
+ccomp OTHER+NOCASE VO                   	7	0.106060606060606
+obj NOUN+NOCASE SVO                     	3	0.0454545454545455
+obj PRON+NOCASE SVO                     	3	0.0454545454545455
+obj OTHER+NOCASE VO                     	2	0.0303030303030303
+ccomp NOUN+NOCASE VO                    	1	0.0151515151515152
 IOBJECT:
-iobj NOUN+NoCase OVI                    	1	0.333333333333333
-iobj NOUN+NoCase VOI                    	1	0.333333333333333
-iobj PRON+NoCase VIO                    	1	0.333333333333333
+iobj NOUN+NOCASE OVI                    	1	0.333333333333333
+iobj NOUN+NOCASE VOI                    	1	0.333333333333333
+iobj PRON+NOCASE VIO                    	1	0.333333333333333
 AGREEMENT:
 nonfin                                  	152	1
 WORDER:
@@ -5691,12 +5641,6 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.053571 --> with ADP
 PRON without ADP --> 0.027027 --> with ADP
-CASE NOUN 0 53
-CASE NOUN 1 
-CASE PRON 0 36
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Zaar
@@ -6547,36 +6491,40 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Mbya Guarani
 SUBJECT:
-finite emptysubj                        	875	0.489373601789709
-finite nsubj NOUN+NoCase SV             	314	0.175615212527964
-nonfin emptysubj                        	261	0.145973154362416
-finite nsubj PRON+NoCase SV             	149	0.0833333333333333
+finite emptysubj                        	82	0.471264367816092
+finite nsubj PRON+NoCase SV             	39	0.224137931034483
+finite nsubj NOUN+NoCase SV             	21	0.120689655172414
+nonfin emptysubj                        	20	0.114942528735632
 OBJECT:
-obj NOUN+NoCase OV                      	77	0.263698630136986
-obj NOUN+NoCase VO                      	69	0.236301369863014
-obj NOUN+NoCase SVO                     	38	0.13013698630137
-obj NOUN+NoCase SOV                     	27	0.0924657534246575
-obj PRON+NoCase OV                      	15	0.0513698630136986
-ccomp OTHER+NoCase VO                   	14	0.0479452054794521
-obj OTHER+NoCase VO                     	13	0.0445205479452055
+obj NOUN+NoCase OV                      	14	0.233333333333333
+ccomp OTHER+NoCase VO                   	8	0.133333333333333
+obj NOUN+NoCase VO                      	7	0.116666666666667
+obj PRON+NoCase OV                      	7	0.116666666666667
+ccomp OTHER+NoCase SVO                  	5	0.0833333333333333
+obj NOUN+NoCase SOV                     	3	0.05
+obj NOUN+NoCase SVO                     	3	0.05
+obj OTHER+NoCase VO                     	3	0.05
+obj PRON+NoCase OSV                     	3	0.05
 IOBJECT:
 AGREEMENT:
-finite Person[subj]=3                   	1055	0.590044742729307
-nonfin                                  	351	0.196308724832215
-finite Person[subj]=1                   	234	0.130872483221477
+finite Person[subj]=3                   	51	0.293103448275862
+finite Clusivity[subj]=Ex|Person[subj]=1	34	0.195402298850575
+finite Person[subj]=1                   	34	0.195402298850575
+nonfin                                  	26	0.149425287356322
+finite Clusivity[subj]=In|Person[subj]=1	17	0.0977011494252874
 WORDER:
-SV --> 0.118098 --> VS
-OV --> 0.510274 --> VO
-ADP NOUN 0 663
-ADP NOUN 1 5
-ADP PRON 0 201
-ADP PRON 1 2
+SV --> 0.111111 --> VS
+OV --> 0.466667 --> VO
+ADP NOUN 0 60
+ADP NOUN 1 
+ADP PRON 0 54
+ADP PRON 1 
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.007485 --> with ADP
-PRON without ADP --> 0.009852 --> with ADP
-CASE NOUN 0 663
+NOUN without ADP --> 0.000000 --> with ADP
+PRON without ADP --> 0.000000 --> with ADP
+CASE NOUN 0 60
 CASE NOUN 1 
-CASE PRON 0 201
+CASE PRON 0 54
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
@@ -7004,28 +6952,35 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Tagalog
 SUBJECT:
-nonfin nsubj NOUN+ang+NoCase VS         	95	0.340501792114695
 nonfin emptysubj                        	74	0.265232974910394
-nonfin nsubj PRON+NoCase VS             	23	0.0824372759856631
+nonfin nsubj NOUN+ang+NoCase VS         	58	0.207885304659498
+nonfin nsubj NOUN+ang+NOCASE VS         	37	0.132616487455197
+nonfin nsubj PRON+NOCASE VS             	23	0.0824372759856631
 nonfin nsubj:pass NOUN+ang+NoCase VS    	15	0.0537634408602151
 nonfin nsubj PRON+Nom VS                	13	0.046594982078853
-nonfin nsubj NOUN+ang+NoCase SV         	9	0.032258064516129
-nonfin nsubj OTHER+ang+NoCase VS        	9	0.032258064516129
+nonfin nsubj NOUN+ang+NOCASE SV         	8	0.028673835125448
+nonfin nsubj OTHER+ang+NOCASE VS        	8	0.028673835125448
+nonfin nsubj NOUN+si+NoCase VS          	6	0.021505376344086
 OBJECT:
-obj NOUN+ng+NoCase VOS                  	15	0.14018691588785
-obj NOUN+NoCase VO                      	13	0.121495327102804
+obj NOUN+NOCASE VO                      	11	0.102803738317757
+obj NOUN+ng+NoCase VOS                  	11	0.102803738317757
 obj:agent NOUN+ng+NoCase VOS            	11	0.102803738317757
-obj NOUN+ng+NoCase VSO                  	9	0.0841121495327103
-obj PRON+NoCase VOS                     	8	0.0747663551401869
+obj PRON+NOCASE VOS                     	8	0.0747663551401869
 obj:agent PRON+Gen VOS                  	8	0.0747663551401869
-obj NOUN+ng+NoCase VO                   	6	0.0560747663551402
-obj NOUN+NoCase VOS                     	4	0.0373831775700935
-obj NOUN+ng+NoCase SVO                  	4	0.0373831775700935
-obj PRON+NoCase VO                      	4	0.0373831775700935
+obj NOUN+ng+NOCASE VSO                  	5	0.0467289719626168
+obj NOUN+ng+NOCASE VOS                  	4	0.0373831775700935
+obj NOUN+ng+NoCase VO                   	4	0.0373831775700935
+obj NOUN+ng+NoCase VSO                  	4	0.0373831775700935
+obj PRON+NOCASE VO                      	4	0.0373831775700935
 obj:agent PRON+Gen VO                   	4	0.0373831775700935
+obj NOUN+NoCase VOS                     	3	0.0280373831775701
+obj NOUN+ng+NOCASE SVO                  	3	0.0280373831775701
+obj NOUN+NoCase VO                      	2	0.0186915887850467
+obj NOUN+ng+NOCASE VO                   	2	0.0186915887850467
 obj NOUN+si+NoCase VSO                  	2	0.0186915887850467
-obj OTHER+NoCase VOS                    	2	0.0186915887850467
-obj PRON+NoCase OV                      	2	0.0186915887850467
+obj OTHER+NOCASE VOS                    	2	0.0186915887850467
+obj PRON+NOCASE OV                      	2	0.0186915887850467
+obj PRON+NOCASE OVS                     	2	0.0186915887850467
 IOBJECT:
 iobj:patient NOUN+ng+NoCase VOIS        	2	0.5
 iobj NOUN+NoCase VOIS                   	1	0.25
@@ -7042,50 +6997,50 @@ ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.885714 --> with ADP
 PRON without ADP --> 0.028986 --> with ADP
-CASE NOUN 0 20
+CASE NOUN 0 7
 CASE NOUN 1 
-CASE PRON 0 44
+CASE PRON 0 
 CASE PRON 1 23
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.343284 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 
 Code switching: 4: 4: Frisian Dutch (1), Maghrebi Arabic French (1), Telugu English (1), Turkish German (1)
 --------------------------------------------------------------------------------
 Frisian Dutch
 SUBJECT:
 nonfin emptysubj                        	210	0.396975425330813
-nonfin nsubj PRON+NoCase SV             	179	0.338374291115312
-nonfin nsubj NOUN+NoCase SV             	51	0.0964083175803403
-nonfin nsubj PRON+NoCase VS             	51	0.0964083175803403
+nonfin nsubj PRON+NOCASE SV             	179	0.338374291115312
+nonfin nsubj NOUN+NOCASE SV             	51	0.0964083175803403
+nonfin nsubj PRON+NOCASE VS             	51	0.0964083175803403
 OBJECT:
-obj NOUN+NoCase SOV                     	25	0.159235668789809
-obj NOUN+NoCase VSO                     	12	0.0764331210191083
-obj NOUN+NoCase OV                      	11	0.0700636942675159
-obj PRON+NoCase SVO                     	11	0.0700636942675159
-obj NOUN+NoCase SVO                     	10	0.0636942675159236
-ccomp OTHER+NoCase SVO                  	8	0.0509554140127389
-obj PRON+NoCase SOV                     	8	0.0509554140127389
-obj PRON+NoCase OSV                     	7	0.0445859872611465
-ccomp OTHER+NoCase VSO                  	6	0.0382165605095541
-obj PRON+NoCase OVS                     	6	0.0382165605095541
-obj PRON+NoCase VSO                     	6	0.0382165605095541
-ccomp OTHER+NoCase VO                   	5	0.0318471337579618
-obj PRON+NoCase OV                      	5	0.0318471337579618
-obj NOUN+NoCase VO                      	3	0.0191082802547771
-obj OTHER+NoCase OV                     	3	0.0191082802547771
-obj OTHER+NoCase SOV                    	3	0.0191082802547771
-obj NOUN+NoCase OVS                     	2	0.0127388535031847
-obj OTHER+NoCase SVO                    	2	0.0127388535031847
-obj OTHER+NoCase VO                     	2	0.0127388535031847
+obj NOUN+NOCASE SOV                     	25	0.159235668789809
+obj NOUN+NOCASE VSO                     	12	0.0764331210191083
+obj NOUN+NOCASE OV                      	11	0.0700636942675159
+obj PRON+NOCASE SVO                     	11	0.0700636942675159
+obj NOUN+NOCASE SVO                     	10	0.0636942675159236
+ccomp OTHER+NOCASE SVO                  	8	0.0509554140127389
+obj PRON+NOCASE SOV                     	8	0.0509554140127389
+obj PRON+NOCASE OSV                     	7	0.0445859872611465
+ccomp OTHER+NOCASE VSO                  	6	0.0382165605095541
+obj PRON+NOCASE OVS                     	6	0.0382165605095541
+obj PRON+NOCASE VSO                     	6	0.0382165605095541
+ccomp OTHER+NOCASE VO                   	5	0.0318471337579618
+obj PRON+NOCASE OV                      	5	0.0318471337579618
+obj NOUN+NOCASE VO                      	3	0.0191082802547771
+obj OTHER+NOCASE OV                     	3	0.0191082802547771
+obj OTHER+NOCASE SOV                    	3	0.0191082802547771
+obj NOUN+NOCASE OVS                     	2	0.0127388535031847
+obj OTHER+NOCASE SVO                    	2	0.0127388535031847
+obj OTHER+NOCASE VO                     	2	0.0127388535031847
 IOBJECT:
-iobj NOUN+NoCase SVIO                   	1	0.111111111111111
-iobj NOUN+NoCase SVOI                   	1	0.111111111111111
-iobj NOUN+NoCase VSI                    	1	0.111111111111111
-iobj PRON+NoCase IOV                    	1	0.111111111111111
-iobj PRON+NoCase ISV                    	1	0.111111111111111
-iobj PRON+NoCase IV                     	1	0.111111111111111
-iobj PRON+NoCase SIV                    	1	0.111111111111111
-iobj PRON+NoCase SVIO                   	1	0.111111111111111
+iobj NOUN+NOCASE SVIO                   	1	0.111111111111111
+iobj NOUN+NOCASE SVOI                   	1	0.111111111111111
+iobj NOUN+NOCASE VSI                    	1	0.111111111111111
+iobj PRON+NOCASE IOV                    	1	0.111111111111111
+iobj PRON+NOCASE ISV                    	1	0.111111111111111
+iobj PRON+NOCASE IV                     	1	0.111111111111111
+iobj PRON+NOCASE SIV                    	1	0.111111111111111
+iobj PRON+NOCASE SVIO                   	1	0.111111111111111
 AGREEMENT:
 nonfin                                  	529	1
 WORDER:
@@ -7098,12 +7053,6 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.095541 --> with ADP
 PRON without ADP --> 0.003559 --> with ADP
-CASE NOUN 0 142
-CASE NOUN 1 
-CASE PRON 0 280
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Maghrebi Arabic French
@@ -7152,18 +7101,18 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Telugu English
 SUBJECT:
-nonfin nsubj PRON+NoCase SV             	48	0.436363636363636
+nonfin nsubj PRON+NOCASE SV             	48	0.436363636363636
 nonfin emptysubj                        	32	0.290909090909091
-nonfin nsubj NOUN+NoCase SV             	24	0.218181818181818
+nonfin nsubj NOUN+NOCASE SV             	24	0.218181818181818
 OBJECT:
-obj NOUN+NoCase SOV                     	32	0.592592592592593
-obj NOUN+NoCase OV                      	9	0.166666666666667
-obj PRON+NoCase OSV                     	3	0.0555555555555556
-obj NOUN+NoCase VO                      	2	0.037037037037037
+obj NOUN+NOCASE SOV                     	32	0.592592592592593
+obj NOUN+NOCASE OV                      	9	0.166666666666667
+obj PRON+NOCASE OSV                     	3	0.0555555555555556
+obj NOUN+NOCASE VO                      	2	0.037037037037037
 IOBJECT:
-iobj NOUN+NoCase SIOV                   	2	0.4
-iobj PRON+NoCase IOV                    	2	0.4
-iobj PRON+NoCase SIOV                   	1	0.2
+iobj NOUN+NOCASE SIOV                   	2	0.4
+iobj PRON+NOCASE IOV                    	2	0.4
+iobj PRON+NOCASE SIOV                   	1	0.2
 AGREEMENT:
 nonfin                                  	110	1
 WORDER:
@@ -7176,12 +7125,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.027778 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 70
-CASE NOUN 1 
-CASE PRON 0 58
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 --------------------------------------------------------------------------------
 Turkish German
@@ -7366,90 +7309,81 @@ PRON without Case (and ADP) --> 0.963115 --> with Case (but without ADP)
 --------------------------------------------------------------------------------
 Telugu
 SUBJECT:
-nonfin nsubj PRON+NoCase SV             	668	0.377614471452798
-nonfin emptysubj                        	538	0.304126625211984
-nonfin nsubj NOUN+NoCase SV             	474	0.267947993216506
+nonfin nsubj PRON+NOCASE SV             	620	0.373719107896323
+nonfin emptysubj                        	506	0.305003013863773
+nonfin nsubj NOUN+NOCASE SV             	450	0.27124773960217
 OBJECT:
-obj NOUN+NoCase SOV                     	207	0.348484848484849
-obj NOUN+NoCase OV                      	121	0.203703703703704
-obj PRON+NoCase SOV                     	61	0.102693602693603
-obj PRON+NoCase OV                      	50	0.0841750841750842
-obj PRON+NoCase OSV                     	42	0.0707070707070707
-ccomp OTHER+NoCase OV                   	31	0.0521885521885522
+obj NOUN+NOCASE SOV                     	175	0.324074074074074
+obj NOUN+NOCASE OV                      	112	0.207407407407407
+obj PRON+NOCASE SOV                     	59	0.109259259259259
+obj PRON+NOCASE OV                      	50	0.0925925925925926
+obj PRON+NOCASE OSV                     	39	0.0722222222222222
+ccomp OTHER+NOCASE OV                   	30	0.0555555555555556
 IOBJECT:
-iobj PRON+NoCase IOV                    	10	0.24390243902439
-iobj PRON+NoCase SIOV                   	10	0.24390243902439
-iobj NOUN+NoCase SIOV                   	9	0.219512195121951
-iobj NOUN+NoCase OIV                    	3	0.0731707317073171
-iobj PRON+NoCase OIV                    	3	0.0731707317073171
+iobj PRON+NOCASE SIOV                   	9	0.25
+iobj PRON+NOCASE IOV                    	8	0.222222222222222
+iobj NOUN+NOCASE SIOV                   	7	0.194444444444444
+iobj NOUN+NOCASE OIV                    	3	0.0833333333333333
+iobj PRON+NOCASE OIV                    	3	0.0833333333333333
+iobj NOUN+NOCASE SOIV                   	2	0.0555555555555556
 AGREEMENT:
-nonfin                                  	1769	1
+nonfin                                  	1659	1
 WORDER:
-SV --> 0.005686 --> VS
-OV --> 0.020202 --> VO
-ADP NOUN 0 840
-ADP NOUN 1 4
-ADP PRON 0 848
+SV --> 0.002602 --> VS
+OV --> 0.011111 --> VO
+ADP NOUN 0 770
+ADP NOUN 1 2
+ADP PRON 0 790
 ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
-NOUN without ADP --> 0.004739 --> with ADP
-PRON without ADP --> 0.002353 --> with ADP
-CASE NOUN 0 840
-CASE NOUN 1 
-CASE PRON 0 848
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
+NOUN without ADP --> 0.002591 --> with ADP
+PRON without ADP --> 0.002525 --> with ADP
 
 Japanese: 4: 1: Japanese (4)
 --------------------------------------------------------------------------------
 Japanese
 SUBJECT:
-nonfin emptysubj                        	252412	0.698683525803559
-nonfin nsubj NOUN+_+NoCase SV           	76836	0.212684212274544
+nonfin emptysubj                        	33538	0.647339265378602
+nonfin nsubj NOUN+が+NOCASE SV           	7338	0.141635623154278
+nonfin nsubj NOUN+は+NOCASE SV           	6888	0.132949873574089
 OBJECT:
-obj NOUN+_+NoCase OV                    	46276	0.578688709092501
-obj NOUN+_+NoCase SOV                   	11372	0.142208661072692
-obj NOUN+を+NoCase OV                    	8278	0.103517701051684
-ccomp OTHER+_+NoCase OV                 	4028	0.0503707779459027
+obj NOUN+を+NOCASE OV                    	8278	0.656984126984127
+obj NOUN+を+NOCASE SOV                   	2726	0.216349206349206
 IOBJECT:
 AGREEMENT:
-nonfin                                  	361268	1
+nonfin                                  	51809	1
 WORDER:
-SV --> 0.000037 --> VS
+SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
 ADP NOUN 0 
-ADP NOUN 1 163380
+ADP NOUN 1 27128
 ADP PRON 0 
-ADP PRON 1 8128
+ADP PRON 1 1148
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 1.000000 --> with ADP
 PRON without ADP --> 1.000000 --> with ADP
-CASE NOUN 0 
-CASE NOUN 1 
-CASE PRON 0 
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Korean: 4: 1: Korean (4)
 --------------------------------------------------------------------------------
 Korean
 SUBJECT:
 nonfin emptysubj                        	101203	0.776203770459112
-nonfin nsubj NOUN+NoCase SV             	22794	0.174824745747112
+nonfin nsubj NOUN+NOCASE SV             	16381	0.125638508383059
 OBJECT:
-obj NOUN+NoCase OV                      	20439	0.509548264858396
-ccomp OTHER+NoCase OV                   	10593	0.264085560430794
-obj NOUN+NoCase SOV                     	3100	0.0772836059034703
+obj NOUN+NOCASE OV                      	16653	0.415162544874352
+ccomp OTHER+NOCASE OV                   	10166	0.253440366972477
+obj NOUN+NoCase OV                      	3786	0.0943857199840447
+obj NOUN+NOCASE SOV                     	2127	0.0530265257279617
+ccomp OTHER+NOCASE OSV                  	1269	0.0316364180295174
+obj OTHER+NOCASE OV                     	1124	0.0280215396888712
 IOBJECT:
-iobj OTHER+NoCase IV                    	229	0.262916188289323
-iobj OTHER+NoCase IOV                   	219	0.251435132032147
-iobj OTHER+NoCase OIV                   	134	0.153846153846154
-iobj OTHER+NoCase SIV                   	64	0.0734787600459242
-iobj OTHER+NoCase ISV                   	56	0.0642939150401837
-iobj OTHER+NoCase SIOV                  	34	0.0390355912743972
-iobj NOUN+NoCase IOV                    	33	0.0378874856486797
+iobj OTHER+NOCASE IV                    	229	0.262916188289323
+iobj OTHER+NOCASE IOV                   	219	0.251435132032147
+iobj OTHER+NOCASE OIV                   	134	0.153846153846154
+iobj OTHER+NOCASE SIV                   	64	0.0734787600459242
+iobj OTHER+NOCASE ISV                   	56	0.0642939150401837
+iobj OTHER+NOCASE SIOV                  	34	0.0390355912743972
+iobj NOUN+NOCASE IOV                    	27	0.0309988518943743
 AGREEMENT:
 nonfin                                  	129644	0.994339709469098
 WORDER:
@@ -7462,12 +7396,12 @@ ADP PRON 1 10
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.009362 --> with ADP
 PRON without ADP --> 0.003116 --> with ADP
-CASE NOUN 0 46653
+CASE NOUN 0 11296
 CASE NOUN 1 1704
-CASE PRON 0 2991
+CASE PRON 0 1095
 CASE PRON 1 208
-NOUN without Case (and ADP) --> 0.035238 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.065020 --> with Case (but without ADP)
+NOUN without Case (and ADP) --> 0.131077 --> with Case (but without ADP)
+PRON without Case (and ADP) --> 0.159632 --> with Case (but without ADP)
 
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
 --------------------------------------------------------------------------------
@@ -7665,19 +7599,19 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Paumari
 SUBJECT:
 nonfin emptysubj                        	90	0.737704918032787
-nonfin nsubj NOUN+NoCase SV             	13	0.10655737704918
-nonfin nsubj PRON+NoCase SV             	6	0.0491803278688525
+nonfin nsubj NOUN+NOCASE SV             	13	0.10655737704918
+nonfin nsubj PRON+NOCASE SV             	6	0.0491803278688525
 OBJECT:
-obj NOUN+NoCase VO                      	18	0.375
-obj NOUN+NoCase OV                      	12	0.25
-obj PRON+NoCase OV                      	6	0.125
-obj NOUN+NoCase SVO                     	4	0.0833333333333333
-ccomp OTHER+NoCase OV                   	2	0.0416666666666667
+obj NOUN+NOCASE VO                      	18	0.375
+obj NOUN+NOCASE OV                      	12	0.25
+obj PRON+NOCASE OV                      	6	0.125
+obj NOUN+NOCASE SVO                     	4	0.0833333333333333
+ccomp OTHER+NOCASE OV                   	2	0.0416666666666667
 IOBJECT:
-iobj PRON+NoCase IVO                    	3	0.375
-iobj PRON+NoCase OIV                    	2	0.25
-iobj NOUN+NoCase IVO                    	1	0.125
-iobj PRON+NoCase IV                     	1	0.125
+iobj PRON+NOCASE IVO                    	3	0.375
+iobj PRON+NOCASE OIV                    	2	0.25
+iobj NOUN+NOCASE IVO                    	1	0.125
+iobj PRON+NOCASE IV                     	1	0.125
 AGREEMENT:
 nonfin                                  	122	1
 WORDER:
@@ -7690,12 +7624,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 55
-CASE NOUN 1 
-CASE PRON 0 27
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Austro-Asiatic: 2: 1: Vietnamese (2)
 --------------------------------------------------------------------------------
@@ -8144,20 +8072,20 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 Swedish Sign Language
 SUBJECT:
 nonfin emptysubj                        	124	0.416107382550336
-nonfin nsubj NOUN+NoCase SV             	70	0.23489932885906
-nonfin nsubj PRON+NoCase SV             	65	0.218120805369128
+nonfin nsubj NOUN+NOCASE SV             	70	0.23489932885906
+nonfin nsubj PRON+NOCASE SV             	65	0.218120805369128
 OBJECT:
-obj NOUN+NoCase SVO                     	17	0.314814814814815
-obj NOUN+NoCase VO                      	9	0.166666666666667
-ccomp OTHER+NoCase SVO                  	6	0.111111111111111
-ccomp OTHER+NoCase VO                   	3	0.0555555555555556
-obj NOUN+NoCase OV                      	3	0.0555555555555556
-obj OTHER+NoCase VO                     	3	0.0555555555555556
-ccomp OTHER+NoCase VSO                  	2	0.037037037037037
-obj PRON+NoCase OSV                     	2	0.037037037037037
-ccomp OTHER+NoCase OVS                  	1	0.0185185185185185
+obj NOUN+NOCASE SVO                     	17	0.314814814814815
+obj NOUN+NOCASE VO                      	9	0.166666666666667
+ccomp OTHER+NOCASE SVO                  	6	0.111111111111111
+ccomp OTHER+NOCASE VO                   	3	0.0555555555555556
+obj NOUN+NOCASE OV                      	3	0.0555555555555556
+obj OTHER+NOCASE VO                     	3	0.0555555555555556
+ccomp OTHER+NOCASE VSO                  	2	0.037037037037037
+obj PRON+NOCASE OSV                     	2	0.037037037037037
+ccomp OTHER+NOCASE OVS                  	1	0.0185185185185185
 IOBJECT:
-iobj NOUN+NoCase VIO                    	1	1
+iobj NOUN+NOCASE VIO                    	1	1
 AGREEMENT:
 nonfin                                  	298	1
 WORDER:
@@ -8170,12 +8098,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 117
-CASE NOUN 1 
-CASE PRON 0 83
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Uto-Aztecan: 2: 2: Highland Puebla Nahuatl (1), Western Sierra Puebla Nahuatl (1)
 --------------------------------------------------------------------------------
@@ -8475,17 +8397,17 @@ Chukotko-Kamchatkan: 1: 1: Chukchi (1)
 Chukchi
 SUBJECT:
 nonfin emptysubj                        	780	0.692102928127773
-nonfin nsubj NOUN+NoCase SV             	157	0.139307897071872
-nonfin nsubj PRON+NoCase SV             	113	0.100266193433895
+nonfin nsubj NOUN+NOCASE SV             	157	0.139307897071872
+nonfin nsubj PRON+NOCASE SV             	113	0.100266193433895
 OBJECT:
-obj NOUN+NoCase OV                      	51	0.310975609756098
-obj NOUN+NoCase VO                      	38	0.231707317073171
-obj NOUN+NoCase SOV                     	15	0.0914634146341463
-obj NOUN+NoCase SVO                     	14	0.0853658536585366
-obj PRON+NoCase OV                      	9	0.0548780487804878
-obj NOUN+NoCase OVS                     	5	0.0304878048780488
-obj PRON+NoCase OSV                     	5	0.0304878048780488
-obj PRON+NoCase VO                      	5	0.0304878048780488
+obj NOUN+NOCASE OV                      	51	0.310975609756098
+obj NOUN+NOCASE VO                      	38	0.231707317073171
+obj NOUN+NOCASE SOV                     	15	0.0914634146341463
+obj NOUN+NOCASE SVO                     	14	0.0853658536585366
+obj PRON+NOCASE OV                      	9	0.0548780487804878
+obj NOUN+NOCASE OVS                     	5	0.0304878048780488
+obj PRON+NOCASE OSV                     	5	0.0304878048780488
+obj PRON+NOCASE VO                      	5	0.0304878048780488
 IOBJECT:
 AGREEMENT:
 nonfin                                  	1127	1
@@ -8499,12 +8421,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 344
-CASE NOUN 1 
-CASE PRON 0 145
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Eskimo-Aleut: 1: 1: Yupik (1)
 --------------------------------------------------------------------------------
@@ -8783,9 +8699,9 @@ Gwichin
 SUBJECT:
 nonfin emptysubj                        	302	0.91238670694864
 OBJECT:
-obj NOUN+NoCase OV                      	89	0.872549019607843
+obj NOUN+NOCASE OV                      	89	0.872549019607843
 IOBJECT:
-iobj NOUN+NoCase IOV                    	1	1
+iobj NOUN+NOCASE IOV                    	1	1
 AGREEMENT:
 nonfin                                  	331	1
 WORDER:
@@ -8798,12 +8714,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-CASE NOUN 0 125
-CASE NOUN 1 
-CASE PRON 0 1
-CASE PRON 1 
-NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 
 Pama-Nyungan: 1: 1: Warlpiri (1)
 --------------------------------------------------------------------------------
@@ -8934,174 +8844,6 @@ SV-VS vs. OV-VO plot
   \draw[gray] (-0.5cm,10cm) node{VS};
   \draw[gray] (0cm,-0.5cm) node{OV};
   \draw[gray] (10cm,-0.5cm) node{VO};
-  \draw (0.25cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (0.25cm,0.375cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (0.25cm,0.625cm) node{gwi}; % Gwichin
-  \draw (0.75cm,0.125cm) node{jaa}; % Madi
-  \draw (0.75cm,0.375cm) node{ja}; % Japanese
-  \draw (0.75cm,0.625cm) node{sjo}; % Xibe
-  \draw (0.25cm,0.875cm) node{ko}; % Korean
-  \draw (0.75cm,0.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
-  \draw (0.25cm,1.125cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (1.25cm,0.125cm) node{\textcolor{red}{kk}}; % Kazakh
-  \draw (0.75cm,1.125cm) node{\textcolor{olive}{ta}}; % Tamil
-  \draw (1.25cm,0.375cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (1.25cm,0.625cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (1.25cm,0.875cm) node{bxr}; % Buryat
-  \draw (0.25cm,1.375cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (0.75cm,1.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (1.25cm,1.125cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (1.75cm,0.125cm) node{bm}; % Bambara
-  \draw (0.25cm,1.625cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (1.25cm,1.375cm) node{\textcolor{red}{tr}}; % Turkish
-  \draw (1.75cm,0.375cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (1.75cm,0.625cm) node{\textcolor{orange}{akk}}; % Akkadian
-  \draw (1.75cm,0.875cm) node{\textcolor{blue}{mr}}; % Marathi
-  \draw (1.75cm,1.125cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (2.25cm,0.125cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (0.75cm,1.625cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (2.25cm,0.375cm) node{\textcolor{blue}{xpg}}; % Phrygian
-  \draw (2.25cm,0.625cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (1.25cm,1.625cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (1.75cm,1.375cm) node{\textcolor{violet}{urb}}; % Kaapor
-  \draw (2.25cm,0.875cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (2.25cm,1.125cm) node{qte}; % Telugu English
-  \draw (1.75cm,1.625cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (1.25cm,1.875cm) node{abq}; % Abaza
-  \draw (1.75cm,1.875cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (0.75cm,1.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (2.25cm,1.375cm) node{wbp}; % Warlpiri
-  \draw (2.75cm,0.125cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (0.75cm,2.375cm) node{ab}; % Abkhaz
-  \draw (1.25cm,2.375cm) node{\textcolor{violet}{myu}}; % Munduruku
-  \draw (2.75cm,0.375cm) node{\textcolor{blue}{af}}; % Afrikaans
-  \draw (1.75cm,2.125cm) node{eu}; % Basque
-  \draw (1.25cm,2.625cm) node{pay}; % Pesh
-  \draw (2.75cm,1.375cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (3.25cm,0.375cm) node{\textcolor{blue}{hi}}; % Hindi
-  \draw (3.25cm,0.125cm) node{\textcolor{blue}{ur}}; % Urdu
-  \draw (3.25cm,0.625cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (1.75cm,2.625cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (3.75cm,0.375cm) node{\textcolor{blue}{fa}}; % Persian
-  \draw (0.25cm,3.375cm) node{\textcolor{violet}{mpu}}; % Makurap
-  \draw (3.75cm,0.125cm) node{xav}; % Xavante
-  \draw (3.75cm,0.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (3.75cm,0.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (3.75cm,1.375cm) node{qtd}; % Turkish German
-  \draw (4.25cm,0.375cm) node{bor}; % Bororo
-  \draw (1.25cm,4.125cm) node{\textcolor{orange}{am}}; % Amharic
-  \draw (3.75cm,2.125cm) node{ckt}; % Chukchi
-  \draw (4.25cm,1.375cm) node{\textcolor{violet}{eme}}; % Teko
-  \draw (4.25cm,2.125cm) node{\textcolor{blue}{de}}; % German
-  \draw (2.25cm,4.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (4.25cm,2.375cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (5.25cm,0.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (4.75cm,0.125cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (4.75cm,1.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
-  \draw (5.25cm,0.375cm) node{ess}; % Yupik
-  \draw (4.75cm,2.125cm) node{\textcolor{blue}{nl}}; % Dutch
-  \draw (4.75cm,1.625cm) node{\textcolor{blue}{fro}}; % Old French
-  \draw (5.25cm,1.125cm) node{ssp}; % Spanish Sign Language
-  \draw (5.25cm,0.625cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (5.25cm,1.375cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (4.75cm,2.625cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (5.25cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (4.75cm,2.375cm) node{qfn}; % Frisian Dutch
-  \draw (5.25cm,1.625cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (5.25cm,1.875cm) node{\textcolor{blue}{hy}}; % Armenian
-  \draw (4.25cm,4.375cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (5.25cm,2.625cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (5.75cm,2.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
-  \draw (5.25cm,3.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (5.75cm,2.125cm) node{ka}; % Georgian
-  \draw (5.25cm,3.875cm) node{pad}; % Paumari
-  \draw (6.25cm,2.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (6.25cm,2.125cm) node{\textcolor{blue}{sq}}; % Albanian
-  \draw (6.25cm,1.375cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (6.25cm,2.625cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (6.25cm,1.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (6.25cm,3.125cm) node{\textcolor{teal}{myv}}; % Erzya
-  \draw (5.75cm,3.625cm) node{\textcolor{teal}{et}}; % Estonian
-  \draw (6.75cm,1.875cm) node{\textcolor{blue}{ca}}; % Catalan
-  \draw (5.75cm,3.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
-  \draw (6.75cm,1.625cm) node{\textcolor{blue}{mk}}; % Macedonian
-  \draw (6.25cm,2.875cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (7.25cm,0.125cm) node{wo}; % Wolof
-  \draw (6.25cm,3.375cm) node{\textcolor{blue}{sk}}; % Slovak
-  \draw (6.75cm,2.625cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (6.25cm,3.625cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (6.75cm,3.375cm) node{\textcolor{blue}{got}}; % Gothic
-  \draw (7.25cm,1.875cm) node{\textcolor{teal}{fi}}; % Finnish
-  \draw (7.25cm,2.875cm) node{\textcolor{blue}{lv}}; % Latvian
-  \draw (7.25cm,1.125cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (7.25cm,3.125cm) node{\textcolor{teal}{mdf}}; % Moksha
-  \draw (6.75cm,3.625cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (6.75cm,3.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (7.25cm,2.125cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (7.75cm,2.125cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (7.25cm,3.375cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (7.75cm,2.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
-  \draw (7.25cm,2.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
-  \draw (7.25cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
-  \draw (7.75cm,1.875cm) node{swl}; % Swedish Sign Language
-  \draw (7.75cm,1.375cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (7.75cm,3.125cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (8.25cm,0.375cm) node{\textcolor{orange}{aii}}; % Assyrian
-  \draw (8.25cm,2.125cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (7.75cm,2.875cm) node{\textcolor{blue}{ru}}; % Russian
-  \draw (8.25cm,1.375cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (7.75cm,2.625cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (8.25cm,0.875cm) node{\textcolor{blue}{fr}}; % French
-  \draw (6.75cm,4.875cm) node{\textcolor{blue}{cpg}}; % Cappadocian
-  \draw (8.25cm,2.375cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (8.25cm,2.875cm) node{\textcolor{blue}{pl}}; % Polish
-  \draw (8.25cm,2.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (8.25cm,1.875cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (8.75cm,2.625cm) node{\textcolor{blue}{is}}; % Icelandic
-  \draw (8.75cm,1.625cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (8.75cm,0.125cm) node{yo}; % Yoruba
-  \draw (8.75cm,0.375cm) node{th}; % Thai
-  \draw (8.75cm,2.125cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (8.75cm,1.875cm) node{\textcolor{blue}{sr}}; % Serbian
-  \draw (8.75cm,2.375cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (8.75cm,1.375cm) node{\textcolor{blue}{pt}}; % Portuguese
-  \draw (8.25cm,3.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
-  \draw (9.25cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (9.25cm,1.875cm) node{\textcolor{blue}{sv}}; % Swedish
-  \draw (9.25cm,0.125cm) node{ht}; % Haitian Creole
-  \draw (9.25cm,0.625cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (9.25cm,0.375cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (9.25cm,0.875cm) node{\textcolor{blue}{en}}; % English
-  \draw (9.25cm,1.125cm) node{qaf}; % Maghrebi Arabic French
-  \draw (9.25cm,2.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
-  \draw (9.75cm,0.125cm) node{\textcolor{magenta}{zh}}; % Chinese
-  \draw (8.75cm,3.125cm) node{apu}; % Apurina
-  \draw (9.75cm,0.375cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (9.25cm,2.625cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (9.75cm,0.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (9.25cm,2.125cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (9.75cm,0.875cm) node{gya}; % Northwest Gbaya
-  \draw (9.75cm,1.125cm) node{vi}; % Vietnamese
-  \draw (8.75cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (9.75cm,1.375cm) node{pcm}; % Naija
-  \draw (8.75cm,0.875cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (9.25cm,1.375cm) node{tn}; % Tswana
-  \draw (8.75cm,4.375cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (9.75cm,1.625cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (9.25cm,3.125cm) node{\textcolor{orange}{he}}; % Hebrew
-  \draw (9.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (9.75cm,3.375cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (8.75cm,5.375cm) node{\textcolor{blue}{br}}; % Breton
-  \draw (6.25cm,8.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
-  \draw (7.75cm,6.875cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (6.25cm,8.625cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (8.75cm,6.875cm) node{quc}; % Kiche
-  \draw (9.25cm,6.875cm) node{\textcolor{orange}{ar}}; % Arabic
-  \draw (9.25cm,7.125cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
-  \draw (9.25cm,7.625cm) node{\textcolor{cyan}{ceb}}; % Cebuano
-  \draw (9.75cm,7.375cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (9.25cm,9.125cm) node{\textcolor{cyan}{tl}}; % Tagalog
-  \draw (9.25cm,9.875cm) node{\textcolor{blue}{gv}}; % Manx
 \end{tikzpicture}
 
 
@@ -9113,174 +8855,6 @@ PRON ADP vs. NOUN ADP plot
   \draw[gray] (-0.5cm,10cm) node{PA};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NA};
-  \draw (0.25cm,0.125cm) node{pad}; % Paumari
-  \draw (0.25cm,0.375cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (0.25cm,0.625cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (0.75cm,0.125cm) node{ckt}; % Chukchi
-  \draw (0.75cm,0.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (0.75cm,0.625cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
-  \draw (0.25cm,0.875cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (0.75cm,0.875cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (0.25cm,1.125cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (1.25cm,0.125cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (1.25cm,0.375cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (0.75cm,1.125cm) node{quc}; % Kiche
-  \draw (1.25cm,0.625cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (0.25cm,1.375cm) node{swl}; % Swedish Sign Language
-  \draw (1.25cm,0.875cm) node{wbp}; % Warlpiri
-  \draw (0.75cm,1.375cm) node{ab}; % Abkhaz
-  \draw (1.25cm,1.125cm) node{\textcolor{violet}{mpu}}; % Makurap
-  \draw (0.25cm,1.625cm) node{ess}; % Yupik
-  \draw (1.75cm,0.125cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (1.75cm,0.375cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (0.75cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (1.25cm,1.375cm) node{abq}; % Abaza
-  \draw (1.75cm,0.625cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (1.75cm,0.875cm) node{apu}; % Apurina
-  \draw (0.25cm,1.875cm) node{\textcolor{blue}{xpg}}; % Phrygian
-  \draw (1.25cm,1.625cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (0.75cm,1.875cm) node{gwi}; % Gwichin
-  \draw (1.75cm,1.125cm) node{xav}; % Xavante
-  \draw (1.75cm,1.375cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (0.25cm,2.125cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (1.25cm,1.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (2.25cm,0.125cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (0.75cm,2.125cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (2.25cm,0.375cm) node{jaa}; % Madi
-  \draw (2.25cm,0.625cm) node{tn}; % Tswana
-  \draw (1.75cm,1.625cm) node{bm}; % Bambara
-  \draw (2.25cm,0.875cm) node{ssp}; % Spanish Sign Language
-  \draw (1.25cm,2.125cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (0.25cm,2.375cm) node{\textcolor{blue}{pl}}; % Polish
-  \draw (2.25cm,1.125cm) node{\textcolor{blue}{hy}}; % Armenian
-  \draw (0.75cm,2.375cm) node{\textcolor{blue}{lt}}; % Lithuanian
-  \draw (1.75cm,1.875cm) node{\textcolor{teal}{et}}; % Estonian
-  \draw (2.25cm,1.375cm) node{\textcolor{blue}{nl}}; % Dutch
-  \draw (1.25cm,2.375cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (0.25cm,2.625cm) node{\textcolor{teal}{fi}}; % Finnish
-  \draw (1.75cm,2.125cm) node{\textcolor{blue}{is}}; % Icelandic
-  \draw (2.25cm,1.625cm) node{th}; % Thai
-  \draw (0.75cm,2.625cm) node{\textcolor{blue}{uk}}; % Ukrainian
-  \draw (2.75cm,0.125cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (2.75cm,0.375cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (2.75cm,0.625cm) node{ka}; % Georgian
-  \draw (2.75cm,0.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
-  \draw (2.25cm,1.875cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (1.25cm,2.625cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (1.75cm,2.375cm) node{eu}; % Basque
-  \draw (2.75cm,1.125cm) node{bxr}; % Buryat
-  \draw (0.25cm,2.875cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (0.75cm,2.875cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (2.75cm,1.375cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (2.25cm,2.125cm) node{\textcolor{olive}{ta}}; % Tamil
-  \draw (1.75cm,2.625cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (1.25cm,2.875cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (2.75cm,1.625cm) node{\textcolor{blue}{ru}}; % Russian
-  \draw (0.25cm,3.125cm) node{\textcolor{blue}{fr}}; % French
-  \draw (2.25cm,2.375cm) node{\textcolor{blue}{gv}}; % Manx
-  \draw (0.75cm,3.125cm) node{\textcolor{blue}{en}}; % English
-  \draw (3.25cm,0.125cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (3.25cm,0.375cm) node{\textcolor{blue}{sv}}; % Swedish
-  \draw (2.75cm,1.875cm) node{\textcolor{teal}{myv}}; % Erzya
-  \draw (3.25cm,0.625cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (1.75cm,2.875cm) node{wo}; % Wolof
-  \draw (3.25cm,0.875cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (1.25cm,3.125cm) node{gya}; % Northwest Gbaya
-  \draw (2.25cm,2.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (3.25cm,1.125cm) node{\textcolor{blue}{sq}}; % Albanian
-  \draw (0.25cm,3.375cm) node{\textcolor{red}{kk}}; % Kazakh
-  \draw (2.75cm,2.125cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (0.75cm,3.375cm) node{vi}; % Vietnamese
-  \draw (3.25cm,1.375cm) node{pcm}; % Naija
-  \draw (1.75cm,3.125cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (2.75cm,2.375cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (3.25cm,1.625cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (1.25cm,3.375cm) node{\textcolor{blue}{orv}}; % Old East Slavic
-  \draw (2.25cm,2.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (3.25cm,1.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (0.25cm,3.625cm) node{\textcolor{blue}{sr}}; % Serbian
-  \draw (0.75cm,3.625cm) node{\textcolor{teal}{mdf}}; % Moksha
-  \draw (3.75cm,0.125cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (2.75cm,2.625cm) node{\textcolor{orange}{akk}}; % Akkadian
-  \draw (3.75cm,0.375cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (3.75cm,0.625cm) node{\textcolor{blue}{cpg}}; % Cappadocian
-  \draw (1.75cm,3.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
-  \draw (3.75cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (2.25cm,3.125cm) node{\textcolor{blue}{got}}; % Gothic
-  \draw (3.25cm,2.125cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (1.25cm,3.625cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (3.75cm,1.125cm) node{nhi}; % Western Sierra Puebla Nahuatl
-  \draw (2.75cm,2.875cm) node{ko}; % Korean
-  \draw (3.75cm,1.375cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (3.25cm,2.375cm) node{ht}; % Haitian Creole
-  \draw (0.25cm,3.875cm) node{\textcolor{blue}{br}}; % Breton
-  \draw (0.75cm,3.875cm) node{\textcolor{blue}{sk}}; % Slovak
-  \draw (1.75cm,3.625cm) node{\textcolor{violet}{eme}}; % Teko
-  \draw (2.25cm,3.375cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (1.25cm,3.875cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (3.75cm,1.625cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (2.75cm,3.125cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (3.25cm,2.625cm) node{\textcolor{blue}{ca}}; % Catalan
-  \draw (0.25cm,4.125cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (3.75cm,1.875cm) node{\textcolor{red}{tr}}; % Turkish
-  \draw (4.25cm,0.125cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (2.25cm,3.625cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (4.25cm,0.375cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (3.75cm,2.125cm) node{\textcolor{red}{ky}}; % Kyrgyz
-  \draw (4.25cm,0.625cm) node{bor}; % Bororo
-  \draw (1.75cm,3.875cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (3.25cm,2.875cm) node{\textcolor{blue}{af}}; % Afrikaans
-  \draw (0.75cm,4.125cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (2.75cm,3.375cm) node{\textcolor{violet}{urb}}; % Kaapor
-  \draw (4.25cm,0.875cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (1.25cm,4.125cm) node{\textcolor{blue}{fro}}; % Old French
-  \draw (4.25cm,1.125cm) node{\textcolor{blue}{mr}}; % Marathi
-  \draw (3.75cm,2.375cm) node{\textcolor{violet}{myu}}; % Munduruku
-  \draw (4.25cm,1.375cm) node{qte}; % Telugu English
-  \draw (3.25cm,3.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (4.25cm,1.625cm) node{qtd}; % Turkish German
-  \draw (2.25cm,3.875cm) node{\textcolor{blue}{mk}}; % Macedonian
-  \draw (1.75cm,4.125cm) node{\textcolor{blue}{pt}}; % Portuguese
-  \draw (3.75cm,2.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (2.75cm,3.625cm) node{qaf}; % Maghrebi Arabic French
-  \draw (4.25cm,1.875cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (0.75cm,4.375cm) node{\textcolor{blue}{de}}; % German
-  \draw (0.25cm,4.375cm) node{\textcolor{magenta}{zh}}; % Chinese
-  \draw (3.25cm,3.375cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (3.75cm,2.875cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (1.25cm,4.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (4.25cm,2.125cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (4.75cm,0.125cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (2.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (4.75cm,0.375cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (1.75cm,4.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
-  \draw (2.75cm,3.875cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (3.25cm,3.625cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (4.25cm,2.375cm) node{yo}; % Yoruba
-  \draw (0.25cm,4.625cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (4.75cm,0.625cm) node{qfn}; % Frisian Dutch
-  \draw (0.75cm,4.625cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (3.75cm,3.125cm) node{\textcolor{blue}{lv}}; % Latvian
-  \draw (4.75cm,0.875cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (4.75cm,1.125cm) node{\textcolor{orange}{aii}}; % Assyrian
-  \draw (2.75cm,4.125cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (4.75cm,1.375cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (4.25cm,2.625cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
-  \draw (3.75cm,3.375cm) node{\textcolor{orange}{he}}; % Hebrew
-  \draw (4.75cm,1.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (5.25cm,0.125cm) node{\textcolor{orange}{am}}; % Amharic
-  \draw (4.75cm,1.875cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (3.25cm,3.875cm) node{\textcolor{blue}{fa}}; % Persian
-  \draw (3.75cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
-  \draw (5.25cm,0.625cm) node{sjo}; % Xibe
-  \draw (5.25cm,0.375cm) node{\textcolor{blue}{hi}}; % Hindi
-  \draw (4.25cm,2.875cm) node{\textcolor{orange}{ar}}; % Arabic
-  \draw (5.75cm,0.125cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (2.25cm,4.625cm) node{pay}; % Pesh
-  \draw (4.75cm,4.125cm) node{\textcolor{blue}{ur}}; % Urdu
-  \draw (7.75cm,0.125cm) node{\textcolor{cyan}{ceb}}; % Cebuano
-  \draw (8.75cm,0.375cm) node{\textcolor{cyan}{tl}}; % Tagalog
-  \draw (9.75cm,9.875cm) node{ja}; % Japanese
 \end{tikzpicture}
 
 
@@ -9292,172 +8866,4 @@ PRON Case vs. NOUN Case plot
   \draw[gray] (-0.5cm,10cm) node{PC};
   \draw[gray] (0cm,-0.5cm) node{N0};
   \draw[gray] (10cm,-0.5cm) node{NC};
-  \draw (0.25cm,0.125cm) node{ja}; % Japanese
-  \draw (0.25cm,0.375cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (0.25cm,0.625cm) node{ckt}; % Chukchi
-  \draw (0.75cm,0.125cm) node{\textcolor{violet}{myu}}; % Munduruku
-  \draw (0.75cm,0.375cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (0.75cm,0.625cm) node{vi}; % Vietnamese
-  \draw (0.25cm,0.875cm) node{pad}; % Paumari
-  \draw (0.75cm,0.875cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (0.25cm,1.125cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (1.25cm,0.125cm) node{\textcolor{blue}{fr}}; % French
-  \draw (1.25cm,0.375cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (0.75cm,1.125cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (1.25cm,0.625cm) node{quc}; % Kiche
-  \draw (0.25cm,1.375cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (1.25cm,0.875cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (0.75cm,1.375cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
-  \draw (1.25cm,1.125cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (0.25cm,1.625cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (1.75cm,0.125cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (1.75cm,0.375cm) node{\textcolor{magenta}{zh}}; % Chinese
-  \draw (0.75cm,1.625cm) node{\textcolor{blue}{gv}}; % Manx
-  \draw (1.25cm,1.375cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (1.75cm,0.625cm) node{abq}; % Abaza
-  \draw (1.75cm,0.875cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (0.25cm,1.875cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (1.25cm,1.625cm) node{pay}; % Pesh
-  \draw (0.75cm,1.875cm) node{swl}; % Swedish Sign Language
-  \draw (1.75cm,1.125cm) node{ab}; % Abkhaz
-  \draw (1.75cm,1.375cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (0.25cm,2.125cm) node{gwi}; % Gwichin
-  \draw (1.25cm,1.875cm) node{ht}; % Haitian Creole
-  \draw (2.25cm,0.125cm) node{bor}; % Bororo
-  \draw (0.75cm,2.125cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (2.25cm,0.375cm) node{\textcolor{blue}{fa}}; % Persian
-  \draw (2.25cm,0.625cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (1.75cm,1.625cm) node{\textcolor{blue}{fro}}; % Old French
-  \draw (2.25cm,0.875cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (1.25cm,2.125cm) node{gya}; % Northwest Gbaya
-  \draw (0.25cm,2.375cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (2.25cm,1.125cm) node{\textcolor{orange}{am}}; % Amharic
-  \draw (0.75cm,2.375cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (1.75cm,1.875cm) node{qte}; % Telugu English
-  \draw (2.25cm,1.375cm) node{jaa}; % Madi
-  \draw (1.25cm,2.375cm) node{qfn}; % Frisian Dutch
-  \draw (0.25cm,2.625cm) node{qaf}; % Maghrebi Arabic French
-  \draw (1.75cm,2.125cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (2.25cm,1.625cm) node{ssp}; % Spanish Sign Language
-  \draw (0.75cm,2.625cm) node{bm}; % Bambara
-  \draw (2.75cm,0.125cm) node{tn}; % Tswana
-  \draw (2.75cm,0.375cm) node{th}; % Thai
-  \draw (2.75cm,0.625cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (1.25cm,2.625cm) node{\textcolor{orange}{he}}; % Hebrew
-  \draw (2.75cm,0.875cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (2.25cm,1.875cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (2.75cm,1.125cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (0.25cm,2.875cm) node{\textcolor{violet}{yrl}}; % Nheengatu
-  \draw (0.75cm,2.875cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (1.75cm,2.375cm) node{ko}; % Korean
-  \draw (2.75cm,1.375cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (1.25cm,2.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (0.25cm,3.125cm) node{sjo}; % Xibe
-  \draw (0.75cm,3.125cm) node{\textcolor{blue}{pt}}; % Portuguese
-  \draw (2.25cm,2.125cm) node{\textcolor{violet}{eme}}; % Teko
-  \draw (3.25cm,0.125cm) node{\textcolor{orange}{akk}}; % Akkadian
-  \draw (3.25cm,0.375cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (3.25cm,0.625cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (0.25cm,3.375cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (3.25cm,0.875cm) node{\textcolor{violet}{mpu}}; % Makurap
-  \draw (3.75cm,0.125cm) node{nhi}; % Western Sierra Puebla Nahuatl
-  \draw (2.25cm,2.375cm) node{\textcolor{violet}{urb}}; % Kaapor
-  \draw (0.25cm,3.625cm) node{\textcolor{cyan}{tl}}; % Tagalog
-  \draw (0.25cm,3.875cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (0.25cm,4.125cm) node{\textcolor{orange}{aii}}; % Assyrian
-  \draw (4.25cm,0.375cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (4.25cm,0.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (0.25cm,4.375cm) node{xav}; % Xavante
-  \draw (2.25cm,4.125cm) node{ess}; % Yupik
-  \draw (0.25cm,4.625cm) node{\textcolor{blue}{nl}}; % Dutch
-  \draw (0.25cm,4.875cm) node{\textcolor{blue}{ca}}; % Catalan
-  \draw (1.75cm,5.375cm) node{wo}; % Wolof
-  \draw (0.25cm,5.875cm) node{\textcolor{blue}{af}}; % Afrikaans
-  \draw (0.25cm,6.125cm) node{\textcolor{blue}{br}}; % Breton
-  \draw (0.25cm,6.375cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (0.25cm,6.875cm) node{\textcolor{blue}{en}}; % English
-  \draw (0.25cm,7.125cm) node{yo}; % Yoruba
-  \draw (0.25cm,7.375cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (0.25cm,7.875cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (7.75cm,0.125cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (8.75cm,0.125cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (0.25cm,8.875cm) node{\textcolor{blue}{mk}}; % Macedonian
-  \draw (9.25cm,0.125cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
-  \draw (0.25cm,9.375cm) node{pcm}; % Naija
-  \draw (4.25cm,8.125cm) node{apu}; % Apurina
-  \draw (0.25cm,9.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (0.25cm,9.875cm) node{\textcolor{cyan}{ceb}}; % Cebuano
-  \draw (1.75cm,9.625cm) node{\textcolor{blue}{de}}; % German
-  \draw (6.75cm,7.875cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (7.25cm,7.875cm) node{eu}; % Basque
-  \draw (9.75cm,5.125cm) node{\textcolor{red}{tr}}; % Turkish
-  \draw (7.25cm,8.625cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (8.75cm,6.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
-  \draw (9.75cm,6.125cm) node{\textcolor{blue}{sv}}; % Swedish
-  \draw (9.75cm,6.375cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (9.25cm,7.375cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (9.75cm,6.625cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (9.25cm,7.125cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (8.75cm,7.875cm) node{\textcolor{orange}{ar}}; % Arabic
-  \draw (9.25cm,7.625cm) node{\textcolor{blue}{sq}}; % Albanian
-  \draw (7.75cm,9.625cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (9.75cm,7.625cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (9.75cm,7.875cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (8.75cm,9.375cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (8.25cm,9.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (9.75cm,8.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
-  \draw (9.75cm,8.875cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (9.75cm,9.125cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (9.75cm,8.375cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (9.25cm,9.125cm) node{bxr}; % Buryat
-  \draw (8.75cm,9.875cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (9.75cm,9.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (9.75cm,9.625cm) node{\textcolor{blue}{ur}}; % Urdu
-  \draw (9.25cm,9.375cm) node{\textcolor{blue}{hy}}; % Armenian
-  \draw (9.75cm,9.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (9.25cm,9.875cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (9.25cm,9.625cm) node{\textcolor{blue}{mr}}; % Marathi
-  \draw (9.25cm,8.875cm) node{\textcolor{blue}{hi}}; % Hindi
-  \draw (9.25cm,8.625cm) node{\textcolor{blue}{hyw}}; % Western Armenian
-  \draw (8.75cm,9.625cm) node{\textcolor{olive}{ta}}; % Tamil
-  \draw (8.75cm,9.125cm) node{\textcolor{teal}{myv}}; % Erzya
-  \draw (8.75cm,8.875cm) node{\textcolor{blue}{is}}; % Icelandic
-  \draw (8.25cm,9.625cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (9.25cm,8.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
-  \draw (8.75cm,8.625cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (8.25cm,9.375cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (8.25cm,9.125cm) node{\textcolor{blue}{lv}}; % Latvian
-  \draw (8.25cm,8.875cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (9.75cm,8.125cm) node{\textcolor{blue}{sk}}; % Slovak
-  \draw (9.25cm,8.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
-  \draw (8.75cm,8.375cm) node{qtd}; % Turkish German
-  \draw (8.25cm,8.625cm) node{\textcolor{blue}{cpg}}; % Cappadocian
-  \draw (7.75cm,9.875cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (8.75cm,8.125cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (9.25cm,7.875cm) node{\textcolor{blue}{pl}}; % Polish
-  \draw (7.75cm,9.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (8.25cm,8.375cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (7.75cm,9.125cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (7.75cm,8.875cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (8.25cm,8.125cm) node{\textcolor{teal}{et}}; % Estonian
-  \draw (7.75cm,8.625cm) node{\textcolor{red}{kk}}; % Kazakh
-  \draw (8.75cm,7.625cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (8.25cm,7.875cm) node{\textcolor{teal}{mdf}}; % Moksha
-  \draw (7.75cm,8.375cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (9.75cm,7.375cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (7.25cm,9.875cm) node{\textcolor{blue}{got}}; % Gothic
-  \draw (7.25cm,9.625cm) node{\textcolor{blue}{ru}}; % Russian
-  \draw (7.25cm,9.375cm) node{\textcolor{blue}{orv}}; % Old East Slavic
-  \draw (7.25cm,9.125cm) node{ka}; % Georgian
-  \draw (7.75cm,8.125cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (8.75cm,7.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
-  \draw (8.25cm,7.625cm) node{\textcolor{teal}{fi}}; % Finnish
-  \draw (9.75cm,7.125cm) node{\textcolor{blue}{sr}}; % Serbian
-  \draw (7.25cm,8.875cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (7.75cm,7.875cm) node{wbp}; % Warlpiri
-  \draw (8.75cm,7.125cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (8.25cm,7.375cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (7.25cm,8.375cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (9.75cm,6.875cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (9.25cm,6.875cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
 \end{tikzpicture}
