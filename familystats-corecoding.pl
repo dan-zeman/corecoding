@@ -71,7 +71,8 @@ foreach my $family (@families)
     foreach my $language (@languages)
     {
         my @output_lines = ();
-        foreach my $folder (@{$folders_by_families{$family}{$language}})
+        my @folders = @{$folders_by_families{$family}{$language}};
+        foreach my $folder (@folders)
         {
             run_udapi("$udpath/$folder", \@output_lines, $folders_without_features{$folder});
         }
@@ -85,6 +86,7 @@ foreach my $family (@families)
         # Summarize the lines.
         print("--------------------------------------------------------------------------------\n");
         print("$language\n");
+        print('('.join(', ', @folders).')'."\n");
         my $command = "cat lines.txt | ./summary.pl";
         open(SUMMARY, "$command|") or die("Cannot pipe from '$command': $!");
         while(<SUMMARY>)
@@ -129,11 +131,6 @@ print_2d_plot('P0', 'PA', \%padp, 'N0', 'NA', \%nadp, $lhash);
 # Print tikz code of the NOUN/PRON morphological Case language plot.
 print("\n\n\nPRON Case vs. NOUN Case plot\n");
 print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
-###!!! We should skip treebanks with the following in README
-###!!! Features: not available
-###!!! when counting the morphological cases. Especially if there are two treebanks
-###!!! of one language, one of them with features and the other without, summing
-###!!! up over them will distort the results.
 
 
 
@@ -151,7 +148,7 @@ sub run_udapi
     my $udapi_command = "udapy read.Conllu bundles_per_doc=1000 .CoreCoding arg=all";
     my $command = "$cat_command | $udapi_command 2>/dev/null";
     open(UDAPI, "$command|") or die("Cannod pipe from '$command': $!");
-    while(<UDAPI>)
+    while(my $line = <UDAPI>)
     {
         # We want to distingush 'NoCase' in treebanks where features exist from
         # treebanks where features do not exist. In the latter, everything will
@@ -159,9 +156,9 @@ sub run_udapi
         # features were present.
         if($missing_features)
         {
-            s/NoCase/NOCASE/g;
+            $line =~ s/NoCase/NOCASE/g;
         }
-        push(@{$output_lines}, $_);
+        push(@{$output_lines}, $line);
     }
     close(UDAPI);
 }
@@ -181,8 +178,8 @@ sub print_2d_plot
     my $x1label = shift; # VO
     my $xlanghash = shift;
     my $lhash = shift;
-    my %ylangs = %{$svshash};
-    my %xlangs = %{$ovohash};
+    my %ylangs = %{$ylanghash};
+    my %xlangs = %{$xlanghash};
     # Merge keys of %xlangs and %ylangs. Just in case a language appears in one but not in the other.
     my %langs;
     map {$langs{$_}++} (keys(%xlangs));
