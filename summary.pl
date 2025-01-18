@@ -85,11 +85,13 @@ while(<>)
             {
                 $h{ADPOSITION}{$upos.'0'}++;
                 # Count whether there is morphological case. Only if there is no adposition.
+                # Distinguish 'NoCase' (the treebank has features but this word does not have
+                # 'Case' feature) from 'NOCASE' (the treebank has no features).
                 if($mcase eq 'NoCase')
                 {
                     $h{MORPHCASE}{$upos.'0'}++;
                 }
-                else
+                elsif($mcase ne 'NOCASE')
                 {
                     $h{MORPHCASE}{$upos.'1'}++;
                 }
@@ -139,13 +141,18 @@ $n = $h{ADPOSITION}{'PRON0'}+$h{ADPOSITION}{'PRON1'};
 my $pronadp = $n>0 ? $h{ADPOSITION}{'PRON1'} / $n : 0;
 printf("NOUN without ADP --> %.6f --> with ADP\n", $nounadp);
 printf("PRON without ADP --> %.6f --> with ADP\n", $pronadp);
-print('CASE NOUN 0 ', $h{MORPHCASE}{NOUN0}, "\n");
-print('CASE NOUN 1 ', $h{MORPHCASE}{NOUN1}, "\n");
-print('CASE PRON 0 ', $h{MORPHCASE}{PRON0}, "\n");
-print('CASE PRON 1 ', $h{MORPHCASE}{PRON1}, "\n");
-$n = $h{MORPHCASE}{'NOUN0'}+$h{MORPHCASE}{'NOUN1'};
-my $nouncase = $n>0 ? $h{MORPHCASE}{'NOUN1'} / $n : 0;
-$n = $h{MORPHCASE}{'PRON0'}+$h{MORPHCASE}{'PRON1'};
-my $proncase = $n>0 ? $h{MORPHCASE}{'PRON1'} / $n : 0;
-printf("NOUN without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $nouncase);
-printf("PRON without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $proncase);
+# Summarize presence of morphological cases only if at least one treebank of the
+# language has features and thus MORPHCASE exists in the hash.
+if(exists($h{MORPHCASE}))
+{
+    print('CASE NOUN 0 ', $h{MORPHCASE}{NOUN0}, "\n");
+    print('CASE NOUN 1 ', $h{MORPHCASE}{NOUN1}, "\n");
+    print('CASE PRON 0 ', $h{MORPHCASE}{PRON0}, "\n");
+    print('CASE PRON 1 ', $h{MORPHCASE}{PRON1}, "\n");
+    $n = $h{MORPHCASE}{'NOUN0'}+$h{MORPHCASE}{'NOUN1'};
+    my $nouncase = $n>0 ? $h{MORPHCASE}{'NOUN1'} / $n : 0;
+    $n = $h{MORPHCASE}{'PRON0'}+$h{MORPHCASE}{'PRON1'};
+    my $proncase = $n>0 ? $h{MORPHCASE}{'PRON1'} / $n : 0;
+    printf("NOUN without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $nouncase);
+    printf("PRON without Case (and ADP) --> %.6f --> with Case (but without ADP)\n", $proncase);
+}

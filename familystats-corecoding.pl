@@ -19,6 +19,7 @@ my $dev_udpath = '/net/work/people/zeman/unidep';
 my $lhash = udlib::get_language_hash($dev_udpath.'/docs-automation/codes_and_flags.yaml');
 my %families;
 my %folders_by_families;
+my %folders_without_features;
 foreach my $folder (@folders)
 {
     my ($language, $treebank) = udlib::decompose_repo_name($folder);
@@ -38,6 +39,10 @@ foreach my $folder (@folders)
             # Ignore treebanks that do not contain underlying text.
             my $metadata = udlib::read_readme($folder, $udpath);
             next if($metadata->{'Includes text'} ne 'yes');
+            # Some treebanks do not contain morphological features. We do not
+            # want to exclude these treebanks completely, but we must remember
+            # them and will have to exclude them from some counts.
+            $folders_without_features{$folder}++ if($metadata->{'Features'} eq 'not available');
             # Remember folders by languages and families they belong to.
             push(@{$folders_by_families{$family}{$language}}, $folder);
             #my $ltcode = $lhash->{$language}{lcode};
@@ -65,57 +70,54 @@ foreach my $family (@families)
     my @languages = sort(keys(%{$folders_by_families{$family}}));
     foreach my $language (@languages)
     {
-        # We can either process each treebank separately, or join all treebanks of a language.
-        if(0)
+        my @output_lines = ();
+        foreach my $folder (@{$folders_by_families{$family}{$language}})
         {
-            foreach my $folder (@{$folders_by_families{$family}{$language}})
-            {
-                print("--------------------------------------------------------------------------------\n");
-                print("$folder\n");
-                system("cat $udpath/$folder/*.conllu | udapy read.Conllu bundles_per_doc=1000 my.CoreCoding arg=all 2>/dev/null | ./summary.pl");
-                print("\n");
-            }
+            run_udapi("$udpath/$folder", \@output_lines, $folders_without_features{$folder});
         }
-        else # all treebanks of one language together
+        # Save the lines to a temporary file so that another command can pick them up.
+        open(TMP, '>lines.txt') or die("Cannot write 'lines.txt': $!");
+        foreach my $line (@output_lines)
         {
-            print("--------------------------------------------------------------------------------\n");
-            print("$language\n");
-            my $language_underscores = $language;
-            $language_underscores =~ s/ /_/g;
-            my $command = "cat $udpath/UD_$language_underscores*/*.conllu | udapy read.Conllu bundles_per_doc=1000 my.CoreCoding arg=all 2>/dev/null | ./summary.pl";
-            #system($command);
-            open(SUMMARY, "$command|") or die("Cannod pipe from '$command': $!");
-            while(<SUMMARY>)
-            {
-                if(m/^SV --> ([0-9]*\.[0-9]+) --> VS$/)
-                {
-                    $svs{$language} = $1;
-                }
-                if(m/^OV --> ([0-9]*\.[0-9]+) --> VO$/)
-                {
-                    $ovo{$language} = $1;
-                }
-                if(m/^NOUN without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
-                {
-                    $nadp{$language} = $1;
-                }
-                if(m/^PRON without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
-                {
-                    $padp{$language} = $1;
-                }
-                if(m/^NOUN without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
-                {
-                    $nmcase{$language} = $1;
-                }
-                if(m/^PRON without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
-                {
-                    $pmcase{$language} = $1;
-                }
-                print;
-            }
-            close(SUMMARY);
-            print("\n");
+            print TMP ($line);
         }
+        close(TMP);
+        # Summarize the lines.
+        print("--------------------------------------------------------------------------------\n");
+        print("$language\n");
+        my $command = "cat lines.txt | ./summary.pl";
+        open(SUMMARY, "$command|") or die("Cannot pipe from '$command': $!");
+        while(<SUMMARY>)
+        {
+            if(m/^SV --> ([0-9]*\.[0-9]+) --> VS$/)
+            {
+                $svs{$language} = $1;
+            }
+            if(m/^OV --> ([0-9]*\.[0-9]+) --> VO$/)
+            {
+                $ovo{$language} = $1;
+            }
+            if(m/^NOUN without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
+            {
+                $nadp{$language} = $1;
+            }
+            if(m/^PRON without ADP --> ([0-9]*\.[0-9]+) --> with ADP$/)
+            {
+                $padp{$language} = $1;
+            }
+            if(m/^NOUN without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
+            {
+                $nmcase{$language} = $1;
+            }
+            if(m/^PRON without Case \(and ADP\) --> ([0-9]*\.[0-9]+) --> with Case \(but without ADP\)$/)
+            {
+                $pmcase{$language} = $1;
+            }
+            print;
+        }
+        close(SUMMARY);
+        unlink('lines.txt');
+        print("\n");
     }
 }
 # Print tikz code of the SVS/OVO language plot.
@@ -136,6 +138,37 @@ print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
 
 
 #------------------------------------------------------------------------------
+# Runs Udapi with our custom block CoreCoding on a given folder or set of
+# folders. Adds the output lines to an array provided by the caller. The caller
+# will decide when and how to summarize them.
+#------------------------------------------------------------------------------
+sub run_udapi
+{
+    my $input_path = shift; # e.g. "$udpath/$folder" or "$udpath/UD_$language_underscores*"
+    my $output_lines = shift; # array ref
+    my $missing_features = shift; # boolean
+    my $cat_command = "cat $input_path/*.conllu";
+    my $udapi_command = "udapy read.Conllu bundles_per_doc=1000 .CoreCoding arg=all";
+    my $command = "$cat_command | $udapi_command 2>/dev/null";
+    open(UDAPI, "$command|") or die("Cannod pipe from '$command': $!");
+    while(<UDAPI>)
+    {
+        # We want to distingush 'NoCase' in treebanks where features exist from
+        # treebanks where features do not exist. In the latter, everything will
+        # be NoCase but it won't tell us whether the word would have case if
+        # features were present.
+        if($missing_features)
+        {
+            s/NoCase/NOCASE/g;
+        }
+        push(@{$output_lines}, $_);
+    }
+    close(UDAPI);
+}
+
+
+
+#------------------------------------------------------------------------------
 # Draws a 2D plot of languages on the SV-VS and OV-VO scales. Generates LaTeX
 # tikz code.
 #------------------------------------------------------------------------------
@@ -143,20 +176,25 @@ sub print_2d_plot
 {
     my $y0label = shift; # SV
     my $y1label = shift; # VS
-    my $svshash = shift;
+    my $ylanghash = shift;
     my $x0label = shift; # OV
     my $x1label = shift; # VO
-    my $ovohash = shift;
+    my $xlanghash = shift;
     my $lhash = shift;
-    my %svs = %{$svshash};
-    my %ovo = %{$ovohash};
+    my %ylangs = %{$svshash};
+    my %xlangs = %{$ovohash};
+    # Merge keys of %xlangs and %ylangs. Just in case a language appears in one but not in the other.
+    my %langs;
+    map {$langs{$_}++} (keys(%xlangs));
+    map {$langs{$_}++} (keys(%ylangs));
+    my @languages = sort {distance($xlangs{$a}, $ylangs{$a}) <=> distance($xlangs{$b}, $ylangs{$b})} (keys(%langs));
     print('\begin{tikzpicture}', "\n");
     print("  \\draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);\n");
     print("  \\draw[gray] (-0.5cm,0cm) node{$y0label};\n");
     print("  \\draw[gray] (-0.5cm,10cm) node{$y1label};\n");
     print("  \\draw[gray] (0cm,-0.5cm) node{$x0label};\n");
     print("  \\draw[gray] (10cm,-0.5cm) node{$x1label};\n");
-    #foreach my $language (sort(keys(%svs)))
+    #foreach my $language (@languages)
     #{
     #    my $lcode = $lhash->{$language}{lcode};
     #    my $y = ($svs{$language} // 0) * 10;
@@ -165,14 +203,13 @@ sub print_2d_plot
     #}
     # Zkusit rezervovat pro každý jazyk 5 mm na šířku a 2,5 mm na výšku, aby se kódy jazyků nepřepisovaly přes sebe.
     # Matice s 20 prvky na šířku (10 cm) a 40 prvky na výšku (10 cm).
-    # K dispozici je 800 pozic na 148 jazyků.
-    my @languages = sort {distance($ovo{$a}, $svs{$a}) <=> distance($ovo{$b}, $svs{$b})} (keys(%svs));
+    # K dispozici je 800 pozic na 168 jazyků.
     my @matrix;
     foreach my $language (@languages)
     {
         my $lcode = $lhash->{$language}{lcode};
-        my $y = $svs{$language} // 0;
-        my $x = $ovo{$language} // 0;
+        my $y = $ylangs{$language} // 0;
+        my $x = $xlangs{$language} // 0;
         my ($xcell, $ycell) = find_cell($x, $y, \@matrix);
         ($x, $y) = cell2cm($xcell, $ycell);
         if($lhash->{$language}{family} =~ m/^IE/)
