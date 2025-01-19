@@ -80,6 +80,14 @@ while(<>)
             if($adp)
             {
                 $h{ADPOSITION}{$upos.'1'}++;
+                # Do not collect case if there are no morphological features.
+                # We do not need them directly for the case here but we cannot
+                # be sure that the overall picture is accurate; maybe Nom-Acc
+                # would be much stronger than adposition if we had morphology.
+                unless($mcase eq 'NOCASE')
+                {
+                    $h{CASE}{$type}{'ADP'}++;
+                }
             }
             else
             {
@@ -90,13 +98,14 @@ while(<>)
                 if($mcase eq 'NoCase')
                 {
                     $h{MORPHCASE}{$upos.'0'}++;
+                    $h{CASE}{$type}{$case}++;
                 }
                 elsif($mcase ne 'NOCASE')
                 {
                     $h{MORPHCASE}{$upos.'1'}++;
+                    $h{CASE}{$type}{$case}++;
                 }
             }
-            $h{CASE}{$type}{$case}++;
         }
     }
     else
