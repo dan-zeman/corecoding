@@ -535,7 +535,7 @@ NOUN without Case (and ADP) --> 0.885542 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.957447 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.639344262295082, Acc:0.0765027322404372, kā+Nom:0.0601092896174863, NoCase:0.0491803278688525, kā+Acc:0.0273224043715847
 CASES OBJECT ==> Nom:0.701492537313433, NoCase:0.17910447761194
-CASES IOBJECT ==> Nom:0.5, meṁ+Acc:0.166666666666667, Acc:0.0833333333333333, kā+Acc:0.0833333333333333, ke+Acc:0.0833333333333333
+CASES IOBJECT ==> Nom:0.5, meṁ+Acc:0.166666666666667, ke+Acc:0.0833333333333333, kā+Acc:0.0833333333333333, Acc:0.0833333333333333
 
 --------------------------------------------------------------------------------
 Breton
@@ -709,7 +709,7 @@ NOUN without Case (and ADP) --> 0.000091 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.963100 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.743652289610822, Nom:0.254795431866061
 CASES OBJECT ==> NoCase:0.8125, Acc:0.11906528189911
-CASES IOBJECT ==> на+NoCase:0.159946684438521, в+NoCase:0.151949350216594, от+NoCase:0.134955014995002, Dat:0.132622459180273, за+NoCase:0.0976341219593469, с+NoCase:0.0719760079973342, до+NoCase:0.0266577807397534, към+NoCase:0.0259913362212596, по+NoCase:0.0219926691102966, с+Acc:0.0106631122959014, със+NoCase:0.00999666777740753, за+Acc:0.00933022325891369
+CASES IOBJECT ==> на+NoCase:0.159946684438521, в+NoCase:0.151949350216594, от+NoCase:0.134955014995002, Dat:0.132622459180273, за+NoCase:0.0976341219593469, с+NoCase:0.0719760079973342, до+NoCase:0.0266577807397534, към+NoCase:0.0259913362212596, по+NoCase:0.0219926691102966, с+Acc:0.0106631122959014, със+NoCase:0.00999666777740753, във+NoCase:0.00933022325891369
 
 --------------------------------------------------------------------------------
 Cappadocian
@@ -2759,7 +2759,7 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
-CASES IOBJECT ==> zu+NoCase:0.5, NoCase:0.5
+CASES IOBJECT ==> NoCase:0.5, zu+NoCase:0.5
 
 --------------------------------------------------------------------------------
 Macedonian
@@ -4160,7 +4160,7 @@ CASE PRON 1 24
 NOUN without Case (and ADP) --> 0.990566 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.576923076923077, Acc:0.221153846153846, Dat:0.0865384615384615
-CASES OBJECT ==> Acc:0.641025641025641, Nom:0.153846153846154, Cns:0.0512820512820513, lesa+Acc:0.0256410256410256
+CASES OBJECT ==> Acc:0.641025641025641, Nom:0.153846153846154, Cns:0.0512820512820513, sē+Acc:0.0256410256410256
 
 --------------------------------------------------------------------------------
 Slovak
@@ -5055,7 +5055,7 @@ CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.500000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
 CASES SUBJECT ==> NOCASE:1
-CASES OBJECT ==> 𐰏+NOCASE:0.4, 𐰤𐰃+NOCASE:0.2, NOCASE:0.2, 𐰣𐰃+NOCASE:0.2
+CASES OBJECT ==> 𐰏+NOCASE:0.4, NOCASE:0.2, 𐰤𐰃+NOCASE:0.2, 𐰣𐰃+NOCASE:0.2
 
 --------------------------------------------------------------------------------
 Ottoman Turkish
@@ -5683,8 +5683,8 @@ CASE PRON 1 11
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.392857 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.764705882352941, Nom:0.205882352941176
-CASES OBJECT ==> NoCase:0.826086956521739, Acc:0.0434782608695652
-CASES IOBJECT ==> Acc:0.5, NoCase:0.5
+CASES OBJECT ==> NoCase:0.826086956521739, ܕ+NoCase:0.0434782608695652
+CASES IOBJECT ==> NoCase:0.5, Acc:0.5
 
 --------------------------------------------------------------------------------
 Beja
@@ -6760,7 +6760,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.009646 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES OBJECT ==> NoCase:0.98546511627907
-CASES IOBJECT ==> upe+NoCase:0.833333333333333, zupe+NoCase:0.0833333333333333
+CASES IOBJECT ==> upe+NoCase:0.833333333333333, upe+Loc:0.0833333333333333
 
 --------------------------------------------------------------------------------
 Guarani
@@ -9981,3 +9981,79 @@ PRON Case vs. NOUN Case plot
   \draw (9.75cm,6.875cm) node{\textcolor{teal}{vep}}; % Veps
   \draw (9.25cm,6.875cm) node{wbp}; % Warlpiri
 \end{tikzpicture}
+
+
+
+Combinations of SUBJECT–OBJECT cases
+NoCase–NoCase	41	Mbya Guarani, Neapolitan, Vietnamese, Bambara, Luxembourgish, Thai, Nheengatu, Karo, French, Old French, Gujarati, Italian, Egyptian, Abaza, Manx, Haitian Creole, Indonesian, Xavante, Middle French, Bororo, Portuguese, Javanese, Nayini, Madi, Spanish Sign Language, Abkhaz, Kiche, Ligurian, Breton, Soi, Cantonese, Chinese, Khunsari, Maghrebi Arabic French, Zaar, Tswana, Welsh, Hausa, Munduruku, Northwest Gbaya, Akuntsu
+Nom–Acc	18	Ancient Greek, Hungarian, Czech, North Sami, Belarusian, Greek, Latvian, Sanskrit, Pomak, Latgalian, Gothic, Slovak, Cappadocian, Phrygian, Serbian, Faroese, Lithuanian, Russian
+NOCASE–NOCASE	12	Chukchi, Swedish Sign Language, Maltese, Bavarian, Azerbaijani, Swiss German, Paumari, Frisian Dutch, Telugu English, Gwichin, South Levantine Arabic, Telugu
+Nom–Acc;Nom	7	Tatar, Malayalam, Komi Zyrian, Komi Permyak, Tamil, Kazakh, Turkish German
+NoCase;Nom–NoCase;Acc	6	Yoruba, Macedonian, Wolof, Bulgarian, German, Danish
+Nom–Acc;Gen	5	Ukrainian, Old East Slavic, Polish, Slovenian, Old Church Slavonic
+NoCase;Abs–NoCase;Abs	3	Yupik, Highland Puebla Nahuatl, Western Sierra Puebla Nahuatl
+NoCase;Nom–NoCase	3	Norwegian, Dutch, Beja
+Nom–Acc;NoCase	3	Hittite, Umbrian, Skolt Sami
+NOCASE;NoCase–NOCASE;NoCase	2	Galician, Korean
+Nom;NoCase–Acc;NoCase	2	Old Irish, Albanian
+Nom;NoCase–Acc;Nom;Dat	2	Turkish, Gheg
+Nom–Gen;Nom	2	Moksha, Erzya
+Nom–Nom;Dat	2	Western Armenian, Armenian
+Nom–Par;Nom;Gen	2	Estonian, Karelian
+Acc,Nom;Nom–Acc,Nom;Acc;NoCase	1	Romanian
+Erg;Abs;NoCase–Abs;NoCase	1	Basque
+Erg;Abs–Abs	1	Warlpiri
+NOCASE–𐰏+NOCASE;NOCASE;𐰤𐰃+NOCASE;𐰣𐰃+NOCASE	1	Old Turkish
+NoCase;=ma+NoCase–NoCase;=ma+NoCase	1	Pesh
+NoCase;Acc,Nom;Nom–NoCase	1	Afrikaans
+NoCase;Loc–NoCase;Loc	1	Classical Chinese
+NoCase;Nom–NoCase;NOCASE	1	English
+NoCase;Nom–NoCase;Nom	1	Akkadian
+NoCase;Nom–NoCase;ܕ+NoCase	1	Assyrian
+NoCase;Nom–Nom;NoCase;Gen	1	Scottish Gaelic
+NoCase;Ref–NoCase;Ref	1	Tupinamba
+NoCase–NoCase;Acc,Dat	1	Catalan
+NoCase–NoCase;Aff	1	Kaapor
+NoCase–NoCase;All	1	Guarani
+NoCase–NoCase;Gen	1	Makurap
+NoCase–NoCase;Ref	1	Teko
+NoCase–NoCase;a+NoCase	1	Spanish
+NoCase–NoCase;nə+NoCase	1	Amharic
+NoCase–NoCase;את+NoCase	1	Ancient Hebrew
+NoCase–NoCase;ⲛ+NoCase	1	Coptic
+NoCase–את+NoCase;NoCase	1	Hebrew
+NoCase–را+NoCase;NoCase	1	Persian
+NoCase–ᠪᡝ+NoCase;NoCase	1	Xibe
+Nom;Acc;Dat–Acc;Nom;Cns;sē+Acc	1	Sinhala
+Nom;Acc;Gen–Acc	1	Arabic
+Nom;Acc;kā+Nom;NoCase;kā+Acc–Nom;NoCase	1	Bhojpuri
+Nom;Acc–Acc	1	Latin
+Nom;Acc–Nom	1	Pashto
+Nom;Acc–Nom;Acc;NoCase;Gen	1	Kyrgyz
+Nom;Con;Acc–Con;Nom;Acc	1	Kurmanji
+Nom;Erg–Acc;Dat	1	Marathi
+Nom;Gen–Acc;Nom	1	Ottoman Turkish
+Nom;NoCase;NOCASE–Nom;NOCASE;NoCase	1	Irish
+Nom;NoCase–Acc;NoCase;Nom	1	Uyghur
+Nom;NoCase–NoCase;Acc	1	Naija
+Nom;NoCase–NoCase;Nom	1	Apurina
+Nom;NoCase–Nom;Acc	1	Swedish
+Nom;NoCase–Nom;jo+Nom	1	Kangri
+Nom;Par–Par;Nom;Gen	1	Finnish
+Nom;ang+NoCase;Gen;si+NoCase–sa+NoCase;ug+NoCase;NoCase;ni+NoCase;Gen	1	Cebuano
+Nom;ne+Acc;Acc,Erg–Nom;ko+Acc	1	Hindi
+Nom;ne+Acc;Acc–Nom;kū+Acc;se+Acc	1	Urdu
+Nom–Acc;Acc,Dat	1	Low Saxon
+Nom–Acc;Dat	1	Croatian
+Nom–Acc;Dat;Nom	1	Icelandic
+Nom–Acc;Gen;Nom	1	Upper Sorbian
+Nom–Acc;Nom;Dat	1	Uzbek
+Nom–Acc;Nom;NoCase	1	Yakut
+Nom–Dat;Nom	1	Georgian
+Nom–Nom;Acc;Dat	1	Buryat
+Nom–Nom;NoCase;Acc	1	Bengali
+Nom–Par;Acc;Nom	1	Livvi
+Nom–Par;Nom	1	Veps
+Nom–z+Acc;Acc	1	Classical Armenian
+ang+NoCase;ang+NOCASE;NOCASE;Nom–NOCASE;ng+NoCase;ng+NOCASE	1	Tagalog
+が+NOCASE;は+NOCASE–を+NOCASE	1	Japanese
