@@ -115,6 +115,17 @@ foreach my $family (@families)
             {
                 $pmcase{$language} = $1;
             }
+            # CASES SUBJECT ==> NoCase:0.608865075499269, Acc,Nom:0.210423770092547, Nom:0.177788602045787
+            if(m/^CASES SUBJECT ==> (.+)$/)
+            {
+                my $cf = $1;
+                my $subjcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
+            }
+            if(m/^CASES OBJECT ==> (.+)$/)
+            {
+                my $cf = $1;
+                my $objcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
+            }
             print;
         }
         close(SUMMARY);
@@ -131,6 +142,23 @@ print_2d_plot('P0', 'PA', \%padp, 'N0', 'NA', \%nadp, $lhash);
 # Print tikz code of the NOUN/PRON morphological Case language plot.
 print("\n\n\nPRON Case vs. NOUN Case plot\n");
 print_2d_plot('P0', 'PC', \%pmcase, 'N0', 'NC', \%nmcase, $lhash);
+# Collect combinations of subject and object cases for all languages.
+print("\n\n\nCombinations of SUBJECT–OBJECT cases\n");
+foreach my $l (keys(%subjcases))
+{
+    if(exists($objcases{$l}))
+    {
+        my $combination = $subjcases{$l}.'–'.$objcases{$l};
+        push(@{$subjobjcases{$combination}}, $l);
+    }
+}
+my @combinations = sort {$subjobjcases{$b} <=> $subjobjcases{$a}} (keys(%subjobjcases));
+foreach my $c (@combinations)
+{
+    my $n = length(@{$subjobjcases{$c}});
+    my $languages = join(' ', @{$subjobjcases{$c}});
+    print("$c\t$n\t$languages\n");
+}
 
 
 
