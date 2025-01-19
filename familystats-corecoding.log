@@ -448,7 +448,7 @@ CASE PRON 1 24
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.909090909090909
-CASES OBJECT ==> Nom:0.703703703703704, Acc:0.111111111111111, NoCase:0.111111111111111
+CASES OBJECT ==> Nom:0.703703703703704, NoCase:0.111111111111111, Acc:0.111111111111111
 CASES IOBJECT ==> Nom:0.666666666666667, Acc:0.333333333333333
 
 --------------------------------------------------------------------------------
@@ -2630,7 +2630,7 @@ NOUN without Case (and ADP) --> 0.997280 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.867850 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.941774815854086
 CASES OBJECT ==> Acc:0.946345975948196
-CASES IOBJECT ==> Dat:0.456521739130435, Ins:0.369565217391304, Nom:0.0869565217391304
+CASES IOBJECT ==> Dat:0.456521739130435, Ins:0.369565217391304, Acc:0.0869565217391304
 
 --------------------------------------------------------------------------------
 Low Saxon
@@ -4968,7 +4968,7 @@ NOUN without Case (and ADP) --> 0.994619 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.954646017699115
 CASES OBJECT ==> Acc:0.597374179431072, Nom:0.37199124726477
-CASES IOBJECT ==> Dat:0.5, Acc:0.25, Abl:0.25
+CASES IOBJECT ==> Dat:0.5, Abl:0.25, Acc:0.25
 
 --------------------------------------------------------------------------------
 Kyrgyz
@@ -6830,7 +6830,7 @@ NOUN without Case (and ADP) --> 0.233766 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.236364 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.861111111111111
 CASES OBJECT ==> NoCase:0.631578947368421, Aff:0.350877192982456
-CASES IOBJECT ==> NoCase:0.6, ADP:0.2, Aff:0.2
+CASES IOBJECT ==> NoCase:0.6, Aff:0.2, ADP:0.2
 
 --------------------------------------------------------------------------------
 Karo
@@ -9947,66 +9947,66 @@ PRON Case vs. NOUN Case plot
 
 
 Combinations of SUBJECT–OBJECT cases
-NoCase–NoCase	42	Abaza, Abkhaz, Akuntsu, Bambara, Bororo, Breton, Cantonese, Chinese, Egyptian, French, Galician, Gujarati, Haitian Creole, Hausa, Indonesian, Italian, Javanese, Karo, Khunsari, Kiche, Ligurian, Luxembourgish, Madi, Maghrebi Arabic French, Manx, Mbya Guarani, Middle French, Munduruku, Nayini, Neapolitan, Nheengatu, Northwest Gbaya, Old French, Portuguese, Soi, Spanish Sign Language, Thai, Tswana, Vietnamese, Welsh, Xavante, Zaar
-Nom–Acc	18	Ancient Greek, Belarusian, Cappadocian, Czech, Faroese, Gothic, Greek, Hungarian, Latgalian, Latvian, Lithuanian, North Sami, Phrygian, Pomak, Russian, Sanskrit, Serbian, Slovak
-Nom–Acc;Nom	7	Kazakh, Komi Permyak, Komi Zyrian, Malayalam, Tamil, Tatar, Turkish German
-NoCase;Nom–NoCase;Acc	6	Bulgarian, Danish, German, Macedonian, Wolof, Yoruba
-Nom–Acc;Gen	5	Old Church Slavonic, Old East Slavic, Polish, Slovenian, Ukrainian
-NoCase;Nom–NoCase	4	Beja, Dutch, English, Norwegian
-NoCase–NoCase;ADP	4	Amharic, Ancient Hebrew, Coptic, Spanish
-NoCase;Abs–NoCase;Abs	3	Highland Puebla Nahuatl, Western Sierra Puebla Nahuatl, Yupik
-NoCase–ADP;NoCase	3	Hebrew, Persian, Xibe
-Nom–Acc;NoCase	3	Hittite, Skolt Sami, Umbrian
-Nom;NoCase–Acc;NoCase	2	Albanian, Old Irish
-Nom;NoCase–Acc;Nom;Dat	2	Gheg, Turkish
-Nom–Gen;Nom	2	Erzya, Moksha
-Nom–Nom;Dat	2	Armenian, Western Armenian
-Nom–Par;Nom;Gen	2	Estonian, Karelian
-ADP;Nom–ADP;NoCase	1	Tagalog
-ADP;Nom–Nom;ADP	1	Urdu
-Acc,Nom;Nom–Acc,Nom;Acc;NoCase	1	Romanian
-Erg;Abs;NoCase–Abs;NoCase	1	Basque
-Erg;Abs–Abs	1	Warlpiri
-NoCase;ADP–NoCase;ADP	1	Pesh
-NoCase;Acc,Nom;Nom–NoCase	1	Afrikaans
-NoCase;Loc–NoCase;Loc	1	Classical Chinese
-NoCase;Nom–NoCase;ADP	1	Assyrian
-NoCase;Nom–NoCase;Nom	1	Akkadian
-NoCase;Nom–Nom;NoCase;Gen	1	Scottish Gaelic
-NoCase;Ref–NoCase;Ref	1	Tupinamba
-NoCase–NoCase;Acc	1	Korean
-NoCase–NoCase;Acc,Dat	1	Catalan
-NoCase–NoCase;Aff	1	Kaapor
-NoCase–NoCase;All	1	Guarani
-NoCase–NoCase;Gen	1	Makurap
-NoCase–NoCase;Ref	1	Teko
-Nom;ADP;Gen–ADP;NoCase;Gen	1	Cebuano
-Nom;ADP–Nom;ADP	1	Hindi
-Nom;ADP–Nom;NoCase	1	Bhojpuri
-Nom;Acc;Dat–Acc;Nom;ADP	1	Sinhala
-Nom;Acc;Gen–Acc	1	Arabic
-Nom;Acc–Acc	1	Latin
-Nom;Acc–Nom	1	Pashto
-Nom;Acc–Nom;Acc;NoCase;Gen	1	Kyrgyz
-Nom;Con;Acc–Con;Nom;Acc	1	Kurmanji
-Nom;Erg–Acc;Dat	1	Marathi
-Nom;Gen–Acc;Nom	1	Ottoman Turkish
-Nom;NoCase–Acc;NoCase;Nom	1	Uyghur
-Nom;NoCase–NoCase;Acc	1	Naija
-Nom;NoCase–NoCase;Nom	1	Apurina
-Nom;NoCase–Nom;ADP	1	Kangri
-Nom;NoCase–Nom;Acc	1	Swedish
-Nom;NoCase–Nom;NoCase	1	Irish
-Nom;Par–Par;Nom;Gen	1	Finnish
-Nom–ADP;Acc	1	Classical Armenian
-Nom–Acc;ADP	1	Upper Sorbian
-Nom–Acc;Acc,Dat	1	Low Saxon
-Nom–Acc;Dat	1	Croatian
-Nom–Acc;Dat;Nom	1	Icelandic
-Nom–Acc;Nom;Dat	1	Uzbek
-Nom–Acc;Nom;NoCase	1	Yakut
-Nom–Dat;Nom	1	Georgian
-Nom–Nom;Acc;Dat	1	Buryat
-Nom–Nom;Acc;NoCase	1	Bengali
-Nom–Par;Acc;Nom	1	Livvi
-Nom–Par;Nom	1	Veps
+NoCase–NoCase	42	Abaza (abq), Abkhaz (ab), Akuntsu (aqz), Bambara (bm), Bororo (bor), Breton (br), Cantonese (yue), Chinese (zh), Egyptian (egy), French (fr), Galician (gl), Gujarati (gu), Haitian Creole (ht), Hausa (ha), Indonesian (id), Italian (it), Javanese (jv), Karo (arr), Khunsari (kfm), Kiche (quc), Ligurian (lij), Luxembourgish (lb), Madi (jaa), Maghrebi Arabic French (qaf), Manx (gv), Mbya Guarani (gun), Middle French (frm), Munduruku (myu), Nayini (nyq), Neapolitan (nap), Nheengatu (yrl), Northwest Gbaya (gya), Old French (fro), Portuguese (pt), Soi (soj), Spanish Sign Language (ssp), Thai (th), Tswana (tn), Vietnamese (vi), Welsh (cy), Xavante (xav), Zaar (say)
+Nom–Acc	18	Ancient Greek (grc), Belarusian (be), Cappadocian (cpg), Czech (cs), Faroese (fo), Gothic (got), Greek (el), Hungarian (hu), Latgalian (ltg), Latvian (lv), Lithuanian (lt), North Sami (sme), Phrygian (xpg), Pomak (qpm), Russian (ru), Sanskrit (sa), Serbian (sr), Slovak (sk)
+Nom–Acc;Nom	7	Kazakh (kk), Komi Permyak (koi), Komi Zyrian (kpv), Malayalam (ml), Tamil (ta), Tatar (tt), Turkish German (qtd)
+NoCase;Nom–NoCase;Acc	6	Bulgarian (bg), Danish (da), German (de), Macedonian (mk), Wolof (wo), Yoruba (yo)
+Nom–Acc;Gen	5	Old Church Slavonic (cu), Old East Slavic (orv), Polish (pl), Slovenian (sl), Ukrainian (uk)
+NoCase;Nom–NoCase	4	Beja (bej), Dutch (nl), English (en), Norwegian (no)
+NoCase–NoCase;ADP	4	Amharic (am), Ancient Hebrew (hbo), Coptic (cop), Spanish (es)
+NoCase;Abs–NoCase;Abs	3	Highland Puebla Nahuatl (azz), Western Sierra Puebla Nahuatl (nhi), Yupik (ess)
+NoCase–ADP;NoCase	3	Hebrew (he), Persian (fa), Xibe (sjo)
+Nom–Acc;NoCase	3	Hittite (hit), Skolt Sami (sms), Umbrian (xum)
+Nom;NoCase–Acc;NoCase	2	Albanian (sq), Old Irish (sga)
+Nom;NoCase–Acc;Nom;Dat	2	Gheg (aln), Turkish (tr)
+Nom–Gen;Nom	2	Erzya (myv), Moksha (mdf)
+Nom–Nom;Dat	2	Armenian (hy), Western Armenian (hyw)
+Nom–Par;Nom;Gen	2	Estonian (et), Karelian (krl)
+ADP;Nom–ADP;NoCase	1	Tagalog (tl)
+ADP;Nom–Nom;ADP	1	Urdu (ur)
+Acc,Nom;Nom–Acc,Nom;Acc;NoCase	1	Romanian (ro)
+Erg;Abs;NoCase–Abs;NoCase	1	Basque (eu)
+Erg;Abs–Abs	1	Warlpiri (wbp)
+NoCase;ADP–NoCase;ADP	1	Pesh (pay)
+NoCase;Acc,Nom;Nom–NoCase	1	Afrikaans (af)
+NoCase;Loc–NoCase;Loc	1	Classical Chinese (lzh)
+NoCase;Nom–NoCase;ADP	1	Assyrian (aii)
+NoCase;Nom–NoCase;Nom	1	Akkadian (akk)
+NoCase;Nom–Nom;NoCase;Gen	1	Scottish Gaelic (gd)
+NoCase;Ref–NoCase;Ref	1	Tupinamba (tpn)
+NoCase–NoCase;Acc	1	Korean (ko)
+NoCase–NoCase;Acc,Dat	1	Catalan (ca)
+NoCase–NoCase;Aff	1	Kaapor (urb)
+NoCase–NoCase;All	1	Guarani (gn)
+NoCase–NoCase;Gen	1	Makurap (mpu)
+NoCase–NoCase;Ref	1	Teko (eme)
+Nom;ADP;Gen–ADP;NoCase;Gen	1	Cebuano (ceb)
+Nom;ADP–Nom;ADP	1	Hindi (hi)
+Nom;ADP–Nom;NoCase	1	Bhojpuri (bho)
+Nom;Acc;Dat–Acc;Nom;ADP	1	Sinhala (si)
+Nom;Acc;Gen–Acc	1	Arabic (ar)
+Nom;Acc–Acc	1	Latin (la)
+Nom;Acc–Nom	1	Pashto (ps)
+Nom;Acc–Nom;Acc;NoCase;Gen	1	Kyrgyz (ky)
+Nom;Con;Acc–Con;Nom;Acc	1	Kurmanji (kmr)
+Nom;Erg–Acc;Dat	1	Marathi (mr)
+Nom;Gen–Acc;Nom	1	Ottoman Turkish (ota)
+Nom;NoCase–Acc;NoCase;Nom	1	Uyghur (ug)
+Nom;NoCase–NoCase;Acc	1	Naija (pcm)
+Nom;NoCase–NoCase;Nom	1	Apurina (apu)
+Nom;NoCase–Nom;ADP	1	Kangri (xnr)
+Nom;NoCase–Nom;Acc	1	Swedish (sv)
+Nom;NoCase–Nom;NoCase	1	Irish (ga)
+Nom;Par–Par;Nom;Gen	1	Finnish (fi)
+Nom–ADP;Acc	1	Classical Armenian (xcl)
+Nom–Acc;ADP	1	Upper Sorbian (hsb)
+Nom–Acc;Acc,Dat	1	Low Saxon (nds)
+Nom–Acc;Dat	1	Croatian (hr)
+Nom–Acc;Dat;Nom	1	Icelandic (is)
+Nom–Acc;Nom;Dat	1	Uzbek (uz)
+Nom–Acc;Nom;NoCase	1	Yakut (sah)
+Nom–Dat;Nom	1	Georgian (ka)
+Nom–Nom;Acc;Dat	1	Buryat (bxr)
+Nom–Nom;NoCase;Acc	1	Bengali (bn)
+Nom–Par;Acc;Nom	1	Livvi (olo)
+Nom–Par;Nom	1	Veps (vep)
