@@ -47,7 +47,7 @@ CASE PRON 0 636
 CASE PRON 1 893
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.584042 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.608865075499269, Acc,Nom:0.210423770092547, Nom:0.177788602045787
+CASES SUBJECT ==> NoCase:0.608865075499269, Acc,Nom:0.210423770092547
 CASES OBJECT ==> NoCase:0.93525641025641
 CASES IOBJECT ==> ADP:1
 
@@ -115,8 +115,8 @@ CASE PRON 0 49
 CASE PRON 1 166
 NOUN without Case (and ADP) --> 0.963563 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.772093 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.826666666666667, NoCase:0.133333333333333
-CASES OBJECT ==> Acc:0.761363636363636, NoCase:0.130681818181818
+CASES SUBJECT ==> Nom:0.826666666666667
+CASES OBJECT ==> Acc:0.761363636363636
 CASES IOBJECT ==> Dat:0.629032258064516, Acc:0.241935483870968
 
 --------------------------------------------------------------------------------
@@ -403,7 +403,7 @@ NOUN without Case (and ADP) --> 0.990154 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.998931 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.943025414506114
 CASES OBJECT ==> Acc:0.88139769291074
-CASES IOBJECT ==> Dat:0.769522776572668, Ins:0.216377440347072
+CASES IOBJECT ==> Dat:0.769522776572668
 
 --------------------------------------------------------------------------------
 Bengali
@@ -448,7 +448,7 @@ CASE PRON 1 24
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.909090909090909
-CASES OBJECT ==> Nom:0.703703703703704, NoCase:0.111111111111111, Acc:0.111111111111111
+CASES OBJECT ==> Nom:0.703703703703704, Acc:0.111111111111111
 CASES IOBJECT ==> Nom:0.666666666666667, Acc:0.333333333333333
 
 --------------------------------------------------------------------------------
@@ -706,7 +706,7 @@ CASE PRON 1 3654
 NOUN without Case (and ADP) --> 0.000091 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.963100 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.743652289610822, Nom:0.254795431866061
-CASES OBJECT ==> NoCase:0.8125, Acc:0.11906528189911
+CASES OBJECT ==> NoCase:0.8125
 CASES IOBJECT ==> ADP:0.866044651782739
 
 --------------------------------------------------------------------------------
@@ -980,7 +980,7 @@ CASE PRON 1 4299
 NOUN without Case (and ADP) --> 0.998777 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.961026533275337
-CASES OBJECT ==> Acc:0.802543320290665, Dat:0.080072666294019
+CASES OBJECT ==> Acc:0.802543320290665
 CASES IOBJECT ==> Dat:0.852140077821012
 
 --------------------------------------------------------------------------------
@@ -1112,7 +1112,7 @@ CASE PRON 1 3672
 NOUN without Case (and ADP) --> 0.006032 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.789168 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.569707159871094, Nom:0.322544486478913
-CASES OBJECT ==> NoCase:0.828655834564254, Acc:0.161004431314623
+CASES OBJECT ==> NoCase:0.828655834564254
 CASES IOBJECT ==> Acc:0.664, NoCase:0.336
 
 --------------------------------------------------------------------------------
@@ -1179,7 +1179,7 @@ CASE PRON 0 7079
 CASE PRON 1 6298
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.470808 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.81140832595217, Nom:0.188520814880425
+CASES SUBJECT ==> NoCase:0.81140832595217
 CASES OBJECT ==> NoCase:0.948940878912425
 CASES IOBJECT ==> NoCase:0.522662889518414, Acc:0.468838526912181
 
@@ -1234,7 +1234,7 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.729143 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.535244327477061, Nom:0.462432131256372
 CASES OBJECT ==> NoCase:0.88364296138524
-CASES IOBJECT ==> Acc:0.822241681260946, NoCase:0.161120840630473
+CASES IOBJECT ==> Acc:0.822241681260946
 
 --------------------------------------------------------------------------------
 Faroese
@@ -1555,8 +1555,8 @@ CASE PRON 0 182
 CASE PRON 1 593
 NOUN without Case (and ADP) --> 0.990077 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.765161 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.806578947368421, NoCase:0.175
-CASES OBJECT ==> Acc:0.720098643649815, Nom:0.114673242909988, Dat:0.0838471023427867
+CASES SUBJECT ==> Nom:0.806578947368421
+CASES OBJECT ==> Acc:0.720098643649815, Nom:0.114673242909988
 CASES IOBJECT ==> Dat:0.948275862068966
 
 --------------------------------------------------------------------------------
@@ -1660,7 +1660,7 @@ NOUN without Case (and ADP) --> 0.984037 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.984461 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.963027656477438
 CASES OBJECT ==> Acc:0.947109826589595
-CASES IOBJECT ==> Gen:0.807377049180328, Acc:0.192622950819672
+CASES IOBJECT ==> Gen:0.807377049180328
 
 --------------------------------------------------------------------------------
 Gujarati
@@ -1702,7 +1702,7 @@ NOUN without Case (and ADP) --> 0.075472 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.024691 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.9375
 CASES OBJECT ==> NoCase:0.934065934065934
-CASES IOBJECT ==> NoCase:0.75, Dat:0.25
+CASES IOBJECT ==> NoCase:0.75
 
 --------------------------------------------------------------------------------
 Hindi
@@ -1790,7 +1790,7 @@ NOUN without Case (and ADP) --> 0.995227 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.964497 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.487957460118861, ADP:0.379355645918048
 CASES OBJECT ==> Nom:0.628308153862638, ADP:0.29926068788171
-CASES IOBJECT ==> ADP:0.84056399132321, Acc,Dat:0.0932754880694143
+CASES IOBJECT ==> ADP:0.84056399132321
 
 --------------------------------------------------------------------------------
 Hittite
@@ -1951,8 +1951,8 @@ CASE PRON 1 64411
 NOUN without Case (and ADP) --> 0.975258 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.989158 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.875686529262387
-CASES OBJECT ==> Acc:0.635581141883017, Dat:0.162060196182545, Nom:0.139172232624431
-CASES IOBJECT ==> Dat:0.84479015918958, Acc:0.0998552821997106
+CASES OBJECT ==> Acc:0.635581141883017, Dat:0.162060196182545
+CASES IOBJECT ==> Dat:0.84479015918958
 
 --------------------------------------------------------------------------------
 Irish
@@ -2000,7 +2000,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.952326 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.662748121025246, NoCase:0.330892272114088
-CASES OBJECT ==> Nom:0.813770669558146, NoCase:0.112767687720249
+CASES OBJECT ==> Nom:0.813770669558146
 
 --------------------------------------------------------------------------------
 Italian
@@ -2126,9 +2126,9 @@ CASE PRON 0 27
 CASE PRON 1 75
 NOUN without Case (and ADP) --> 0.940000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.735294 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.808080808080808, NoCase:0.151515151515152
+CASES SUBJECT ==> Nom:0.808080808080808
 CASES OBJECT ==> Nom:0.742857142857143, ADP:0.171428571428571
-CASES IOBJECT ==> Nom:0.5, ADP:0.5
+CASES IOBJECT ==> ADP:0.5, Nom:0.5
 
 --------------------------------------------------------------------------------
 Khunsari
@@ -2317,7 +2317,7 @@ CASE PRON 0 398
 CASE PRON 1 31997
 NOUN without Case (and ADP) --> 0.983111 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.987714 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.814377234532949, Acc:0.11094172519555
+CASES SUBJECT ==> Nom:0.814377234532949
 CASES OBJECT ==> Acc:0.965223097112861
 CASES IOBJECT ==> Nom:0.928571428571429
 
@@ -2630,7 +2630,7 @@ NOUN without Case (and ADP) --> 0.997280 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.867850 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.941774815854086
 CASES OBJECT ==> Acc:0.946345975948196
-CASES IOBJECT ==> Dat:0.456521739130435, Ins:0.369565217391304, Acc:0.0869565217391304
+CASES IOBJECT ==> Dat:0.456521739130435, Ins:0.369565217391304
 
 --------------------------------------------------------------------------------
 Low Saxon
@@ -2716,7 +2716,7 @@ CASE PRON 1 1494
 NOUN without Case (and ADP) --> 0.860000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.992691 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.916930881420419
-CASES OBJECT ==> Acc:0.770348837209302, Acc,Dat:0.146802325581395
+CASES OBJECT ==> Acc:0.770348837209302
 CASES IOBJECT ==> Acc,Dat:0.747368421052632, Dat:0.178947368421053
 
 --------------------------------------------------------------------------------
@@ -2905,7 +2905,7 @@ CASE PRON 1 192
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.950495 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.712041884816754, Erg:0.146596858638743
-CASES OBJECT ==> Acc:0.767676767676768, Dat:0.161616161616162
+CASES OBJECT ==> Acc:0.767676767676768
 CASES IOBJECT ==> Dat:0.958333333333333
 
 --------------------------------------------------------------------------------
@@ -3127,7 +3127,7 @@ CASE PRON 1 7939
 NOUN without Case (and ADP) --> 0.997033 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.996360 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.919338159255429
-CASES OBJECT ==> Acc:0.780384397964952, Gen:0.207744488411532
+CASES OBJECT ==> Acc:0.780384397964952
 
 --------------------------------------------------------------------------------
 Old East Slavic
@@ -3324,7 +3324,7 @@ CASE PRON 0 3
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.888889 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.791666666666667, NoCase:0.166666666666667
+CASES SUBJECT ==> Nom:0.791666666666667
 CASES OBJECT ==> Acc:0.666666666666667, NoCase:0.2
 
 --------------------------------------------------------------------------------
@@ -3546,8 +3546,8 @@ CASE PRON 1 10195
 NOUN without Case (and ADP) --> 0.994442 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.994149 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.961076066790353
-CASES OBJECT ==> Acc:0.833062428511227, Gen:0.15411474324243
-CASES IOBJECT ==> Dat:0.478032178217822, Ins:0.196472772277228, Acc:0.174969059405941, Gen:0.13644801980198
+CASES OBJECT ==> Acc:0.833062428511227
+CASES IOBJECT ==> Dat:0.478032178217822, Ins:0.196472772277228, Acc:0.174969059405941
 
 --------------------------------------------------------------------------------
 Pomak
@@ -3833,9 +3833,9 @@ CASE PRON 0 47
 CASE PRON 1 28645
 NOUN without Case (and ADP) --> 0.887240 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.998362 --> with Case (but without ADP)
-CASES SUBJECT ==> Acc,Nom:0.773074587592349, Nom:0.14935229227811
-CASES OBJECT ==> Acc,Nom:0.612500451084407, Acc:0.20482840749161, NoCase:0.0885929775179532
-CASES IOBJECT ==> Dat:0.630461665292663, Dat,Gen:0.215272052761748, Acc,Nom:0.0550288540807914
+CASES SUBJECT ==> Acc,Nom:0.773074587592349
+CASES OBJECT ==> Acc,Nom:0.612500451084407, Acc:0.20482840749161
+CASES IOBJECT ==> Dat:0.630461665292663, Dat,Gen:0.215272052761748
 
 --------------------------------------------------------------------------------
 Russian
@@ -3914,7 +3914,7 @@ NOUN without Case (and ADP) --> 0.994432 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.999871 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.949834141362592
 CASES OBJECT ==> Acc:0.939897912221246
-CASES IOBJECT ==> Dat:0.811622433244055, Ins:0.168736303871439
+CASES IOBJECT ==> Dat:0.811622433244055
 
 --------------------------------------------------------------------------------
 Sanskrit
@@ -4059,7 +4059,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.926649 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.560391104294479, Nom:0.435391104294479
-CASES OBJECT ==> Nom:0.471681415929204, NoCase:0.354424778761062, Gen:0.161504424778761
+CASES OBJECT ==> Nom:0.471681415929204, NoCase:0.354424778761062
 
 --------------------------------------------------------------------------------
 Serbian
@@ -4108,7 +4108,7 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.952433803710163
 CASES OBJECT ==> Acc:0.873126873126873
-CASES IOBJECT ==> Acc:0.5, Dat:0.5
+CASES IOBJECT ==> Dat:0.5, Acc:0.5
 
 --------------------------------------------------------------------------------
 Sinhala
@@ -4156,8 +4156,8 @@ CASE PRON 0
 CASE PRON 1 24
 NOUN without Case (and ADP) --> 0.990566 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.576923076923077, Acc:0.221153846153846, Dat:0.0865384615384615
-CASES OBJECT ==> Acc:0.641025641025641, Nom:0.153846153846154, ADP:0.128205128205128
+CASES SUBJECT ==> Nom:0.576923076923077, Acc:0.221153846153846
+CASES OBJECT ==> Acc:0.641025641025641, Nom:0.153846153846154
 
 --------------------------------------------------------------------------------
 Slovak
@@ -4308,7 +4308,7 @@ CASE PRON 1 6433
 NOUN without Case (and ADP) --> 0.995191 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.989388 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.944566785632926
-CASES OBJECT ==> Acc:0.775446428571429, Gen:0.14375
+CASES OBJECT ==> Acc:0.775446428571429
 CASES IOBJECT ==> Dat:0.875502008032129
 
 --------------------------------------------------------------------------------
@@ -4394,7 +4394,7 @@ CASE PRON 1 3535
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.258539 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.978042417508092
-CASES OBJECT ==> NoCase:0.819721871049305, ADP:0.0945006321112516
+CASES OBJECT ==> NoCase:0.819721871049305
 
 --------------------------------------------------------------------------------
 Swedish
@@ -4445,7 +4445,7 @@ CASE PRON 0 4046
 CASE PRON 1 6522
 NOUN without Case (and ADP) --> 0.993490 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.617146 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.784351525626537, NoCase:0.214584856744001
+CASES SUBJECT ==> Nom:0.784351525626537
 CASES OBJECT ==> Nom:0.73635120009949, Acc:0.144136301455043
 CASES IOBJECT ==> Acc:0.667857142857143, Nom:0.271428571428571
 
@@ -4559,7 +4559,7 @@ CASE PRON 1 5301
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.999811 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.974618149146451
-CASES OBJECT ==> Acc:0.797738075725291, Gen:0.131453860022947
+CASES OBJECT ==> Acc:0.797738075725291
 CASES IOBJECT ==> Dat:0.958549222797927
 
 --------------------------------------------------------------------------------
@@ -4670,7 +4670,7 @@ CASE PRON 1 140
 NOUN without Case (and ADP) --> 0.996154 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.992908 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.955108359133127
-CASES OBJECT ==> Acc:0.774410774410774, ADP:0.114478114478114
+CASES OBJECT ==> Acc:0.774410774410774
 CASES IOBJECT ==> Dat:0.923076923076923
 
 --------------------------------------------------------------------------------
@@ -4776,7 +4776,7 @@ NOUN without Case (and ADP) --> 0.994468 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.932169 --> with Case (but without ADP)
 CASES SUBJECT ==> ADP:0.471741637831603, Nom:0.422529796232218
 CASES OBJECT ==> Nom:0.57192429022082, ADP:0.337854889589905
-CASES IOBJECT ==> ADP:0.84080370942813, Acc,Dat:0.080370942812983
+CASES IOBJECT ==> ADP:0.84080370942813
 
 --------------------------------------------------------------------------------
 Welsh
@@ -4891,7 +4891,7 @@ CASE PRON 1 1871
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.960966 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.969236337314513
-CASES OBJECT ==> Nom:0.750126968004063, Dat:0.181056373793804
+CASES OBJECT ==> Nom:0.750126968004063
 CASES IOBJECT ==> Dat:0.891640866873065
 
 Turkic: 20: 10: Azerbaijani (1), Kazakh (1), Kyrgyz (2), Old Turkish (1), Ottoman Turkish (2), Tatar (1), Turkish (9), Uyghur (1), Uzbek (1), Yakut (1)
@@ -4968,7 +4968,7 @@ NOUN without Case (and ADP) --> 0.994619 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.954646017699115
 CASES OBJECT ==> Acc:0.597374179431072, Nom:0.37199124726477
-CASES IOBJECT ==> Dat:0.5, Abl:0.25, Acc:0.25
+CASES IOBJECT ==> Dat:0.5, Abl:0.25
 
 --------------------------------------------------------------------------------
 Kyrgyz
@@ -5019,7 +5019,7 @@ CASE PRON 1 64
 NOUN without Case (and ADP) --> 0.920378 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.703297 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.476103777878926, Acc:0.375967228038234
-CASES OBJECT ==> Nom:0.348643006263048, Acc:0.325678496868476, NoCase:0.121085594989562, Gen:0.0918580375782881
+CASES OBJECT ==> Nom:0.348643006263048, Acc:0.325678496868476, NoCase:0.121085594989562
 
 --------------------------------------------------------------------------------
 Old Turkish
@@ -5108,7 +5108,7 @@ CASE PRON 0 10
 CASE PRON 1 79
 NOUN without Case (and ADP) --> 0.993679 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.887640 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.781321184510251, Gen:0.125284738041002
+CASES SUBJECT ==> Nom:0.781321184510251
 CASES OBJECT ==> Acc:0.609411764705882, Nom:0.244705882352941
 CASES IOBJECT ==> Dat:0.684210526315789, Nom:0.210526315789474
 
@@ -5153,7 +5153,7 @@ CASE PRON 1 10
 NOUN without Case (and ADP) --> 0.993151 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.909091 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.981651376146789
-CASES OBJECT ==> Acc:0.770833333333333, Nom:0.229166666666667
+CASES OBJECT ==> Acc:0.770833333333333
 
 --------------------------------------------------------------------------------
 Turkish
@@ -5230,9 +5230,9 @@ CASE PRON 0 4247
 CASE PRON 1 2748
 NOUN without Case (and ADP) --> 0.989070 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.392852 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.809933581185513, NoCase:0.0665023601654204
-CASES OBJECT ==> Acc:0.447782683816472, Nom:0.381775132783004, Dat:0.0625519933448519
-CASES IOBJECT ==> Dat:0.840909090909091, NoCase:0.0876623376623377
+CASES SUBJECT ==> Nom:0.809933581185513
+CASES OBJECT ==> Acc:0.447782683816472, Nom:0.381775132783004
+CASES IOBJECT ==> Dat:0.840909090909091
 
 --------------------------------------------------------------------------------
 Uyghur
@@ -5280,8 +5280,8 @@ CASE PRON 0 120
 CASE PRON 1 892
 NOUN without Case (and ADP) --> 0.716367 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.881423 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.759778470058844, NoCase:0.232952578746971
-CASES OBJECT ==> Acc:0.50337216431637, NoCase:0.269773145309626, Nom:0.221949724095647
+CASES SUBJECT ==> Nom:0.759778470058844
+CASES OBJECT ==> Acc:0.50337216431637, NoCase:0.269773145309626
 CASES IOBJECT ==> Dat:1
 
 --------------------------------------------------------------------------------
@@ -5344,8 +5344,8 @@ CASE PRON 1 60
 NOUN without Case (and ADP) --> 0.988077 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.674157 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.921108742004264
-CASES OBJECT ==> Acc:0.591111111111111, Nom:0.257777777777778, Dat:0.0977777777777778
-CASES IOBJECT ==> Dat:0.819444444444444, Nom:0.0694444444444444
+CASES OBJECT ==> Acc:0.591111111111111, Nom:0.257777777777778
+CASES IOBJECT ==> Dat:0.819444444444444
 
 --------------------------------------------------------------------------------
 Yakut
@@ -5391,7 +5391,7 @@ NOUN without Case (and ADP) --> 0.945378 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.740260 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.866310160427808
 CASES OBJECT ==> Acc:0.560975609756098, Nom:0.16260162601626, NoCase:0.130081300813008
-CASES IOBJECT ==> Dat:0.8, Ins:0.2
+CASES IOBJECT ==> Dat:0.8
 
 Afro-Asiatic: 18: 13: Akkadian (2), Amharic (1), Ancient Hebrew (1), Arabic (2), Assyrian (1), Beja (1), Coptic (1), Egyptian (1), Hausa (2), Hebrew (3), Maltese (1), South Levantine Arabic (1), Zaar (1)
 --------------------------------------------------------------------------------
@@ -5438,8 +5438,8 @@ CASE PRON 0 304
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.217192 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.849699398797595, Nom:0.140280561122244
-CASES OBJECT ==> NoCase:0.800604229607251, Nom:0.108006042296073
+CASES SUBJECT ==> NoCase:0.849699398797595
+CASES OBJECT ==> NoCase:0.800604229607251
 CASES IOBJECT ==> NoCase:1
 
 --------------------------------------------------------------------------------
@@ -5616,9 +5616,9 @@ CASE PRON 0 99
 CASE PRON 1 4085
 NOUN without Case (and ADP) --> 0.976850 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.976338 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.479800774764804, Acc:0.313447703375761, Gen:0.174322080796901
+CASES SUBJECT ==> Nom:0.479800774764804, Acc:0.313447703375761
 CASES OBJECT ==> Acc:0.930210325047801
-CASES IOBJECT ==> Acc:0.795454545454545, Nom:0.136363636363636
+CASES IOBJECT ==> Acc:0.795454545454545
 
 --------------------------------------------------------------------------------
 Assyrian
@@ -5672,8 +5672,8 @@ CASE PRON 0 17
 CASE PRON 1 11
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.392857 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.764705882352941, Nom:0.205882352941176
-CASES OBJECT ==> NoCase:0.826086956521739, ADP:0.130434782608696
+CASES SUBJECT ==> NoCase:0.764705882352941
+CASES OBJECT ==> NoCase:0.826086956521739
 CASES IOBJECT ==> NoCase:0.5, Acc:0.5
 
 --------------------------------------------------------------------------------
@@ -5714,9 +5714,9 @@ CASE PRON 0 64
 CASE PRON 1 103
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.616766 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.826086956521739, Nom:0.173913043478261
+CASES SUBJECT ==> NoCase:0.826086956521739
 CASES OBJECT ==> NoCase:0.872685185185185
-CASES IOBJECT ==> NoCase:0.8, Acc:0.1
+CASES IOBJECT ==> NoCase:0.8
 
 --------------------------------------------------------------------------------
 Coptic
@@ -5858,7 +5858,7 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.347938 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.937313432835821
 CASES OBJECT ==> NoCase:0.97708674304419
-CASES IOBJECT ==> Dat:0.559748427672956, NoCase:0.283018867924528, Ben:0.138364779874214
+CASES IOBJECT ==> Dat:0.559748427672956, NoCase:0.283018867924528
 
 --------------------------------------------------------------------------------
 Hebrew
@@ -6146,7 +6146,7 @@ CASE PRON 1 11340
 NOUN without Case (and ADP) --> 0.990370 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.999736 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.930756159728122
-CASES OBJECT ==> Par:0.68351701006229, Nom:0.156588404408241, Gen:0.155534259702923
+CASES OBJECT ==> Par:0.68351701006229, Nom:0.156588404408241
 
 --------------------------------------------------------------------------------
 Finnish
@@ -6205,8 +6205,8 @@ CASE PRON 0
 CASE PRON 1 10024
 NOUN without Case (and ADP) --> 0.999875 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.829869687420152, Par:0.083808874882889
-CASES OBJECT ==> Par:0.563747498242008, Nom:0.214745496835614, Gen:0.20560393790231
+CASES SUBJECT ==> Nom:0.829869687420152
+CASES OBJECT ==> Par:0.563747498242008, Nom:0.214745496835614
 
 --------------------------------------------------------------------------------
 Hungarian
@@ -6329,7 +6329,7 @@ CASE PRON 1 94
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.966887417218543
-CASES OBJECT ==> Par:0.587412587412587, Nom:0.258741258741259, Gen:0.118881118881119
+CASES OBJECT ==> Par:0.587412587412587, Nom:0.258741258741259
 
 --------------------------------------------------------------------------------
 Komi Permyak
@@ -6477,7 +6477,7 @@ CASE PRON 1 27
 NOUN without Case (and ADP) --> 0.991525 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.879518072289157
-CASES OBJECT ==> Par:0.629032258064516, Acc:0.145161290322581, Nom:0.129032258064516
+CASES OBJECT ==> Par:0.629032258064516, Acc:0.145161290322581
 
 --------------------------------------------------------------------------------
 Moksha
@@ -6623,7 +6623,7 @@ CASE PRON 1 117
 NOUN without Case (and ADP) --> 0.991304 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.951220 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.969879518072289
-CASES OBJECT ==> Acc:0.808219178082192, NoCase:0.0821917808219178
+CASES OBJECT ==> Acc:0.808219178082192
 
 --------------------------------------------------------------------------------
 Veps
@@ -6782,7 +6782,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.250000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.857142857142857
-CASES OBJECT ==> NoCase:0.8, All:0.2
+CASES OBJECT ==> NoCase:0.8
 CASES IOBJECT ==> NoCase:1
 
 --------------------------------------------------------------------------------
@@ -6830,7 +6830,7 @@ NOUN without Case (and ADP) --> 0.233766 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.236364 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.861111111111111
 CASES OBJECT ==> NoCase:0.631578947368421, Aff:0.350877192982456
-CASES IOBJECT ==> NoCase:0.6, Aff:0.2, ADP:0.2
+CASES IOBJECT ==> NoCase:0.6, Aff:0.2
 
 --------------------------------------------------------------------------------
 Karo
@@ -6902,7 +6902,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.272727 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.888888888888889
-CASES OBJECT ==> NoCase:0.777777777777778, Gen:0.222222222222222
+CASES OBJECT ==> NoCase:0.777777777777778
 
 --------------------------------------------------------------------------------
 Mbya Guarani
@@ -7098,7 +7098,7 @@ CASE PRON 1 7
 NOUN without Case (and ADP) --> 0.128940 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.159091 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.875
-CASES OBJECT ==> NoCase:0.838888888888889, Ref:0.0888888888888889
+CASES OBJECT ==> NoCase:0.838888888888889
 CASES IOBJECT ==> NoCase:1
 
 --------------------------------------------------------------------------------
@@ -7146,7 +7146,7 @@ CASE PRON 0 78
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.425926 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.764705882352941, Ref:0.223529411764706
+CASES SUBJECT ==> NoCase:0.764705882352941
 CASES OBJECT ==> NoCase:0.553763440860215, Ref:0.408602150537634
 
 Sino-Tibetan: 10: 3: Cantonese (1), Chinese (7), Classical Chinese (2)
@@ -7272,8 +7272,8 @@ CASE PRON 0 11083
 CASE PRON 1 
 NOUN without Case (and ADP) --> 0.223040 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.804445158772071, Loc:0.133285881569582
-CASES OBJECT ==> NoCase:0.761150170871335, Loc:0.218127598441479
+CASES SUBJECT ==> NoCase:0.804445158772071
+CASES OBJECT ==> NoCase:0.761150170871335
 CASES IOBJECT ==> NoCase:0.92579185520362
 
 Austronesian: 7: 4: Cebuano (1), Indonesian (3), Javanese (1), Tagalog (2)
@@ -7324,8 +7324,8 @@ CASE PRON 0 3
 CASE PRON 1 101
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.971154 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.409090909090909, ADP:0.344155844155844, Gen:0.168831168831169
-CASES OBJECT ==> ADP:0.649350649350649, NoCase:0.194805194805195, Gen:0.0909090909090909
+CASES SUBJECT ==> Nom:0.409090909090909, ADP:0.344155844155844
+CASES OBJECT ==> ADP:0.649350649350649, NoCase:0.194805194805195
 
 --------------------------------------------------------------------------------
 Indonesian
@@ -7460,8 +7460,8 @@ CASE PRON 0
 CASE PRON 1 23
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
-CASES SUBJECT ==> ADP:0.758241758241758, Nom:0.175824175824176
-CASES OBJECT ==> ADP:0.774193548387097, NoCase:0.161290322580645
+CASES SUBJECT ==> ADP:0.758241758241758
+CASES OBJECT ==> ADP:0.774193548387097
 CASES IOBJECT ==> NoCase:1
 
 Code switching: 4: 4: Frisian Dutch (1), Maghrebi Arabic French (1), Telugu English (1), Turkish German (1)
@@ -7782,7 +7782,7 @@ NOUN without Case (and ADP) --> 0.999322 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.963115 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.979670861568248
 CASES OBJECT ==> Acc:0.5046875, Nom:0.478125
-CASES IOBJECT ==> Dat:0.408163265306122, Nom:0.387755102040816, Loc:0.183673469387755
+CASES IOBJECT ==> Dat:0.408163265306122, Nom:0.387755102040816
 
 --------------------------------------------------------------------------------
 Telugu
@@ -7884,7 +7884,7 @@ CASE PRON 1 208
 NOUN without Case (and ADP) --> 0.131077 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.159632 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.862673233306609
-CASES OBJECT ==> NoCase:0.844972067039106, Acc:0.146822625698324
+CASES OBJECT ==> NoCase:0.844972067039106
 CASES IOBJECT ==> NoCase:0.95
 
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
@@ -8016,7 +8016,7 @@ NOUN without Case (and ADP) --> 0.148063 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.543883 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.558072978774147, Nom:0.40949201049368
 CASES OBJECT ==> NoCase:0.648059149722736, Acc:0.266173752310536
-CASES IOBJECT ==> NoCase:0.801724137931034, Gen:0.125
+CASES IOBJECT ==> NoCase:0.801724137931034
 
 --------------------------------------------------------------------------------
 Yoruba
@@ -8247,9 +8247,9 @@ CASE PRON 0 669
 CASE PRON 1 10466
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.939919 --> with Case (but without ADP)
-CASES SUBJECT ==> Nom:0.758491256980683, NoCase:0.237205895816168
+CASES SUBJECT ==> Nom:0.758491256980683
 CASES OBJECT ==> NoCase:0.666983643971092, Acc:0.274248763788513
-CASES IOBJECT ==> Acc:0.787037037037037, Nom:0.203703703703704
+CASES IOBJECT ==> Acc:0.787037037037037
 
 Northwest Caucasian: 2: 2: Abaza (1), Abkhaz (1)
 --------------------------------------------------------------------------------
@@ -8672,7 +8672,7 @@ CASE PRON 0 479
 CASE PRON 1 10
 NOUN without Case (and ADP) --> 0.416667 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.020450 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.839506172839506, Abs:0.160493827160494
+CASES SUBJECT ==> NoCase:0.839506172839506
 CASES OBJECT ==> NoCase:0.703056768558952, Abs:0.296943231441048
 CASES IOBJECT ==> NoCase:0.625, Abs:0.375
 
@@ -8732,7 +8732,7 @@ CASE PRON 0 254
 CASE PRON 1 1
 NOUN without Case (and ADP) --> 0.302589 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.003922 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.806737588652482, Abs:0.187943262411348
+CASES SUBJECT ==> NoCase:0.806737588652482
 CASES OBJECT ==> NoCase:0.721311475409836, Abs:0.265573770491803
 CASES IOBJECT ==> NoCase:1
 
@@ -8856,7 +8856,7 @@ NOUN without Case (and ADP) --> 0.735679 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.785797 --> with Case (but without ADP)
 CASES SUBJECT ==> Erg:0.38675422663127, Abs:0.334497694564762, NoCase:0.263657957244656
 CASES OBJECT ==> Abs:0.692358042873507, NoCase:0.263786614302078
-CASES IOBJECT ==> Dat:0.778319123020706, NoCase:0.216808769792935
+CASES IOBJECT ==> Dat:0.778319123020706
 
 Bororoan: 1: 1: Bororo (1)
 --------------------------------------------------------------------------------
@@ -8903,7 +8903,7 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.998319327731092
 CASES OBJECT ==> NoCase:0.978609625668449
-CASES IOBJECT ==> ADP:0.833333333333333, NoCase:0.166666666666667
+CASES IOBJECT ==> ADP:0.833333333333333
 
 Chibchan: 1: 1: Pesh (1)
 --------------------------------------------------------------------------------
@@ -8941,7 +8941,7 @@ CASE PRON 1
 NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.605263157894737, ADP:0.394736842105263
-CASES OBJECT ==> NoCase:0.824561403508772, ADP:0.175438596491228
+CASES OBJECT ==> NoCase:0.824561403508772
 
 Chukotko-Kamchatkan: 1: 1: Chukchi (1)
 --------------------------------------------------------------------------------
@@ -9006,8 +9006,8 @@ CASE PRON 0 6
 CASE PRON 1 4
 NOUN without Case (and ADP) --> 0.204301 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.400000 --> with Case (but without ADP)
-CASES SUBJECT ==> NoCase:0.789473684210526, Abs:0.192982456140351
-CASES OBJECT ==> NoCase:0.788135593220339, Abs:0.211864406779661
+CASES SUBJECT ==> NoCase:0.789473684210526
+CASES OBJECT ==> NoCase:0.788135593220339
 
 Kartvelian: 1: 1: Georgian (1)
 --------------------------------------------------------------------------------
@@ -9263,8 +9263,8 @@ CASE PRON 1 120
 NOUN without Case (and ADP) --> 0.969353 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.916031 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.920325203252032
-CASES OBJECT ==> Nom:0.53133514986376, Acc:0.237057220708447, Dat:0.103542234332425
-CASES IOBJECT ==> Dat:0.516129032258065, NoCase:0.32258064516129, Nom:0.129032258064516
+CASES OBJECT ==> Nom:0.53133514986376, Acc:0.237057220708447
+CASES IOBJECT ==> Dat:0.516129032258065, NoCase:0.32258064516129
 
 Na-Dene: 1: 1: Gwichin (1)
 --------------------------------------------------------------------------------
@@ -9947,66 +9947,30 @@ PRON Case vs. NOUN Case plot
 
 
 Combinations of SUBJECT–OBJECT cases
-NoCase–NoCase	42	Abaza (abq), Abkhaz (ab), Akuntsu (aqz), Bambara (bm), Bororo (bor), Breton (br), Cantonese (yue), Chinese (zh), Egyptian (egy), French (fr), Galician (gl), Gujarati (gu), Haitian Creole (ht), Hausa (ha), Indonesian (id), Italian (it), Javanese (jv), Karo (arr), Khunsari (kfm), Kiche (quc), Ligurian (lij), Luxembourgish (lb), Madi (jaa), Maghrebi Arabic French (qaf), Manx (gv), Mbya Guarani (gun), Middle French (frm), Munduruku (myu), Nayini (nyq), Neapolitan (nap), Nheengatu (yrl), Northwest Gbaya (gya), Old French (fro), Portuguese (pt), Soi (soj), Spanish Sign Language (ssp), Thai (th), Tswana (tn), Vietnamese (vi), Welsh (cy), Xavante (xav), Zaar (say)
-Nom–Acc	18	Ancient Greek (grc), Belarusian (be), Cappadocian (cpg), Czech (cs), Faroese (fo), Gothic (got), Greek (el), Hungarian (hu), Latgalian (ltg), Latvian (lv), Lithuanian (lt), North Sami (sme), Phrygian (xpg), Pomak (qpm), Russian (ru), Sanskrit (sa), Serbian (sr), Slovak (sk)
-Nom–Acc;Nom	7	Kazakh (kk), Komi Permyak (koi), Komi Zyrian (kpv), Malayalam (ml), Tamil (ta), Tatar (tt), Turkish German (qtd)
-NoCase;Nom–NoCase;Acc	6	Bulgarian (bg), Danish (da), German (de), Macedonian (mk), Wolof (wo), Yoruba (yo)
-Nom–Acc;Gen	5	Old Church Slavonic (cu), Old East Slavic (orv), Polish (pl), Slovenian (sl), Ukrainian (uk)
-NoCase;Nom–NoCase	4	Beja (bej), Dutch (nl), English (en), Norwegian (no)
-NoCase–NoCase;ADP	4	Amharic (am), Ancient Hebrew (hbo), Coptic (cop), Spanish (es)
-NoCase;Abs–NoCase;Abs	3	Highland Puebla Nahuatl (azz), Western Sierra Puebla Nahuatl (nhi), Yupik (ess)
-NoCase–ADP;NoCase	3	Hebrew (he), Persian (fa), Xibe (sjo)
-Nom–Acc;NoCase	3	Hittite (hit), Skolt Sami (sms), Umbrian (xum)
-Nom;NoCase–Acc;NoCase	2	Albanian (sq), Old Irish (sga)
-Nom;NoCase–Acc;Nom;Dat	2	Gheg (aln), Turkish (tr)
-Nom–Gen;Nom	2	Erzya (myv), Moksha (mdf)
-Nom–Nom;Dat	2	Armenian (hy), Western Armenian (hyw)
-Nom–Par;Nom;Gen	2	Estonian (et), Karelian (krl)
-ADP;Nom–ADP;NoCase	1	Tagalog (tl)
-ADP;Nom–Nom;ADP	1	Urdu (ur)
-Acc,Nom;Nom–Acc,Nom;Acc;NoCase	1	Romanian (ro)
-Erg;Abs;NoCase–Abs;NoCase	1	Basque (eu)
-Erg;Abs–Abs	1	Warlpiri (wbp)
-NoCase;ADP–NoCase;ADP	1	Pesh (pay)
-NoCase;Acc,Nom;Nom–NoCase	1	Afrikaans (af)
-NoCase;Loc–NoCase;Loc	1	Classical Chinese (lzh)
-NoCase;Nom–NoCase;ADP	1	Assyrian (aii)
-NoCase;Nom–NoCase;Nom	1	Akkadian (akk)
-NoCase;Nom–Nom;NoCase;Gen	1	Scottish Gaelic (gd)
-NoCase;Ref–NoCase;Ref	1	Tupinamba (tpn)
-NoCase–NoCase;Acc	1	Korean (ko)
-NoCase–NoCase;Acc,Dat	1	Catalan (ca)
-NoCase–NoCase;Aff	1	Kaapor (urb)
-NoCase–NoCase;All	1	Guarani (gn)
-NoCase–NoCase;Gen	1	Makurap (mpu)
-NoCase–NoCase;Ref	1	Teko (eme)
-Nom;ADP;Gen–ADP;NoCase;Gen	1	Cebuano (ceb)
-Nom;ADP–Nom;ADP	1	Hindi (hi)
-Nom;ADP–Nom;NoCase	1	Bhojpuri (bho)
-Nom;Acc;Dat–Acc;Nom;ADP	1	Sinhala (si)
-Nom;Acc;Gen–Acc	1	Arabic (ar)
-Nom;Acc–Acc	1	Latin (la)
-Nom;Acc–Nom	1	Pashto (ps)
-Nom;Acc–Nom;Acc;NoCase;Gen	1	Kyrgyz (ky)
-Nom;Con;Acc–Con;Nom;Acc	1	Kurmanji (kmr)
-Nom;Erg–Acc;Dat	1	Marathi (mr)
-Nom;Gen–Acc;Nom	1	Ottoman Turkish (ota)
-Nom;NoCase–Acc;NoCase;Nom	1	Uyghur (ug)
-Nom;NoCase–NoCase;Acc	1	Naija (pcm)
-Nom;NoCase–NoCase;Nom	1	Apurina (apu)
-Nom;NoCase–Nom;ADP	1	Kangri (xnr)
-Nom;NoCase–Nom;Acc	1	Swedish (sv)
-Nom;NoCase–Nom;NoCase	1	Irish (ga)
-Nom;Par–Par;Nom;Gen	1	Finnish (fi)
-Nom–ADP;Acc	1	Classical Armenian (xcl)
-Nom–Acc;ADP	1	Upper Sorbian (hsb)
-Nom–Acc;Acc,Dat	1	Low Saxon (nds)
-Nom–Acc;Dat	1	Croatian (hr)
-Nom–Acc;Dat;Nom	1	Icelandic (is)
-Nom–Acc;Nom;Dat	1	Uzbek (uz)
-Nom–Acc;Nom;NoCase	1	Yakut (sah)
-Nom–Dat;Nom	1	Georgian (ka)
-Nom–Nom;Acc;Dat	1	Buryat (bxr)
-Nom–Nom;NoCase;Acc	1	Bengali (bn)
-Nom–Par;Acc;Nom	1	Livvi (olo)
-Nom–Par;Nom	1	Veps (vep)
+0	0	53	Abaza (abq), Abkhaz (ab), Akkadian (akk), Akuntsu (aqz), Assyrian (aii), Bambara (bm), Beja (bej), Bororo (bor), Breton (br), Cantonese (yue), Chinese (zh), Classical Chinese (lzh), Dutch (nl), Egyptian (egy), French (fr), Galician (gl), Guarani (gn), Gujarati (gu), Haitian Creole (ht), Hausa (ha), Indonesian (id), Italian (it), Javanese (jv), Karo (arr), Khunsari (kfm), Kiche (quc), Korean (ko), Ligurian (lij), Luxembourgish (lb), Madi (jaa), Maghrebi Arabic French (qaf), Makurap (mpu), Manx (gv), Mbya Guarani (gun), Middle French (frm), Munduruku (myu), Nayini (nyq), Neapolitan (nap), Nheengatu (yrl), Northwest Gbaya (gya), Old French (fro), Portuguese (pt), Soi (soj), Spanish (es), Spanish Sign Language (ssp), Teko (eme), Thai (th), Tswana (tn), Vietnamese (vi), Welsh (cy), Xavante (xav), Yupik (ess), Zaar (say)
+0	0*	8	Amharic (am), Ancient Hebrew (hbo), Catalan (ca), Coptic (cop), Highland Puebla Nahuatl (azz), Kaapor (urb), Tupinamba (tpn), Western Sierra Puebla Nahuatl (nhi)
+0	ADP*	3	Hebrew (he), Persian (fa), Xibe (sjo)
+0*	0	6	Afrikaans (af), Bulgarian (bg), Danish (da), English (en), Norwegian (no), Pesh (pay)
+0*	0*	4	German (de), Macedonian (mk), Wolof (wo), Yoruba (yo)
+0*	Nom*	1	Scottish Gaelic (gd)
+ADP	ADP	1	Tagalog (tl)
+ADP*	Nom*	1	Urdu (ur)
+Acc,Nom	Acc,Nom*	1	Romanian (ro)
+Erg*	Abs	1	Warlpiri (wbp)
+Erg*	Abs*	1	Basque (eu)
+Nom	0*	1	Naija (pcm)
+Nom	ADP*	1	Classical Armenian (xcl)
+Nom	Acc	29	Albanian (sq), Ancient Greek (grc), Belarusian (be), Cappadocian (cpg), Croatian (hr), Czech (cs), Faroese (fo), Gothic (got), Greek (el), Hungarian (hu), Latgalian (ltg), Latin (la), Latvian (lv), Lithuanian (lt), Low Saxon (nds), North Sami (sme), Old Church Slavonic (cu), Phrygian (xpg), Polish (pl), Pomak (qpm), Russian (ru), Sanskrit (sa), Serbian (sr), Skolt Sami (sms), Slovak (sk), Slovenian (sl), Tatar (tt), Ukrainian (uk), Upper Sorbian (hsb)
+Nom	Acc*	17	Gheg (aln), Hittite (hit), Icelandic (is), Kazakh (kk), Komi Permyak (koi), Komi Zyrian (kpv), Malayalam (ml), Old East Slavic (orv), Old Irish (sga), Ottoman Turkish (ota), Tamil (ta), Turkish (tr), Turkish German (qtd), Umbrian (xum), Uyghur (ug), Uzbek (uz), Yakut (sah)
+Nom	Dat*	1	Georgian (ka)
+Nom	Gen*	2	Erzya (myv), Moksha (mdf)
+Nom	Nom	1	Western Armenian (hyw)
+Nom	Nom*	5	Armenian (hy), Bengali (bn), Buryat (bxr), Kangri (xnr), Swedish (sv)
+Nom	Par*	5	Estonian (et), Finnish (fi), Karelian (krl), Livvi (olo), Veps (vep)
+Nom*	0*	1	Apurina (apu)
+Nom*	ADP*	1	Cebuano (ceb)
+Nom*	Acc	2	Arabic (ar), Marathi (mr)
+Nom*	Acc*	1	Sinhala (si)
+Nom*	Con*	1	Kurmanji (kmr)
+Nom*	Nom	2	Irish (ga), Pashto (ps)
+Nom*	Nom*	3	Bhojpuri (bho), Hindi (hi), Kyrgyz (ky)
