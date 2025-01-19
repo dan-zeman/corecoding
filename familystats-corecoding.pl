@@ -130,6 +130,14 @@ foreach my $family (@families)
                 my $cf = $1;
                 $objcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
             }
+            if(m/^VERB-SUBJECT AGREEMENT +([0-9]*\.[0-9]+)/)
+            {
+                $subjagr{$language} = $1;
+            }
+            if(m/^VERB-OBJECT AGREEMENT +([0-9]*\.[0-9]+)/)
+            {
+                $objagr{$language} = $1;
+            }
             print;
         }
         close(SUMMARY);
@@ -178,6 +186,9 @@ foreach my $c (@combinations)
     my $languages = join(' ', sort_language_codes($subjobjcases{$c}, $lhash, \@families));
     print("$c\t$n\t$languages\n");
 }
+# Print tikz code of the subject vs. object agreement language plot.
+print("\n\n\nSUBJECT vs. OBJECT Agreement plot\n");
+print_2d_plot('S0', 'S1', \%subjagr, 'O0', 'O1', \%objagr, $lhash);
 
 
 
