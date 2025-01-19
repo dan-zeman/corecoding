@@ -29,6 +29,8 @@ foreach my $folder (@folders)
         {
             my $family = $lhash->{$language}{family};
             my $genus = '';
+            # This was needed with the old codes_and_flags.yaml where genus was
+            # indicated as part of family.
             if($family =~ m/^(.+), (.+)$/)
             {
                 $family = $1;
@@ -48,6 +50,8 @@ foreach my $folder (@folders)
             #my $ltcode = $lhash->{$language}{lcode};
             #$ltcode .= '_'.lc($treebank) unless($treebank eq '');
             $families{$family}{$language}++;
+            # Modify family name in lhash so we can later refer to it.
+            $lhash->{$language}{family} = $family;
         }
         else
         {
@@ -418,7 +422,7 @@ sub sort_language_codes
         my $r = $famord{$lhash->{$a}{family}} <=> $famord{$lhash->{$b}{family}};
         unless($r)
         {
-            $lhash->{$a}{lcode} cmp $lhash->{$b}{lcode}
+            $r = $lhash->{$a}{lcode} cmp $lhash->{$b}{lcode}
         }
         $r
     }
