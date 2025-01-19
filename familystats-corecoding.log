@@ -448,7 +448,7 @@ CASE PRON 1 24
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.909090909090909
-CASES OBJECT ==> Nom:0.703703703703704, Acc:0.111111111111111
+CASES OBJECT ==> Nom:0.703703703703704, NoCase:0.111111111111111
 CASES IOBJECT ==> Nom:0.666666666666667, Acc:0.333333333333333
 
 --------------------------------------------------------------------------------
@@ -4108,7 +4108,7 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.952433803710163
 CASES OBJECT ==> Acc:0.873126873126873
-CASES IOBJECT ==> Dat:0.5, Acc:0.5
+CASES IOBJECT ==> Acc:0.5, Dat:0.5
 
 --------------------------------------------------------------------------------
 Sinhala
@@ -4968,7 +4968,7 @@ NOUN without Case (and ADP) --> 0.994619 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.954646017699115
 CASES OBJECT ==> Acc:0.597374179431072, Nom:0.37199124726477
-CASES IOBJECT ==> Dat:0.5, Abl:0.25
+CASES IOBJECT ==> Dat:0.5, Acc:0.25
 
 --------------------------------------------------------------------------------
 Kyrgyz
@@ -9947,30 +9947,30 @@ PRON Case vs. NOUN Case plot
 
 
 Combinations of SUBJECT–OBJECT cases
-0	0	53	Abaza (abq), Abkhaz (ab), Akkadian (akk), Akuntsu (aqz), Assyrian (aii), Bambara (bm), Beja (bej), Bororo (bor), Breton (br), Cantonese (yue), Chinese (zh), Classical Chinese (lzh), Dutch (nl), Egyptian (egy), French (fr), Galician (gl), Guarani (gn), Gujarati (gu), Haitian Creole (ht), Hausa (ha), Indonesian (id), Italian (it), Javanese (jv), Karo (arr), Khunsari (kfm), Kiche (quc), Korean (ko), Ligurian (lij), Luxembourgish (lb), Madi (jaa), Maghrebi Arabic French (qaf), Makurap (mpu), Manx (gv), Mbya Guarani (gun), Middle French (frm), Munduruku (myu), Nayini (nyq), Neapolitan (nap), Nheengatu (yrl), Northwest Gbaya (gya), Old French (fro), Portuguese (pt), Soi (soj), Spanish (es), Spanish Sign Language (ssp), Teko (eme), Thai (th), Tswana (tn), Vietnamese (vi), Welsh (cy), Xavante (xav), Yupik (ess), Zaar (say)
-0	0*	8	Amharic (am), Ancient Hebrew (hbo), Catalan (ca), Coptic (cop), Highland Puebla Nahuatl (azz), Kaapor (urb), Tupinamba (tpn), Western Sierra Puebla Nahuatl (nhi)
-0	ADP*	3	Hebrew (he), Persian (fa), Xibe (sjo)
-0*	0	6	Afrikaans (af), Bulgarian (bg), Danish (da), English (en), Norwegian (no), Pesh (pay)
-0*	0*	4	German (de), Macedonian (mk), Wolof (wo), Yoruba (yo)
-0*	Nom*	1	Scottish Gaelic (gd)
-ADP	ADP	1	Tagalog (tl)
-ADP*	Nom*	1	Urdu (ur)
-Acc,Nom	Acc,Nom*	1	Romanian (ro)
-Erg*	Abs	1	Warlpiri (wbp)
-Erg*	Abs*	1	Basque (eu)
-Nom	0*	1	Naija (pcm)
-Nom	ADP*	1	Classical Armenian (xcl)
-Nom	Acc	29	Albanian (sq), Ancient Greek (grc), Belarusian (be), Cappadocian (cpg), Croatian (hr), Czech (cs), Faroese (fo), Gothic (got), Greek (el), Hungarian (hu), Latgalian (ltg), Latin (la), Latvian (lv), Lithuanian (lt), Low Saxon (nds), North Sami (sme), Old Church Slavonic (cu), Phrygian (xpg), Polish (pl), Pomak (qpm), Russian (ru), Sanskrit (sa), Serbian (sr), Skolt Sami (sms), Slovak (sk), Slovenian (sl), Tatar (tt), Ukrainian (uk), Upper Sorbian (hsb)
-Nom	Acc*	17	Gheg (aln), Hittite (hit), Icelandic (is), Kazakh (kk), Komi Permyak (koi), Komi Zyrian (kpv), Malayalam (ml), Old East Slavic (orv), Old Irish (sga), Ottoman Turkish (ota), Tamil (ta), Turkish (tr), Turkish German (qtd), Umbrian (xum), Uyghur (ug), Uzbek (uz), Yakut (sah)
-Nom	Dat*	1	Georgian (ka)
-Nom	Gen*	2	Erzya (myv), Moksha (mdf)
-Nom	Nom	1	Western Armenian (hyw)
-Nom	Nom*	5	Armenian (hy), Bengali (bn), Buryat (bxr), Kangri (xnr), Swedish (sv)
-Nom	Par*	5	Estonian (et), Finnish (fi), Karelian (krl), Livvi (olo), Veps (vep)
-Nom*	0*	1	Apurina (apu)
-Nom*	ADP*	1	Cebuano (ceb)
-Nom*	Acc	2	Arabic (ar), Marathi (mr)
-Nom*	Acc*	1	Sinhala (si)
-Nom*	Con*	1	Kurmanji (kmr)
-Nom*	Nom	2	Irish (ga), Pashto (ps)
-Nom*	Nom*	3	Bhojpuri (bho), Hindi (hi), Kyrgyz (ky)
+0	0	53	fr br gu gl es soj cy gv fro lb frm nap lij nyq kfm nl pt it ha akk bej egy aii say gn mpu eme arr gun myu yrl aqz zh lzh yue id jv qaf ko tn gya jaa vi ht ab abq ssp bor ess xav bm quc th
+0	0*	8	ca am hbo cop tpn urb azz nhi
+0	ADP*	3	fa he sjo
+0*	0	6	no da en af bg pay
+0*	0*	4	de mk wo yo
+0*	Nom*	1	gd
+ADP	ADP	1	tl
+ADP*	Nom*	1	ur
+Acc,Nom	Acc,Nom*	1	ro
+Erg*	Abs	1	wbp
+Erg*	Abs*	1	eu
+Nom	0*	1	pcm
+Nom	ADP*	1	xcl
+Nom	Acc	29	sr sq pl hr cs qpm sk cu uk got grc xpg lt sl nds lv ru be el la hsb cpg fo ltg sa tt sms hu sme
+Nom	Acc*	17	hit is xum sga aln orv uz ug sah tr ota kk koi kpv qtd ml ta
+Nom	Dat*	1	ka
+Nom	Gen*	2	myv mdf
+Nom	Nom	1	hyw
+Nom	Nom*	5	hy xnr sv bn bxr
+Nom	Par*	5	olo vep krl et fi
+Nom*	0*	1	apu
+Nom*	ADP*	1	ceb
+Nom*	Acc	2	mr ar
+Nom*	Acc*	1	si
+Nom*	Con*	1	kmr
+Nom*	Nom	2	ga ps
+Nom*	Nom*	3	hi bho ky
