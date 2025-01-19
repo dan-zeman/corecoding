@@ -33,8 +33,8 @@ AGREEMENT:
 nonfin                                  	2065	0.643502648800249
 finite                                  	1144	0.356497351199751
 WORDER:
-SV --> 0.025896 --> VS
-OV --> 0.264042 --> VO
+SV --> 0.031175 --> VS
+OV --> 0.218102 --> VO
 ADP NOUN 0 2073
 ADP NOUN 1 44
 ADP PRON 0 1529
@@ -101,8 +101,8 @@ finite                                  	90	0.176125244618395
 finite Number=Plur|Person=3             	82	0.160469667318982
 finite Number=Sing|Person=1             	63	0.123287671232877
 WORDER:
-SV --> 0.210970 --> VS
-OV --> 0.630332 --> VO
+SV --> 0.204348 --> VS
+OV --> 0.562500 --> VO
 ADP NOUN 0 247
 ADP NOUN 1 1
 ADP PRON 0 215
@@ -210,8 +210,8 @@ nonfin                                  	7062	0.094113570638485
 finite Gender=Masc|Number=Plur          	5057	0.0673934192465051
 finite Number=Sing|Person=1             	3984	0.0530938070551861
 WORDER:
-SV --> 0.347110 --> VS
-OV --> 0.527472 --> VO
+SV --> 0.327996 --> VS
+OV --> 0.473357 --> VO
 ADP NOUN 0 30519
 ADP NOUN 1 104
 ADP PRON 0 16429
@@ -283,8 +283,8 @@ finite                                  	2494	0.23813615964862
 finite Number=Plur|Person=3             	1342	0.128139024157357
 nonfin                                  	1181	0.112766160603457
 WORDER:
-SV --> 0.185714 --> VS
-OV --> 0.527845 --> VO
+SV --> 0.123345 --> VS
+OV --> 0.444484 --> VO
 ADP NOUN 0 5423
 ADP NOUN 1 1
 ADP PRON 0 1566
@@ -327,8 +327,8 @@ obj PRON+NOCASE OV                      	17	0.0251479289940828
 IOBJECT:
 AGREEMENT:
 WORDER:
-SV --> 0.163004 --> VS
-OV --> 0.523669 --> VO
+SV --> 0.171040 --> VS
+OV --> 0.467337 --> VO
 ADP NOUN 0 852
 ADP NOUN 1 2
 ADP PRON 0 748
@@ -396,8 +396,8 @@ finite Gender=Masc|Number=Sing          	3543	0.0987485715878369
 finite Number=Plur|Person=3             	2417	0.0673653111848156
 finite Gender=Fem|Number=Sing           	1975	0.0550461272610719
 WORDER:
-SV --> 0.280424 --> VS
-OV --> 0.797138 --> VO
+SV --> 0.250311 --> VS
+OV --> 0.774600 --> VO
 ADP NOUN 0 19703
 ADP NOUN 1 133
 ADP PRON 0 6551
@@ -442,8 +442,8 @@ finite                                  	33	0.492537313432836
 finite Person=1                         	14	0.208955223880597
 finite Person=2                         	14	0.208955223880597
 WORDER:
-SV --> 0.057143 --> VS
-OV --> 0.071429 --> VO
+SV --> 0.058824 --> VS
+OV --> 0.074074 --> VO
 ADP NOUN 0 33
 ADP NOUN 1 
 ADP PRON 0 30
@@ -523,8 +523,8 @@ finite Gender=Masc|Number=Sing|Person=3|||Gender=Masc|Number=Sing|Person=3|||Gen
 finite Gender=Masc                      	6	0.00883652430044183
 finite Gender=Masc|Number=Sing|Person=3|||Gender=Masc|Number=Sing|Person=3|||Number=Sing|Person=3	6	0.00883652430044183
 WORDER:
-SV --> 0.025000 --> VS
-OV --> 0.357616 --> VO
+SV --> 0.021459 --> VS
+OV --> 0.088235 --> VO
 ADP NOUN 0 166
 ADP NOUN 1 45
 ADP PRON 0 47
@@ -568,8 +568,8 @@ finite                                  	170	0.133228840125392
 finite Number=Sing|Person=1             	75	0.0587774294670846
 finite Number=Plur|Person=2             	64	0.0501567398119122
 WORDER:
-SV --> 0.537753 --> VS
-OV --> 0.903394 --> VO
+SV --> 0.519380 --> VS
+OV --> 0.895775 --> VO
 ADP NOUN 0 751
 ADP NOUN 1 8
 ADP PRON 0 96
@@ -702,8 +702,8 @@ finite Number=Plur|Person=1             	620	0.034976870134266
 finite Number=Sing|Person=2             	498	0.0280943247207492
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	452	0.0254992666140133
 WORDER:
-SV --> 0.263600 --> VS
-OV --> 0.837026 --> VO
+SV --> 0.224697 --> VS
+OV --> 0.813019 --> VO
 ADP NOUN 0 10950
 ADP NOUN 1 2398
 ADP PRON 0 3794
@@ -764,8 +764,8 @@ finite Number=Plur|Person=3             	100	0.193423597678917
 finite                                  	67	0.129593810444874
 finite Number=Sing|Person=2             	55	0.106382978723404
 WORDER:
-SV --> 0.478873 --> VS
-OV --> 0.702564 --> VO
+SV --> 0.460784 --> VS
+OV --> 0.672619 --> VO
 ADP NOUN 0 248
 ADP NOUN 1 2
 ADP PRON 0 147
@@ -814,8 +814,8 @@ nonfin                                  	7549	0.176683986331508
 finite Number=Plur|Person=3             	6701	0.156836586621729
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	3974	0.0930112811870992
 WORDER:
-SV --> 0.184229 --> VS
-OV --> 0.663869 --> VO
+SV --> 0.163629 --> VS
+OV --> 0.632827 --> VO
 ADP NOUN 0 32072
 ADP NOUN 1 467
 ADP PRON 0 16043
@@ -891,8 +891,8 @@ finite Number=Sing|Person=1             	800	0.0655630224553352
 nonfin                                  	776	0.0635961317816751
 finite Number=Sing                      	724	0.0593345353220784
 WORDER:
-SV --> 0.351917 --> VS
-OV --> 0.727923 --> VO
+SV --> 0.358861 --> VS
+OV --> 0.621507 --> VO
 ADP NOUN 0 3450
 ADP NOUN 1 1173
 ADP PRON 0 3286
@@ -988,8 +988,8 @@ finite Gender=Fem|Number=Sing|||Number=Sing|Person=3	981	0.0496231473519146
 finite Gender=Masc|Number=Plur|||Number=Plur|Person=3	818	0.0413779149172948
 finite Number=Plur|Person=1             	441	0.0223076533967323
 WORDER:
-SV --> 0.196723 --> VS
-OV --> 0.776133 --> VO
+SV --> 0.177334 --> VS
+OV --> 0.734655 --> VO
 ADP NOUN 0 14717
 ADP NOUN 1 86
 ADP PRON 0 4299
@@ -1070,8 +1070,8 @@ finite Gender=Fem,Neut|Number=Plur,Sing 	11338	0.0494983803228877
 finite Gender=Neut|Number=Sing          	9774	0.0426704153533166
 finite Animacy=Anim|Gender=Masc|Number=Plur	7446	0.0325070506160012
 WORDER:
-SV --> 0.363032 --> VS
-OV --> 0.690541 --> VO
+SV --> 0.317317 --> VS
+OV --> 0.671833 --> VO
 ADP NOUN 0 134963
 ADP NOUN 1 168
 ADP PRON 0 33915
@@ -1126,8 +1126,8 @@ AGREEMENT:
 finite                                  	7739	0.755024390243902
 finite Number=Sing                      	1439	0.140390243902439
 WORDER:
-SV --> 0.166288 --> VS
-OV --> 0.879704 --> VO
+SV --> 0.166310 --> VS
+OV --> 0.930746 --> VO
 ADP NOUN 0 5968
 ADP NOUN 1 25
 ADP PRON 0 4653
@@ -1198,8 +1198,8 @@ finite Number=Sing                      	26944	0.505971606700218
 finite                                  	13163	0.24718320438669
 finite Number=Plur                      	8334	0.15650116427552
 WORDER:
-SV --> 0.210543 --> VS
-OV --> 0.468855 --> VO
+SV --> 0.227917 --> VS
+OV --> 0.390932 --> VO
 ADP NOUN 0 28198
 ADP NOUN 1 3
 ADP PRON 0 13377
@@ -1253,8 +1253,8 @@ nonfin                                  	12660	0.163051877801247
 finite Number=Plur|Person=3             	5565	0.0716732780382257
 finite Number=Sing|Person=1             	4788	0.0616660656328886
 WORDER:
-SV --> 0.059608 --> VS
-OV --> 0.954869 --> VO
+SV --> 0.053458 --> VS
+OV --> 0.961338 --> VO
 ADP NOUN 0 41363
 ADP NOUN 1 123
 ADP PRON 0 35470
@@ -1312,8 +1312,8 @@ AGREEMENT:
 finite                                  	4706	0.758909853249476
 finite Number=Sing|Person=3             	763	0.123044670214482
 WORDER:
-SV --> 0.219448 --> VS
-OV --> 0.892975 --> VO
+SV --> 0.216914 --> VS
+OV --> 0.866899 --> VO
 ADP NOUN 0 2718
 ADP NOUN 1 3
 ADP PRON 0 3117
@@ -1373,8 +1373,8 @@ finite Gender=Masc|Number=Sing          	2756	0.0512896862321807
 finite Gender=Fem|Number=Sing           	1613	0.0300182379871217
 finite Number=Sing|Person=1             	1228	0.0228533144750065
 WORDER:
-SV --> 0.068431 --> VS
-OV --> 0.845518 --> VO
+SV --> 0.062746 --> VS
+OV --> 0.820789 --> VO
 ADP NOUN 0 28517
 ADP NOUN 1 81
 ADP PRON 0 20961
@@ -1467,8 +1467,8 @@ nonfin                                  	807	0.173959905151972
 finite Number=Plur|Person=3             	762	0.164259538693684
 finite                                  	262	0.0564776891571459
 WORDER:
-SV --> 0.131933 --> VS
-OV --> 0.833408 --> VO
+SV --> 0.126897 --> VS
+OV --> 0.814768 --> VO
 ADP NOUN 0 9259
 ADP NOUN 1 199
 ADP PRON 0 4317
@@ -1523,8 +1523,8 @@ finite Number=Sing|Person=3             	181906	0.592910085331908
 finite Number=Plur|Person=3             	67189	0.218997920482917
 finite                                  	30764	0.100273140331549
 WORDER:
-SV --> 0.203496 --> VS
-OV --> 0.411281 --> VO
+SV --> 0.215255 --> VS
+OV --> 0.370940 --> VO
 ADP NOUN 0 268424
 ADP NOUN 1 8900
 ADP PRON 0 73670
@@ -1590,8 +1590,8 @@ finite Number=Sing|Person=3             	1020	0.5950991831972
 finite Number=Plur|Person=3             	297	0.173278879813302
 finite                                  	235	0.137106184364061
 WORDER:
-SV --> 0.265985 --> VS
-OV --> 0.684615 --> VO
+SV --> 0.266325 --> VS
+OV --> 0.667464 --> VO
 ADP NOUN 0 907
 ADP NOUN 1 5
 ADP PRON 0 775
@@ -1644,8 +1644,8 @@ finite Number=Plur|Person=2             	765	0.0620991963633412
 nonfin                                  	737	0.0598262846010228
 finite Gender=Masc|Number=Plur          	577	0.046838217387775
 WORDER:
-SV --> 0.341252 --> VS
-OV --> 0.662941 --> VO
+SV --> 0.338861 --> VS
+OV --> 0.599286 --> VO
 ADP NOUN 0 3121
 ADP NOUN 1 27
 ADP PRON 0 2764
@@ -1698,8 +1698,8 @@ finite Number=Sing|Person=1             	1114	0.112707405908539
 finite                                  	814	0.0823553217320923
 finite Number=Plur|Person=1             	779	0.0788142452448401
 WORDER:
-SV --> 0.309133 --> VS
-OV --> 0.773505 --> VO
+SV --> 0.249325 --> VS
+OV --> 0.726870 --> VO
 ADP NOUN 0 4949
 ADP NOUN 1 2
 ADP PRON 0 2188
@@ -1744,7 +1744,7 @@ AGREEMENT:
 finite                                  	253	0.996062992125984
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.087379 --> VO
+OV --> 0.032609 --> VO
 ADP NOUN 0 159
 ADP NOUN 1 2
 ADP PRON 0 81
@@ -1829,8 +1829,8 @@ finite Gender=Masc|Number=Plur|Person=3|||Gender=Masc|Number=Plur|||Number=Plur|
 finite Gender=Masc|Number=Plur|Person=3 	355	0.0118888144675151
 finite Gender=Masc|Number=Plur|||Gender=Masc|Number=Plur	316	0.0105827193569993
 WORDER:
-SV --> 0.016123 --> VS
-OV --> 0.293597 --> VO
+SV --> 0.015870 --> VS
+OV --> 0.249741 --> VO
 ADP NOUN 0 12361
 ADP NOUN 1 10311
 ADP PRON 0 4394
@@ -1884,8 +1884,8 @@ finite Number=Sing|Person=1             	22	0.116402116402116
 finite                                  	18	0.0952380952380952
 finite Number=Sing|Person=2             	18	0.0952380952380952
 WORDER:
-SV --> 0.023256 --> VS
-OV --> 0.019802 --> VO
+SV --> 0.023810 --> VS
+OV --> 0.010000 --> VO
 ADP NOUN 0 121
 ADP NOUN 1 
 ADP PRON 0 75
@@ -1995,8 +1995,8 @@ finite Number=Plur|Person=3             	16373	0.114949872223314
 finite Number=Sing|Person=1             	7034	0.0493835828021006
 finite Number=Sing|Person=2             	3984	0.0279704569069617
 WORDER:
-SV --> 0.253979 --> VS
-OV --> 0.846082 --> VO
+SV --> 0.253597 --> VS
+OV --> 0.806137 --> VO
 ADP NOUN 0 60827
 ADP NOUN 1 27
 ADP PRON 0 65117
@@ -2048,8 +2048,8 @@ AGREEMENT:
 finite                                  	10716	0.669331667707683
 nonfin                                  	3570	0.222985633978763
 WORDER:
-SV --> 0.875979 --> VS
-OV --> 0.620823 --> VO
+SV --> 0.861122 --> VS
+OV --> 0.566763 --> VO
 ADP NOUN 0 8296
 ADP NOUN 1 145
 ADP PRON 0 2336
@@ -2106,8 +2106,8 @@ finite Gender=Masc|Number=Sing          	3348	0.0351972750496736
 finite Number=Sing|Person=2             	2350	0.0247053752588808
 finite Gender=Fem|Number=Sing           	1790	0.0188181368993177
 WORDER:
-SV --> 0.207416 --> VS
-OV --> 0.836325 --> VO
+SV --> 0.183511 --> VS
+OV --> 0.815867 --> VO
 ADP NOUN 0 47571
 ADP NOUN 1 60
 ADP PRON 0 22308
@@ -2177,7 +2177,7 @@ nonfin                                  	5	0.0130890052356021
 finite Gender=Masc|Number=Sing|||Gender=Masc|Number=Sing	4	0.0104712041884817
 WORDER:
 SV --> 0.009901 --> VS
-OV --> 0.102564 --> VO
+OV --> 0.067568 --> VO
 ADP NOUN 0 150
 ADP NOUN 1 17
 ADP PRON 0 102
@@ -2217,7 +2217,7 @@ finite                                  	3	0.176470588235294
 finite Number=Plur|Person=3             	1	0.0588235294117647
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.500000 --> VO
+OV --> 0.000000 --> VO
 ADP NOUN 0 7
 ADP NOUN 1 
 ADP PRON 0 3
@@ -2265,8 +2265,8 @@ finite Number=Sing|Person=3             	685	0.649289099526066
 finite Number=Plur|Person=3             	142	0.134597156398104
 finite                                  	108	0.102369668246445
 WORDER:
-SV --> 0.007622 --> VS
-OV --> 0.310850 --> VO
+SV --> 0.006107 --> VS
+OV --> 0.037037 --> VO
 ADP NOUN 0 645
 ADP NOUN 1 22
 ADP PRON 0 223
@@ -2308,8 +2308,8 @@ nonfin                                  	7	0.194444444444444
 finite Number=Sing|Person=2             	5	0.138888888888889
 finite                                  	4	0.111111111111111
 WORDER:
-SV --> 0.142857 --> VS
-OV --> 0.916667 --> VO
+SV --> 0.100000 --> VS
+OV --> 0.900000 --> VO
 ADP NOUN 0 20
 ADP NOUN 1 
 ADP PRON 0 12
@@ -2378,8 +2378,8 @@ finite Gender=Masc|Number=Sing          	7573	0.0450749662220476
 finite Gender=Neut|Number=Sing          	5463	0.0325161152081139
 finite Gender=Fem|Number=Sing           	5013	0.0298376872667536
 WORDER:
-SV --> 0.262325 --> VS
-OV --> 0.456014 --> VO
+SV --> 0.188332 --> VS
+OV --> 0.396418 --> VO
 ADP NOUN 0 53112
 ADP NOUN 1 66
 ADP PRON 0 32395
@@ -2564,8 +2564,8 @@ finite Number=Sing|Person=1             	1703	0.0401196758386732
 finite Gender=Masc|Number=Sing          	1377	0.0324396909159442
 finite Gender=Masc|Number=Sing|||Person=3	1087	0.0256078024877497
 WORDER:
-SV --> 0.271371 --> VS
-OV --> 0.711688 --> VO
+SV --> 0.231971 --> VS
+OV --> 0.670462 --> VO
 ADP NOUN 0 24255
 ADP NOUN 1 2412
 ADP PRON 0 9775
@@ -2620,8 +2620,8 @@ finite Number=Plur|Person=3             	51	0.0724431818181818
 finite Number=Sing|Person=2             	39	0.0553977272727273
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=1	18	0.0255681818181818
 WORDER:
-SV --> 0.113846 --> VS
-OV --> 0.754789 --> VO
+SV --> 0.100313 --> VS
+OV --> 0.709091 --> VO
 ADP NOUN 0 215
 ADP NOUN 1 7
 ADP PRON 0 380
@@ -2699,8 +2699,8 @@ finite Gender=Fem|Number=Plur           	372	0.0374170187085094
 finite Person=3                         	357	0.035908267954134
 finite Gender=Neut                      	287	0.0288674311003822
 WORDER:
-SV --> 0.270732 --> VS
-OV --> 0.758314 --> VO
+SV --> 0.224055 --> VS
+OV --> 0.726330 --> VO
 ADP NOUN 0 4044
 ADP NOUN 1 1
 ADP PRON 0 1014
@@ -2787,8 +2787,8 @@ finite Number=Plur|Person=3             	227	0.104415823367065
 finite Number=Sing|Person=1             	216	0.0993560257589696
 nonfin                                  	167	0.0768169273229071
 WORDER:
-SV --> 0.214198 --> VS
-OV --> 0.409404 --> VO
+SV --> 0.210625 --> VS
+OV --> 0.335235 --> VO
 ADP NOUN 0 850
 ADP NOUN 1 5
 ADP PRON 0 1505
@@ -2830,7 +2830,7 @@ AGREEMENT:
 finite                                  	27	1
 WORDER:
 SV --> 0.136364 --> VS
-OV --> 0.250000 --> VO
+OV --> 0.181818 --> VO
 ADP NOUN 0 17
 ADP NOUN 1 1
 ADP PRON 0 17
@@ -2878,8 +2878,8 @@ finite Number=Sing|Person=2             	24	0.102127659574468
 finite Number=Plur|Person=3             	22	0.0936170212765957
 finite Number=Plur|Person=1             	17	0.0723404255319149
 WORDER:
-SV --> 0.178082 --> VS
-OV --> 0.688889 --> VO
+SV --> 0.140625 --> VS
+OV --> 0.640000 --> VO
 ADP NOUN 0 78
 ADP NOUN 1 2
 ADP PRON 0 73
@@ -2918,8 +2918,8 @@ iobj NOUN+NoCase VSIO                   	1	0.5
 AGREEMENT:
 finite                                  	4152	0.958670053105518
 WORDER:
-SV --> 0.999140 --> VS
-OV --> 0.971300 --> VO
+SV --> 0.999130 --> VS
+OV --> 0.969466 --> VO
 ADP NOUN 0 1497
 ADP NOUN 1 4
 ADP PRON 0 1844
@@ -2987,8 +2987,8 @@ finite Gender=Neut|Number=Plur|Person=3 	20	0.0300751879699248
 finite Number=Plur|Person=2             	18	0.0270676691729323
 finite Number=Sing|Person=2             	18	0.0270676691729323
 WORDER:
-SV --> 0.030612 --> VS
-OV --> 0.064516 --> VO
+SV --> 0.028721 --> VS
+OV --> 0.034314 --> VO
 ADP NOUN 0 391
 ADP NOUN 1 10
 ADP PRON 0 202
@@ -3035,8 +3035,8 @@ iobj PRON+NoCase OIV                    	7	0.0636363636363636
 AGREEMENT:
 finite                                  	1251	0.851599727705922
 WORDER:
-SV --> 0.132780 --> VS
-OV --> 0.653169 --> VO
+SV --> 0.126741 --> VS
+OV --> 0.598778 --> VO
 ADP NOUN 0 578
 ADP NOUN 1 14
 ADP PRON 0 710
@@ -3078,7 +3078,7 @@ finite                                  	3	0.176470588235294
 finite Number=Plur|Person=3             	1	0.0588235294117647
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.500000 --> VO
+OV --> 0.000000 --> VO
 ADP NOUN 0 7
 ADP NOUN 1 
 ADP PRON 0 4
@@ -3160,8 +3160,8 @@ iobj NOUN+NoCase VI                     	44	0.0465116279069767
 AGREEMENT:
 finite                                  	67899	0.896972178921504
 WORDER:
-SV --> 0.212018 --> VS
-OV --> 0.883629 --> VO
+SV --> 0.191011 --> VS
+OV --> 0.965591 --> VO
 ADP NOUN 0 43788
 ADP NOUN 1 32
 ADP PRON 0 23557
@@ -3221,8 +3221,8 @@ nonfin                                  	2742	0.0662767088852364
 finite Number=Sing|Person=1             	2496	0.0603306584163202
 finite Gender=Masc|Number=Plur          	1918	0.0463598569080538
 WORDER:
-SV --> 0.393470 --> VS
-OV --> 0.675730 --> VO
+SV --> 0.388851 --> VS
+OV --> 0.644339 --> VO
 ADP NOUN 0 14156
 ADP NOUN 1 69
 ADP PRON 0 7968
@@ -3327,8 +3327,8 @@ finite Gender=Masc|Number=Plur          	2334	0.0355570451394708
 finite Number=Sing|Person=1             	1828	0.0278484483783001
 finite Number=Plur|Person=1             	1391	0.0211910239027437
 WORDER:
-SV --> 0.373426 --> VS
-OV --> 0.582536 --> VO
+SV --> 0.360910 --> VS
+OV --> 0.556755 --> VO
 ADP NOUN 0 30141
 ADP NOUN 1 171
 ADP PRON 0 13878
@@ -3387,8 +3387,8 @@ iobj PRON+a+NoCase IV                   	30	0.00811688311688312
 AGREEMENT:
 finite                                  	33320	0.92896174863388
 WORDER:
-SV --> 0.185246 --> VS
-OV --> 0.485322 --> VO
+SV --> 0.178362 --> VS
+OV --> 0.423390 --> VO
 ADP NOUN 0 14329
 ADP NOUN 1 166
 ADP PRON 0 21809
@@ -3428,8 +3428,8 @@ finite                                  	78	0.523489932885906
 finite Number=Sing|Person=3             	40	0.268456375838926
 finite Number=Sing|Person=1             	17	0.114093959731544
 WORDER:
-SV --> 0.431373 --> VS
-OV --> 0.909091 --> VO
+SV --> 0.440000 --> VS
+OV --> 0.950000 --> VO
 ADP NOUN 0 36
 ADP NOUN 1 
 ADP PRON 0 3
@@ -3473,8 +3473,8 @@ finite Gender=Masc|Number=Plur|Person=3 	4	0.0425531914893617
 finite Number=Sing|Person=2             	4	0.0425531914893617
 finite Gender=Fem|Number=Sing|||Gender=Fem|Number=Sing|Person=3	3	0.0319148936170213
 WORDER:
-SV --> 0.058824 --> VS
-OV --> 0.090909 --> VO
+SV --> 0.060000 --> VS
+OV --> 0.000000 --> VO
 ADP NOUN 0 63
 ADP NOUN 1 
 ADP PRON 0 17
@@ -3520,8 +3520,8 @@ finite Number=Sing|Person=3|||Number=Sing|Person=3	6364	0.0890269151138716
 finite Number=Plur|Person=2             	3936	0.0550612724525768
 finite Number=Sing|Person=1             	3731	0.0521934978456718
 WORDER:
-SV --> 0.021677 --> VS
-OV --> 0.314097 --> VO
+SV --> 0.003593 --> VS
+OV --> 0.004846 --> VO
 ADP NOUN 0 31992
 ADP NOUN 1 11947
 ADP PRON 0 5149
@@ -3561,7 +3561,7 @@ finite Number=Sing|Person=3             	107	0.484162895927602
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	75	0.339366515837104
 finite                                  	24	0.108597285067873
 WORDER:
-SV --> 0.021053 --> VS
+SV --> 0.033333 --> VS
 OV --> 0.097087 --> VO
 ADP NOUN 0 214
 ADP NOUN 1 
@@ -3656,8 +3656,8 @@ finite Gender=Neut|Number=Sing          	2422	0.0362488026819923
 finite Number=Sing|Person=2             	1597	0.0239014607279693
 finite Number=Plur|Person=1             	1379	0.0206387691570881
 WORDER:
-SV --> 0.274538 --> VS
-OV --> 0.820717 --> VO
+SV --> 0.272175 --> VS
+OV --> 0.800396 --> VO
 ADP NOUN 0 39764
 ADP NOUN 1 6
 ADP PRON 0 10255
@@ -3762,8 +3762,8 @@ finite                                  	210	0.0475974614687217
 finite Animacy=Hum|Gender=Masc|Number=Plur|||Number=Plur|Person=3	197	0.0446509519492294
 finite Gender=Neut|Number=Sing|||Number=Sing|Person=3	176	0.0398912058023572
 WORDER:
-SV --> 0.368060 --> VS
-OV --> 0.644509 --> VO
+SV --> 0.333333 --> VS
+OV --> 0.609041 --> VO
 ADP NOUN 0 1915
 ADP NOUN 1 132
 ADP PRON 0 1422
@@ -3845,8 +3845,8 @@ nonfin                                  	15458	0.107882137822258
 finite Number=Plur|Person=3             	14487	0.101105481345002
 finite Gender=Masc|Number=Sing          	3722	0.025976019987996
 WORDER:
-SV --> 0.117418 --> VS
-OV --> 0.916031 --> VO
+SV --> 0.090493 --> VS
+OV --> 0.933910 --> VO
 ADP NOUN 0 92618
 ADP NOUN 1 2563
 ADP PRON 0 18982
@@ -3948,8 +3948,8 @@ finite Number=Sing|Person=2             	3482	0.0359358068011765
 finite Number=Sing|Person=1             	3044	0.0314154497136075
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	3012	0.0310851953145157
 WORDER:
-SV --> 0.316299 --> VS
-OV --> 0.737209 --> VO
+SV --> 0.285568 --> VS
+OV --> 0.678531 --> VO
 ADP NOUN 0 47570
 ADP NOUN 1 363
 ADP PRON 0 28692
@@ -4029,8 +4029,8 @@ finite Number=Plur                      	20624	0.0998373479978313
 finite Number=Plur|Person=3             	13619	0.0659273100456975
 finite Gender=Fem|Number=Sing           	12743	0.0616867399891565
 WORDER:
-SV --> 0.277275 --> VS
-OV --> 0.795483 --> VO
+SV --> 0.229025 --> VS
+OV --> 0.763356 --> VO
 ADP NOUN 0 111354
 ADP NOUN 1 261
 ADP PRON 0 46468
@@ -4136,8 +4136,8 @@ finite Gender=Masc|Number=Sing          	2778	0.0545797477307556
 nonfin                                  	2462	0.0483712523085386
 finite Number=Sing|Person=2             	2407	0.0472906597508743
 WORDER:
-SV --> 0.259642 --> VS
-OV --> 0.172812 --> VO
+SV --> 0.253456 --> VS
+OV --> 0.121785 --> VO
 ADP NOUN 0 18700
 ADP NOUN 1 10
 ADP PRON 0 11546
@@ -4182,8 +4182,8 @@ AGREEMENT:
 finite                                  	11898	0.741216047844505
 nonfin                                  	3906	0.243334163967107
 WORDER:
-SV --> 0.835420 --> VS
-OV --> 0.652651 --> VO
+SV --> 0.840535 --> VS
+OV --> 0.554638 --> VO
 ADP NOUN 0 4049
 ADP NOUN 1 
 ADP PRON 0 3427
@@ -4233,8 +4233,8 @@ finite Gender=Fem|Number=Sing|||Number=Sing|Person=3	609	0.062282675393741
 nonfin                                  	432	0.0441808140724074
 finite Gender=Masc|Number=Plur|||Number=Plur|Person=3	422	0.0431581100429536
 WORDER:
-SV --> 0.171901 --> VS
-OV --> 0.896635 --> VO
+SV --> 0.149189 --> VS
+OV --> 0.858843 --> VO
 ADP NOUN 0 7581
 ADP NOUN 1 44
 ADP PRON 0 1684
@@ -4350,8 +4350,8 @@ finite Number=Plur|Person=3             	557	0.0369143084366094
 finite Animacy=Anim|Gender=Masc|Number=Plur	545	0.0361190271058387
 finite Animacy=Inan|Gender=Masc|Number=Sing	528	0.0349923785539134
 WORDER:
-SV --> 0.329038 --> VS
-OV --> 0.646506 --> VO
+SV --> 0.313562 --> VS
+OV --> 0.678269 --> VO
 ADP NOUN 0 8128
 ADP NOUN 1 
 ADP PRON 0 2660
@@ -4443,8 +4443,8 @@ finite Number=Plur|Person=2             	636	0.0182313315178443
 finite Number=Sing|Person=2             	630	0.0180593378242798
 finite Gender=Masc|Number=Plur|||Number=Plur|Person=1	505	0.0144761358750179
 WORDER:
-SV --> 0.307008 --> VS
-OV --> 0.645588 --> VO
+SV --> 0.266307 --> VS
+OV --> 0.591905 --> VO
 ADP NOUN 0 19339
 ADP NOUN 1 20
 ADP PRON 0 6502
@@ -4487,7 +4487,7 @@ finite Number=Plur|Person=3             	1	0.0909090909090909
 finite Number=Sing|Person=1|||Number=Sing|Person=1	1	0.0909090909090909
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.200000 --> VO
+OV --> 0.000000 --> VO
 ADP NOUN 0 5
 ADP NOUN 1 
 ADP PRON 0 4
@@ -4534,8 +4534,8 @@ finite Number=Plur|Person=3             	12810	0.143571236438626
 finite                                  	4294	0.0481260647359455
 finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4011	0.0449542723930781
 WORDER:
-SV --> 0.186553 --> VS
-OV --> 0.862952 --> VO
+SV --> 0.167839 --> VS
+OV --> 0.871338 --> VO
 ADP NOUN 0 56287
 ADP NOUN 1 2857
 ADP PRON 0 13673
@@ -4588,8 +4588,8 @@ iobj NOUN+Nom SVI                       	5	0.0176056338028169
 AGREEMENT:
 finite                                  	21211	0.854008133027338
 WORDER:
-SV --> 0.179651 --> VS
-OV --> 0.925411 --> VO
+SV --> 0.157370 --> VS
+OV --> 0.934347 --> VO
 ADP NOUN 0 12750
 ADP NOUN 1 42
 ADP PRON 0 10568
@@ -4634,8 +4634,8 @@ iobj PRON+NOCASE SIV                    	1	0.142857142857143
 iobj PRON+NOCASE SIVO                   	1	0.142857142857143
 AGREEMENT:
 WORDER:
-SV --> 0.070000 --> VS
-OV --> 0.342857 --> VO
+SV --> 0.043478 --> VS
+OV --> 0.153846 --> VO
 ADP NOUN 0 69
 ADP NOUN 1 
 ADP PRON 0 81
@@ -4703,8 +4703,8 @@ finite Number=Plur|Person=3             	1201	0.0626924883854466
 finite Gender=Fem|Number=Sing           	1017	0.0530876442031633
 finite Number=Sing|Person=1             	1003	0.0523568408414679
 WORDER:
-SV --> 0.239553 --> VS
-OV --> 0.767726 --> VO
+SV --> 0.193413 --> VS
+OV --> 0.739490 --> VO
 ADP NOUN 0 10275
 ADP NOUN 1 6
 ADP PRON 0 5302
@@ -4752,8 +4752,8 @@ finite                                  	78	0.386138613861386
 finite Number=Sing|Person=2             	71	0.351485148514851
 finite Number=Sing|Person=3             	25	0.123762376237624
 WORDER:
-SV --> 0.133333 --> VS
-OV --> 0.111111 --> VO
+SV --> 0.137931 --> VS
+OV --> 0.036585 --> VO
 ADP NOUN 0 110
 ADP NOUN 1 1
 ADP PRON 0 14
@@ -4820,8 +4820,8 @@ finite Number=Plur|Person=3             	246	0.255717255717256
 nonfin                                  	103	0.107068607068607
 finite                                  	68	0.0706860706860707
 WORDER:
-SV --> 0.220566 --> VS
-OV --> 0.621795 --> VO
+SV --> 0.207891 --> VS
+OV --> 0.609272 --> VO
 ADP NOUN 0 780
 ADP NOUN 1 31
 ADP PRON 0 141
@@ -4927,7 +4927,7 @@ finite Gender=Fem|Number=Sing|||Gender=Fem|Number=Sing|||Number=Sing|Person=3	94
 finite Number=Plur                      	91	0.00916138125440451
 WORDER:
 SV --> 0.003563 --> VS
-OV --> 0.301979 --> VO
+OV --> 0.264527 --> VO
 ADP NOUN 0 3977
 ADP NOUN 1 3370
 ADP PRON 0 973
@@ -4970,8 +4970,8 @@ nonfin                                  	2231	0.275058562446061
 finite Number=Sing|Person=3             	2129	0.262483047712982
 finite Number=Sing|Person=1             	332	0.0409320675625693
 WORDER:
-SV --> 0.689053 --> VS
-OV --> 0.811697 --> VO
+SV --> 0.691067 --> VS
+OV --> 0.765762 --> VO
 ADP NOUN 0 3050
 ADP NOUN 1 78
 ADP PRON 0 1478
@@ -5049,8 +5049,8 @@ finite                                  	3244	0.228692280578075
 nonfin                                  	1948	0.137328163553049
 finite Number=Plur|Person=3             	1944	0.13704617553754
 WORDER:
-SV --> 0.177331 --> VS
-OV --> 0.472173 --> VO
+SV --> 0.123162 --> VS
+OV --> 0.410674 --> VO
 ADP NOUN 0 7832
 ADP NOUN 1 8
 ADP PRON 0 1947
@@ -5087,7 +5087,7 @@ IOBJECT:
 AGREEMENT:
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.073171 --> VO
+OV --> 0.000000 --> VO
 ADP NOUN 0 111
 ADP NOUN 1 
 ADP PRON 0 12
@@ -5126,7 +5126,7 @@ finite                                  	492	0.254922279792746
 nonfin                                  	444	0.230051813471503
 finite Number=Plur|Person=3             	66	0.0341968911917098
 WORDER:
-SV --> 0.009009 --> VS
+SV --> 0.008593 --> VS
 OV --> 0.000000 --> VO
 ADP NOUN 0 1115
 ADP NOUN 1 1
@@ -5181,8 +5181,8 @@ finite Number=Sing|Person=3             	687	0.158477508650519
 nonfin Number=Sing|Person=3             	301	0.0694348327566321
 finite Person=3                         	251	0.0579008073817762
 WORDER:
-SV --> 0.001676 --> VS
-OV --> 0.001339 --> VO
+SV --> 0.001701 --> VS
+OV --> 0.000000 --> VO
 ADP NOUN 0 2537
 ADP NOUN 1 48
 ADP PRON 0 91
@@ -5273,8 +5273,8 @@ nonfin Number=Sing|Person=3             	79	0.0557122708039492
 nonfin                                  	71	0.0500705218617771
 finite Number=Sing|Person=1             	50	0.0352609308885755
 WORDER:
-SV --> 0.005859 --> VS
-OV --> 0.049815 --> VO
+SV --> 0.006522 --> VS
+OV --> 0.022936 --> VO
 ADP NOUN 0 791
 ADP NOUN 1 3
 ADP PRON 0 89
@@ -5398,8 +5398,8 @@ finite Number=Sing|Person=3             	47892	0.376814558958905
 finite Number=Sing|Person=1             	8477	0.0666970896244601
 finite Number=Plur|Person=3             	3352	0.02637355720434
 WORDER:
-SV --> 0.024865 --> VS
-OV --> 0.021071 --> VO
+SV --> 0.025201 --> VS
+OV --> 0.020048 --> VO
 ADP NOUN 0 72095
 ADP NOUN 1 884
 ADP PRON 0 6995
@@ -5451,8 +5451,8 @@ finite                                  	4565	0.622273718647764
 nonfin                                  	1248	0.170119956379498
 finite Number=Sing|Person=3             	1022	0.139312977099237
 WORDER:
-SV --> 0.042019 --> VS
-OV --> 0.002260 --> VO
+SV --> 0.043170 --> VS
+OV --> 0.001089 --> VO
 ADP NOUN 0 3501
 ADP NOUN 1 7
 ADP PRON 0 1012
@@ -5517,7 +5517,7 @@ finite                                  	373	0.437280187573271
 nonfin                                  	204	0.23915592028136
 finite Person=3                         	196	0.229777256740914
 WORDER:
-SV --> 0.004000 --> VS
+SV --> 0.004175 --> VS
 OV --> 0.000000 --> VO
 ADP NOUN 0 671
 ADP NOUN 1 6
@@ -5566,8 +5566,8 @@ finite                                  	65	0.213815789473684
 finite Number=Sing|Person=2             	45	0.148026315789474
 finite Number=Plur|Person=3             	37	0.121710526315789
 WORDER:
-SV --> 0.010582 --> VS
-OV --> 0.032258 --> VO
+SV --> 0.010638 --> VS
+OV --> 0.024390 --> VO
 ADP NOUN 0 238
 ADP NOUN 1 
 ADP PRON 0 77
@@ -5617,8 +5617,8 @@ finite                                  	454	0.18972001671542
 finite Gender=Masc|Number=Sing|Person=3 	295	0.123276222315086
 finite Gender=Masc|Number=Plur|Person=3 	140	0.058503969912244
 WORDER:
-SV --> 0.009785 --> VS
-OV --> 0.064684 --> VO
+SV --> 0.010000 --> VS
+OV --> 0.063910 --> VO
 ADP NOUN 0 1524
 ADP NOUN 1 6
 ADP PRON 0 304
@@ -5676,8 +5676,8 @@ iobj NOUN+nə+NoCase IV                  	1	0.0333333333333333
 AGREEMENT:
 finite                                  	1647	0.929458239277652
 WORDER:
-SV --> 0.397463 --> VS
-OV --> 0.111111 --> VO
+SV --> 0.418154 --> VS
+OV --> 0.123810 --> VO
 ADP NOUN 0 671
 ADP NOUN 1 251
 ADP PRON 0 903
@@ -5730,8 +5730,8 @@ finite Gender=Fem|Number=Sing|Person=3  	223	0.0611293859649123
 finite Number=Sing|Person=1             	218	0.0597587719298246
 finite Gender=Masc|Number=Plur|Person=3 	160	0.043859649122807
 WORDER:
-SV --> 0.728360 --> VS
-OV --> 0.945455 --> VO
+SV --> 0.728687 --> VS
+OV --> 0.922914 --> VO
 ADP NOUN 0 1630
 ADP NOUN 1 354
 ADP PRON 0 572
@@ -5794,8 +5794,8 @@ finite                                  	7562	0.335403175729619
 finite Gender=Masc|Number=Sing|Person=3 	7558	0.335225760667081
 finite Gender=Fem|Number=Sing|Person=3  	5966	0.264614565776634
 WORDER:
-SV --> 0.424734 --> VS
-OV --> 0.994023 --> VO
+SV --> 0.414111 --> VS
+OV --> 0.993459 --> VO
 ADP NOUN 0 10065
 ADP NOUN 1 54
 ADP PRON 0 4184
@@ -5848,8 +5848,8 @@ finite Number=Sing|Person=1             	4	0.0512820512820513
 finite Gender=Masc|Number=Sing          	2	0.0256410256410256
 finite Number=Plur                      	2	0.0256410256410256
 WORDER:
-SV --> 0.026316 --> VS
-OV --> 0.833333 --> VO
+SV --> 0.000000 --> VS
+OV --> 0.826087 --> VO
 ADP NOUN 0 31
 ADP NOUN 1 4
 ADP PRON 0 28
@@ -5893,8 +5893,8 @@ finite Number=Plur                      	169	0.100595238095238
 finite Number=Sing                      	154	0.0916666666666667
 finite Gender=Fem|Number=Sing           	121	0.0720238095238095
 WORDER:
-SV --> 0.003861 --> VS
-OV --> 0.119940 --> VO
+SV --> 0.003891 --> VS
+OV --> 0.181818 --> VO
 ADP NOUN 0 538
 ADP NOUN 1 
 ADP PRON 0 167
@@ -5938,8 +5938,8 @@ iobj PRON+NoCase VI                     	6	0.0779220779220779
 AGREEMENT:
 finite                                  	5959	0.903426318981201
 WORDER:
-SV --> 0.135475 --> VS
-OV --> 0.999220 --> VO
+SV --> 0.107399 --> VS
+OV --> 0.998982 --> VO
 ADP NOUN 0 1179
 ADP NOUN 1 478
 ADP PRON 0 4539
@@ -5991,8 +5991,8 @@ finite Number=Sing                      	296	0.120032441200324
 nonfin Gender=Masc                      	225	0.0912408759124088
 finite Gender=Masc|Number=Sing          	220	0.089213300892133
 WORDER:
-SV --> 0.755821 --> VS
-OV --> 0.991597 --> VO
+SV --> 0.742473 --> VS
+OV --> 1.000000 --> VO
 ADP NOUN 0 1569
 ADP NOUN 1 77
 ADP PRON 0 884
@@ -6039,8 +6039,8 @@ finite Gender=Fem|Person=3              	226	0.0604763179020605
 finite Number=Plur|Person=1             	179	0.0478993845330479
 finite Number=Plur|Person=3             	179	0.0478993845330479
 WORDER:
-SV --> 0.322857 --> VS
-OV --> 0.994753 --> VO
+SV --> 0.321839 --> VS
+OV --> 0.993056 --> VO
 ADP NOUN 0 703
 ADP NOUN 1 13
 ADP PRON 0 388
@@ -6091,8 +6091,8 @@ finite Gender=Fem,Masc|Number=Plur|Person=3	1719	0.0548272892546168
 finite Gender=Masc|Number=Sing|Person=1,2,3	1158	0.0369342646636685
 finite Gender=Masc|Number=Plur|Person=1,2,3	786	0.0250693713520237
 WORDER:
-SV --> 0.312938 --> VS
-OV --> 0.973324 --> VO
+SV --> 0.294413 --> VS
+OV --> 0.969615 --> VO
 ADP NOUN 0 14750
 ADP NOUN 1 2914
 ADP PRON 0 3395
@@ -6154,8 +6154,8 @@ iobj NOUN+lis-+NOCASE IV                	1	0.0153846153846154
 iobj NOUN+lit-+NOCASE VI                	1	0.0153846153846154
 AGREEMENT:
 WORDER:
-SV --> 0.238318 --> VS
-OV --> 0.956388 --> VO
+SV --> 0.224120 --> VS
+OV --> 0.940751 --> VO
 ADP NOUN 0 2537
 ADP NOUN 1 157
 ADP PRON 0 563
@@ -6186,7 +6186,7 @@ iobj PRON+NOCASE VIO                    	1	0.333333333333333
 AGREEMENT:
 WORDER:
 SV --> 0.421053 --> VS
-OV --> 0.939394 --> VO
+OV --> 0.945455 --> VO
 ADP NOUN 0 53
 ADP NOUN 1 3
 ADP PRON 0 36
@@ -6215,8 +6215,8 @@ finite Number=Plur|Person=3             	304	0.103471749489449
 finite Number=Plur|Person=1             	246	0.0837304288631722
 finite Number=Sing|Person=2             	211	0.0718175629680054
 WORDER:
-SV --> 0.010345 --> VS
-OV --> 0.998861 --> VO
+SV --> 0.003584 --> VS
+OV --> 1.000000 --> VO
 ADP NOUN 0 569
 ADP NOUN 1 3
 ADP PRON 0 389
@@ -6276,8 +6276,8 @@ finite Number[subj]=Sing|Person[subj]=2 	148	0.0476343739942066
 finite Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	138	0.0444158352108143
 finite Number[subj]=Sing|Person[subj]=1 	86	0.0276794335371741
 WORDER:
-SV --> 0.316897 --> VS
-OV --> 0.609116 --> VO
+SV --> 0.318182 --> VS
+OV --> 0.566820 --> VO
 ADP NOUN 0 1560
 ADP NOUN 1 4
 ADP PRON 0 431
@@ -6337,8 +6337,8 @@ finite Number=Sing|Person=3             	26528	0.350153773049458
 nonfin                                  	10023	0.132297620147569
 finite Number=Plur|Person=3             	6738	0.088937580021383
 WORDER:
-SV --> 0.353295 --> VS
-OV --> 0.591339 --> VO
+SV --> 0.326153 --> VS
+OV --> 0.563575 --> VO
 ADP NOUN 0 35412
 ADP NOUN 1 9
 ADP PRON 0 11343
@@ -6400,8 +6400,8 @@ nonfin Number=Sing                      	3746	0.0571794910933708
 finite Number=Sing|Person=1             	3526	0.0538213789629539
 nonfin                                  	3250	0.0496084746538855
 WORDER:
-SV --> 0.176511 --> VS
-OV --> 0.726456 --> VO
+SV --> 0.148603 --> VS
+OV --> 0.687546 --> VO
 ADP NOUN 0 31935
 ADP NOUN 1 6
 ADP PRON 0 10024
@@ -6474,8 +6474,8 @@ finite Number=Plur|Person=3             	633	0.18326577880718
 finite                                  	411	0.118992472495657
 nonfin                                  	315	0.0911986103068906
 WORDER:
-SV --> 0.266907 --> VS
-OV --> 0.524051 --> VO
+SV --> 0.238006 --> VS
+OV --> 0.493924 --> VO
 ADP NOUN 0 2935
 ADP NOUN 1 
 ADP PRON 0 477
@@ -6529,8 +6529,8 @@ finite                                  	27	0.0810810810810811
 finite Number=Plur|Person=1             	19	0.0570570570570571
 finite Number=Sing|Person=1             	18	0.0540540540540541
 WORDER:
-SV --> 0.140449 --> VS
-OV --> 0.803681 --> VO
+SV --> 0.110390 --> VS
+OV --> 0.783784 --> VO
 ADP NOUN 0 198
 ADP NOUN 1 2
 ADP PRON 0 94
@@ -6577,8 +6577,8 @@ nonfin                                  	16	0.0869565217391304
 finite Number=Plur|Person=3             	14	0.0760869565217391
 finite Number=Sing|Person=2             	14	0.0760869565217391
 WORDER:
-SV --> 0.186441 --> VS
-OV --> 0.647059 --> VO
+SV --> 0.160000 --> VS
+OV --> 0.600000 --> VO
 ADP NOUN 0 98
 ADP NOUN 1 
 ADP PRON 0 47
@@ -6635,8 +6635,8 @@ finite Number=Sing|Person=1             	92	0.063317274604267
 finite Number=Sing                      	67	0.0461114934618032
 finite Number=Sing|Person=2             	52	0.0357880247763248
 WORDER:
-SV --> 0.235821 --> VS
-OV --> 0.565068 --> VO
+SV --> 0.220459 --> VS
+OV --> 0.491870 --> VO
 ADP NOUN 0 537
 ADP NOUN 1 4
 ADP PRON 0 242
@@ -6688,8 +6688,8 @@ finite Number=Plur|Person=3             	37	0.196808510638298
 nonfin                                  	25	0.132978723404255
 finite                                  	17	0.0904255319148936
 WORDER:
-SV --> 0.227723 --> VS
-OV --> 0.628571 --> VO
+SV --> 0.202381 --> VS
+OV --> 0.593750 --> VO
 ADP NOUN 0 118
 ADP NOUN 1 
 ADP PRON 0 27
@@ -6740,8 +6740,8 @@ finite Number[subj]=Sing|Person[subj]=1 	58	0.0829756795422032
 finite Number[subj]=Sing|Person[subj]=2 	38	0.0543633762517883
 finite Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	33	0.0472103004291846
 WORDER:
-SV --> 0.282209 --> VS
-OV --> 0.723529 --> VO
+SV --> 0.285714 --> VS
+OV --> 0.693333 --> VO
 ADP NOUN 0 327
 ADP NOUN 1 2
 ADP PRON 0 79
@@ -6787,8 +6787,8 @@ finite                                  	415	0.0902173913043478
 nonfin                                  	325	0.0706521739130435
 finite Number=Sing|Person=1             	316	0.068695652173913
 WORDER:
-SV --> 0.202152 --> VS
-OV --> 0.814461 --> VO
+SV --> 0.190129 --> VS
+OV --> 0.802164 --> VO
 ADP NOUN 0 2840
 ADP NOUN 1 
 ADP PRON 0 1436
@@ -6837,8 +6837,8 @@ finite                                  	38	0.102150537634409
 finite Number=Sing|Person=2             	34	0.0913978494623656
 nonfin                                  	28	0.0752688172043011
 WORDER:
-SV --> 0.084746 --> VS
-OV --> 0.525253 --> VO
+SV --> 0.083832 --> VS
+OV --> 0.378378 --> VO
 ADP NOUN 0 115
 ADP NOUN 1 1
 ADP PRON 0 123
@@ -6887,8 +6887,8 @@ finite Number=Plur|Person=3             	28	0.165680473372781
 finite Number=Sing|Person=1             	27	0.159763313609467
 nonfin                                  	27	0.159763313609467
 WORDER:
-SV --> 0.250000 --> VS
-OV --> 0.942308 --> VO
+SV --> 0.202381 --> VS
+OV --> 0.925000 --> VO
 ADP NOUN 0 73
 ADP NOUN 1 
 ADP PRON 0 50
@@ -6927,7 +6927,7 @@ finite                                  	239	0.678977272727273
 finite Person=3                         	66	0.1875
 WORDER:
 SV --> 0.180233 --> VS
-OV --> 0.050000 --> VO
+OV --> 0.042017 --> VO
 ADP NOUN 0 204
 ADP NOUN 1 1
 ADP PRON 0 87
@@ -6969,7 +6969,7 @@ finite Person[subj]=3|||Person[subj]=3  	100	0.0691085003455425
 nonfin                                  	63	0.0435383552176918
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.521212 --> VO
+OV --> 0.744928 --> VO
 ADP NOUN 0 311
 ADP NOUN 1 12
 ADP PRON 0 31
@@ -7061,7 +7061,7 @@ finite Number=Sing|Person=1             	10	0.111111111111111
 finite Person=1                         	10	0.111111111111111
 WORDER:
 SV --> 0.069444 --> VS
-OV --> 0.086207 --> VO
+OV --> 0.087719 --> VO
 ADP NOUN 0 77
 ADP NOUN 1 1
 ADP PRON 0 55
@@ -7105,7 +7105,7 @@ nonfin                                  	25	0.0353107344632768
 finite Person=3Imp                      	24	0.0338983050847458
 WORDER:
 SV --> 0.081560 --> VS
-OV --> 0.125828 --> VO
+OV --> 0.090278 --> VO
 ADP NOUN 0 236
 ADP NOUN 1 10
 ADP PRON 0 160
@@ -7189,7 +7189,7 @@ nonfin                                  	21	0.120689655172414
 finite Clusivity[subj]=In|Person[subj]=1	17	0.0977011494252874
 WORDER:
 SV --> 0.111111 --> VS
-OV --> 0.466667 --> VO
+OV --> 0.326087 --> VO
 ADP NOUN 0 60
 ADP NOUN 1 
 ADP PRON 0 54
@@ -7229,7 +7229,7 @@ finite Person=33                        	8	0.0398009950248756
 finite Number=Sing|Person=3             	7	0.0348258706467662
 WORDER:
 SV --> 0.241935 --> VS
-OV --> 0.108108 --> VO
+OV --> 0.088235 --> VO
 ADP NOUN 0 74
 ADP NOUN 1 2
 ADP PRON 0 19
@@ -7299,8 +7299,8 @@ finite Number=Sing|Person=1             	291	0.0942052444156685
 finite Number=Sing|Person=2             	273	0.0883781158951117
 finite Number=Plur|Person=1             	123	0.0398187115571382
 WORDER:
-SV --> 0.229412 --> VS
-OV --> 0.933219 --> VO
+SV --> 0.224659 --> VS
+OV --> 0.938664 --> VO
 ADP NOUN 0 1548
 ADP NOUN 1 38
 ADP PRON 0 1046
@@ -7347,7 +7347,7 @@ finite Number=Sing|Person=1             	127	0.122468659594986
 finite Number=Sing|Person=2             	51	0.0491803278688525
 WORDER:
 SV --> 0.136364 --> VS
-OV --> 0.416268 --> VO
+OV --> 0.427027 --> VO
 ADP NOUN 0 349
 ADP NOUN 1 4
 ADP PRON 0 44
@@ -7404,7 +7404,7 @@ finite Number=Sing|Person[obj]=3|Person[subj]=1	10	0.0110619469026549
 finite Number=Sing|Person=1             	9	0.00995575221238938
 WORDER:
 SV --> 0.406780 --> VS
-OV --> 0.218447 --> VO
+OV --> 0.227513 --> VO
 ADP NOUN 0 270
 ADP NOUN 1 7
 ADP PRON 0 78
@@ -7446,8 +7446,8 @@ iobj NOUN+NoCase VOI                    	1	0.0769230769230769
 AGREEMENT:
 finite                                  	2089	1
 WORDER:
-SV --> 0.016414 --> VS
-OV --> 0.973856 --> VO
+SV --> 0.003927 --> VS
+OV --> 1.000000 --> VO
 ADP NOUN 0 731
 ADP NOUN 1 15
 ADP PRON 0 719
@@ -7492,8 +7492,8 @@ iobj OTHER+NoCase SVI                   	6	0.0359281437125748
 AGREEMENT:
 finite                                  	41646	1
 WORDER:
-SV --> 0.001121 --> VS
-OV --> 0.967894 --> VO
+SV --> 0.001191 --> VS
+OV --> 0.992931 --> VO
 ADP NOUN 0 26305
 ADP NOUN 1 900
 ADP PRON 0 4256
@@ -7538,8 +7538,8 @@ iobj NOUN+NoCase SVIO                   	122	0.105902777777778
 AGREEMENT:
 finite                                  	106864	1
 WORDER:
-SV --> 0.000363 --> VS
-OV --> 0.983394 --> VO
+SV --> 0.000396 --> VS
+OV --> 0.981930 --> VO
 ADP NOUN 0 77152
 ADP NOUN 1 2305
 ADP PRON 0 11083
@@ -7593,8 +7593,8 @@ IOBJECT:
 AGREEMENT:
 finite                                  	245	1
 WORDER:
-SV --> 0.777070 --> VS
-OV --> 0.970588 --> VO
+SV --> 0.780645 --> VS
+OV --> 0.961039 --> VO
 ADP NOUN 0 24
 ADP NOUN 1 103
 ADP PRON 0 104
@@ -7636,8 +7636,8 @@ iobj PRON+NoCase VOI                    	2	0.0909090909090909
 AGREEMENT:
 finite                                  	18376	1
 WORDER:
-SV --> 0.025485 --> VS
-OV --> 0.954783 --> VO
+SV --> 0.024484 --> VS
+OV --> 0.953772 --> VO
 ADP NOUN 0 11198
 ADP NOUN 1 32
 ADP PRON 0 4179
@@ -7676,8 +7676,8 @@ AGREEMENT:
 finite                                  	1629	0.71952296819788
 finite Polite=Infm                      	461	0.203621908127208
 WORDER:
-SV --> 0.053406 --> VS
-OV --> 0.951782 --> VO
+SV --> 0.054378 --> VS
+OV --> 0.949891 --> VO
 ADP NOUN 0 1040
 ADP NOUN 1 8
 ADP PRON 0 472
@@ -7738,8 +7738,8 @@ iobj:patient NOUN+ng+NoCase VOSI        	1	0.25
 AGREEMENT:
 finite                                  	147	1
 WORDER:
-SV --> 0.917073 --> VS
-OV --> 0.943925 --> VO
+SV --> 0.904494 --> VS
+OV --> 0.923077 --> VO
 ADP NOUN 0 20
 ADP NOUN 1 155
 ADP PRON 0 67
@@ -7800,8 +7800,8 @@ iobj PRON+NOCASE SIV                    	1	0.111111111111111
 iobj PRON+NOCASE SVIO                   	1	0.111111111111111
 AGREEMENT:
 WORDER:
-SV --> 0.244514 --> VS
-OV --> 0.490446 --> VO
+SV --> 0.247588 --> VS
+OV --> 0.404580 --> VO
 ADP NOUN 0 142
 ADP NOUN 1 15
 ADP PRON 0 280
@@ -7840,8 +7840,8 @@ finite Gender=Masc|Number=Plur|Person=3 	172	0.0760053026955369
 finite Gender=Masc|Number=Sing|Person=1 	159	0.0702607158638975
 finite Gender=Masc|Number=Plur|Person=1 	90	0.0397702165267344
 WORDER:
-SV --> 0.098972 --> VS
-OV --> 0.953171 --> VO
+SV --> 0.099355 --> VS
+OV --> 0.948332 --> VO
 ADP NOUN 0 1048
 ADP NOUN 1 25
 ADP PRON 0 489
@@ -7881,7 +7881,7 @@ iobj PRON+NOCASE SIOV                   	1	0.2
 AGREEMENT:
 WORDER:
 SV --> 0.051282 --> VS
-OV --> 0.111111 --> VO
+OV --> 0.113208 --> VO
 ADP NOUN 0 70
 ADP NOUN 1 2
 ADP PRON 0 58
@@ -7949,8 +7949,8 @@ finite Number=Plur|Person=3             	195	0.0487621905476369
 finite Number=Plur|Person=1             	160	0.0400100025006252
 nonfin Number=Sing                      	150	0.0375093773443361
 WORDER:
-SV --> 0.120000 --> VS
-OV --> 0.364454 --> VO
+SV --> 0.119733 --> VS
+OV --> 0.232704 --> VO
 ADP NOUN 0 1364
 ADP NOUN 1 39
 ADP PRON 0 1653
@@ -7998,8 +7998,8 @@ AGREEMENT:
 finite                                  	254	0.753709198813056
 nonfin                                  	78	0.231454005934718
 WORDER:
-SV --> 0.019608 --> VS
-OV --> 0.008772 --> VO
+SV --> 0.020942 --> VS
+OV --> 0.010309 --> VO
 ADP NOUN 0 249
 ADP NOUN 1 1
 ADP PRON 0 43
@@ -8065,8 +8065,8 @@ nonfin Gender=Neut|Number=Sing|Person=3 	150	0.0793231094658911
 nonfin                                  	109	0.0576414595452142
 finite Gender=Neut|Number=Plur|Person=3 	106	0.0560549973558963
 WORDER:
-SV --> 0.016364 --> VS
-OV --> 0.003695 --> VO
+SV --> 0.017324 --> VS
+OV --> 0.001538 --> VO
 ADP NOUN 0 1475
 ADP NOUN 1 3
 ADP PRON 0 244
@@ -8110,8 +8110,8 @@ iobj PRON+NOCASE OIV                    	3	0.0833333333333333
 iobj NOUN+NOCASE SOIV                   	2	0.0555555555555556
 AGREEMENT:
 WORDER:
-SV --> 0.002602 --> VS
-OV --> 0.011111 --> VO
+SV --> 0.002786 --> VS
+OV --> 0.006565 --> VO
 ADP NOUN 0 770
 ADP NOUN 1 2
 ADP PRON 0 790
@@ -8169,8 +8169,8 @@ iobj NOUN+NOCASE IOV                    	27	0.0309988518943743
 AGREEMENT:
 finite                                  	21506	0.99786562731997
 WORDER:
-SV --> 0.000793 --> VS
-OV --> 0.001396 --> VO
+SV --> 0.000762 --> VS
+OV --> 0.001758 --> VO
 ADP NOUN 0 48357
 ADP NOUN 1 457
 ADP PRON 0 3199
@@ -8207,7 +8207,7 @@ AGREEMENT:
 finite                                  	505	0.98825831702544
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.989418 --> VO
+OV --> 1.000000 --> VO
 ADP NOUN 0 294
 ADP NOUN 1 
 ADP PRON 0 249
@@ -8309,8 +8309,8 @@ finite                                  	4459	0.624597282532568
 nonfin                                  	1108	0.155203810057431
 finite Number=Sing|Person=3             	1048	0.146799271606668
 WORDER:
-SV --> 0.001417 --> VS
-OV --> 0.720213 --> VO
+SV --> 0.001192 --> VS
+OV --> 0.671818 --> VO
 ADP NOUN 0 2607
 ADP NOUN 1 10
 ADP PRON 0 4512
@@ -8355,8 +8355,8 @@ iobj PRON+ní+Gen SVOI                   	2	1
 AGREEMENT:
 finite                                  	798	0.9975
 WORDER:
-SV --> 0.009885 --> VS
-OV --> 0.896825 --> VO
+SV --> 0.009901 --> VS
+OV --> 0.917563 --> VO
 ADP NOUN 0 397
 ADP NOUN 1 27
 ADP PRON 0 423
@@ -8436,8 +8436,8 @@ iobj NOUN+NOCASE IVO                    	1	0.125
 iobj PRON+NOCASE IV                     	1	0.125
 AGREEMENT:
 WORDER:
-SV --> 0.375000 --> VS
-OV --> 0.520833 --> VO
+SV --> 0.344828 --> VS
+OV --> 0.543478 --> VO
 ADP NOUN 0 55
 ADP NOUN 1 
 ADP PRON 0 27
@@ -8468,8 +8468,8 @@ iobj PRON+cho+NoCase VOI                	2	0.0588235294117647
 AGREEMENT:
 finite                                  	9570	1
 WORDER:
-SV --> 0.003769 --> VS
-OV --> 0.993126 --> VO
+SV --> 0.003128 --> VS
+OV --> 0.992546 --> VO
 ADP NOUN 0 6185
 ADP NOUN 1 22
 ADP PRON 0 764
@@ -8513,7 +8513,7 @@ AGREEMENT:
 finite                                  	417	1
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.952381 --> VO
+OV --> 0.934911 --> VO
 ADP NOUN 0 289
 ADP NOUN 1 3
 ADP PRON 0 222
@@ -8556,8 +8556,8 @@ iobj PRON+Acc VIO                       	69	0.159722222222222
 AGREEMENT:
 finite                                  	18371	0.990136897703999
 WORDER:
-SV --> 0.020183 --> VS
-OV --> 0.999557 --> VO
+SV --> 0.017092 --> VS
+OV --> 0.999819 --> VO
 ADP NOUN 0 5433
 ADP NOUN 1 24
 ADP PRON 0 11135
@@ -8652,8 +8652,8 @@ finite Gender[erg]=Fem|Number[erg]=Sing|Person[erg]=3	1	0.00540540540540541
 finite Gender[io]=Masc|Number[abs]=Sing|Number[io]=Sing|Person[abs]=1|Person[io]=3	1	0.00540540540540541
 finite Gender[io]=Neut|Number[abs]=Plur|Number[erg]=Sing|Number[io]=Sing|Person[abs]=3|Person[erg]=1|Person[io]=3	1	0.00540540540540541
 WORDER:
-SV --> 0.106061 --> VS
-OV --> 0.131148 --> VO
+SV --> 0.095238 --> VS
+OV --> 0.098039 --> VO
 ADP NOUN 0 78
 ADP NOUN 1 
 ADP PRON 0 44
@@ -8862,8 +8862,8 @@ nonfin Gender[io]=Neut|Number[io]=Sing|Number[subj]=Plur|Person[io]=3|Person[sub
 nonfin Gender[io]=Neut|Number[io]=Sing|Person[io]=3|Person[obj]=3	2	0.00111919418019026
 nonfin Gender[lo]=Masc|Gender[subj]=Com|Number[lo]=Sing|Number[subj]=Sing|Person[lo]=3|Person[subj]=3	2	0.00111919418019026
 WORDER:
-SV --> 0.225649 --> VS
-OV --> 0.041667 --> VO
+SV --> 0.203327 --> VS
+OV --> 0.032129 --> VO
 ADP NOUN 0 582
 ADP NOUN 1 
 ADP PRON 0 186
@@ -8908,7 +8908,7 @@ AGREEMENT:
 finite                                  	534	1
 WORDER:
 SV --> 0.099099 --> VS
-OV --> 0.511111 --> VO
+OV --> 0.505618 --> VO
 ADP NOUN 0 275
 ADP NOUN 1 
 ADP PRON 0 31
@@ -8950,8 +8950,8 @@ IOBJECT:
 iobj NOUN+NOCASE VIO                    	1	1
 AGREEMENT:
 WORDER:
-SV --> 0.172414 --> VS
-OV --> 0.796296 --> VO
+SV --> 0.169591 --> VS
+OV --> 0.756098 --> VO
 ADP NOUN 0 117
 ADP NOUN 1 
 ADP PRON 0 83
@@ -8988,8 +8988,8 @@ finite Number[subj]=Sing|Person[subj]=3 	492	0.276404494382022
 finite Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	258	0.144943820224719
 finite Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	144	0.0808988764044944
 WORDER:
-SV --> 0.207154 --> VS
-OV --> 0.758865 --> VO
+SV --> 0.190549 --> VS
+OV --> 0.705628 --> VO
 ADP NOUN 0 396
 ADP NOUN 1 
 ADP PRON 0 489
@@ -9047,8 +9047,8 @@ finite Number[subj]=Sing|Person[subj]=2 	42	0.0285326086956522
 finite Number[obj]=Plur|Number[subj]=Sing|Person[obj]=3|Person[subj]=3	16	0.0108695652173913
 finite Number[obj]=Sing|Number[subj]=Sing|Person[obj]=3|Person[subj]=2	16	0.0108695652173913
 WORDER:
-SV --> 0.344771 --> VS
-OV --> 0.860892 --> VO
+SV --> 0.303136 --> VS
+OV --> 0.829032 --> VO
 ADP NOUN 0 618
 ADP NOUN 1 6
 ADP PRON 0 255
@@ -9094,8 +9094,8 @@ finite                                  	110	0.569948186528497
 finite Gender[obj]=Masc|Number[obj]=Sing|Person[obj]=3	38	0.196891191709845
 finite Gender[subj]=Masc|Number[subj]=Sing|Person[subj]=3	19	0.0984455958549223
 WORDER:
-SV --> 0.316547 --> VS
-OV --> 0.915493 --> VO
+SV --> 0.309524 --> VS
+OV --> 0.913043 --> VO
 ADP NOUN 0 139
 ADP NOUN 1 
 ADP PRON 0 53
@@ -9175,8 +9175,8 @@ finite Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	601	0.03262
 finite Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	312	0.016939030349096
 finite Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	289	0.0156903197784896
 WORDER:
-SV --> 0.197347 --> VS
-OV --> 0.178806 --> VO
+SV --> 0.185958 --> VS
+OV --> 0.136313 --> VO
 ADP NOUN 0 13215
 ADP NOUN 1 15
 ADP PRON 0 859
@@ -9225,8 +9225,8 @@ finite Number=Sing|Person=3             	318	0.249411764705882
 finite Number=Sing|Person=1             	160	0.125490196078431
 finite Number=Plur|Person=3             	131	0.102745098039216
 WORDER:
-SV --> 0.037398 --> VS
-OV --> 0.393651 --> VO
+SV --> 0.036125 --> VS
+OV --> 0.072539 --> VO
 ADP NOUN 0 502
 ADP NOUN 1 10
 ADP PRON 0 276
@@ -9267,8 +9267,8 @@ IOBJECT:
 AGREEMENT:
 finite                                  	399	0.87308533916849
 WORDER:
-SV --> 0.256098 --> VS
-OV --> 0.115044 --> VO
+SV --> 0.250000 --> VS
+OV --> 0.028571 --> VO
 ADP NOUN 0 67
 ADP NOUN 1 18
 ADP PRON 0 26
@@ -9309,7 +9309,7 @@ IOBJECT:
 AGREEMENT:
 WORDER:
 SV --> 0.201729 --> VS
-OV --> 0.384146 --> VO
+OV --> 0.372671 --> VO
 ADP NOUN 0 344
 ADP NOUN 1 
 ADP PRON 0 145
@@ -9406,8 +9406,8 @@ finite                                  	597	0.127809890815671
 finite Number[subj]=Plur|Person[obj]=3|Person[subj]=3	264	0.0565189466923571
 finite Number[subj]=Sing|Person[io]=3|Person[subj]=3	216	0.046242774566474
 WORDER:
-SV --> 0.216287 --> VS
-OV --> 0.594398 --> VO
+SV --> 0.206228 --> VS
+OV --> 0.549539 --> VO
 ADP NOUN 0 4647
 ADP NOUN 1 4
 ADP PRON 0 789
@@ -9453,7 +9453,7 @@ finite                                  	157	0.71689497716895
 finite Person[abs]=3                    	39	0.178082191780822
 WORDER:
 SV --> 0.025210 --> VS
-OV --> 0.347826 --> VO
+OV --> 0.344262 --> VO
 ADP NOUN 0 154
 ADP NOUN 1 
 ADP PRON 0 43
@@ -9492,7 +9492,7 @@ AGREEMENT:
 finite                                  	1888	0.999470619375331
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.037851 --> VO
+OV --> 0.000000 --> VO
 ADP NOUN 0 820
 ADP NOUN 1 
 ADP PRON 0 1201
@@ -9537,8 +9537,8 @@ finite Number[subj]=Plur|Person[subj]=3 	77	0.041044776119403
 finite Number[subj]=Sing|Person[subj]=2 	71	0.0378464818763326
 finite Number[obj]=Sing|Number[subj]=Plur|Person[obj]=3|Person[subj]=3	70	0.0373134328358209
 WORDER:
-SV --> 0.683685 --> VS
-OV --> 0.917323 --> VO
+SV --> 0.665480 --> VS
+OV --> 0.906494 --> VO
 ADP NOUN 0 1123
 ADP NOUN 1 
 ADP PRON 0 96
@@ -9601,8 +9601,8 @@ finite                                  	710	0.487637362637363
 nonfin                                  	302	0.207417582417582
 finite Number=Sing|Person=3             	292	0.200549450549451
 WORDER:
-SV --> 0.006154 --> VS
-OV --> 0.023316 --> VO
+SV --> 0.006359 --> VS
+OV --> 0.013477 --> VO
 ADP NOUN 0 881
 ADP NOUN 1 1
 ADP PRON 0 131
@@ -9720,7 +9720,7 @@ AGREEMENT:
 finite                                  	4034	1
 WORDER:
 SV --> 0.000000 --> VS
-OV --> 0.906304 --> VO
+OV --> 0.911941 --> VO
 ADP NOUN 0 1933
 ADP NOUN 1 1
 ADP PRON 0 816
@@ -9764,7 +9764,7 @@ AGREEMENT:
 finite                                  	1590	0.546579580611894
 nonfin                                  	1319	0.453420419388106
 WORDER:
-SV --> 0.001279 --> VS
+SV --> 0.001305 --> VS
 OV --> 0.000000 --> VO
 ADP NOUN 0 722
 ADP NOUN 1 522
@@ -9796,173 +9796,173 @@ SV-VS vs. OV-VO plot
   \draw[gray] (-0.5cm,10cm) node{VS};
   \draw[gray] (0cm,-0.5cm) node{OV};
   \draw[gray] (10cm,-0.5cm) node{VO};
-  \draw (0.25cm,0.125cm) node{gwi}; % Gwichin
-  \draw (0.25cm,0.375cm) node{ja}; % Japanese
-  \draw (0.25cm,0.625cm) node{jaa}; % Madi
-  \draw (0.75cm,0.125cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (0.75cm,0.375cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (0.75cm,0.625cm) node{sjo}; % Xibe
-  \draw (0.25cm,0.875cm) node{ko}; % Korean
-  \draw (0.75cm,0.875cm) node{\textcolor{red}{ky}}; % Kyrgyz
-  \draw (0.25cm,1.125cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (1.25cm,0.125cm) node{\textcolor{red}{kk}}; % Kazakh
-  \draw (1.25cm,0.375cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (0.75cm,1.125cm) node{\textcolor{olive}{ta}}; % Tamil
-  \draw (1.25cm,0.625cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (1.25cm,0.875cm) node{bxr}; % Buryat
-  \draw (0.25cm,1.375cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (0.75cm,1.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (1.25cm,1.125cm) node{\textcolor{red}{tr}}; % Turkish
-  \draw (1.75cm,0.125cm) node{\textcolor{red}{sah}}; % Yakut
-  \draw (1.75cm,0.375cm) node{bm}; % Bambara
-  \draw (0.25cm,1.625cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (1.75cm,0.625cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (1.75cm,0.875cm) node{\textcolor{orange}{akk}}; % Akkadian
-  \draw (1.25cm,1.375cm) node{\textcolor{blue}{mr}}; % Marathi
-  \draw (1.75cm,1.125cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (2.25cm,0.125cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (0.75cm,1.625cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (2.25cm,0.375cm) node{\textcolor{blue}{xpg}}; % Phrygian
-  \draw (2.25cm,0.625cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (1.25cm,1.625cm) node{\textcolor{blue}{ps}}; % Pashto
-  \draw (1.75cm,1.375cm) node{\textcolor{violet}{urb}}; % Kaapor
-  \draw (2.25cm,0.875cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (2.25cm,1.125cm) node{qte}; % Telugu English
-  \draw (1.75cm,1.625cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (1.25cm,1.875cm) node{abq}; % Abaza
-  \draw (1.75cm,1.875cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (0.75cm,1.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (2.25cm,1.375cm) node{wbp}; % Warlpiri
-  \draw (2.75cm,0.125cm) node{\textcolor{blue}{soj}}; % Soi
-  \draw (0.75cm,2.375cm) node{ab}; % Abkhaz
-  \draw (1.25cm,2.375cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (0.25cm,0.125cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (0.25cm,0.375cm) node{bm}; % Bambara
+  \draw (0.25cm,0.625cm) node{gwi}; % Gwichin
+  \draw (0.75cm,0.125cm) node{ja}; % Japanese
+  \draw (0.75cm,0.375cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (0.75cm,0.625cm) node{jaa}; % Madi
+  \draw (0.25cm,0.875cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (0.75cm,0.875cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (0.25cm,1.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (1.25cm,0.125cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (1.25cm,0.375cm) node{sjo}; % Xibe
+  \draw (0.75cm,1.125cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (1.25cm,0.625cm) node{ko}; % Korean
+  \draw (0.25cm,1.375cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (1.25cm,0.875cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (0.75cm,1.375cm) node{\textcolor{olive}{te}}; % Telugu
+  \draw (1.25cm,1.125cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (1.75cm,0.125cm) node{bxr}; % Buryat
+  \draw (0.25cm,1.625cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (0.75cm,1.625cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (1.75cm,0.375cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (1.25cm,1.375cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (1.75cm,0.625cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (0.25cm,1.875cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (1.75cm,0.875cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (1.75cm,1.125cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (0.75cm,1.875cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (1.75cm,1.375cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (0.25cm,2.125cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (2.25cm,0.125cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (2.25cm,0.375cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (2.25cm,0.625cm) node{bor}; % Bororo
+  \draw (2.25cm,0.875cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (1.25cm,1.875cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (2.25cm,1.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (1.75cm,1.625cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (1.75cm,1.875cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (2.25cm,1.375cm) node{qte}; % Telugu English
+  \draw (1.25cm,2.125cm) node{abq}; % Abaza
+  \draw (0.75cm,2.125cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (2.75cm,0.625cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (2.75cm,0.125cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (0.75cm,2.375cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (2.25cm,1.625cm) node{wbp}; % Warlpiri
+  \draw (0.25cm,2.375cm) node{ab}; % Abkhaz
   \draw (2.75cm,0.375cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (2.25cm,1.875cm) node{\textcolor{blue}{lb}}; % Luxembourgish
   \draw (1.75cm,2.125cm) node{eu}; % Basque
-  \draw (1.25cm,2.625cm) node{pay}; % Pesh
-  \draw (2.75cm,1.375cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (3.25cm,0.375cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (2.75cm,0.875cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (0.75cm,2.625cm) node{pay}; % Pesh
+  \draw (1.25cm,2.375cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (2.75cm,1.375cm) node{qtd}; % Turkish German
   \draw (3.25cm,0.125cm) node{\textcolor{blue}{ur}}; % Urdu
-  \draw (3.25cm,0.625cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (1.75cm,2.625cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (3.75cm,0.375cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (1.25cm,2.625cm) node{\textcolor{blue}{sa}}; % Sanskrit
   \draw (0.25cm,3.375cm) node{\textcolor{violet}{mpu}}; % Makurap
-  \draw (3.75cm,0.125cm) node{xav}; % Xavante
-  \draw (3.75cm,0.875cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (3.75cm,0.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (3.75cm,1.375cm) node{qtd}; % Turkish German
-  \draw (4.25cm,0.375cm) node{bor}; % Bororo
-  \draw (1.25cm,4.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (3.25cm,1.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (3.75cm,0.375cm) node{xav}; % Xavante
+  \draw (3.75cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (3.25cm,2.125cm) node{\textcolor{blue}{nds}}; % Low Saxon
   \draw (3.75cm,2.125cm) node{ckt}; % Chukchi
-  \draw (4.25cm,1.375cm) node{\textcolor{violet}{eme}}; % Teko
-  \draw (4.25cm,2.125cm) node{\textcolor{blue}{de}}; % German
+  \draw (4.25cm,1.375cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (3.75cm,2.375cm) node{\textcolor{blue}{de}}; % German
+  \draw (1.25cm,4.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (4.25cm,1.875cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (4.25cm,1.625cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (4.25cm,2.375cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (4.25cm,2.125cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (4.75cm,1.375cm) node{\textcolor{blue}{hy}}; % Armenian
   \draw (2.25cm,4.125cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (4.25cm,2.375cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (4.75cm,1.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (5.25cm,0.125cm) node{\textcolor{blue}{kfm}}; % Khunsari
-  \draw (4.75cm,0.125cm) node{\textcolor{blue}{nyq}}; % Nayini
-  \draw (4.75cm,1.875cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (4.25cm,2.625cm) node{qfn}; % Frisian Dutch
+  \draw (4.75cm,1.875cm) node{\textcolor{blue}{bar}}; % Bavarian
   \draw (5.25cm,0.375cm) node{ess}; % Yupik
-  \draw (4.75cm,2.125cm) node{\textcolor{blue}{nl}}; % Dutch
-  \draw (4.75cm,1.625cm) node{\textcolor{blue}{fro}}; % Old French
   \draw (5.25cm,1.125cm) node{ssp}; % Spanish Sign Language
-  \draw (5.25cm,0.625cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (4.75cm,2.625cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (5.25cm,0.875cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (4.75cm,2.375cm) node{qfn}; % Frisian Dutch
-  \draw (5.25cm,1.625cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (5.25cm,1.875cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (4.75cm,2.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (4.75cm,2.625cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (4.75cm,3.375cm) node{\textcolor{blue}{grc}}; % Ancient Greek
   \draw (4.25cm,4.375cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (5.25cm,2.625cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (5.75cm,2.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
-  \draw (5.25cm,3.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (5.75cm,2.125cm) node{ka}; % Georgian
-  \draw (5.25cm,3.875cm) node{pad}; % Paumari
-  \draw (6.25cm,2.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (6.25cm,2.125cm) node{\textcolor{blue}{sq}}; % Albanian
-  \draw (6.25cm,1.375cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (6.25cm,2.625cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (6.25cm,1.875cm) node{\textcolor{teal}{koi}}; % Komi Permyak
-  \draw (6.25cm,3.125cm) node{\textcolor{teal}{myv}}; % Erzya
-  \draw (5.75cm,3.625cm) node{\textcolor{teal}{et}}; % Estonian
-  \draw (6.75cm,1.875cm) node{\textcolor{blue}{ca}}; % Catalan
-  \draw (5.75cm,3.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
-  \draw (6.75cm,1.625cm) node{\textcolor{blue}{mk}}; % Macedonian
-  \draw (6.25cm,2.875cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (7.25cm,0.125cm) node{wo}; % Wolof
-  \draw (6.25cm,3.375cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (5.25cm,2.125cm) node{ka}; % Georgian
+  \draw (5.75cm,2.125cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (5.75cm,1.375cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (5.75cm,1.625cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (5.75cm,1.875cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (5.25cm,3.375cm) node{pad}; % Paumari
+  \draw (6.25cm,2.125cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (5.75cm,2.625cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (5.75cm,3.125cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (5.75cm,3.375cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (6.25cm,1.625cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (6.25cm,1.375cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (5.75cm,3.625cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (6.75cm,0.125cm) node{wo}; % Wolof
+  \draw (6.25cm,3.375cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (6.25cm,3.125cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (6.75cm,1.625cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (6.75cm,2.375cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (6.75cm,1.125cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (6.25cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
   \draw (6.75cm,2.625cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (6.25cm,3.625cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (6.75cm,3.375cm) node{\textcolor{blue}{got}}; % Gothic
-  \draw (7.25cm,1.875cm) node{\textcolor{teal}{fi}}; % Finnish
-  \draw (7.25cm,2.875cm) node{\textcolor{blue}{lv}}; % Latvian
-  \draw (7.25cm,1.125cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (7.25cm,3.125cm) node{\textcolor{teal}{mdf}}; % Moksha
-  \draw (6.75cm,3.625cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (6.75cm,3.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (7.25cm,2.125cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (7.75cm,2.125cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (7.25cm,3.375cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (7.75cm,2.375cm) node{\textcolor{blue}{uk}}; % Ukrainian
-  \draw (7.25cm,2.625cm) node{\textcolor{blue}{lt}}; % Lithuanian
-  \draw (7.25cm,3.625cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
-  \draw (7.75cm,1.875cm) node{swl}; % Swedish Sign Language
-  \draw (7.75cm,1.375cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (7.75cm,3.125cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (8.25cm,0.375cm) node{\textcolor{orange}{aii}}; % Assyrian
-  \draw (8.25cm,2.125cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (7.75cm,2.875cm) node{\textcolor{blue}{ru}}; % Russian
-  \draw (8.25cm,1.375cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (6.75cm,1.875cm) node{azz}; % Highland Puebla Nahuatl
+  \draw (6.75cm,2.875cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (6.75cm,3.125cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (7.25cm,0.125cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (6.75cm,3.375cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (7.25cm,2.875cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (6.25cm,3.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (7.25cm,1.875cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (7.25cm,2.375cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (7.25cm,2.125cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (7.25cm,2.625cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (7.25cm,1.625cm) node{swl}; % Swedish Sign Language
+  \draw (7.75cm,1.125cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (7.75cm,2.375cm) node{\textcolor{blue}{ru}}; % Russian
   \draw (7.75cm,2.625cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (8.25cm,0.875cm) node{\textcolor{blue}{fr}}; % French
-  \draw (6.75cm,4.875cm) node{\textcolor{blue}{cpg}}; % Cappadocian
-  \draw (8.25cm,2.375cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (8.25cm,2.875cm) node{\textcolor{blue}{pl}}; % Polish
-  \draw (8.25cm,2.625cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (8.25cm,1.875cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (8.75cm,2.625cm) node{\textcolor{blue}{is}}; % Icelandic
-  \draw (8.75cm,1.625cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (8.75cm,0.125cm) node{yo}; % Yoruba
-  \draw (8.75cm,0.375cm) node{th}; % Thai
-  \draw (8.75cm,2.125cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (8.75cm,1.875cm) node{\textcolor{blue}{sr}}; % Serbian
-  \draw (8.75cm,2.375cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (8.75cm,1.375cm) node{\textcolor{blue}{pt}}; % Portuguese
-  \draw (8.25cm,3.375cm) node{nhi}; % Western Sierra Puebla Nahuatl
-  \draw (9.25cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (9.25cm,1.875cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (6.75cm,4.625cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (8.25cm,0.625cm) node{\textcolor{blue}{fr}}; % French
+  \draw (7.75cm,1.875cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (7.75cm,1.375cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (8.25cm,0.125cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (8.25cm,1.875cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (8.25cm,2.375cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (7.75cm,2.875cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (7.75cm,3.125cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (8.25cm,1.625cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (8.25cm,3.125cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (8.75cm,1.875cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (8.25cm,2.125cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (8.75cm,1.125cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (8.75cm,0.125cm) node{th}; % Thai
+  \draw (8.75cm,0.375cm) node{yo}; % Yoruba
   \draw (9.25cm,0.125cm) node{ht}; % Haitian Creole
+  \draw (9.25cm,1.125cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (9.25cm,1.625cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (9.25cm,2.125cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (9.25cm,1.875cm) node{\textcolor{blue}{sv}}; % Swedish
   \draw (9.25cm,0.625cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (9.25cm,0.875cm) node{qaf}; % Maghrebi Arabic French
   \draw (9.25cm,0.375cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (9.25cm,0.875cm) node{\textcolor{blue}{en}}; % English
-  \draw (9.25cm,1.125cm) node{qaf}; % Maghrebi Arabic French
-  \draw (9.25cm,2.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
-  \draw (9.75cm,0.125cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (9.75cm,0.625cm) node{\textcolor{blue}{en}}; % English
   \draw (8.75cm,3.125cm) node{apu}; % Apurina
-  \draw (9.75cm,0.375cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (9.25cm,2.625cm) node{\textcolor{teal}{vep}}; % Veps
-  \draw (9.75cm,0.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (9.25cm,2.125cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (9.75cm,0.875cm) node{gya}; % Northwest Gbaya
-  \draw (9.75cm,1.125cm) node{vi}; % Vietnamese
-  \draw (8.75cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (9.75cm,1.375cm) node{pcm}; % Naija
-  \draw (8.75cm,0.875cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (9.25cm,1.375cm) node{tn}; % Tswana
-  \draw (8.75cm,4.375cm) node{\textcolor{blue}{sga}}; % Old Irish
-  \draw (9.75cm,1.625cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (9.25cm,3.125cm) node{\textcolor{orange}{he}}; % Hebrew
-  \draw (9.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (9.75cm,3.375cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (8.75cm,5.375cm) node{\textcolor{blue}{br}}; % Breton
-  \draw (6.25cm,8.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (9.25cm,2.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (9.25cm,2.625cm) node{\textcolor{orange}{mt}}; % Maltese
+  \draw (9.75cm,0.125cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (9.75cm,1.875cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (9.75cm,0.375cm) node{vi}; % Vietnamese
+  \draw (9.75cm,0.875cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (9.75cm,1.125cm) node{pcm}; % Naija
+  \draw (8.75cm,0.625cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (9.75cm,1.375cm) node{gya}; % Northwest Gbaya
+  \draw (8.75cm,0.875cm) node{tn}; % Tswana
+  \draw (9.25cm,1.375cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (9.75cm,1.625cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (9.75cm,2.125cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (5.75cm,8.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (9.25cm,2.875cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (5.75cm,8.625cm) node{\textcolor{blue}{ga}}; % Irish
   \draw (7.75cm,6.875cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (6.25cm,8.625cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (9.75cm,4.375cm) node{\textcolor{orange}{ar}}; % Arabic
-  \draw (8.75cm,6.875cm) node{quc}; % Kiche
+  \draw (9.25cm,4.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
+  \draw (8.75cm,5.125cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (9.75cm,3.375cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (9.25cm,4.375cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (9.75cm,4.125cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (8.75cm,6.625cm) node{quc}; % Kiche
   \draw (9.25cm,7.125cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
   \draw (9.25cm,7.625cm) node{\textcolor{cyan}{ceb}}; % Cebuano
   \draw (9.75cm,7.375cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (9.25cm,9.125cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (9.25cm,8.875cm) node{\textcolor{cyan}{tl}}; % Tagalog
   \draw (9.25cm,9.875cm) node{\textcolor{blue}{gv}}; % Manx
 \end{tikzpicture}
 
