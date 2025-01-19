@@ -336,9 +336,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002342 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Belarusian
@@ -4646,9 +4643,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ukrainian
@@ -5101,9 +5095,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kazakh
@@ -5235,9 +5226,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.500000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ottoman Turkish
@@ -6175,9 +6163,6 @@ ADP PRON 1 26
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.058278 --> with ADP
 PRON without ADP --> 0.044143 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 South Levantine Arabic
@@ -6209,9 +6194,6 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.053571 --> with ADP
 PRON without ADP --> 0.027027 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Zaar
@@ -7827,9 +7809,6 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.095541 --> with ADP
 PRON without ADP --> 0.003559 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Maghrebi Arabic French
@@ -7910,9 +7889,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.027778 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Turkish German
@@ -8143,9 +8119,6 @@ ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002591 --> with ADP
 PRON without ADP --> 0.002525 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Japanese: 4: 1: Japanese (4)
 --------------------------------------------------------------------------------
@@ -8170,9 +8143,6 @@ ADP PRON 1 1148
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 1.000000 --> with ADP
 PRON without ADP --> 1.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Korean: 4: 1: Korean (4)
 --------------------------------------------------------------------------------
@@ -8475,9 +8445,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Austro-Asiatic: 2: 1: Vietnamese (2)
 --------------------------------------------------------------------------------
@@ -8992,9 +8959,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Uto-Aztecan: 2: 2: Highland Puebla Nahuatl (1), Western Sierra Puebla Nahuatl (1)
 --------------------------------------------------------------------------------
@@ -9353,9 +9317,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Eskimo-Aleut: 1: 1: Yupik (1)
 --------------------------------------------------------------------------------
@@ -9683,9 +9644,6 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
-AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000000
-VERB-OBJECT AGREEMENT  0.000000
 
 Pama-Nyungan: 1: 1: Warlpiri (1)
 --------------------------------------------------------------------------------
@@ -10393,91 +10351,77 @@ SUBJECT vs. OBJECT Agreement plot
   \draw[gray] (0cm,-0.5cm) node{S0};
   \draw[gray] (10cm,-0.5cm) node{S1};
   \draw (0.25cm,0.125cm) node{\textcolor{blue}{af}}; % Afrikaans
-  \draw (0.25cm,0.375cm) node{\textcolor{red}{az}}; % Azerbaijani
-  \draw (0.25cm,0.625cm) node{bm}; % Bambara
-  \draw (0.75cm,0.125cm) node{\textcolor{blue}{bar}}; % Bavarian
-  \draw (0.75cm,0.375cm) node{\textcolor{magenta}{yue}}; % Cantonese
-  \draw (0.75cm,0.625cm) node{\textcolor{cyan}{ceb}}; % Cebuano
-  \draw (0.25cm,0.875cm) node{\textcolor{magenta}{zh}}; % Chinese
-  \draw (0.75cm,0.875cm) node{ckt}; % Chukchi
-  \draw (0.25cm,1.125cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
-  \draw (1.25cm,0.125cm) node{qfn}; % Frisian Dutch
-  \draw (1.25cm,0.375cm) node{gwi}; % Gwichin
-  \draw (0.75cm,1.125cm) node{ht}; % Haitian Creole
-  \draw (1.25cm,0.625cm) node{\textcolor{cyan}{id}}; % Indonesian
-  \draw (0.25cm,1.375cm) node{ja}; % Japanese
-  \draw (1.25cm,0.875cm) node{\textcolor{blue}{lb}}; % Luxembourgish
-  \draw (0.75cm,1.375cm) node{\textcolor{orange}{mt}}; % Maltese
-  \draw (1.25cm,1.125cm) node{\textcolor{blue}{frm}}; % Middle French
-  \draw (0.25cm,1.625cm) node{\textcolor{blue}{nap}}; % Neapolitan
-  \draw (1.75cm,0.125cm) node{gya}; % Northwest Gbaya
-  \draw (1.75cm,0.375cm) node{\textcolor{blue}{fro}}; % Old French
-  \draw (0.75cm,1.625cm) node{\textcolor{red}{otk}}; % Old Turkish
-  \draw (1.25cm,1.375cm) node{pad}; % Paumari
-  \draw (1.75cm,0.625cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
-  \draw (1.75cm,0.875cm) node{ssp}; % Spanish Sign Language
-  \draw (0.25cm,1.875cm) node{swl}; % Swedish Sign Language
-  \draw (1.25cm,1.625cm) node{\textcolor{blue}{gsw}}; % Swiss German
-  \draw (0.75cm,1.875cm) node{\textcolor{cyan}{tl}}; % Tagalog
-  \draw (1.75cm,1.125cm) node{\textcolor{olive}{te}}; % Telugu
-  \draw (1.75cm,1.375cm) node{qte}; % Telugu English
-  \draw (0.25cm,2.125cm) node{th}; % Thai
-  \draw (1.25cm,1.875cm) node{tn}; % Tswana
-  \draw (2.25cm,0.125cm) node{vi}; % Vietnamese
-  \draw (0.75cm,2.125cm) node{sjo}; % Xibe
-  \draw (2.25cm,0.375cm) node{ess}; % Yupik
-  \draw (2.25cm,0.625cm) node{\textcolor{blue}{no}}; % Norwegian
-  \draw (1.75cm,1.625cm) node{ko}; % Korean
-  \draw (2.25cm,0.875cm) node{\textcolor{orange}{am}}; % Amharic
-  \draw (1.25cm,2.125cm) node{\textcolor{blue}{sv}}; % Swedish
-  \draw (0.25cm,2.375cm) node{yo}; % Yoruba
-  \draw (2.25cm,1.125cm) node{\textcolor{blue}{gu}}; % Gujarati
-  \draw (1.75cm,1.875cm) node{pcm}; % Naija
-  \draw (2.25cm,1.375cm) node{\textcolor{olive}{ml}}; % Malayalam
-  \draw (0.75cm,2.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
-  \draw (2.75cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
-  \draw (2.75cm,0.375cm) node{\textcolor{blue}{gv}}; % Manx
-  \draw (2.75cm,0.625cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (2.75cm,0.875cm) node{pay}; % Pesh
-  \draw (2.75cm,1.125cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (3.25cm,0.125cm) node{\textcolor{blue}{da}}; % Danish
-  \draw (3.25cm,0.375cm) node{\textcolor{blue}{fo}}; % Faroese
-  \draw (1.25cm,2.375cm) node{xav}; % Xavante
-  \draw (3.25cm,0.625cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (3.25cm,0.875cm) node{wo}; % Wolof
-  \draw (3.75cm,0.125cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (3.75cm,0.375cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (0.25cm,0.375cm) node{bm}; % Bambara
+  \draw (0.25cm,0.625cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (0.75cm,0.125cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (0.75cm,0.375cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (0.75cm,0.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (0.25cm,0.875cm) node{ht}; % Haitian Creole
+  \draw (0.75cm,0.875cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (0.25cm,1.125cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (1.25cm,0.125cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (1.25cm,0.375cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (0.75cm,1.125cm) node{gya}; % Northwest Gbaya
+  \draw (1.25cm,0.625cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (0.25cm,1.375cm) node{ssp}; % Spanish Sign Language
+  \draw (1.25cm,0.875cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (0.75cm,1.375cm) node{th}; % Thai
+  \draw (1.25cm,1.125cm) node{tn}; % Tswana
+  \draw (0.25cm,1.625cm) node{vi}; % Vietnamese
+  \draw (1.75cm,0.125cm) node{sjo}; % Xibe
+  \draw (1.75cm,0.375cm) node{ess}; % Yupik
+  \draw (0.75cm,1.625cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (1.25cm,1.375cm) node{ko}; % Korean
+  \draw (1.75cm,0.625cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (1.75cm,0.875cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (0.25cm,1.875cm) node{yo}; % Yoruba
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (1.75cm,1.125cm) node{pcm}; % Naija
+  \draw (0.75cm,1.875cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (1.75cm,1.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (2.25cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (2.25cm,0.375cm) node{\textcolor{blue}{gv}}; % Manx
+  \draw (2.25cm,0.625cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (2.25cm,0.875cm) node{pay}; % Pesh
+  \draw (2.75cm,0.125cm) node{\textcolor{blue}{ga}}; % Irish
+  \draw (2.75cm,0.375cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (2.75cm,0.625cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (0.75cm,2.125cm) node{xav}; % Xavante
+  \draw (2.75cm,0.875cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (3.25cm,0.125cm) node{wo}; % Wolof
+  \draw (3.25cm,0.375cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (3.25cm,0.625cm) node{\textcolor{violet}{mpu}}; % Makurap
   \draw (2.25cm,2.625cm) node{apu}; % Apurina
-  \draw (3.75cm,0.625cm) node{\textcolor{violet}{aqz}}; % Akuntsu
-  \draw (4.25cm,0.125cm) node{\textcolor{orange}{egy}}; % Egyptian
-  \draw (4.25cm,0.375cm) node{bxr}; % Buryat
-  \draw (4.25cm,0.625cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (3.75cm,0.125cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (3.75cm,0.375cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (4.25cm,0.125cm) node{bxr}; % Buryat
+  \draw (4.25cm,0.375cm) node{\textcolor{violet}{myu}}; % Munduruku
   \draw (4.75cm,0.125cm) node{\textcolor{red}{uz}}; % Uzbek
-  \draw (4.75cm,0.375cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (4.25cm,0.625cm) node{\textcolor{red}{ky}}; % Kyrgyz
   \draw (4.25cm,1.375cm) node{\textcolor{violet}{tpn}}; % Tupinamba
-  \draw (4.75cm,0.625cm) node{\textcolor{violet}{arr}}; % Karo
-  \draw (5.25cm,0.125cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
-  \draw (5.25cm,0.375cm) node{qaf}; % Maghrebi Arabic French
-  \draw (5.25cm,0.625cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (4.75cm,0.375cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (4.75cm,0.625cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (5.25cm,0.125cm) node{qaf}; % Maghrebi Arabic French
+  \draw (5.25cm,0.375cm) node{\textcolor{blue}{sga}}; % Old Irish
   \draw (3.75cm,3.375cm) node{wbp}; % Warlpiri
-  \draw (5.75cm,0.125cm) node{\textcolor{blue}{bn}}; % Bengali
-  \draw (5.75cm,0.375cm) node{\textcolor{blue}{en}}; % English
-  \draw (5.75cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
-  \draw (6.25cm,0.125cm) node{\textcolor{orange}{ha}}; % Hausa
-  \draw (6.25cm,0.375cm) node{\textcolor{red}{tt}}; % Tatar
-  \draw (6.25cm,0.625cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (5.25cm,0.625cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (5.75cm,0.125cm) node{\textcolor{blue}{en}}; % English
+  \draw (5.75cm,0.375cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (5.75cm,0.625cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (6.25cm,0.125cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (6.25cm,0.375cm) node{\textcolor{red}{tr}}; % Turkish
   \draw (5.75cm,1.125cm) node{\textcolor{violet}{gn}}; % Guarani
-  \draw (5.75cm,0.875cm) node{\textcolor{blue}{cy}}; % Welsh
-  \draw (6.25cm,0.875cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (6.25cm,0.625cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (5.75cm,0.875cm) node{\textcolor{teal}{et}}; % Estonian
   \draw (6.75cm,0.125cm) node{\textcolor{blue}{xum}}; % Umbrian
-  \draw (6.75cm,0.375cm) node{bor}; % Bororo
-  \draw (6.75cm,0.625cm) node{\textcolor{blue}{sa}}; % Sanskrit
-  \draw (6.75cm,0.875cm) node{\textcolor{blue}{bho}}; % Bhojpuri
-  \draw (7.25cm,0.125cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (6.25cm,0.875cm) node{bor}; % Bororo
+  \draw (6.75cm,0.375cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (6.75cm,0.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (6.75cm,0.875cm) node{\textcolor{red}{kk}}; % Kazakh
   \draw (6.25cm,1.125cm) node{\textcolor{violet}{gub}}; % Guajajara
-  \draw (7.25cm,0.375cm) node{\textcolor{blue}{be}}; % Belarusian
-  \draw (7.25cm,0.625cm) node{\textcolor{orange}{bej}}; % Beja
-  \draw (6.75cm,1.125cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (7.25cm,0.125cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (7.25cm,0.375cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (7.25cm,0.625cm) node{\textcolor{orange}{ar}}; % Arabic
   \draw (7.25cm,0.875cm) node{\textcolor{blue}{pt}}; % Portuguese
   \draw (7.75cm,0.125cm) node{\textcolor{violet}{eme}}; % Teko
   \draw (7.75cm,0.375cm) node{\textcolor{olive}{ta}}; % Tamil
@@ -10524,40 +10468,40 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (9.75cm,1.375cm) node{\textcolor{blue}{it}}; % Italian
   \draw (7.25cm,1.625cm) node{\textcolor{blue}{is}}; % Icelandic
   \draw (9.25cm,1.875cm) node{\textcolor{blue}{fr}}; % French
-  \draw (8.25cm,2.125cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
-  \draw (9.75cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
-  \draw (8.75cm,2.125cm) node{\textcolor{teal}{hu}}; % Hungarian
-  \draw (7.75cm,2.125cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (6.75cm,1.125cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (8.25cm,2.125cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (9.75cm,1.625cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (8.75cm,2.125cm) node{\textcolor{blue}{lt}}; % Lithuanian
   \draw (9.25cm,2.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
   \draw (9.75cm,1.875cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (7.25cm,1.875cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (7.75cm,2.125cm) node{\textcolor{blue}{grc}}; % Ancient Greek
   \draw (8.75cm,2.375cm) node{\textcolor{teal}{sms}}; % Skolt Sami
   \draw (9.75cm,2.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
   \draw (8.25cm,2.375cm) node{\textcolor{blue}{de}}; % German
   \draw (9.25cm,2.375cm) node{\textcolor{blue}{sk}}; % Slovak
-  \draw (6.75cm,1.375cm) node{\textcolor{teal}{olo}}; % Livvi
-  \draw (9.75cm,2.375cm) node{\textcolor{blue}{kmr}}; % Kurmanji
-  \draw (7.75cm,2.375cm) node{\textcolor{blue}{hit}}; % Hittite
-  \draw (8.75cm,2.625cm) node{\textcolor{blue}{lij}}; % Ligurian
-  \draw (9.25cm,2.625cm) node{\textcolor{teal}{krl}}; % Karelian
-  \draw (8.25cm,2.625cm) node{\textcolor{teal}{sme}}; % North Sami
-  \draw (9.75cm,2.625cm) node{\textcolor{blue}{el}}; % Greek
-  \draw (7.25cm,2.125cm) node{\textcolor{blue}{ro}}; % Romanian
-  \draw (6.75cm,1.625cm) node{\textcolor{blue}{hr}}; % Croatian
-  \draw (8.75cm,2.875cm) node{\textcolor{blue}{hi}}; % Hindi
-  \draw (9.25cm,2.875cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
-  \draw (7.75cm,2.625cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
-  \draw (9.75cm,2.875cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (8.25cm,2.875cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (7.25cm,2.375cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (7.25cm,1.875cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (6.75cm,1.375cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (9.75cm,2.375cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (7.75cm,2.375cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (8.75cm,2.625cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (9.25cm,2.625cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (8.25cm,2.625cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (9.75cm,2.625cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (7.25cm,2.125cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (6.75cm,1.625cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (8.75cm,2.875cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (9.25cm,2.875cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (7.75cm,2.625cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (9.75cm,2.875cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (8.25cm,2.875cm) node{\textcolor{blue}{sr}}; % Serbian
   \draw (8.25cm,3.875cm) node{nhi}; % Western Sierra Puebla Nahuatl
   \draw (9.25cm,3.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (6.75cm,1.875cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (7.25cm,2.375cm) node{\textcolor{teal}{vep}}; % Veps
   \draw (8.75cm,3.125cm) node{\textcolor{blue}{es}}; % Spanish
   \draw (9.75cm,3.125cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (8.25cm,3.125cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (6.75cm,1.875cm) node{\textcolor{blue}{bg}}; % Bulgarian
   \draw (8.75cm,4.125cm) node{ka}; % Georgian
-  \draw (7.75cm,2.875cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (8.25cm,3.125cm) node{\textcolor{blue}{ca}}; % Catalan
   \draw (9.25cm,3.375cm) node{\textcolor{blue}{mk}}; % Macedonian
   \draw (8.75cm,6.125cm) node{ab}; % Abkhaz
 \end{tikzpicture}
