@@ -326,7 +326,6 @@ obj PRON+NOCASE VO                      	30	0.0443786982248521
 obj PRON+NOCASE OV                      	17	0.0251479289940828
 IOBJECT:
 AGREEMENT:
-finite                                  	1559	1
 WORDER:
 SV --> 0.163004 --> VS
 OV --> 0.523669 --> VO
@@ -1251,10 +1250,11 @@ iobj NOUN+NoCase SVIO                   	99	0.0427645788336933
 iobj NOUN+NoCase SVI                    	77	0.0332613390928726
 iobj PRON+Acc VI                        	74	0.0319654427645788
 AGREEMENT:
-finite                                  	37392	0.422045893201801
-finite Number=Sing|Person=3             	18936	0.213731841935957
-nonfin                                  	13793	0.155682472318476
-finite Number=Sing|Person=1             	5692	0.0642459676964231
+finite                                  	29710	0.382643861727886
+finite Number=Sing|Person=3             	17712	0.228118077378806
+nonfin                                  	12660	0.163051877801247
+finite Number=Plur|Person=3             	5565	0.0716732780382257
+finite Number=Sing|Person=1             	4788	0.0616660656328886
 WORDER:
 SV --> 0.059608 --> VS
 OV --> 0.954869 --> VO
@@ -1275,7 +1275,7 @@ CASES SUBJECT ==> NoCase:0.535244327477061, Nom:0.462432131256372
 CASES OBJECT ==> NoCase:0.88364296138524
 CASES IOBJECT ==> Acc:0.822241681260946
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.499558
+VERB-SUBJECT AGREEMENT 0.542205
 VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
@@ -1367,14 +1367,14 @@ iobj PRON+NoCase IVS                    	53	0.0348226018396846
 iobj PRON+NOCASE SIV                    	31	0.0203679369250986
 iobj PRON+NOCASE IVO                    	30	0.0197109067017083
 AGREEMENT:
-finite Number=Sing|Person=3             	19945	0.33798783277694
-nonfin                                  	8222	0.139329955432038
-finite                                  	7509	0.12724746233753
-finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4480	0.075918049177272
-finite Number=Plur|Person=3             	4219	0.0714951449729711
-finite Gender=Masc|Number=Sing          	2820	0.0477877005981936
-finite Number=Sing|Person=1             	1699	0.0287912423107556
-finite Gender=Fem|Number=Sing           	1632	0.0276558607717205
+finite Number=Sing|Person=3             	18193	0.338575203781591
+nonfin                                  	7522	0.139985856254885
+finite                                  	6533	0.121580377414672
+finite Gender=Masc|Number=Sing|||Number=Sing|Person=3	4283	0.0797074477984144
+finite Number=Plur|Person=3             	3940	0.0733241523058027
+finite Gender=Masc|Number=Sing          	2756	0.0512896862321807
+finite Gender=Fem|Number=Sing           	1613	0.0300182379871217
+finite Number=Sing|Person=1             	1228	0.0228533144750065
 WORDER:
 SV --> 0.068431 --> VS
 OV --> 0.845518 --> VO
@@ -1395,7 +1395,7 @@ CASES SUBJECT ==> NoCase:0.99944909651829
 CASES OBJECT ==> NoCase:0.996845999878692
 CASES IOBJECT ==> NoCase:1
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.852153
+VERB-SUBJECT AGREEMENT 0.858630
 VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
@@ -1465,8 +1465,10 @@ iobj NOUN+a+NoCase VIO                  	3	0.00505902192242833
 iobj OTHER+NOCASE IVS                   	3	0.00505902192242833
 iobj OTHER+NOCASE SVIO                  	3	0.00505902192242833
 AGREEMENT:
-finite                                  	12080	0.734034149601993
-finite Number=Sing|Person=3             	2115	0.128516740596707
+finite Number=Sing|Person=3             	2115	0.455917223539556
+nonfin                                  	807	0.173959905151972
+finite Number=Plur|Person=3             	762	0.164259538693684
+finite                                  	262	0.0564776891571459
 WORDER:
 SV --> 0.131933 --> VS
 OV --> 0.833408 --> VO
@@ -1487,7 +1489,7 @@ CASES SUBJECT ==> NoCase:0.977220956719818
 CASES OBJECT ==> NoCase:0.892756878158338
 CASES IOBJECT ==> Dat:0.5, ADP:0.397590361445783
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.227276
+VERB-SUBJECT AGREEMENT 0.931324
 VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
@@ -1520,9 +1522,9 @@ obj NOUN+Acc VSO                        	1645	0.0107303136252153
 obj NOUN+Acc OV                         	1539	0.010038877002557
 IOBJECT:
 AGREEMENT:
-finite Number=Sing|Person=3             	181912	0.585596373984368
-finite Number=Plur|Person=3             	67189	0.216289385920861
-finite                                  	34596	0.111368640630432
+finite Number=Sing|Person=3             	181906	0.592910085331908
+finite Number=Plur|Person=3             	67189	0.218997920482917
+finite                                  	30764	0.100273140331549
 WORDER:
 SV --> 0.203496 --> VS
 OV --> 0.411281 --> VO
@@ -1542,7 +1544,7 @@ PRON without Case (and ADP) --> 0.980620 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.579161759160549, Nom:0.416541360383973
 CASES OBJECT ==> NoCase:0.732405435181785, Acc:0.195754682335659
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.880417
+VERB-SUBJECT AGREEMENT 0.892232
 VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
@@ -2046,8 +2048,8 @@ obj PRON+NoCase VSO                     	72	0.0126626802673232
 IOBJECT:
 iobj PRON+NOCASE VIS                    	1	1
 AGREEMENT:
-finite                                  	15937	0.750647637887994
-nonfin                                  	3570	0.168150346191889
+finite                                  	10716	0.669331667707683
+nonfin                                  	3570	0.222985633978763
 WORDER:
 SV --> 0.875979 --> VS
 OV --> 0.620823 --> VO
@@ -2067,7 +2069,7 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.662748121025246, NoCase:0.330892272114088
 CASES OBJECT ==> Nom:0.813770669558146
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.097514
+VERB-SUBJECT AGREEMENT 0.138447
 VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
@@ -4634,7 +4636,6 @@ iobj PRON+NOCASE SIOV                   	1	0.142857142857143
 iobj PRON+NOCASE SIV                    	1	0.142857142857143
 iobj PRON+NOCASE SIVO                   	1	0.142857142857143
 AGREEMENT:
-finite                                  	153	1
 WORDER:
 SV --> 0.070000 --> VS
 OV --> 0.342857 --> VO
@@ -5090,7 +5091,6 @@ ccomp OTHER+NOCASE OV                   	3	0.0731707317073171
 ccomp OTHER+NOCASE VO                   	3	0.0731707317073171
 IOBJECT:
 AGREEMENT:
-finite                                  	148	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.073171 --> VO
@@ -5225,7 +5225,6 @@ obj NOUN+NOCASE OV                      	1	0.125
 obj NOUN+𐰣𐰃+NOCASE OV                   	1	0.125
 IOBJECT:
 AGREEMENT:
-finite                                  	24	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
@@ -6166,7 +6165,6 @@ iobj NOUN+lin-+NOCASE VI                	1	0.0153846153846154
 iobj NOUN+lis-+NOCASE IV                	1	0.0153846153846154
 iobj NOUN+lit-+NOCASE VI                	1	0.0153846153846154
 AGREEMENT:
-finite                                  	6312	1
 WORDER:
 SV --> 0.238318 --> VS
 OV --> 0.956388 --> VO
@@ -6201,7 +6199,6 @@ iobj NOUN+NOCASE OVI                    	1	0.333333333333333
 iobj NOUN+NOCASE VOI                    	1	0.333333333333333
 iobj PRON+NOCASE VIO                    	1	0.333333333333333
 AGREEMENT:
-finite                                  	152	1
 WORDER:
 SV --> 0.421053 --> VS
 OV --> 0.939394 --> VO
@@ -7757,7 +7754,7 @@ iobj:patient NOUN+ng+NoCase VOIS        	2	0.5
 iobj NOUN+NoCase VOIS                   	1	0.25
 iobj:patient NOUN+ng+NoCase VOSI        	1	0.25
 AGREEMENT:
-finite                                  	279	1
+finite                                  	147	1
 WORDER:
 SV --> 0.917073 --> VS
 OV --> 0.943925 --> VO
@@ -7820,7 +7817,6 @@ iobj PRON+NOCASE IV                     	1	0.111111111111111
 iobj PRON+NOCASE SIV                    	1	0.111111111111111
 iobj PRON+NOCASE SVIO                   	1	0.111111111111111
 AGREEMENT:
-finite                                  	529	1
 WORDER:
 SV --> 0.244514 --> VS
 OV --> 0.490446 --> VO
@@ -7904,7 +7900,6 @@ iobj NOUN+NOCASE SIOV                   	2	0.4
 iobj PRON+NOCASE IOV                    	2	0.4
 iobj PRON+NOCASE SIOV                   	1	0.2
 AGREEMENT:
-finite                                  	110	1
 WORDER:
 SV --> 0.051282 --> VS
 OV --> 0.111111 --> VO
@@ -8138,7 +8133,6 @@ iobj NOUN+NOCASE OIV                    	3	0.0833333333333333
 iobj PRON+NOCASE OIV                    	3	0.0833333333333333
 iobj NOUN+NOCASE SOIV                   	2	0.0555555555555556
 AGREEMENT:
-finite                                  	1659	1
 WORDER:
 SV --> 0.002602 --> VS
 OV --> 0.011111 --> VO
@@ -8166,7 +8160,6 @@ obj NOUN+を+NOCASE OV                    	8278	0.656984126984127
 obj NOUN+を+NOCASE SOV                   	2726	0.216349206349206
 IOBJECT:
 AGREEMENT:
-finite                                  	51809	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
@@ -8204,7 +8197,7 @@ iobj OTHER+NOCASE ISV                   	56	0.0642939150401837
 iobj OTHER+NOCASE SIOV                  	34	0.0390355912743972
 iobj NOUN+NOCASE IOV                    	27	0.0309988518943743
 AGREEMENT:
-finite                                  	130336	0.999647190563115
+finite                                  	21506	0.99786562731997
 WORDER:
 SV --> 0.000793 --> VS
 OV --> 0.001396 --> VO
@@ -8225,7 +8218,7 @@ CASES SUBJECT ==> NoCase:0.862673233306609
 CASES OBJECT ==> NoCase:0.844972067039106
 CASES IOBJECT ==> NoCase:0.95
 AGREEMENT FREQUENCY:
-VERB-SUBJECT AGREEMENT 0.000046
+VERB-SUBJECT AGREEMENT 0.000279
 VERB-OBJECT AGREEMENT  0.000000
 
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
@@ -8472,7 +8465,6 @@ iobj PRON+NOCASE OIV                    	2	0.25
 iobj NOUN+NOCASE IVO                    	1	0.125
 iobj PRON+NOCASE IV                     	1	0.125
 AGREEMENT:
-finite                                  	122	1
 WORDER:
 SV --> 0.375000 --> VS
 OV --> 0.520833 --> VO
@@ -8713,7 +8705,7 @@ CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
 AGREEMENT FREQUENCY:
 VERB-SUBJECT AGREEMENT 0.401639
-VERB-OBJECT AGREEMENT  0.598361
+VERB-OBJECT AGREEMENT  0.663934
 
 --------------------------------------------------------------------------------
 Abkhaz
@@ -8923,7 +8915,7 @@ CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
 AGREEMENT FREQUENCY:
 VERB-SUBJECT AGREEMENT 0.917382
-VERB-OBJECT AGREEMENT  0.280043
+VERB-OBJECT AGREEMENT  0.606223
 
 Sign Language: 2: 2: Spanish Sign Language (1), Swedish Sign Language (1)
 --------------------------------------------------------------------------------
@@ -8990,7 +8982,6 @@ ccomp OTHER+NOCASE OVS                  	1	0.0185185185185185
 IOBJECT:
 iobj NOUN+NOCASE VIO                    	1	1
 AGREEMENT:
-finite                                  	298	1
 WORDER:
 SV --> 0.172414 --> VS
 OV --> 0.796296 --> VO
@@ -9352,7 +9343,6 @@ obj PRON+NOCASE OSV                     	5	0.0304878048780488
 obj PRON+NOCASE VO                      	5	0.0304878048780488
 IOBJECT:
 AGREEMENT:
-finite                                  	1127	1
 WORDER:
 SV --> 0.201729 --> VS
 OV --> 0.384146 --> VO
@@ -9475,7 +9465,7 @@ CASES OBJECT ==> Dat:0.656286721504113, Nom:0.327262044653349
 CASES IOBJECT ==> Dat:0.945205479452055
 AGREEMENT FREQUENCY:
 VERB-SUBJECT AGREEMENT 0.872026
-VERB-OBJECT AGREEMENT  0.354555
+VERB-OBJECT AGREEMENT  0.417578
 
 Macro-Je: 1: 1: Xavante (1)
 --------------------------------------------------------------------------------
@@ -9683,7 +9673,6 @@ obj NOUN+NOCASE OV                      	89	0.872549019607843
 IOBJECT:
 iobj NOUN+NOCASE IOV                    	1	1
 AGREEMENT:
-finite                                  	331	1
 WORDER:
 SV --> 0.000000 --> VS
 OV --> 0.000000 --> VO
@@ -10449,18 +10438,17 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (2.75cm,0.125cm) node{\textcolor{blue}{si}}; % Sinhala
   \draw (2.75cm,0.375cm) node{\textcolor{blue}{gv}}; % Manx
   \draw (2.75cm,0.625cm) node{\textcolor{orange}{cop}}; % Coptic
-  \draw (2.75cm,0.875cm) node{\textcolor{blue}{ga}}; % Irish
-  \draw (2.75cm,1.125cm) node{pay}; % Pesh
+  \draw (2.75cm,0.875cm) node{pay}; % Pesh
+  \draw (2.75cm,1.125cm) node{\textcolor{blue}{ga}}; % Irish
   \draw (3.25cm,0.125cm) node{\textcolor{blue}{da}}; % Danish
   \draw (3.25cm,0.375cm) node{\textcolor{blue}{fo}}; % Faroese
   \draw (1.25cm,2.375cm) node{xav}; % Xavante
-  \draw (3.25cm,0.625cm) node{\textcolor{blue}{gl}}; % Galician
-  \draw (3.25cm,0.875cm) node{\textcolor{red}{ug}}; % Uyghur
-  \draw (3.75cm,0.125cm) node{wo}; % Wolof
-  \draw (3.75cm,0.375cm) node{\textcolor{cyan}{jv}}; % Javanese
-  \draw (3.75cm,0.625cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (3.25cm,0.625cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (3.25cm,0.875cm) node{wo}; % Wolof
+  \draw (3.75cm,0.125cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (3.75cm,0.375cm) node{\textcolor{violet}{mpu}}; % Makurap
   \draw (2.25cm,2.625cm) node{apu}; % Apurina
-  \draw (3.75cm,0.875cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (3.75cm,0.625cm) node{\textcolor{violet}{aqz}}; % Akuntsu
   \draw (4.25cm,0.125cm) node{\textcolor{orange}{egy}}; % Egyptian
   \draw (4.25cm,0.375cm) node{bxr}; % Buryat
   \draw (4.25cm,0.625cm) node{\textcolor{violet}{myu}}; % Munduruku
@@ -10472,8 +10460,8 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (5.25cm,0.375cm) node{qaf}; % Maghrebi Arabic French
   \draw (5.25cm,0.625cm) node{\textcolor{blue}{sga}}; % Old Irish
   \draw (3.75cm,3.375cm) node{wbp}; % Warlpiri
-  \draw (5.75cm,0.125cm) node{\textcolor{blue}{en}}; % English
-  \draw (5.75cm,0.375cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (5.75cm,0.125cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (5.75cm,0.375cm) node{\textcolor{blue}{en}}; % English
   \draw (5.75cm,0.625cm) node{\textcolor{orange}{say}}; % Zaar
   \draw (6.25cm,0.125cm) node{\textcolor{orange}{ha}}; % Hausa
   \draw (6.25cm,0.375cm) node{\textcolor{red}{tt}}; % Tatar
@@ -10494,7 +10482,6 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (7.75cm,0.125cm) node{\textcolor{violet}{eme}}; % Teko
   \draw (7.75cm,0.375cm) node{\textcolor{olive}{ta}}; % Tamil
   \draw (6.25cm,3.375cm) node{azz}; % Highland Puebla Nahuatl
-  \draw (4.25cm,5.875cm) node{abq}; % Abaza
   \draw (7.75cm,0.625cm) node{\textcolor{blue}{hy}}; % Armenian
   \draw (7.75cm,0.875cm) node{\textcolor{blue}{nl}}; % Dutch
   \draw (7.25cm,1.125cm) node{\textcolor{blue}{uk}}; % Ukrainian
@@ -10506,6 +10493,7 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (8.25cm,0.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
   \draw (7.25cm,1.375cm) node{\textcolor{teal}{myv}}; % Erzya
   \draw (8.75cm,0.125cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (4.25cm,6.625cm) node{abq}; % Abaza
   \draw (8.75cm,0.375cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
   \draw (8.25cm,1.125cm) node{\textcolor{red}{sah}}; % Yakut
   \draw (8.75cm,0.625cm) node{\textcolor{violet}{yrl}}; % Nheengatu
@@ -10529,23 +10517,23 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (9.75cm,0.875cm) node{\textcolor{blue}{fa}}; % Persian
   \draw (8.25cm,1.875cm) node{\textcolor{blue}{br}}; % Breton
   \draw (7.25cm,3.875cm) node{quc}; % Kiche
-  \draw (9.75cm,1.125cm) node{\textcolor{blue}{fr}}; % French
-  \draw (9.25cm,1.625cm) node{\textcolor{blue}{la}}; % Latin
-  \draw (8.75cm,1.875cm) node{\textcolor{blue}{aln}}; % Gheg
-  \draw (7.75cm,1.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
-  \draw (9.75cm,1.375cm) node{\textcolor{blue}{cs}}; % Czech
-  \draw (7.25cm,1.625cm) node{\textcolor{blue}{it}}; % Italian
-  \draw (9.25cm,1.875cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (9.75cm,1.125cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (9.25cm,1.625cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (8.75cm,1.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (7.75cm,1.875cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (9.75cm,1.375cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (7.25cm,1.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (9.25cm,1.875cm) node{\textcolor{blue}{fr}}; % French
   \draw (8.25cm,2.125cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
   \draw (9.75cm,1.625cm) node{\textcolor{blue}{ltg}}; % Latgalian
   \draw (8.75cm,2.125cm) node{\textcolor{teal}{hu}}; % Hungarian
   \draw (7.75cm,2.125cm) node{\textcolor{blue}{lt}}; % Lithuanian
   \draw (9.25cm,2.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
   \draw (9.75cm,1.875cm) node{\textcolor{blue}{sl}}; % Slovenian
-  \draw (7.25cm,1.875cm) node{\textcolor{blue}{de}}; % German
-  \draw (8.75cm,2.375cm) node{\textcolor{blue}{grc}}; % Ancient Greek
-  \draw (9.75cm,2.125cm) node{\textcolor{teal}{sms}}; % Skolt Sami
-  \draw (8.25cm,2.375cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (7.25cm,1.875cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (8.75cm,2.375cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (9.75cm,2.125cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (8.25cm,2.375cm) node{\textcolor{blue}{de}}; % German
   \draw (9.25cm,2.375cm) node{\textcolor{blue}{sk}}; % Slovak
   \draw (6.75cm,1.375cm) node{\textcolor{teal}{olo}}; % Livvi
   \draw (9.75cm,2.375cm) node{\textcolor{blue}{kmr}}; % Kurmanji
@@ -10560,15 +10548,16 @@ SUBJECT vs. OBJECT Agreement plot
   \draw (9.25cm,2.875cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
   \draw (7.75cm,2.625cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
   \draw (9.75cm,2.875cm) node{\textcolor{blue}{xnr}}; % Kangri
-  \draw (8.25cm,2.875cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (8.25cm,2.875cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (7.25cm,2.375cm) node{\textcolor{blue}{sr}}; % Serbian
   \draw (8.25cm,3.875cm) node{nhi}; % Western Sierra Puebla Nahuatl
   \draw (9.25cm,3.125cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
-  \draw (7.25cm,2.375cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (6.75cm,1.875cm) node{\textcolor{teal}{vep}}; % Veps
   \draw (8.75cm,3.125cm) node{\textcolor{blue}{es}}; % Spanish
-  \draw (8.75cm,3.625cm) node{ka}; % Georgian
   \draw (9.75cm,3.125cm) node{\textcolor{blue}{qpm}}; % Pomak
-  \draw (8.75cm,3.375cm) node{ab}; % Abkhaz
-  \draw (6.75cm,1.875cm) node{\textcolor{blue}{bg}}; % Bulgarian
-  \draw (8.25cm,3.125cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (8.25cm,3.125cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (8.75cm,4.125cm) node{ka}; % Georgian
+  \draw (7.75cm,2.875cm) node{\textcolor{blue}{ca}}; % Catalan
   \draw (9.25cm,3.375cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (8.75cm,6.125cm) node{ab}; % Abkhaz
 \end{tikzpicture}
