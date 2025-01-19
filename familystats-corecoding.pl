@@ -148,13 +148,19 @@ foreach my $l (keys(%subjcases))
 {
     if(exists($objcases{$l}))
     {
-        my $combination = $subjcases{$l}.'–'.$objcases{$l};
+        my $sc = $subjcases{$l};
+        my $oc = $objcases{$l};
+        $sc =~ s/;/; /g;
+        $oc =~ s/;/; /g;
+        $sc =~ s/NoCase/0/g;
+        $oc =~ s/NoCase/0/g;
+        my $combination = "$sc\n$oc";
         push(@{$subjobjcases{$combination}}, $l);
     }
 }
 my @combinations = sort
 {
-    my $r = scalar(@{$subjobjcases{$b}}) <=> scalar(@{$subjobjcases{$a}});
+    my $r;# = scalar(@{$subjobjcases{$b}}) <=> scalar(@{$subjobjcases{$a}});
     unless($r)
     {
         $r = $a cmp $b;

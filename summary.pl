@@ -183,7 +183,7 @@ if(exists($h{CASE}))
                     my $p = $h{CASE}{$type}{$c}/$n;
                     push(@cases_to_print, "$c:$p");
                     $psum += $p;
-                    last if($psum >= 0.85);
+                    last if($psum >= 0.75);
                 }
                 my $cases = join(', ', @cases_to_print);
                 print("CASES $type ==> $cases\n");
