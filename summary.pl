@@ -33,7 +33,7 @@ while(<>)
         ###!!! In the current setting, we can either ignore SV/VS of intransitive verbs, or we must count SV/VS of transitive verbs twice.
         ###!!! We may be interested either in all arguments (nominal+clausal) or only some of them (nominal).
         ###!!! Now restrict to nominal (nsubj|obj|iobj).
-        if($label =~ m/(nsubj|obj|iobj).* ([SOV]{2,3})$/)
+        if($label =~ m/(?:nsubj|obj|iobj) .* ([SOV]{2,3})$/)
         {
             my $worder = $1;
             # If only one of the two arguments is present, simply remember its position w.r.t. the verb.
