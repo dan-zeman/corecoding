@@ -152,11 +152,11 @@ foreach my $l (keys(%subjcases))
         push(@{$subjobjcases{$combination}}, $l);
     }
 }
-my @combinations = sort {$subjobjcases{$b} <=> $subjobjcases{$a}} (keys(%subjobjcases));
+my @combinations = sort {scalar(@{$subjobjcases{$b}}) <=> scalar(@{$subjobjcases{$a}})} (keys(%subjobjcases));
 foreach my $c (@combinations)
 {
-    my $n = length(@{$subjobjcases{$c}});
-    my $languages = join(' ', @{$subjobjcases{$c}});
+    my $n = scalar(@{$subjobjcases{$c}});
+    my $languages = join(', ', @{$subjobjcases{$c}});
     print("$c\t$n\t$languages\n");
 }
 
