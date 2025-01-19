@@ -215,6 +215,8 @@ sub run_udapi
         if($missing_features)
         {
             $line =~ s/NoCase/NOCASE/g;
+            # Skip agreement lines. They have no meaning in treebanks without features.
+            next if(m/^AGREEMENT/);
         }
         push(@{$output_lines}, $line);
     }
