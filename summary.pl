@@ -243,10 +243,19 @@ if(exists($h{CASE}))
         }
     }
 }
-my $nas0 = $h{AGRSUBJ}{NO};
-my $nas1 = $h{AGRSUBJ}{YES};
-my $nao0 = $h{AGROBJ}{NO};
-my $nao1 = $h{AGROBJ}{YES};
-print("AGREEMENT FREQUENCY:\n");
-printf("VERB-SUBJECT AGREEMENT %.6f\n", $nas0+$nas1>0 ? $nas1/($nas0+$nas1) : 0);
-printf("VERB-OBJECT AGREEMENT  %.6f\n", $nao0+$nao1>0 ? $nao1/($nao0+$nao1) : 0);
+if(exists($h{AGRSUBJ}) || exists($h{AGROBJ}))
+{
+    print("AGREEMENT FREQUENCY:\n");
+}
+if(exists($h{AGRSUBJ}))
+{
+    my $nas0 = $h{AGRSUBJ}{NO};
+    my $nas1 = $h{AGRSUBJ}{YES};
+    printf("VERB-SUBJECT AGREEMENT %.6f\n", $nas0+$nas1>0 ? $nas1/($nas0+$nas1) : 0);
+}
+if(exists($h{AGROBJ}))
+{
+    my $nao0 = $h{AGROBJ}{NO};
+    my $nao1 = $h{AGROBJ}{YES};
+    printf("VERB-OBJECT AGREEMENT  %.6f\n", $nao0+$nao1>0 ? $nao1/($nao0+$nao1) : 0);
+}
