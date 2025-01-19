@@ -165,7 +165,7 @@ my @combinations = sort
 foreach my $c (@combinations)
 {
     my $n = scalar(@{$subjobjcases{$c}});
-    my $languages = join(', ', @{$subjobjcases{$c}});
+    my $languages = join(', ', sort(@{$subjobjcases{$c}}));
     print("$c\t$n\t$languages\n");
 }
 
