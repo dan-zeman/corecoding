@@ -50,6 +50,9 @@ PRON without Case (and ADP) --> 0.584042 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.608865075499269, Acc,Nom:0.210423770092547
 CASES OBJECT ==> NoCase:0.93525641025641
 CASES IOBJECT ==> ADP:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Albanian
@@ -118,6 +121,9 @@ PRON without Case (and ADP) --> 0.772093 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.826666666666667
 CASES OBJECT ==> Acc:0.761363636363636
 CASES IOBJECT ==> Dat:0.629032258064516, Acc:0.241935483870968
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.685714
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ancient Greek
@@ -223,6 +229,9 @@ PRON without Case (and ADP) --> 0.999635 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.854016839151026
 CASES OBJECT ==> Acc:0.85730083602424
 CASES IOBJECT ==> Dat:0.994033412887828
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999916
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Armenian
@@ -293,6 +302,9 @@ PRON without Case (and ADP) --> 0.939974 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.974129353233831
 CASES OBJECT ==> Nom:0.716401734104046, Dat:0.271676300578035
 CASES IOBJECT ==> Dat:0.935643564356436
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.827379
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Bavarian
@@ -326,6 +338,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002342 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Belarusian
@@ -404,6 +419,9 @@ PRON without Case (and ADP) --> 0.998931 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.943025414506114
 CASES OBJECT ==> Acc:0.88139769291074
 CASES IOBJECT ==> Dat:0.769522776572668
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999903
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Bengali
@@ -448,8 +466,11 @@ CASE PRON 1 24
 NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.800000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.909090909090909
-CASES OBJECT ==> Nom:0.703703703703704, Acc:0.111111111111111
+CASES OBJECT ==> Nom:0.703703703703704, NoCase:0.111111111111111
 CASES IOBJECT ==> Nom:0.666666666666667, Acc:0.333333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.680000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Bhojpuri
@@ -534,6 +555,9 @@ PRON without Case (and ADP) --> 0.957447 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.639344262295082, ADP:0.218579234972678
 CASES OBJECT ==> Nom:0.701492537313433, NoCase:0.17910447761194
 CASES IOBJECT ==> Nom:0.5, ADP:0.416666666666667
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.854902
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Breton
@@ -575,6 +599,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.614583 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.911242603550296
 CASES OBJECT ==> NoCase:0.936781609195402
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.939799
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Bulgarian
@@ -708,6 +735,9 @@ PRON without Case (and ADP) --> 0.963100 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.743652289610822, Nom:0.254795431866061
 CASES OBJECT ==> NoCase:0.8125
 CASES IOBJECT ==> ADP:0.866044651782739
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999706
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Cappadocian
@@ -768,6 +798,9 @@ PRON without Case (and ADP) --> 0.986395 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.94
 CASES OBJECT ==> Acc:0.940119760479042
 CASES IOBJECT ==> Acc:0.666666666666667, Gen:0.233333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Catalan
@@ -814,6 +847,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.492240 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.995953504978776
 CASES OBJECT ==> NoCase:0.644587562910518, Acc,Dat:0.243922204213938
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.995787
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Classical Armenian
@@ -888,6 +924,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.997584010542499
 CASES OBJECT ==> ADP:0.707841981132076, Acc:0.291568396226415
 CASES IOBJECT ==> Dat:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Croatian
@@ -982,6 +1021,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.961026533275337
 CASES OBJECT ==> Acc:0.802543320290665
 CASES IOBJECT ==> Dat:0.852140077821012
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.974212
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Czech
@@ -1061,6 +1103,9 @@ PRON without Case (and ADP) --> 0.995459 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.960191901307899
 CASES OBJECT ==> Acc:0.956426327339322
 CASES IOBJECT ==> Acc:0.581430745814307, NoCase:0.334855403348554
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.988250
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Danish
@@ -1114,6 +1159,9 @@ PRON without Case (and ADP) --> 0.789168 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.569707159871094, Nom:0.322544486478913
 CASES OBJECT ==> NoCase:0.828655834564254
 CASES IOBJECT ==> Acc:0.664, NoCase:0.336
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.186951
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Dutch
@@ -1182,6 +1230,9 @@ PRON without Case (and ADP) --> 0.470808 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.81140832595217
 CASES OBJECT ==> NoCase:0.948940878912425
 CASES IOBJECT ==> NoCase:0.522662889518414, Acc:0.468838526912181
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.940098
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 English
@@ -1235,6 +1286,9 @@ PRON without Case (and ADP) --> 0.729143 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.535244327477061, Nom:0.462432131256372
 CASES OBJECT ==> NoCase:0.88364296138524
 CASES IOBJECT ==> Acc:0.822241681260946
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.640980
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Faroese
@@ -1294,6 +1348,9 @@ PRON without Case (and ADP) --> 0.990375 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.949303219605959
 CASES OBJECT ==> Acc:0.880902043692741
 CASES IOBJECT ==> Dat:0.933852140077821
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.016552
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 French
@@ -1352,6 +1409,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.99944909651829
 CASES OBJECT ==> NoCase:0.996845999878692
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.953695
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Galician
@@ -1441,6 +1501,9 @@ PRON without Case (and ADP) --> 0.216936 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.977220956719818
 CASES OBJECT ==> NoCase:0.892756878158338
 CASES IOBJECT ==> Dat:0.5, ADP:0.397590361445783
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 German
@@ -1493,6 +1556,9 @@ NOUN without Case (and ADP) --> 0.170338 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.980620 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.579161759160549, Nom:0.416541360383973
 CASES OBJECT ==> NoCase:0.732405435181785, Acc:0.195754682335659
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.986518
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Gheg
@@ -1558,6 +1624,9 @@ PRON without Case (and ADP) --> 0.765161 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.806578947368421
 CASES OBJECT ==> Acc:0.720098643649815, Nom:0.114673242909988
 CASES IOBJECT ==> Dat:0.948275862068966
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.887261
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Gothic
@@ -1608,6 +1677,9 @@ NOUN without Case (and ADP) --> 0.993592 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.947681331747919
 CASES OBJECT ==> Acc:0.981974921630094
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Greek
@@ -1661,6 +1733,9 @@ PRON without Case (and ADP) --> 0.984461 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.963027656477438
 CASES OBJECT ==> Acc:0.947109826589595
 CASES IOBJECT ==> Gen:0.807377049180328
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999552
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Gujarati
@@ -1703,6 +1778,9 @@ PRON without Case (and ADP) --> 0.024691 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.9375
 CASES OBJECT ==> NoCase:0.934065934065934
 CASES IOBJECT ==> NoCase:0.75
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Hindi
@@ -1791,6 +1869,9 @@ PRON without Case (and ADP) --> 0.964497 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.487957460118861, ADP:0.379355645918048
 CASES OBJECT ==> Nom:0.628308153862638, ADP:0.29926068788171
 CASES IOBJECT ==> ADP:0.84056399132321
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.997273
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Hittite
@@ -1844,6 +1925,9 @@ PRON without Case (and ADP) --> 0.973333 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.902439024390244
 CASES OBJECT ==> Acc:0.65625, NoCase:0.229166666666667
 CASES IOBJECT ==> Dat:0.894736842105263
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.993902
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Icelandic
@@ -1953,6 +2037,9 @@ PRON without Case (and ADP) --> 0.989158 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.875686529262387
 CASES OBJECT ==> Acc:0.635581141883017, Dat:0.162060196182545
 CASES IOBJECT ==> Dat:0.84479015918958
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.994338
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Irish
@@ -2001,6 +2088,9 @@ NOUN without Case (and ADP) --> 0.952326 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.662748121025246, NoCase:0.330892272114088
 CASES OBJECT ==> Nom:0.813770669558146
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Italian
@@ -2058,6 +2148,9 @@ PRON without Case (and ADP) --> 0.002824 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.999472239814228
 CASES OBJECT ==> NoCase:0.996961316535218
 CASES IOBJECT ==> NoCase:0.985611510791367
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999447
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kangri
@@ -2128,7 +2221,10 @@ NOUN without Case (and ADP) --> 0.940000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.735294 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.808080808080808
 CASES OBJECT ==> Nom:0.742857142857143, ADP:0.171428571428571
-CASES IOBJECT ==> ADP:0.5, Nom:0.5
+CASES IOBJECT ==> Nom:0.5, ADP:0.5
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.996377
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Khunsari
@@ -2167,6 +2263,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kurmanji
@@ -2214,6 +2313,9 @@ NOUN without Case (and ADP) --> 0.986047 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.892377 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.462249614791988, Con:0.268104776579353, Acc:0.221879815100154
 CASES OBJECT ==> Con:0.454545454545455, Nom:0.243801652892562, Acc:0.198347107438017
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.990536
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Latgalian
@@ -2254,6 +2356,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.9
 CASES OBJECT ==> Acc:0.9
 CASES IOBJECT ==> Dat:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Latin
@@ -2320,6 +2425,9 @@ PRON without Case (and ADP) --> 0.987714 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.814377234532949
 CASES OBJECT ==> Acc:0.965223097112861
 CASES IOBJECT ==> Nom:0.928571428571429
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999613
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Latvian
@@ -2503,6 +2611,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.922584710843958
 CASES OBJECT ==> Acc:0.970487054137244
 CASES IOBJECT ==> ADP:0.553163361661945, Dat:0.380736543909348
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.931436
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ligurian
@@ -2555,6 +2666,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.987341772151899
 CASES OBJECT ==> NoCase:0.976851851851852
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Lithuanian
@@ -2631,6 +2745,9 @@ PRON without Case (and ADP) --> 0.867850 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.941774815854086
 CASES OBJECT ==> Acc:0.946345975948196
 CASES IOBJECT ==> Dat:0.456521739130435, Ins:0.369565217391304
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999848
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Low Saxon
@@ -2718,6 +2835,9 @@ PRON without Case (and ADP) --> 0.992691 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.916930881420419
 CASES OBJECT ==> Acc:0.770348837209302
 CASES IOBJECT ==> Acc,Dat:0.747368421052632, Dat:0.178947368421053
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.885609
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Luxembourgish
@@ -2756,7 +2876,10 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
-CASES IOBJECT ==> ADP:0.5, NoCase:0.5
+CASES IOBJECT ==> NoCase:0.5, ADP:0.5
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Macedonian
@@ -2803,6 +2926,9 @@ PRON without Case (and ADP) --> 0.890411 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.612903225806452, Nom:0.387096774193548
 CASES OBJECT ==> NoCase:0.666666666666667, Acc:0.319444444444444
 CASES IOBJECT ==> Dat:0.9
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.991304
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Manx
@@ -2840,6 +2966,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.999564838990426
 CASES OBJECT ==> NoCase:0.995224450811843
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Marathi
@@ -2907,6 +3036,9 @@ PRON without Case (and ADP) --> 0.950495 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.712041884816754, Erg:0.146596858638743
 CASES OBJECT ==> Acc:0.767676767676768
 CASES IOBJECT ==> Dat:0.958333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.916667
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Middle French
@@ -2953,6 +3085,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.991608391608392
 CASES OBJECT ==> NoCase:0.979253112033195
 CASES IOBJECT ==> NoCase:0.981651376146789
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Nayini
@@ -2992,6 +3127,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Neapolitan
@@ -3021,6 +3159,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Norwegian
@@ -3071,6 +3212,9 @@ PRON without Case (and ADP) --> 0.717833 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.683557046979866, Nom:0.31496644295302
 CASES OBJECT ==> NoCase:0.895684940949405
 CASES IOBJECT ==> Acc:0.587145969498911, NoCase:0.411764705882353
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000034
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Old Church Slavonic
@@ -3128,6 +3272,9 @@ NOUN without Case (and ADP) --> 0.997033 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.996360 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.919338159255429
 CASES OBJECT ==> Acc:0.780384397964952
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Old East Slavic
@@ -3232,6 +3379,9 @@ PRON without Case (and ADP) --> 0.998127 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.903903903903904
 CASES OBJECT ==> Acc:0.680898999890098, Gen:0.281844158698758
 CASES IOBJECT ==> Dat:0.854270109235353
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999376
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Old French
@@ -3289,6 +3439,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.999407455289808
 CASES OBJECT ==> NoCase:0.987467291006748
 CASES IOBJECT ==> NoCase:0.87797619047619
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Old Irish
@@ -3326,6 +3479,9 @@ NOUN without Case (and ADP) --> 0.888889 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.791666666666667
 CASES OBJECT ==> Acc:0.666666666666667, NoCase:0.2
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Pashto
@@ -3369,6 +3525,9 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.647059 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.62, Acc:0.32
 CASES OBJECT ==> Nom:0.866666666666667
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Persian
@@ -3417,6 +3576,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.995984817591518
 CASES OBJECT ==> ADP:0.714868156306259, NoCase:0.285131843693741
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.998059
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Phrygian
@@ -3456,6 +3618,9 @@ PRON without Case (and ADP) --> 0.982301 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.983193277310924
 CASES OBJECT ==> Acc:0.990291262135922
 CASES IOBJECT ==> Dat:0.990476190476191
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Polish
@@ -3548,6 +3713,9 @@ PRON without Case (and ADP) --> 0.994149 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.961076066790353
 CASES OBJECT ==> Acc:0.833062428511227
 CASES IOBJECT ==> Dat:0.478032178217822, Ins:0.196472772277228, Acc:0.174969059405941
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.866716
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Pomak
@@ -3651,6 +3819,9 @@ PRON without Case (and ADP) --> 0.879747 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.920792079207921
 CASES OBJECT ==> Acc:0.854325699745547
 CASES IOBJECT ==> Gen:0.713426853707415, ADP:0.254509018036072
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Portuguese
@@ -3732,6 +3903,9 @@ PRON without Case (and ADP) --> 0.169476 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.966510575989098
 CASES OBJECT ==> NoCase:0.9404329277927
 CASES IOBJECT ==> ADP:0.653116531165312, Dat:0.289972899728997
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.995751
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Romanian
@@ -3836,6 +4010,9 @@ PRON without Case (and ADP) --> 0.998362 --> with Case (but without ADP)
 CASES SUBJECT ==> Acc,Nom:0.773074587592349
 CASES OBJECT ==> Acc,Nom:0.612500451084407, Acc:0.20482840749161
 CASES IOBJECT ==> Dat:0.630461665292663, Dat,Gen:0.215272052761748
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.998285
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Russian
@@ -3915,6 +4092,9 @@ PRON without Case (and ADP) --> 0.999871 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.949834141362592
 CASES OBJECT ==> Acc:0.939897912221246
 CASES IOBJECT ==> Dat:0.811622433244055
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999992
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Sanskrit
@@ -4018,6 +4198,9 @@ PRON without Case (and ADP) --> 0.999221 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.981815885844172
 CASES OBJECT ==> Acc:0.933832505900545
 CASES IOBJECT ==> Dat:0.659644194756554, Acc:0.300561797752809
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.944802
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Scottish Gaelic
@@ -4060,6 +4243,9 @@ NOUN without Case (and ADP) --> 0.926649 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.560391104294479, Nom:0.435391104294479
 CASES OBJECT ==> Nom:0.471681415929204, NoCase:0.354424778761062
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.036497
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Serbian
@@ -4108,7 +4294,10 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.952433803710163
 CASES OBJECT ==> Acc:0.873126873126873
-CASES IOBJECT ==> Dat:0.5, Acc:0.5
+CASES IOBJECT ==> Acc:0.5, Dat:0.5
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.978683
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Sinhala
@@ -4158,6 +4347,9 @@ NOUN without Case (and ADP) --> 0.990566 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.576923076923077, Acc:0.221153846153846
 CASES OBJECT ==> Acc:0.641025641025641, Nom:0.153846153846154
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.046154
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Slovak
@@ -4220,6 +4412,9 @@ PRON without Case (and ADP) --> 0.980827 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.990874764002517
 CASES OBJECT ==> Acc:0.973810066044181
 CASES IOBJECT ==> Acc:0.549295774647887, NoCase:0.422535211267606
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.995058
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Slovenian
@@ -4310,6 +4505,9 @@ PRON without Case (and ADP) --> 0.989388 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.944566785632926
 CASES OBJECT ==> Acc:0.775446428571429
 CASES IOBJECT ==> Dat:0.875502008032129
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.991937
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Soi
@@ -4351,6 +4549,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Spanish
@@ -4395,6 +4596,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.258539 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.978042417508092
 CASES OBJECT ==> NoCase:0.819721871049305
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.989742
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Swedish
@@ -4448,6 +4652,9 @@ PRON without Case (and ADP) --> 0.617146 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.784351525626537
 CASES OBJECT ==> Nom:0.73635120009949, Acc:0.144136301455043
 CASES IOBJECT ==> Acc:0.667857142857143, Nom:0.271428571428571
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.002537
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Swiss German
@@ -4483,6 +4690,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ukrainian
@@ -4561,6 +4771,9 @@ PRON without Case (and ADP) --> 0.999811 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.974618149146451
 CASES OBJECT ==> Acc:0.797738075725291
 CASES IOBJECT ==> Dat:0.958549222797927
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.971861
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Umbrian
@@ -4608,6 +4821,9 @@ PRON without Case (and ADP) --> 0.785714 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.862068965517241
 CASES OBJECT ==> Acc:0.675324675324675, NoCase:0.298701298701299
 CASES IOBJECT ==> NoCase:0.526315789473684, Dat:0.421052631578947
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.914634
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Upper Sorbian
@@ -4672,6 +4888,9 @@ PRON without Case (and ADP) --> 0.992908 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.955108359133127
 CASES OBJECT ==> Acc:0.774410774410774
 CASES IOBJECT ==> Dat:0.923076923076923
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.997478
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Urdu
@@ -4777,6 +4996,9 @@ PRON without Case (and ADP) --> 0.932169 --> with Case (but without ADP)
 CASES SUBJECT ==> ADP:0.471741637831603, Nom:0.422529796232218
 CASES OBJECT ==> Nom:0.57192429022082, ADP:0.337854889589905
 CASES IOBJECT ==> ADP:0.84080370942813
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.979018
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Welsh
@@ -4817,6 +5039,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.92498997192138
 CASES OBJECT ==> NoCase:0.994183445190157
 CASES IOBJECT ==> ADP:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Western Armenian
@@ -4893,6 +5118,9 @@ PRON without Case (and ADP) --> 0.960966 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.969236337314513
 CASES OBJECT ==> Nom:0.750126968004063
 CASES IOBJECT ==> Dat:0.891640866873065
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.852899
+VERB-OBJECT AGREEMENT  0.000000
 
 Turkic: 20: 10: Azerbaijani (1), Kazakh (1), Kyrgyz (2), Old Turkish (1), Ottoman Turkish (2), Tatar (1), Turkish (9), Uyghur (1), Uzbek (1), Yakut (1)
 --------------------------------------------------------------------------------
@@ -4919,6 +5147,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kazakh
@@ -4969,6 +5200,9 @@ PRON without Case (and ADP) --> 0.995968 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.954646017699115
 CASES OBJECT ==> Acc:0.597374179431072, Nom:0.37199124726477
 CASES IOBJECT ==> Dat:0.5, Abl:0.25
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.847721
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kyrgyz
@@ -5020,6 +5254,9 @@ NOUN without Case (and ADP) --> 0.920378 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.703297 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.476103777878926, Acc:0.375967228038234
 CASES OBJECT ==> Nom:0.348643006263048, Acc:0.325678496868476, NoCase:0.121085594989562
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.361715
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Old Turkish
@@ -5046,6 +5283,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.500000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ottoman Turkish
@@ -5111,6 +5351,9 @@ PRON without Case (and ADP) --> 0.887640 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.781321184510251
 CASES OBJECT ==> Acc:0.609411764705882, Nom:0.244705882352941
 CASES IOBJECT ==> Dat:0.684210526315789, Nom:0.210526315789474
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.326667
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Tatar
@@ -5154,6 +5397,9 @@ NOUN without Case (and ADP) --> 0.993151 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.909091 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.981651376146789
 CASES OBJECT ==> Acc:0.770833333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.776978
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Turkish
@@ -5233,6 +5479,9 @@ PRON without Case (and ADP) --> 0.392852 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.809933581185513
 CASES OBJECT ==> Acc:0.447782683816472, Nom:0.381775132783004
 CASES IOBJECT ==> Dat:0.840909090909091
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.927854
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Uyghur
@@ -5283,6 +5532,9 @@ PRON without Case (and ADP) --> 0.881423 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.759778470058844
 CASES OBJECT ==> Acc:0.50337216431637, NoCase:0.269773145309626
 CASES IOBJECT ==> Dat:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.772860
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Uzbek
@@ -5346,6 +5598,9 @@ PRON without Case (and ADP) --> 0.674157 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.921108742004264
 CASES OBJECT ==> Acc:0.591111111111111, Nom:0.257777777777778
 CASES IOBJECT ==> Dat:0.819444444444444
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.625628
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Yakut
@@ -5392,6 +5647,9 @@ PRON without Case (and ADP) --> 0.740260 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.866310160427808
 CASES OBJECT ==> Acc:0.560975609756098, Nom:0.16260162601626, NoCase:0.130081300813008
 CASES IOBJECT ==> Dat:0.8
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Afro-Asiatic: 18: 13: Akkadian (2), Amharic (1), Ancient Hebrew (1), Arabic (2), Assyrian (1), Beja (1), Coptic (1), Egyptian (1), Hausa (2), Hebrew (3), Maltese (1), South Levantine Arabic (1), Zaar (1)
 --------------------------------------------------------------------------------
@@ -5441,6 +5699,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.849699398797595
 CASES OBJECT ==> NoCase:0.800604229607251
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.999444
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Amharic
@@ -5500,6 +5761,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.992974238875878
 CASES OBJECT ==> NoCase:0.541984732824427, ADP:0.458015267175573
 CASES IOBJECT ==> NoCase:0.6, ADP:0.4
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000706
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Ancient Hebrew
@@ -5550,6 +5814,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.994746059544658
 CASES OBJECT ==> NoCase:0.538378378378378, ADP:0.461621621621622
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.982699
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Arabic
@@ -5619,6 +5886,9 @@ PRON without Case (and ADP) --> 0.976338 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.479800774764804, Acc:0.313447703375761
 CASES OBJECT ==> Acc:0.930210325047801
 CASES IOBJECT ==> Acc:0.795454545454545
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.981631
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Assyrian
@@ -5674,7 +5944,10 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.392857 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.764705882352941
 CASES OBJECT ==> NoCase:0.826086956521739
-CASES IOBJECT ==> NoCase:0.5, Acc:0.5
+CASES IOBJECT ==> Acc:0.5, NoCase:0.5
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Beja
@@ -5717,6 +5990,9 @@ PRON without Case (and ADP) --> 0.616766 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.826086956521739
 CASES OBJECT ==> NoCase:0.872685185185185
 CASES IOBJECT ==> NoCase:0.8
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Coptic
@@ -5761,6 +6037,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.997291807718348
 CASES OBJECT ==> NoCase:0.62879177377892, ADP:0.37120822622108
 CASES IOBJECT ==> NoCase:0.987012987012987
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.007101
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Egyptian
@@ -5814,6 +6093,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.989697359948487
 CASES OBJECT ==> NoCase:0.966194111232279
 CASES IOBJECT ==> ADP:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.372637
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Hausa
@@ -5859,6 +6141,9 @@ PRON without Case (and ADP) --> 0.347938 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.937313432835821
 CASES OBJECT ==> NoCase:0.97708674304419
 CASES IOBJECT ==> Dat:0.559748427672956, NoCase:0.283018867924528
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.720000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Hebrew
@@ -5910,6 +6195,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.008837 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.997769365959173
 CASES OBJECT ==> ADP:0.506849315068493, NoCase:0.488778781696298
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.993723
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Maltese
@@ -5963,6 +6251,9 @@ ADP PRON 1 26
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.058278 --> with ADP
 PRON without ADP --> 0.044143 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 South Levantine Arabic
@@ -5995,6 +6286,9 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.053571 --> with ADP
 PRON without ADP --> 0.027027 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Zaar
@@ -6034,6 +6328,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:0.987138263665595
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Uralic: 17: 12: Erzya (1), Estonian (2), Finnish (4), Hungarian (1), Karelian (1), Komi Permyak (1), Komi Zyrian (2), Livvi (1), Moksha (1), North Sami (1), Skolt Sami (1), Veps (1)
 --------------------------------------------------------------------------------
@@ -6089,6 +6386,9 @@ NOUN without Case (and ADP) --> 0.994231 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.969838 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.976761074800291
 CASES OBJECT ==> Gen:0.636510500807754, Nom:0.345718901453958
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.796610
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Estonian
@@ -6147,6 +6447,9 @@ NOUN without Case (and ADP) --> 0.990370 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.999736 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.930756159728122
 CASES OBJECT ==> Par:0.68351701006229, Nom:0.156588404408241
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.688862
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Finnish
@@ -6207,6 +6510,9 @@ NOUN without Case (and ADP) --> 0.999875 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.829869687420152
 CASES OBJECT ==> Par:0.563747498242008, Nom:0.214745496835614
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.932178
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Hungarian
@@ -6279,6 +6585,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.999043977055449
 CASES OBJECT ==> Acc:0.979183346677342
 CASES IOBJECT ==> Dat:0.957746478873239
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Karelian
@@ -6330,6 +6639,9 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.966887417218543
 CASES OBJECT ==> Par:0.587412587412587, Nom:0.258741258741259
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.947955
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Komi Permyak
@@ -6374,6 +6686,9 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.99
 CASES OBJECT ==> Acc:0.666666666666667, Nom:0.333333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.857143
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Komi Zyrian
@@ -6427,6 +6742,9 @@ NOUN without Case (and ADP) --> 0.998138 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.971074 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.969258589511754
 CASES OBJECT ==> Acc:0.58008658008658, Nom:0.398268398268398
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.428571
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Livvi
@@ -6478,6 +6796,9 @@ NOUN without Case (and ADP) --> 0.991525 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.879518072289157
 CASES OBJECT ==> Par:0.629032258064516, Acc:0.145161290322581
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.959459
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Moksha
@@ -6534,6 +6855,9 @@ NOUN without Case (and ADP) --> 0.990826 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.981132075471698
 CASES OBJECT ==> Gen:0.573426573426573, Nom:0.412587412587413
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.978632
+VERB-OBJECT AGREEMENT  0.162393
 
 --------------------------------------------------------------------------------
 North Sami
@@ -6579,6 +6903,9 @@ NOUN without Case (and ADP) --> 0.979930 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.997214 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.945557782231129
 CASES OBJECT ==> Acc:0.968798751950078
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.976721
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Skolt Sami
@@ -6624,6 +6951,9 @@ NOUN without Case (and ADP) --> 0.991304 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.951220 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.969879518072289
 CASES OBJECT ==> Acc:0.808219178082192
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.736842
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Veps
@@ -6671,6 +7001,9 @@ NOUN without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.94047619047619
 CASES OBJECT ==> Par:0.717948717948718, Nom:0.179487179487179
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.956835
+VERB-OBJECT AGREEMENT  0.000000
 
 Tupian: 11: 11: Akuntsu (1), Guajajara (1), Guarani (1), Kaapor (1), Karo (1), Makurap (1), Mbya Guarani (1), Munduruku (1), Nheengatu (1), Teko (1), Tupinamba (1)
 --------------------------------------------------------------------------------
@@ -6708,6 +7041,9 @@ PRON without Case (and ADP) --> 0.080460 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.959302325581395
 CASES OBJECT ==> NoCase:0.974789915966387
 CASES IOBJECT ==> All:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Guajajara
@@ -6745,6 +7081,9 @@ NOUN without Case (and ADP) --> 0.009646 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES OBJECT ==> NoCase:0.98546511627907
 CASES IOBJECT ==> ADP:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Guarani
@@ -6784,6 +7123,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.857142857142857
 CASES OBJECT ==> NoCase:0.8
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Kaapor
@@ -6830,7 +7172,10 @@ NOUN without Case (and ADP) --> 0.233766 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.236364 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.861111111111111
 CASES OBJECT ==> NoCase:0.631578947368421, Aff:0.350877192982456
-CASES IOBJECT ==> NoCase:0.6, Aff:0.2
+CASES IOBJECT ==> NoCase:0.6, ADP:0.2
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Karo
@@ -6869,6 +7214,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.012500 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.974452554744526
 CASES OBJECT ==> NoCase:0.954887218045113
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Makurap
@@ -6903,6 +7251,9 @@ NOUN without Case (and ADP) --> 0.272727 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.888888888888889
 CASES OBJECT ==> NoCase:0.777777777777778
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Mbya Guarani
@@ -6947,6 +7298,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.966216
+VERB-OBJECT AGREEMENT  0.033784
 
 --------------------------------------------------------------------------------
 Munduruku
@@ -6984,6 +7338,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:0.941176470588235
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Nheengatu
@@ -7056,6 +7413,9 @@ PRON without Case (and ADP) --> 0.049713 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.97376267143709
 CASES OBJECT ==> NoCase:0.988962472406181
 CASES IOBJECT ==> ADP:0.865546218487395
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.970024
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Teko
@@ -7100,6 +7460,9 @@ PRON without Case (and ADP) --> 0.159091 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.875
 CASES OBJECT ==> NoCase:0.838888888888889
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Tupinamba
@@ -7148,6 +7511,9 @@ NOUN without Case (and ADP) --> 0.425926 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.764705882352941
 CASES OBJECT ==> NoCase:0.553763440860215, Ref:0.408602150537634
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Sino-Tibetan: 10: 3: Cantonese (1), Chinese (7), Classical Chinese (2)
 --------------------------------------------------------------------------------
@@ -7189,6 +7555,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.996042216358839
 CASES OBJECT ==> NoCase:0.979885057471264
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Chinese
@@ -7232,6 +7601,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.975454653512421
 CASES OBJECT ==> NoCase:0.966202234791006
 CASES IOBJECT ==> NoCase:0.933333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Classical Chinese
@@ -7275,6 +7647,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.804445158772071
 CASES OBJECT ==> NoCase:0.761150170871335
 CASES IOBJECT ==> NoCase:0.92579185520362
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Austronesian: 7: 4: Cebuano (1), Indonesian (3), Javanese (1), Tagalog (2)
 --------------------------------------------------------------------------------
@@ -7326,6 +7701,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.971154 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.409090909090909, ADP:0.344155844155844
 CASES OBJECT ==> ADP:0.649350649350649, NoCase:0.194805194805195
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Indonesian
@@ -7367,6 +7745,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.998121339374517
 CASES OBJECT ==> NoCase:0.996848904994486
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Javanese
@@ -7404,6 +7785,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.992537313432836
 CASES OBJECT ==> NoCase:0.997747747747748
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Tagalog
@@ -7463,6 +7847,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> ADP:0.758241758241758
 CASES OBJECT ==> ADP:0.774193548387097
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Code switching: 4: 4: Frisian Dutch (1), Maghrebi Arabic French (1), Telugu English (1), Turkish German (1)
 --------------------------------------------------------------------------------
@@ -7514,6 +7901,9 @@ ADP PRON 1 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.095541 --> with ADP
 PRON without ADP --> 0.003559 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Maghrebi Arabic French
@@ -7562,6 +7952,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.980237154150198
 CASES OBJECT ==> NoCase:0.974842767295597
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.047619
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Telugu English
@@ -7591,6 +7984,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.027778 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Turkish German
@@ -7672,6 +8068,9 @@ PRON without Case (and ADP) --> 0.998185 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.97569803516029
 CASES OBJECT ==> Acc:0.676363636363636, Nom:0.274545454545455
 CASES IOBJECT ==> Dat:0.645161290322581, ADP:0.32258064516129
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.978389
+VERB-OBJECT AGREEMENT  0.000000
 
 Dravidian: 4: 3: Malayalam (1), Tamil (2), Telugu (1)
 --------------------------------------------------------------------------------
@@ -7718,6 +8117,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.873684210526316
 CASES OBJECT ==> Acc:0.747368421052632, Nom:0.242105263157895
 CASES IOBJECT ==> Dat:0.875
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.027027
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Tamil
@@ -7783,6 +8185,9 @@ PRON without Case (and ADP) --> 0.963115 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.979670861568248
 CASES OBJECT ==> Acc:0.5046875, Nom:0.478125
 CASES IOBJECT ==> Dat:0.408163265306122, Nom:0.387755102040816
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.696445
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Telugu
@@ -7817,6 +8222,9 @@ ADP PRON 1 2
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.002591 --> with ADP
 PRON without ADP --> 0.002525 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Japanese: 4: 1: Japanese (4)
 --------------------------------------------------------------------------------
@@ -7842,6 +8250,9 @@ ADP PRON 1 1148
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 1.000000 --> with ADP
 PRON without ADP --> 1.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Korean: 4: 1: Korean (4)
 --------------------------------------------------------------------------------
@@ -7886,6 +8297,9 @@ PRON without Case (and ADP) --> 0.159632 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.862673233306609
 CASES OBJECT ==> NoCase:0.844972067039106
 CASES IOBJECT ==> NoCase:0.95
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.006784
+VERB-OBJECT AGREEMENT  0.000000
 
 Niger-Congo: 4: 4: Northwest Gbaya (1), Tswana (1), Wolof (1), Yoruba (1)
 --------------------------------------------------------------------------------
@@ -7919,6 +8333,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:0.994350282485876
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Tswana
@@ -7954,6 +8371,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Wolof
@@ -8017,6 +8437,9 @@ PRON without Case (and ADP) --> 0.543883 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.558072978774147, Nom:0.40949201049368
 CASES OBJECT ==> NoCase:0.648059149722736, Acc:0.266173752310536
 CASES IOBJECT ==> NoCase:0.801724137931034
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.268047
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Yoruba
@@ -8060,6 +8483,9 @@ PRON without Case (and ADP) --> 0.697400 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.558773424190801, Nom:0.342419080068143
 CASES OBJECT ==> NoCase:0.709090909090909, Acc:0.152727272727273
 CASES IOBJECT ==> ADP:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Arawan: 2: 2: Madi (1), Paumari (1)
 --------------------------------------------------------------------------------
@@ -8096,6 +8522,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Paumari
@@ -8127,6 +8556,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Austro-Asiatic: 2: 1: Vietnamese (2)
 --------------------------------------------------------------------------------
@@ -8168,6 +8600,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.997432972047918
 CASES OBJECT ==> NoCase:0.996795805418002
 CASES IOBJECT ==> NoCase:0.882352941176471
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Creole: 2: 2: Haitian Creole (1), Naija (1)
 --------------------------------------------------------------------------------
@@ -8209,6 +8644,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:0.981927710843373
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Naija
@@ -8250,6 +8688,9 @@ PRON without Case (and ADP) --> 0.939919 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.758491256980683
 CASES OBJECT ==> NoCase:0.666983643971092, Acc:0.274248763788513
 CASES IOBJECT ==> Acc:0.787037037037037
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.319788
+VERB-OBJECT AGREEMENT  0.000000
 
 Northwest Caucasian: 2: 2: Abaza (1), Abkhaz (1)
 --------------------------------------------------------------------------------
@@ -8345,6 +8786,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.500000
+VERB-OBJECT AGREEMENT  0.674419
 
 --------------------------------------------------------------------------------
 Abkhaz
@@ -8552,6 +8996,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.989449
+VERB-OBJECT AGREEMENT  0.305979
 
 Sign Language: 2: 2: Spanish Sign Language (1), Swedish Sign Language (1)
 --------------------------------------------------------------------------------
@@ -8594,6 +9041,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 --------------------------------------------------------------------------------
 Swedish Sign Language
@@ -8626,6 +9076,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Uto-Aztecan: 2: 2: Highland Puebla Nahuatl (1), Western Sierra Puebla Nahuatl (1)
 --------------------------------------------------------------------------------
@@ -8675,6 +9128,9 @@ PRON without Case (and ADP) --> 0.020450 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.839506172839506
 CASES OBJECT ==> NoCase:0.703056768558952, Abs:0.296943231441048
 CASES IOBJECT ==> NoCase:0.625, Abs:0.375
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.991150
+VERB-OBJECT AGREEMENT  0.522124
 
 --------------------------------------------------------------------------------
 Western Sierra Puebla Nahuatl
@@ -8735,6 +9191,9 @@ PRON without Case (and ADP) --> 0.003922 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.806737588652482
 CASES OBJECT ==> NoCase:0.721311475409836, Abs:0.265573770491803
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.990307
+VERB-OBJECT AGREEMENT  0.453958
 
 Arawakan: 1: 1: Apurina (1)
 --------------------------------------------------------------------------------
@@ -8778,6 +9237,9 @@ PRON without Case (and ADP) --> 0.830189 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.596774193548387, NoCase:0.395161290322581
 CASES OBJECT ==> NoCase:0.552238805970149, Nom:0.447761194029851
 CASES IOBJECT ==> Nom:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Basque: 1: 1: Basque (1)
 --------------------------------------------------------------------------------
@@ -8857,6 +9319,9 @@ PRON without Case (and ADP) --> 0.785797 --> with Case (but without ADP)
 CASES SUBJECT ==> Erg:0.38675422663127, Abs:0.334497694564762, NoCase:0.263657957244656
 CASES OBJECT ==> Abs:0.692358042873507, NoCase:0.263786614302078
 CASES IOBJECT ==> Dat:0.778319123020706
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.388449
+VERB-OBJECT AGREEMENT  0.695832
 
 Bororoan: 1: 1: Bororo (1)
 --------------------------------------------------------------------------------
@@ -8904,6 +9369,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.998319327731092
 CASES OBJECT ==> NoCase:0.978609625668449
 CASES IOBJECT ==> ADP:0.833333333333333
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Chibchan: 1: 1: Pesh (1)
 --------------------------------------------------------------------------------
@@ -8942,6 +9410,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.605263157894737, ADP:0.394736842105263
 CASES OBJECT ==> NoCase:0.824561403508772
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Chukotko-Kamchatkan: 1: 1: Chukchi (1)
 --------------------------------------------------------------------------------
@@ -8973,6 +9444,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Eskimo-Aleut: 1: 1: Yupik (1)
 --------------------------------------------------------------------------------
@@ -9008,6 +9482,9 @@ NOUN without Case (and ADP) --> 0.204301 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.400000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.789473684210526
 CASES OBJECT ==> NoCase:0.788135593220339
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Kartvelian: 1: 1: Georgian (1)
 --------------------------------------------------------------------------------
@@ -9078,6 +9555,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.872216035634744
 CASES OBJECT ==> Dat:0.656286721504113, Nom:0.327262044653349
 CASES IOBJECT ==> Dat:0.945205479452055
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 1.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Macro-Je: 1: 1: Xavante (1)
 --------------------------------------------------------------------------------
@@ -9121,6 +9601,9 @@ PRON without Case (and ADP) --> 0.441860 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.982758620689655
 CASES OBJECT ==> NoCase:0.983606557377049
 CASES IOBJECT ==> Dat:0.85
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Mande: 1: 1: Bambara (1)
 --------------------------------------------------------------------------------
@@ -9156,6 +9639,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Mayan: 1: 1: Kiche (1)
 --------------------------------------------------------------------------------
@@ -9202,6 +9688,9 @@ NOUN without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.991791
+VERB-OBJECT AGREEMENT  0.507463
 
 Mongolic: 1: 1: Buryat (1)
 --------------------------------------------------------------------------------
@@ -9265,6 +9754,9 @@ PRON without Case (and ADP) --> 0.916031 --> with Case (but without ADP)
 CASES SUBJECT ==> Nom:0.920325203252032
 CASES OBJECT ==> Nom:0.53133514986376, Acc:0.237057220708447
 CASES IOBJECT ==> Dat:0.516129032258065, NoCase:0.32258064516129
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.789174
+VERB-OBJECT AGREEMENT  0.000000
 
 Na-Dene: 1: 1: Gwichin (1)
 --------------------------------------------------------------------------------
@@ -9288,6 +9780,9 @@ ADP PRON 1
 CASE MARKERS (nsubj+obj+iobj together):
 NOUN without ADP --> 0.000000 --> with ADP
 PRON without ADP --> 0.000000 --> with ADP
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Pama-Nyungan: 1: 1: Warlpiri (1)
 --------------------------------------------------------------------------------
@@ -9337,6 +9832,9 @@ PRON without Case (and ADP) --> 1.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> Erg:0.642857142857143, Abs:0.303571428571429
 CASES OBJECT ==> Abs:0.916666666666667
 CASES IOBJECT ==> Dat:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Tai-Kadai: 1: 1: Thai (1)
 --------------------------------------------------------------------------------
@@ -9377,6 +9875,9 @@ PRON without Case (and ADP) --> 0.000000 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:1
 CASES OBJECT ==> NoCase:0.99921875
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 Tungusic: 1: 1: Xibe (1)
 --------------------------------------------------------------------------------
@@ -9419,6 +9920,9 @@ PRON without Case (and ADP) --> 0.107570 --> with Case (but without ADP)
 CASES SUBJECT ==> NoCase:0.947001394700139
 CASES OBJECT ==> ADP:0.654685494223363, NoCase:0.318356867779204
 CASES IOBJECT ==> NoCase:1
+AGREEMENT FREQUENCY:
+VERB-SUBJECT AGREEMENT 0.000000
+VERB-OBJECT AGREEMENT  0.000000
 
 
 
@@ -9974,3 +10478,182 @@ Nom*	Acc*	1	si
 Nom*	Con*	1	kmr
 Nom*	Nom	2	ga ps
 Nom*	Nom*	3	bho hi ky
+
+
+
+SUBJECT vs. OBJECT Agreement plot
+\begin{tikzpicture}
+  \draw[step=1cm,gray,very thin] (-0.2cm,-0.2cm) grid (10cm,10cm);
+  \draw[gray] (-0.5cm,0cm) node{S0};
+  \draw[gray] (-0.5cm,10cm) node{S1};
+  \draw[gray] (0cm,-0.5cm) node{O0};
+  \draw[gray] (10cm,-0.5cm) node{O1};
+  \draw (0.25cm,0.125cm) node{\textcolor{blue}{af}}; % Afrikaans
+  \draw (0.25cm,0.375cm) node{\textcolor{violet}{aqz}}; % Akuntsu
+  \draw (0.25cm,0.625cm) node{apu}; % Apurina
+  \draw (0.75cm,0.125cm) node{\textcolor{red}{az}}; % Azerbaijani
+  \draw (0.75cm,0.375cm) node{bm}; % Bambara
+  \draw (0.75cm,0.625cm) node{\textcolor{blue}{bar}}; % Bavarian
+  \draw (0.25cm,0.875cm) node{\textcolor{orange}{bej}}; % Beja
+  \draw (0.75cm,0.875cm) node{bor}; % Bororo
+  \draw (0.25cm,1.125cm) node{\textcolor{magenta}{yue}}; % Cantonese
+  \draw (1.25cm,0.125cm) node{\textcolor{cyan}{ceb}}; % Cebuano
+  \draw (1.25cm,0.375cm) node{\textcolor{magenta}{zh}}; % Chinese
+  \draw (0.75cm,1.125cm) node{ckt}; % Chukchi
+  \draw (1.25cm,0.625cm) node{\textcolor{magenta}{lzh}}; % Classical Chinese
+  \draw (0.25cm,1.375cm) node{qfn}; % Frisian Dutch
+  \draw (1.25cm,0.875cm) node{\textcolor{violet}{gub}}; % Guajajara
+  \draw (0.75cm,1.375cm) node{\textcolor{violet}{gn}}; % Guarani
+  \draw (1.25cm,1.125cm) node{\textcolor{blue}{gu}}; % Gujarati
+  \draw (0.25cm,1.625cm) node{gwi}; % Gwichin
+  \draw (1.75cm,0.125cm) node{ht}; % Haitian Creole
+  \draw (1.75cm,0.375cm) node{\textcolor{cyan}{id}}; % Indonesian
+  \draw (0.75cm,1.625cm) node{\textcolor{blue}{ga}}; % Irish
+  \draw (1.25cm,1.375cm) node{ja}; % Japanese
+  \draw (1.75cm,0.625cm) node{\textcolor{cyan}{jv}}; % Javanese
+  \draw (1.75cm,0.875cm) node{\textcolor{violet}{urb}}; % Kaapor
+  \draw (0.25cm,1.875cm) node{\textcolor{violet}{arr}}; % Karo
+  \draw (1.25cm,1.625cm) node{\textcolor{blue}{lb}}; % Luxembourgish
+  \draw (0.75cm,1.875cm) node{jaa}; % Madi
+  \draw (1.75cm,1.125cm) node{\textcolor{violet}{mpu}}; % Makurap
+  \draw (1.75cm,1.375cm) node{\textcolor{orange}{mt}}; % Maltese
+  \draw (0.25cm,2.125cm) node{\textcolor{blue}{gv}}; % Manx
+  \draw (1.25cm,1.875cm) node{\textcolor{blue}{frm}}; % Middle French
+  \draw (2.25cm,0.125cm) node{\textcolor{violet}{myu}}; % Munduruku
+  \draw (0.75cm,2.125cm) node{\textcolor{blue}{nap}}; % Neapolitan
+  \draw (2.25cm,0.375cm) node{gya}; % Northwest Gbaya
+  \draw (2.25cm,0.625cm) node{\textcolor{blue}{fro}}; % Old French
+  \draw (1.75cm,1.625cm) node{\textcolor{blue}{sga}}; % Old Irish
+  \draw (2.25cm,0.875cm) node{\textcolor{red}{otk}}; % Old Turkish
+  \draw (1.25cm,2.125cm) node{pad}; % Paumari
+  \draw (0.25cm,2.375cm) node{pay}; % Pesh
+  \draw (2.25cm,1.125cm) node{\textcolor{orange}{ajp}}; % South Levantine Arabic
+  \draw (0.75cm,2.375cm) node{ssp}; % Spanish Sign Language
+  \draw (1.75cm,1.875cm) node{swl}; % Swedish Sign Language
+  \draw (2.25cm,1.375cm) node{\textcolor{blue}{gsw}}; % Swiss German
+  \draw (1.25cm,2.375cm) node{\textcolor{cyan}{tl}}; % Tagalog
+  \draw (0.25cm,2.625cm) node{\textcolor{violet}{eme}}; % Teko
+  \draw (1.75cm,2.125cm) node{\textcolor{olive}{te}}; % Telugu
+  \draw (2.25cm,1.625cm) node{qte}; % Telugu English
+  \draw (0.75cm,2.625cm) node{th}; % Thai
+  \draw (2.75cm,0.125cm) node{tn}; % Tswana
+  \draw (2.75cm,0.375cm) node{\textcolor{violet}{tpn}}; % Tupinamba
+  \draw (2.75cm,0.625cm) node{vi}; % Vietnamese
+  \draw (2.75cm,0.875cm) node{wbp}; % Warlpiri
+  \draw (2.25cm,1.875cm) node{xav}; % Xavante
+  \draw (1.25cm,2.625cm) node{sjo}; % Xibe
+  \draw (1.75cm,2.375cm) node{\textcolor{red}{sah}}; % Yakut
+  \draw (0.25cm,2.875cm) node{yo}; % Yoruba
+  \draw (2.75cm,1.125cm) node{ess}; % Yupik
+  \draw (0.75cm,2.875cm) node{\textcolor{orange}{say}}; % Zaar
+  \draw (2.75cm,1.375cm) node{\textcolor{blue}{no}}; % Norwegian
+  \draw (2.25cm,2.125cm) node{\textcolor{orange}{am}}; % Amharic
+  \draw (1.25cm,2.875cm) node{\textcolor{blue}{sv}}; % Swedish
+  \draw (1.75cm,2.625cm) node{ko}; % Korean
+  \draw (0.25cm,3.125cm) node{\textcolor{orange}{cop}}; % Coptic
+  \draw (0.75cm,3.125cm) node{\textcolor{blue}{fo}}; % Faroese
+  \draw (2.75cm,1.625cm) node{\textcolor{olive}{ml}}; % Malayalam
+  \draw (2.25cm,2.375cm) node{\textcolor{blue}{gd}}; % Scottish Gaelic
+  \draw (1.25cm,3.125cm) node{\textcolor{blue}{si}}; % Sinhala
+  \draw (1.75cm,2.875cm) node{qaf}; % Maghrebi Arabic French
+  \draw (0.25cm,3.375cm) node{\textcolor{blue}{da}}; % Danish
+  \draw (0.75cm,3.375cm) node{wo}; % Wolof
+  \draw (0.25cm,3.625cm) node{pcm}; % Naija
+  \draw (0.25cm,3.875cm) node{\textcolor{red}{ota}}; % Ottoman Turkish
+  \draw (0.25cm,4.125cm) node{\textcolor{red}{ky}}; % Kyrgyz
+  \draw (0.75cm,3.875cm) node{\textcolor{orange}{egy}}; % Egyptian
+  \draw (0.25cm,4.375cm) node{\textcolor{teal}{kpv}}; % Komi Zyrian
+  \draw (0.25cm,6.125cm) node{\textcolor{red}{uz}}; % Uzbek
+  \draw (0.25cm,6.375cm) node{\textcolor{blue}{en}}; % English
+  \draw (0.25cm,6.875cm) node{\textcolor{blue}{bn}}; % Bengali
+  \draw (0.25cm,6.625cm) node{\textcolor{blue}{sq}}; % Albanian
+  \draw (0.25cm,7.125cm) node{\textcolor{teal}{et}}; % Estonian
+  \draw (0.25cm,7.375cm) node{\textcolor{olive}{ta}}; % Tamil
+  \draw (0.25cm,7.625cm) node{\textcolor{orange}{ha}}; % Hausa
+  \draw (0.75cm,7.375cm) node{\textcolor{teal}{sms}}; % Skolt Sami
+  \draw (0.25cm,7.875cm) node{\textcolor{red}{ug}}; % Uyghur
+  \draw (0.25cm,8.125cm) node{\textcolor{red}{tt}}; % Tatar
+  \draw (0.75cm,7.875cm) node{bxr}; % Buryat
+  \draw (0.25cm,8.375cm) node{\textcolor{teal}{myv}}; % Erzya
+  \draw (6.75cm,3.875cm) node{eu}; % Basque
+  \draw (0.25cm,8.625cm) node{\textcolor{blue}{hy}}; % Armenian
+  \draw (6.75cm,5.125cm) node{abq}; % Abaza
+  \draw (0.25cm,8.875cm) node{\textcolor{red}{kk}}; % Kazakh
+  \draw (0.75cm,8.375cm) node{\textcolor{blue}{hyw}}; % Western Armenian
+  \draw (0.75cm,8.625cm) node{\textcolor{blue}{bho}}; % Bhojpuri
+  \draw (0.75cm,8.125cm) node{\textcolor{teal}{koi}}; % Komi Permyak
+  \draw (0.25cm,9.125cm) node{\textcolor{blue}{pl}}; % Polish
+  \draw (0.75cm,8.875cm) node{\textcolor{blue}{nds}}; % Low Saxon
+  \draw (0.25cm,9.375cm) node{\textcolor{blue}{aln}}; % Gheg
+  \draw (0.75cm,9.125cm) node{\textcolor{blue}{xum}}; % Umbrian
+  \draw (0.25cm,9.625cm) node{\textcolor{blue}{mr}}; % Marathi
+  \draw (0.75cm,9.375cm) node{\textcolor{red}{tr}}; % Turkish
+  \draw (0.75cm,9.625cm) node{\textcolor{blue}{lv}}; % Latvian
+  \draw (0.25cm,9.875cm) node{\textcolor{teal}{fi}}; % Finnish
+  \draw (0.75cm,9.875cm) node{\textcolor{blue}{br}}; % Breton
+  \draw (1.25cm,9.375cm) node{\textcolor{blue}{nl}}; % Dutch
+  \draw (1.25cm,9.125cm) node{\textcolor{blue}{sa}}; % Sanskrit
+  \draw (1.25cm,9.625cm) node{\textcolor{teal}{krl}}; % Karelian
+  \draw (1.25cm,9.875cm) node{\textcolor{blue}{fr}}; % French
+  \draw (1.25cm,8.875cm) node{\textcolor{teal}{vep}}; % Veps
+  \draw (1.25cm,8.625cm) node{\textcolor{teal}{olo}}; % Livvi
+  \draw (1.75cm,9.625cm) node{\textcolor{violet}{gun}}; % Mbya Guarani
+  \draw (1.75cm,9.375cm) node{\textcolor{violet}{yrl}}; % Nheengatu
+  \draw (1.75cm,9.875cm) node{\textcolor{blue}{uk}}; % Ukrainian
+  \draw (1.25cm,8.375cm) node{\textcolor{blue}{hr}}; % Croatian
+  \draw (1.75cm,9.125cm) node{\textcolor{teal}{sme}}; % North Sami
+  \draw (1.75cm,8.875cm) node{qtd}; % Turkish German
+  \draw (1.25cm,8.125cm) node{\textcolor{blue}{sr}}; % Serbian
+  \draw (1.75cm,8.625cm) node{\textcolor{blue}{ur}}; % Urdu
+  \draw (1.75cm,8.375cm) node{\textcolor{orange}{ar}}; % Arabic
+  \draw (2.25cm,9.625cm) node{\textcolor{orange}{hbo}}; % Ancient Hebrew
+  \draw (2.25cm,9.875cm) node{\textcolor{blue}{de}}; % German
+  \draw (2.25cm,9.375cm) node{\textcolor{blue}{cs}}; % Czech
+  \draw (2.25cm,9.125cm) node{\textcolor{blue}{es}}; % Spanish
+  \draw (1.25cm,7.875cm) node{\textcolor{blue}{kmr}}; % Kurmanji
+  \draw (0.75cm,7.625cm) node{\textcolor{blue}{mk}}; % Macedonian
+  \draw (2.25cm,8.875cm) node{\textcolor{blue}{sl}}; % Slovenian
+  \draw (2.75cm,9.625cm) node{\textcolor{teal}{mdf}}; % Moksha
+  \draw (1.75cm,8.125cm) node{\textcolor{orange}{he}}; % Hebrew
+  \draw (2.25cm,8.625cm) node{\textcolor{blue}{hit}}; % Hittite
+  \draw (1.25cm,7.625cm) node{\textcolor{blue}{is}}; % Icelandic
+  \draw (1.75cm,7.875cm) node{\textcolor{blue}{sk}}; % Slovak
+  \draw (2.25cm,8.375cm) node{\textcolor{blue}{pt}}; % Portuguese
+  \draw (2.75cm,9.875cm) node{\textcolor{blue}{ca}}; % Catalan
+  \draw (2.75cm,9.375cm) node{\textcolor{blue}{xnr}}; % Kangri
+  \draw (2.75cm,9.125cm) node{\textcolor{blue}{hi}}; % Hindi
+  \draw (1.25cm,7.375cm) node{\textcolor{blue}{hsb}}; % Upper Sorbian
+  \draw (2.25cm,8.125cm) node{\textcolor{blue}{fa}}; % Persian
+  \draw (1.75cm,7.625cm) node{\textcolor{blue}{ro}}; % Romanian
+  \draw (2.75cm,8.875cm) node{\textcolor{blue}{orv}}; % Old East Slavic
+  \draw (0.75cm,7.125cm) node{\textcolor{orange}{akk}}; % Akkadian
+  \draw (2.75cm,8.625cm) node{\textcolor{blue}{it}}; % Italian
+  \draw (2.25cm,7.875cm) node{\textcolor{blue}{el}}; % Greek
+  \draw (1.25cm,7.125cm) node{\textcolor{blue}{la}}; % Latin
+  \draw (1.75cm,7.375cm) node{\textcolor{blue}{bg}}; % Bulgarian
+  \draw (2.75cm,8.375cm) node{\textcolor{blue}{lt}}; % Lithuanian
+  \draw (0.75cm,6.875cm) node{\textcolor{blue}{be}}; % Belarusian
+  \draw (2.25cm,7.625cm) node{\textcolor{blue}{grc}}; % Ancient Greek
+  \draw (3.25cm,9.875cm) node{\textcolor{blue}{ru}}; % Russian
+  \draw (3.25cm,9.625cm) node{\textcolor{orange}{aii}}; % Assyrian
+  \draw (2.75cm,8.125cm) node{\textcolor{blue}{cpg}}; % Cappadocian
+  \draw (3.25cm,9.375cm) node{\textcolor{blue}{xcl}}; % Classical Armenian
+  \draw (1.75cm,7.125cm) node{\textcolor{blue}{gl}}; % Galician
+  \draw (3.25cm,9.125cm) node{ka}; % Georgian
+  \draw (1.25cm,6.875cm) node{\textcolor{blue}{got}}; % Gothic
+  \draw (2.25cm,7.375cm) node{\textcolor{teal}{hu}}; % Hungarian
+  \draw (3.25cm,8.875cm) node{\textcolor{blue}{kfm}}; % Khunsari
+  \draw (2.75cm,7.875cm) node{\textcolor{blue}{ltg}}; % Latgalian
+  \draw (0.75cm,6.625cm) node{\textcolor{blue}{lij}}; % Ligurian
+  \draw (3.25cm,8.625cm) node{\textcolor{blue}{nyq}}; % Nayini
+  \draw (1.75cm,6.875cm) node{\textcolor{blue}{cu}}; % Old Church Slavonic
+  \draw (1.25cm,6.625cm) node{\textcolor{blue}{ps}}; % Pashto
+  \draw (2.75cm,7.625cm) node{\textcolor{blue}{xpg}}; % Phrygian
+  \draw (3.25cm,8.375cm) node{\textcolor{blue}{qpm}}; % Pomak
+  \draw (2.25cm,7.125cm) node{\textcolor{blue}{soj}}; % Soi
+  \draw (0.75cm,6.375cm) node{\textcolor{blue}{cy}}; % Welsh
+  \draw (3.75cm,9.875cm) node{ab}; % Abkhaz
+  \draw (4.75cm,9.875cm) node{nhi}; % Western Sierra Puebla Nahuatl
+  \draw (5.25cm,9.875cm) node{quc}; % Kiche
+  \draw (5.25cm,9.625cm) node{azz}; % Highland Puebla Nahuatl
+\end{tikzpicture}
