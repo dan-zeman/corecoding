@@ -150,11 +150,11 @@ foreach my $l (keys(%subjcases))
     {
         my $sc = $subjcases{$l};
         my $oc = $objcases{$l};
-        $sc =~ s/;/; /g;
-        $oc =~ s/;/; /g;
+        $sc =~ s/;.*/\*/;
+        $oc =~ s/;.*/\*/;
         $sc =~ s/NoCase/0/g;
         $oc =~ s/NoCase/0/g;
-        my $combination = "$sc\n$oc";
+        my $combination = "$sc\t$oc";
         push(@{$subjobjcases{$combination}}, $l);
     }
 }
