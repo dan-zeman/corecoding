@@ -119,12 +119,12 @@ foreach my $family (@families)
             if(m/^CASES SUBJECT ==> (.+)$/)
             {
                 my $cf = $1;
-                my $subjcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
+                $subjcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
             }
             if(m/^CASES OBJECT ==> (.+)$/)
             {
                 my $cf = $1;
-                my $objcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
+                $objcases{$language} = join(';', map {s/:.*//; $_} (split(/, /, $cf)));
             }
             print;
         }
