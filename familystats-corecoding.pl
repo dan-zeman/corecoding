@@ -188,7 +188,7 @@ foreach my $c (@combinations)
 }
 # Print tikz code of the subject vs. object agreement language plot.
 print("\n\n\nSUBJECT vs. OBJECT Agreement plot\n");
-print_2d_plot('S0', 'S1', \%subjagr, 'O0', 'O1', \%objagr, $lhash);
+print_2d_plot('O0', 'O1', \%objagr, 'S0', 'S1', \%subjagr, $lhash);
 
 
 
