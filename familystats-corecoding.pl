@@ -152,7 +152,16 @@ foreach my $l (keys(%subjcases))
         push(@{$subjobjcases{$combination}}, $l);
     }
 }
-my @combinations = sort {scalar(@{$subjobjcases{$b}}) <=> scalar(@{$subjobjcases{$a}})} (keys(%subjobjcases));
+my @combinations = sort
+{
+    my $r = scalar(@{$subjobjcases{$b}}) <=> scalar(@{$subjobjcases{$a}});
+    unless($r)
+    {
+        $r = $a cmp $b;
+    }
+    $r
+}
+(keys(%subjobjcases));
 foreach my $c (@combinations)
 {
     my $n = scalar(@{$subjobjcases{$c}});
