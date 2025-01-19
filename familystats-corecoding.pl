@@ -171,7 +171,7 @@ my @combinations = sort
 foreach my $c (@combinations)
 {
     my $n = scalar(@{$subjobjcases{$c}});
-    my $languages = join(', ', map {"$_ ($lhash->{$_}{lcode})"} (sort(@{$subjobjcases{$c}})));
+    my $languages = join(' ', sort_language_codes($subjobjcases{$c}, $lhash, \@families));
     print("$c\t$n\t$languages\n");
 }
 
@@ -393,4 +393,35 @@ sub cell2cm
     my $x = 0.25 + $xcell * 0.5;
     my $y = 0.125 + $ycell * 0.25;
     return ($x, $y);
+}
+
+
+
+#------------------------------------------------------------------------------
+# Takes a list of language names, converts them to language codes, sorts them
+# by family, then alphabetically by code.
+#------------------------------------------------------------------------------
+sub sort_language_codes
+{
+    my $languages = shift; # array ref (names of languages to sort)
+    my $lhash = shift; # hash ref (information about languages)
+    my $families = shift; # array ref (families already sorted by size and alphabetically)
+    # Hash the order of families so we can use it to sort the languages.
+    # (It would be more efficient to do this once outside and then provide the hash as a parameter.)
+    my %famord;
+    for(my $i = 0; $i <= $#{$families}; $i++)
+    {
+        $famord{$families->[$i]} = $i;
+    }
+    my @lcodes = map {$lhash->{$_}{lcode}} (sort
+    {
+        my $r = $famord{$lhash->{$a}{family}} <=> $famord{$lhash->{$b}{family}};
+        unless($r)
+        {
+            $lhash->{$a}{lcode} cmp $lhash->{$b}{lcode}
+        }
+        $r
+    }
+    (@{$languages}));
+    return @lcodes;
 }
