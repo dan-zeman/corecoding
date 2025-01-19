@@ -107,6 +107,47 @@ while(<>)
                 }
             }
         }
+        # Aggregate information about agreement.
+        # For now, look at finite clauses only (it means Fin or Part in either the main verb or one of the auxiliaries)
+        # because that is where agreement is most likely to occur. Although some nonfins have agreement too, and some
+        # languages have a large share of clauses nonfin.
+        if($type eq 'AGREEMENT' && $label =~ m/^(?:finite) (\S*)/)
+        {
+            my $agrfeats = $1;
+            my @agrfeats = grep {m/=/} (split(/\|/, $1));
+            if(scalar(@agrfeats) == 0)
+            {
+                $h{AGRSUBJ}{NO}++;
+                $h{AGROBJ}{NO}++;
+            }
+            else
+            {
+                # Remove feature values.
+                # Ignore [psor] (e.g. Kazakh).
+                # Ignore [io] (e.g. Abaza; we do not survey indirect objects yet).
+                # Ignore [lo] (e.g. Abkhaz; I don't know what it is).
+                # Do not ignore [dat] (e.g. Basque; it could be indirect object in some languages, but not necessarily).
+                @agrfeats = map {s/=.*//; $_} (@agrfeats);
+                my @sagrfeats = grep {!m/\[/ || m/\[(subj|erg)\]/} (@agrfeats);
+                my @oagrfeats = grep {m/\[(obj|abs|dat)\]/} (@agrfeats);
+                if(scalar(@sagrfeats) > 0)
+                {
+                    $h{AGRSUBJ}{YES}++;
+                }
+                else
+                {
+                    $h{AGRSUBJ}{NO}++;
+                }
+                if(scalar(@oagrfeats) > 0)
+                {
+                    $h{AGROBJ}{YES}++;
+                }
+                else
+                {
+                    $h{AGROBJ}{NO}++;
+                }
+            }
+        }
     }
     else
     {
@@ -191,3 +232,10 @@ if(exists($h{CASE}))
         }
     }
 }
+my $nas0 = $h{AGRSUBJ}{NO};
+my $nas1 = $h{AGRSUBJ}{YES};
+my $nao0 = $h{AGROBJ}{NO};
+my $nao1 = $h{AGROBJ}{YES};
+print("AGREEMENT FREQUENCY:\n");
+printf("VERB-SUBJECT AGREEMENT %.6f\n", $nas0+$nas1>0 ? $nas1/($nas0+$nas1) : 0);
+printf("VERB-OBJECT AGREEMENT  %.6f\n", $nao0+$nao1>0 ? $nao1/($nao0+$nao1) : 0);
