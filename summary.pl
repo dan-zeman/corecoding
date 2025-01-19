@@ -124,12 +124,14 @@ while(<>)
             {
                 # Remove feature values.
                 # Ignore [psor] (e.g. Kazakh).
-                # Ignore [io] (e.g. Abaza; we do not survey indirect objects yet).
-                # Ignore [lo] (e.g. Abkhaz; I don't know what it is).
                 # Do not ignore [dat] (e.g. Basque; it could be indirect object in some languages, but not necessarily).
+                # We do not have a separate dimension for the following and because of [dat] in Basque, for comparability
+                # reasons, we may want to include them as well, although they are not about the direct object.
+                # [io] (e.g. Abaza; we do not survey indirect objects yet).
+                # [lo] (e.g. Abkhaz; I don't know what it is).
                 @agrfeats = map {s/=.*//; $_} (@agrfeats);
                 my @sagrfeats = grep {!m/\[/ || m/\[(subj|erg)\]/} (@agrfeats);
-                my @oagrfeats = grep {m/\[(obj|abs|dat)\]/} (@agrfeats);
+                my @oagrfeats = grep {m/\[(obj|abs|dat|io|lo)\]/} (@agrfeats);
                 if(scalar(@sagrfeats) > 0)
                 {
                     $h{AGRSUBJ}{YES}++;
