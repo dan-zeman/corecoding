@@ -26,14 +26,15 @@ class CoreCoding(Block):
         if node.udeprel in ['root', 'csubj', 'ccomp', 'xcomp', 'advcl', 'acl']:
             # Is this a finite clause? Either the predicate is a finite verb, or there is an auxiliary which is a finite verb.
             # Because of past tense in Czech (which does not use auxiliaries in 3rd person), we include participles in finite clauses.
+            # We also include empty VerbForm because some languages (e.g., Austronesian) do not distinguish verb forms at all.
             # What we exclude is infinitives, converbs, and verbal nouns.
             auxiliaries = [x for x in node.children if x.udeprel in ['aux', 'cop']]
             if self.verbform:
                 clausetype = 'nonfin'
-                if node.feats['VerbForm'] in ['Fin', 'Part']:
+                if node.feats['VerbForm'] in ['Fin', 'Part', '']:
                     clausetype = 'finite'
                 else:
-                    if any([x.feats['VerbForm'] in ['Fin', 'Part'] for x in auxiliaries]):
+                    if any([x.feats['VerbForm'] in ['Fin', 'Part', ''] for x in auxiliaries]):
                         clausetype = 'finite'
             else:
                 clausetype = ''

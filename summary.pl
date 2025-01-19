@@ -213,7 +213,16 @@ if(exists($h{CASE}))
     {
         if(exists($h{CASE}{$type}))
         {
-            my @cases = sort {$h{CASE}{$type}{$b} <=> $h{CASE}{$type}{$a}} (keys(%{$h{CASE}{$type}}));
+            my @cases = sort
+            {
+                my $r = $h{CASE}{$type}{$b} <=> $h{CASE}{$type}{$a};
+                unless($r)
+                {
+                    $r = $a cmp $b;
+                }
+                $r
+            }
+            (keys(%{$h{CASE}{$type}}));
             my $n = 0; map {$n += $h{CASE}{$type}{$_}} (@cases);
             if($n>0)
             {
