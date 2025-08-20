@@ -11,8 +11,8 @@ binmode(STDERR, ':utf8');
 use JSON::Parse 'json_file_to_perl';
 
 my $udpath = '/net/data/universal-dependencies-2.16';
-my $folder = 'UD_Slovenian-*';
-my $lcode = 'sl';
+my $folder = 'UD_Spanish-*';
+my $lcode = 'es';
 # Read the auxiliaries registered for the given language in UD.
 my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{$lcode};
 my %stats;
@@ -113,7 +113,9 @@ print <<EOF
     xtick=data,
     x tick label style={rotate=45,anchor=east},
     xlabel=$xlabel,
-    ylabel={\\% of all tokens}
+    ylabel={\\% of all tokens},
+    ymin=0,
+    enlargelimits=0.1
   ]
     \\addplot coordinates {$counts_aux};
     \\addplot coordinates {$counts_cop};
