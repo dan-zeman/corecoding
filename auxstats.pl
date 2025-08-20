@@ -8,9 +8,12 @@ use open ':utf8';
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
+use JSON::Parse 'json_file_to_perl';
 
 my $udpath = '/net/data/universal-dependencies-2.16';
 my $folder = 'UD_English-EWT';
+# Read the auxiliaries registered for the given language in UD.
+my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{'en'};
 my %stats;
 # We are not interested in the train-dev-test split. Simply read all CoNLL-U files.
 open(IN, "cat $udpath/$folder/*.conllu |") or die("Cannot read CoNLL-U from $folder: $!");
@@ -49,9 +52,10 @@ while(<IN>)
         my @misc = $f[9] ne '_' ? split(/\|/, $f[9]) : ();
         # No foreign words (code switching). No typos.
         next if(grep {m/^(Foreign|Typo)=Yes$/} (@feats) || grep {m/^Lang=/} (@misc));
-        # Only words that were seen as auxiliaries.
         my $lemma = $f[2];
-        next if(!exists($stats{l}{$lemma}));
+        # Only words that were seen (or registered in UD) as auxiliaries.
+        #next if(!exists($stats{l}{$lemma}));
+        next if(!exists($data->{$lemma}));
         # Also non-AUX occurrences. It could be VERB but also a completely unrelated homonym.
         my $upos = $f[3];
         #next if($upos eq 'AUX');
