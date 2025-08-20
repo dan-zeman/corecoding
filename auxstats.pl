@@ -36,6 +36,29 @@ while(<IN>)
     }
 }
 close(IN);
+# Read the data second time and look for non-AUX occurrences of the words that can be AUX.
+open(IN, "cat $udpath/$folder/*.conllu |") or die("Cannot read CoNLL-U from $folder: $!");
+while(<IN>)
+{
+    # Only basic nodes (no comments, MWTs, abstract nodes).
+    if(m/^[0-9]+\t/)
+    {
+        chomp;
+        my @f = split(/\t/);
+        my @feats = $f[5] ne '_' ? split(/\|/, $f[5]) : ();
+        my @misc = $f[9] ne '_' ? split(/\|/, $f[9]) : ();
+        # No foreign words (code switching). No typos.
+        next if(grep {m/^(Foreign|Typo)=Yes$/} (@feats) || grep {m/^Lang=/} (@misc));
+        # Only words that were seen as auxiliaries.
+        my $lemma = $f[2];
+        next if(!exists($stats{l}{$lemma}));
+        # Also non-AUX occurrences. It could be VERB but also a completely unrelated homonym.
+        my $upos = $f[3];
+        #next if($upos eq 'AUX');
+        $stats{lu}{$lemma}{$upos}++;
+    }
+}
+close(IN);
 # Print statistics.
 my @lemmas = sort(keys(%{$stats{l}}));
 foreach my $lemma (@lemmas)
@@ -45,5 +68,10 @@ foreach my $lemma (@lemmas)
     foreach my $deprel (@deprels)
     {
         print("\t$deprel\t$stats{ld}{$lemma}{$deprel}\n");
+    }
+    my @uposes = sort(keys(%{$stats{lu}{$lemma}}));
+    foreach my $upos (@uposes)
+    {
+        print("\t$upos\t$stats{ld}{$lemma}{$upos}\n");
     }
 }
