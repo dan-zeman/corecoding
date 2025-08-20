@@ -72,6 +72,6 @@ foreach my $lemma (@lemmas)
     my @uposes = sort(keys(%{$stats{lu}{$lemma}}));
     foreach my $upos (@uposes)
     {
-        print("\t$upos\t$stats{ld}{$lemma}{$upos}\n");
+        print("\t$upos\t$stats{lu}{$lemma}{$upos}\n");
     }
 }
