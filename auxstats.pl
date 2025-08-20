@@ -11,7 +11,7 @@ binmode(STDERR, ':utf8');
 use JSON::Parse 'json_file_to_perl';
 
 my $udpath = '/net/data/universal-dependencies-2.16';
-my $folder = 'UD_English-EWT';
+my $folder = 'UD_English-*';
 # Read the auxiliaries registered for the given language in UD.
 my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{'en'};
 my %stats;
@@ -28,6 +28,7 @@ while(<IN>)
         my @misc = $f[9] ne '_' ? split(/\|/, $f[9]) : ();
         # No foreign words (code switching). No typos.
         next if(grep {m/^(Foreign|Typo)=Yes$/} (@feats) || grep {m/^Lang=/} (@misc));
+        $stats{nwords}++;
         # Only auxiliaries (UPOS=AUX).
         next if($f[3] ne 'AUX');
         my $lemma = $f[2];
@@ -59,12 +60,15 @@ while(<IN>)
         # Also non-AUX occurrences. It could be VERB but also a completely unrelated homonym.
         my $upos = $f[3];
         #next if($upos eq 'AUX');
+        # Create a pseudo-UPOS COP, which will swallow all AUX that have the cop DEPREL.
+        $upos = 'COP' if($upos eq 'AUX' && $f[7] =~ m/^cop(:|$)/);
         $stats{lu}{$lemma}{$upos}++;
     }
 }
 close(IN);
 # Print statistics.
-my @lemmas = sort(keys(%{$stats{l}}));
+#my @lemmas = sort(keys(%{$stats{l}}));
+my @lemmas = sort(keys(%{$data}));
 foreach my $lemma (@lemmas)
 {
     print("$lemma\n");
@@ -79,3 +83,41 @@ foreach my $lemma (@lemmas)
         print("\t$upos\t$stats{lu}{$lemma}{$upos}\n");
     }
 }
+# Generate bar plot for LaTeX.
+my %alerted;
+foreach my $lemma (@lemmas)
+{
+    foreach my $upos (keys(%{$stats{lu}{$lemma}}))
+    {
+        unless($upos =~ m/^(AUX|COP|VERB|other)$/)
+        {
+            $stats{lu}{$lemma}{other} += $stats{lu}{$lemma}{$upos};
+        }
+    }
+    $alerted{$lemma} = $stats{lu}{$lemma}{AUX}==0 && $stats{lu}{$lemma}{COP}==0 ? "\\alert{$lemma}" : $lemma;
+}
+my $symbolic_x_coords = join(',', map {$alerted{$_}} (@lemmas));
+my $counts_aux = join(' ', map {$y = ($stats{lu}{$_}{AUX}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
+my $counts_cop = join(' ', map {$y = ($stats{lu}{$_}{COP}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
+my $counts_verb = join(' ', map {$y = ($stats{lu}{$_}{VERB}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
+my $counts_other = join(' ', map {$y = ($stats{lu}{$_}{other}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
+print <<EOF
+\\begin{tikzpicture}
+  \\begin{axis}[
+    ybar stacked,
+    width=\\textwidth, height=0.8\\textheight,
+    symbolic x coords={$symbolic_x_coords},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east},
+    xlabel=16 auxiliaries,
+    ylabel={\\% of all tokens}
+  ]
+    \\addplot coordinates {$counts_aux};
+    \\addplot coordinates {$counts_cop};
+    \\addplot coordinates {$counts_verb};
+    \\addplot coordinates {$counts_other};
+    \\legend{AUX,COP,VERB,other}
+  \\end{axis}
+\\end{tikzpicture}
+EOF
+;
