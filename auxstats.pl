@@ -97,6 +97,7 @@ foreach my $lemma (@lemmas)
     }
     $alerted{$lemma} = $stats{lu}{$lemma}{AUX}==0 && $stats{lu}{$lemma}{COP}==0 ? "\\alert{$lemma}" : $lemma;
 }
+my $nlemmas = scalar(@lemmas);
 my $symbolic_x_coords = join(',', map {$alerted{$_}} (@lemmas));
 my $counts_aux = join(' ', map {$y = ($stats{lu}{$_}{AUX}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
 my $counts_cop = join(' ', map {$y = ($stats{lu}{$_}{COP}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
@@ -110,7 +111,7 @@ print <<EOF
     symbolic x coords={$symbolic_x_coords},
     xtick=data,
     x tick label style={rotate=45,anchor=east},
-    xlabel=16 auxiliaries,
+    xlabel=$nlemmas auxiliaries,
     ylabel={\\% of all tokens}
   ]
     \\addplot coordinates {$counts_aux};
