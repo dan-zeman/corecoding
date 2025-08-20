@@ -11,9 +11,10 @@ binmode(STDERR, ':utf8');
 use JSON::Parse 'json_file_to_perl';
 
 my $udpath = '/net/data/universal-dependencies-2.16';
-my $folder = 'UD_English-*';
+my $folder = 'UD_Swedish-*';
+my $lcode = 'sv';
 # Read the auxiliaries registered for the given language in UD.
-my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{'en'};
+my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{$lcode};
 my %stats;
 # We are not interested in the train-dev-test split. Simply read all CoNLL-U files.
 open(IN, "cat $udpath/$folder/*.conllu |") or die("Cannot read CoNLL-U from $folder: $!");
