@@ -11,8 +11,8 @@ binmode(STDERR, ':utf8');
 use JSON::Parse 'json_file_to_perl';
 
 my $udpath = '/net/data/universal-dependencies-2.16';
-my $folder = 'UD_Swedish-*';
-my $lcode = 'sv';
+my $folder = 'UD_Slovenian-*';
+my $lcode = 'sl';
 # Read the auxiliaries registered for the given language in UD.
 my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries}{$lcode};
 my %stats;
@@ -98,6 +98,7 @@ foreach my $lemma (@lemmas)
     $alerted{$lemma} = $stats{lu}{$lemma}{AUX}==0 && $stats{lu}{$lemma}{COP}==0 ? "\\alert{$lemma}" : $lemma;
 }
 my $nlemmas = scalar(@lemmas);
+my $xlabel = $nlemmas==1 ? '1 auxiliary' : "$nlemmas auxiliaries";
 my $symbolic_x_coords = join(',', map {$alerted{$_}} (@lemmas));
 my $counts_aux = join(' ', map {$y = ($stats{lu}{$_}{AUX}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
 my $counts_cop = join(' ', map {$y = ($stats{lu}{$_}{COP}//0)/$stats{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
@@ -111,7 +112,7 @@ print <<EOF
     symbolic x coords={$symbolic_x_coords},
     xtick=data,
     x tick label style={rotate=45,anchor=east},
-    xlabel=$nlemmas auxiliaries,
+    xlabel=$xlabel,
     ylabel={\\% of all tokens}
   ]
     \\addplot coordinates {$counts_aux};
