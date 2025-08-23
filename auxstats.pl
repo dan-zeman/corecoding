@@ -39,9 +39,13 @@ my $lhash = udlib::get_language_hash('/net/work/people/zeman/unidep/docs-automat
 my $data = json_file_to_perl("$udpath/tools/data/data.json")->{auxiliaries};
 my @folders = udlib::list_ud_folders($udpath);
 print("Found ", scalar(@folders), " UD treebanks in $udpath.\n");
+# Cluster the treebanks by language.
+my %treebanks_by_languages;
 my $n_folders_processed = 0;
 my $n_folders_skipped_text = 0;
 my $n_folders_skipped_lemmas = 0;
+my $n_languages_processed = 0;
+my $n_languages_without_auxiliaries = 0;
 foreach my $folder (@folders)
 {
     my $metadata = udlib::read_readme($folder, $udpath);
@@ -58,21 +62,49 @@ foreach my $folder (@folders)
         $n_folders_skipped_lemmas++;
         next;
     }
-    print("Processing $folder...\n");
     $n_folders_processed++;
     my $fc = udlib::get_ud_files_and_codes($folder, $udpath);
-    my $lcode = $fc->{lcode};
-    my $lname = $fc->{lname};
+    push(@{$treebanks_by_languages{$fc->{lcode}}}, $fc);
+}
+my @lcodes = sort {$treebanks_by_languages{$a}[0]{lname} cmp $treebanks_by_languages{$b}[0]{lname}} (keys(%treebanks_by_languages));
+foreach my $lcode (@lcodes)
+{
+    my $n_treebanks = scalar(@{$treebanks_by_languages{$lcode}});
+    next if($n_treebanks == 0);
+    my $lname = $treebanks_by_languages{$lcode}[0]{lname};
     my $lflag = $lhash->{$lname}{flag};
+    print("Processing $n_treebanks treebanks of $lname...\n");
+    $n_languages_processed++;
+    # Get rid of lemmas that are registered as pronominal copulas only.
+    foreach my $lemma (keys(%{$data->{$lcode}}))
+    {
+        my @functions = grep {$_->{function} ne 'cop.PRON'} (@{$data->{$lcode}{$lemma}{functions}});
+        if(scalar(@functions) == 0)
+        {
+            ###!!! This will also delete all undocumented auxiliaries. If we want to report anything about them, we will have to modify the code.
+            delete($data->{$lcode}{$lemma});
+        }
+    }
+    my @lemmas = sort(keys(%{$data->{$lcode}}));
+    if(scalar(@lemmas) == 0)
+    {
+        print("$lname has no documented auxiliaries.\n");
+        $n_languages_without_auxiliaries++;
+        next;
+    }
+    my @files;
+    foreach my $fc (@{$treebanks_by_languages{$lcode}})
+    {
+        push(@files, map {"$udpath/$fc->{folder}/$_"} (@{$fc->{files}}));
+    }
     my %stats;
     # We may want to work with transliterated lemmas in languages that use foreign
     # writing systems. In the CoNLL-U files, we may be able to obtain them from MISC.
     # But no transliteration is available in the JSON files for the validator, so we
     # should cache the known transliterations and use them there.
     my %ltranslit;
-    # We are not interested in the train-dev-test split. Simply read all CoNLL-U files.
-    my $files = join(' ', map {"$udpath/$folder/$_"} (@{$fc->{files}}));
-    open(IN, "cat $files |") or die("Cannot read CoNLL-U from $folder: $!");
+    my $files = join(' ', @files);
+    open(IN, "cat $files |") or die("Cannot read CoNLL-U from $lname: $!");
     while(<IN>)
     {
         # Only basic nodes (no comments, MWTs, abstract nodes).
@@ -109,14 +141,14 @@ foreach my $folder (@folders)
     }
     close(IN);
     # Print statistics.
-    my @lemmas = sort(keys(%{$data->{$lcode}}));
     print_statistics(\%stats, \%ltranslit, $data->{$lcode}, @lemmas);
     # Generate bar plot for LaTeX.
     print_latex_bar_plot($lname, $lflag, \%stats, \%ltranslit, @lemmas);
 }
 print("Skipped $n_folders_skipped_text treebanks because their underlying text is not accessible.\n");
 print("Skipped $n_folders_skipped_lemmas treebanks because they have no lemmas.\n");
-print("Processed $n_folders_processed treebanks.\n");
+print("Processed $n_folders_processed treebanks ($n_languages_processed languages).\n");
+print("$n_languages_without_auxiliaries languages have no documented auxiliaries.\n");
 
 
 
