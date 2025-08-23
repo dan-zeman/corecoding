@@ -46,6 +46,8 @@ my $n_folders_skipped_text = 0;
 my $n_folders_skipped_lemmas = 0;
 my $n_languages_processed = 0;
 my $n_languages_without_auxiliaries = 0;
+my $n_languages_with_copula_only = 0;
+my $n_languages_with_copula_attached_as_aux = 0;
 foreach my $folder (@folders)
 {
     my $metadata = udlib::read_readme($folder, $udpath);
@@ -66,7 +68,26 @@ foreach my $folder (@folders)
     my $fc = udlib::get_ud_files_and_codes($folder, $udpath);
     push(@{$treebanks_by_languages{$fc->{lcode}}}, $fc);
 }
-my @lcodes = sort {$treebanks_by_languages{$a}[0]{lname} cmp $treebanks_by_languages{$b}[0]{lname}} (keys(%treebanks_by_languages));
+my @lcodes = sort
+{
+    my $aname = $treebanks_by_languages{$a}[0]{lname};
+    my $bname = $treebanks_by_languages{$b}[0]{lname};
+    my $afamily = $lhash->{$aname}{family};
+    my $bfamily = $lhash->{$bname}{family};
+    my $agenus = $lhash->{$aname}{genus};
+    my $bgenus = $lhash->{$bname}{genus};
+    my $r = $afamily cmp $bfamily;
+    unless($r)
+    {
+        $r = $agenus cmp $bgenus;
+        unless($r)
+        {
+            $r = $aname cmp $bname;
+        }
+    }
+    $r
+}
+(keys(%treebanks_by_languages));
 foreach my $lcode (@lcodes)
 {
     my $n_treebanks = scalar(@{$treebanks_by_languages{$lcode}});
@@ -76,6 +97,8 @@ foreach my $lcode (@lcodes)
     print("Processing $n_treebanks treebanks of $lname...\n");
     $n_languages_processed++;
     # Get rid of lemmas that are registered as pronominal copulas only.
+    my $copula_seen = 0;
+    my $non_copula_seen = 0;
     foreach my $lemma (keys(%{$data->{$lcode}}))
     {
         my @functions = grep {$_->{function} ne 'cop.PRON'} (@{$data->{$lcode}{$lemma}{functions}});
@@ -84,6 +107,20 @@ foreach my $lcode (@lcodes)
             ###!!! This will also delete all undocumented auxiliaries. If we want to report anything about them, we will have to modify the code.
             delete($data->{$lcode}{$lemma});
         }
+        else
+        {
+            foreach my $function (@functions)
+            {
+                if($function->{function} eq 'cop.AUX')
+                {
+                    $copula_seen = 1;
+                }
+                else
+                {
+                    $non_copula_seen = 1;
+                }
+            }
+        }
     }
     my @lemmas = sort(keys(%{$data->{$lcode}}));
     if(scalar(@lemmas) == 0)
@@ -91,6 +128,11 @@ foreach my $lcode (@lcodes)
         print("$lname has no documented auxiliaries.\n");
         $n_languages_without_auxiliaries++;
         next;
+    }
+    if($copula_seen && !$non_copula_seen)
+    {
+        print("$lname has copula but no other auxiliary functions.\n");
+        $n_languages_with_copula_only++;
     }
     my @files;
     foreach my $fc (@{$treebanks_by_languages{$lcode}})
@@ -137,6 +179,10 @@ foreach my $lcode (@lcodes)
             $deprel = 'other' unless($deprel =~ m/^(aux|cop)(:|$)/);
             $stats{ld}{$lemma}{$deprel}++;
             $stats{l}{$lemma}++;
+            if(scalar(@{$data->{$lcode}{$lemma}{functions}}) == 1 && $data->{$lcode}{$lemma}{functions}[0]{function} eq 'cop.AUX' && $deprel =~ m/^aux(:|$)/)
+            {
+                $stats{cop_as_aux}{$lemma}++;
+            }
         }
     }
     close(IN);
@@ -144,11 +190,17 @@ foreach my $lcode (@lcodes)
     print_statistics(\%stats, \%ltranslit, $data->{$lcode}, @lemmas);
     # Generate bar plot for LaTeX.
     print_latex_bar_plot($lname, $lflag, \%stats, \%ltranslit, @lemmas);
+    if(exists($stats{cop_as_aux}))
+    {
+        $n_languages_with_copula_attached_as_aux++;
+    }
 }
 print("Skipped $n_folders_skipped_text treebanks because their underlying text is not accessible.\n");
 print("Skipped $n_folders_skipped_lemmas treebanks because they have no lemmas.\n");
 print("Processed $n_folders_processed treebanks ($n_languages_processed languages).\n");
 print("$n_languages_without_auxiliaries languages have no documented auxiliaries.\n");
+print("$n_languages_with_copula_only have copula but no other documented auxiliary functions.\n");
+print("$n_languages_with_copula_attached_as_aux languages have examples of words whose only documented function is copula, yet they are attached as aux.\n");
 
 
 
@@ -266,4 +318,5 @@ sub print_latex_bar_plot
 \\end{frame}
 EOF
     ;
+    print("\n\n\n");
 }
