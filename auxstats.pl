@@ -94,6 +94,7 @@ foreach my $lcode (@lcodes)
     next if($n_treebanks == 0);
     my $lname = $treebanks_by_languages{$lcode}[0]{lname};
     my $lflag = $lhash->{$lname}{flag};
+    my $lscript = 'ru' if($lcode =~ m/^(kz|ky|tt|sah)$/); ###!!! ad hoc hack at the moment
     print("Processing $n_treebanks treebanks of $lname...\n");
     $n_languages_processed++;
     # Get rid of lemmas that are registered as pronominal copulas only.
@@ -189,7 +190,7 @@ foreach my $lcode (@lcodes)
     # Print statistics.
     print_statistics(\%stats, \%ltranslit, $data->{$lcode}, @lemmas);
     # Generate bar plot for LaTeX.
-    print_latex_bar_plot($lname, $lflag, \%stats, \%ltranslit, @lemmas);
+    print_latex_bar_plot($lname, $lflag, $lscript, \%stats, \%ltranslit, @lemmas);
     if(exists($stats{cop_as_aux}))
     {
         $n_languages_with_copula_attached_as_aux++;
@@ -268,6 +269,7 @@ sub print_latex_bar_plot
 {
     my $lname = shift; # for the frame title
     my $lflag = shift; # for the frame title
+    my $lscript = shift; # e.g. 'ru' will result in $lemma being printed as \ru{$lemma}
     my $stats = shift;
     my $ltranslit = shift;
     my @lemmas = @_;
