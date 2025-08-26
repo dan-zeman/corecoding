@@ -285,7 +285,7 @@ sub print_latex_bar_plot
             }
         }
         my $translitlemma = exists($ltranslit->{$lemma}) ? $ltranslit->{$lemma} : $lemma;
-        my $scriptlemma = $lscript ? "\\$lscript\{$ltranslit\}" : $translitlemma;
+        my $scriptlemma = $lscript ? "\\$lscript\{$translitlemma\}" : $translitlemma;
         $alerted{$lemma} = $stats->{lu}{$lemma}{AUX}==0 && $stats->{lu}{$lemma}{COP}==0 ? "\\alert{$scriptlemma}" : $scriptlemma;
     }
     my $nlemmas = scalar(@lemmas);
