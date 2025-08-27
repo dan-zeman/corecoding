@@ -95,7 +95,7 @@ foreach my $lcode (@lcodes)
     my $lname = $treebanks_by_languages{$lcode}[0]{lname};
     my $lflag = $lhash->{$lname}{flag};
     my $lscript = $lcode =~ m/^(kk|ky|tt|sah)$/ ? 'ru' : $lcode eq 'ug' ? 'ar' : $lcode eq 'ja' ? 'ja' : undef; ###!!! ad hoc hack at the moment
-    print("Processing $n_treebanks treebanks of $lname...\n");
+    #print("Processing $n_treebanks treebanks of $lname...\n");
     $n_languages_processed++;
     # Get rid of lemmas that are registered as pronominal copulas only.
     my $copula_seen = 0;
@@ -126,13 +126,13 @@ foreach my $lcode (@lcodes)
     my @lemmas = sort(keys(%{$data->{$lcode}}));
     if(scalar(@lemmas) == 0)
     {
-        print("$lname has no documented auxiliaries.\n");
+        #print("$lname has no documented auxiliaries.\n");
         $n_languages_without_auxiliaries++;
         next;
     }
     if($copula_seen && !$non_copula_seen)
     {
-        print("$lname has copula but no other auxiliary functions.\n");
+        #print("$lname has copula but no other auxiliary functions.\n");
         $n_languages_with_copula_only++;
     }
     my @files;
@@ -188,7 +188,7 @@ foreach my $lcode (@lcodes)
     }
     close(IN);
     # Print statistics.
-    print_statistics(\%stats, \%ltranslit, $data->{$lcode}, @lemmas);
+    #print_statistics(\%stats, \%ltranslit, $data->{$lcode}, @lemmas);
     # Generate bar plot for LaTeX.
     print_latex_bar_plot($lname, $lflag, $lscript, \%stats, \%ltranslit, @lemmas);
     if(exists($stats{cop_as_aux}))
