@@ -94,7 +94,7 @@ foreach my $lcode (@lcodes)
     next if($n_treebanks == 0);
     my $lname = $treebanks_by_languages{$lcode}[0]{lname};
     my $lflag = $lhash->{$lname}{flag};
-    my $lscript = $lcode =~ m/^(kk|ky|tt|sah)$/ ? 'ru' : $lcode eq 'ug' ? 'ar' : undef; ###!!! ad hoc hack at the moment
+    my $lscript = $lcode =~ m/^(kk|ky|tt|sah)$/ ? 'ru' : $lcode eq 'ug' ? 'ar' : $lcode eq 'ja' ? 'ja' : undef; ###!!! ad hoc hack at the moment
     print("Processing $n_treebanks treebanks of $lname...\n");
     $n_languages_processed++;
     # Get rid of lemmas that are registered as pronominal copulas only.
