@@ -20,9 +20,7 @@ my %treebanks_by_languages;
 my $n_folders_processed = 0;
 my $n_folders_skipped_text = 0;
 my $n_languages_processed = 0;
-my $n_languages_without_auxiliaries = 0;
-my $n_languages_with_copula_only = 0;
-my $n_languages_with_copula_attached_as_aux = 0;
+my $n_languages_without_iobj = 0;
 foreach my $folder (@folders)
 {
     my $metadata = udlib::read_readme($folder, $udpath);
@@ -100,6 +98,7 @@ foreach my $lcode (@lcodes)
         }
     }
     close(IN);
+    $n_languages_without_iobj++ if($stats{deprel}{'iobj'} == 0);
     # Print statistics.
     print_statistics($lname, \%stats);
     # Generate bar plot for LaTeX.
@@ -107,7 +106,7 @@ foreach my $lcode (@lcodes)
 }
 print("Skipped $n_folders_skipped_text treebanks because their underlying text is not accessible.\n");
 print("Processed $n_folders_processed treebanks ($n_languages_processed languages).\n");
-print("$n_languages_without_auxiliaries languages have no documented auxiliaries.\n");
+print("$n_languages_without_iobj languages have no attested iobj.\n");
 
 
 
@@ -119,7 +118,7 @@ sub print_statistics
 {
     my $lname = shift;
     my $stats = shift;
-    my @deprels = sort {$stats->{deprel}{$b} <=> $stats->{deprel}{$a}} (keys(%{$stats}));
+    my @deprels = sort {$stats->{deprel}{$b} <=> $stats->{deprel}{$a}} (keys(%{$stats->{deprel}}));
     my @percentages = map {sprintf("%s (%d%%)", $_, $stats->{deprel}{$_}/$stats->{nwords}*100+0.5)} (@deprels);
     print(join("\t", ($lname, @percentages)), "\n");
 }
