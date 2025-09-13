@@ -94,7 +94,7 @@ foreach my $lcode (@lcodes)
     next if($n_treebanks == 0);
     my $lname = $treebanks_by_languages{$lcode}[0]{lname};
     my $lflag = $lhash->{$lname}{flag};
-    my $lscript = $lcode =~ m/^(kk|ky|tt|sah)$/ ? 'ru' : $lcode eq 'ug' ? 'ar' : $lcode eq 'ja' ? 'ja' : undef; ###!!! ad hoc hack at the moment
+    my $lscript = 'ipa'; #$lcode =~ m/^(kk|ky|tt|sah)$/ ? 'ru' : $lcode eq 'ug' ? 'ar' : $lcode eq 'ja' ? 'ja' : undef; ###!!! ad hoc hack at the moment
     #print("Processing $n_treebanks treebanks of $lname...\n");
     $n_languages_processed++;
     # Get rid of lemmas that are registered as pronominal copulas only.
@@ -295,6 +295,9 @@ sub print_latex_bar_plot
     my $counts_cop = join(' ', map {$y = ($stats->{lu}{$_}{COP}//0)/$stats->{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
     my $counts_verb = join(' ', map {$y = ($stats->{lu}{$_}{VERB}//0)/$stats->{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
     my $counts_other = join(' ', map {$y = ($stats->{lu}{$_}{other}//0)/$stats->{nwords}*100; "($alerted{$_},$y)"} (@lemmas));
+    my $sum_first_lemma = $stats->{lu}{$lemmas[0]}{AUX} + $stats->{lu}{$lemmas[0]}{COP} + $stats->{lu}{$lemmas[0]}{VERB} + $stats->{lu}{$lemmas[0]}{other};
+    my $sum_last_lemma = $stats->{lu}{$lemmas[-1]}{AUX} + $stats->{lu}{$lemmas[-1]}{COP} + $stats->{lu}{$lemmas[-1]}{VERB} + $stats->{lu}{$lemmas[-1]}{other};
+    my $legend_placement = $sum_first_lemma < $sum_last_lemma ? 'west' : 'east';
     print <<EOF
 \\begin{frame}{\\Flag{$lflag}~UD 2.16 $lname}
   \\begin{tikzpicture}
@@ -308,7 +311,7 @@ sub print_latex_bar_plot
       ylabel={\\% of all tokens},
       ymin=0,
       enlargelimits=0.1,
-      legend pos={north east}
+      legend pos={north $legend_placement}
     ]
       \\addplot coordinates {$counts_aux};
       \\addplot coordinates {$counts_cop};
