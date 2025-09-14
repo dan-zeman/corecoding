@@ -98,7 +98,7 @@ foreach my $lcode (@lcodes)
         }
     }
     close(IN);
-    $n_languages_without_iobj++ if($stats{deprel}{'iobj'} == 0);
+    $n_languages_without_iobj++ if(!exists($stats{deprel}{'iobj'}) || $stats{deprel}{'iobj'} == 0);
     # Print statistics.
     print_statistics($lname, \%stats);
     # Generate bar plot for LaTeX.
@@ -119,8 +119,9 @@ sub print_statistics
     my $lname = shift;
     my $stats = shift;
     my @deprels = sort {$stats->{deprel}{$b} <=> $stats->{deprel}{$a}} (keys(%{$stats->{deprel}}));
-    my @percentages = map {sprintf("%s (%d%%)", $_, $stats->{deprel}{$_}/$stats->{nwords}*100+0.5)} (@deprels);
-    print(join("\t", ($lname, @percentages)), "\n");
+    my @percentages = map {sprintf("%s (%d%%%s)", $_, $stats->{deprel}{$_}/$stats->{nwords}*100+0.5, $_ eq 'other' ? '' : sprintf(" CORE %d%%", $stats->{deprel}{$_}/($stats->{nwords}-$stats->{deprel}{'other'})*100+0.5))} (@deprels);
+    my $npad = length($lname) < 20 ? 20-length($lname) : 0;
+    print(join("\t", ($lname.(' ' x $npad), @percentages)), "\n");
 }
 
 
