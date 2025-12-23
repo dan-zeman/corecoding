@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
-# Statistics about UD 2.14 for a paper.
-# Copyright © 2024 Dan Zeman <zeman@ufal.mff.cuni.cz>
+# Statistics about UD for a paper.
+# Copyright © 2024–2025 Dan Zeman <zeman@ufal.mff.cuni.cz>
 # License: GNU GPL
 
 use utf8;
@@ -8,9 +8,25 @@ use open ':utf8';
 binmode(STDIN, ':utf8');
 binmode(STDOUT, ':utf8');
 binmode(STDERR, ':utf8');
+use Getopt::Long;
 use udlib;
 
-my $udpath = '/net/data/universal-dependencies-2.14';
+sub usage
+{
+    print STDERR ("Usage: $0 --release 2.17\n");
+    print STDERR ("Searches the official UD release at its ÚFAL location (hardcoded).\n");
+    print STDERR ("Prints the percentual representation of language families.\n");
+}
+
+my $udrelease = '2.17';
+GetOptions
+(
+    'release=s' => \$udrelease
+);
+
+print STDERR ("SEE ALSO UD tools/survey_language_families.pl!\n");
+
+my $udpath = "/net/data/universal-dependencies-$udrelease";
 my @folders = udlib::list_ud_folders($udpath);
 my $dev_udpath = '/net/work/people/zeman/unidep';
 my $lhash = udlib::get_language_hash($dev_udpath.'/docs-automation/codes_and_flags.yaml');
