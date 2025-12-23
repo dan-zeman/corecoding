@@ -1,0 +1,37 @@
+UD_Ancient_Greek	Indo-European	Greek	Ancient Greek		grc	244993
+UD_Ancient_Greek-PROIEL	Indo-European	Greek	Ancient Greek	PROIEL	grc_proiel	206966
+UD_Arabic	Afro-Asiatic	Semitic	Arabic		ar	282384
+UD_Basque	Basque		Basque		eu	121443
+UD_Bulgarian	Indo-European	Slavic	Bulgarian		bg	156319
+UD_Croatian	Indo-European	Slavic	Croatian		hr	87765
+UD_Czech	Indo-European	Slavic	Czech		cs	1506490
+UD_Danish	Indo-European	Germanic	Danish		da	100733
+UD_Dutch	Indo-European	Germanic	Dutch		nl	200654
+UD_English	Indo-European	Germanic	English		en	254830
+UD_Estonian	Uralic	Finnic	Estonian		et	9491
+UD_Finnish	Uralic	Finnic	Finnish		fi	181022
+UD_Finnish-FTB	Uralic	Finnic	Finnish	FTB	fi_ftb	159829
+UD_French	Indo-European	Romance	French		fr	401491
+UD_German	Indo-European	Germanic	German		de	298242
+UD_Gothic	Indo-European	Germanic	Gothic		got	56128
+UD_Greek	Indo-European	Greek	Greek		el	59156
+UD_Hebrew	Afro-Asiatic	Semitic	Hebrew		he	158855
+UD_Hindi	Indo-European	Indic	Hindi		hi	351704
+UD_Hungarian	Uralic	Ugric	Hungarian		hu	26538
+UD_Indonesian	Austronesian	Malayo-Sumbawan	Indonesian		id	121923
+UD_Irish	Indo-European	Celtic	Irish		ga	23686
+UD_Italian	Indo-European	Romance	Italian		it	271180
+UD_Japanese-KTC	Japanese		Japanese	KTC	ja_ktc	267631
+UD_Latin	Indo-European	Italic	Latin		la	47303
+UD_Latin-ITT	Indo-European	Italic	Latin	ITT	la_itt	259684
+UD_Latin-PROIEL	Indo-European	Italic	Latin	PROIEL	la_proiel	165201
+UD_Norwegian	Indo-European	Germanic	Norwegian		no	311277
+UD_Old_Church_Slavonic	Indo-European	Slavic	Old Church Slavonic		cu	57507
+UD_Persian	Indo-European	Iranian	Persian		fa	152871
+UD_Polish	Indo-European	Slavic	Polish		pl	83571
+UD_Portuguese	Indo-European	Romance	Portuguese		pt	212545
+UD_Romanian	Indo-European	Romance	Romanian		ro	12094
+UD_Slovenian	Indo-European	Slavic	Slovenian		sl	140418
+UD_Spanish	Indo-European	Romance	Spanish		es	431587
+UD_Swedish	Indo-European	Germanic	Swedish		sv	96819
+UD_Tamil	Dravidian		Tamil		ta	9581

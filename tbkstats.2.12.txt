@@ -1,0 +1,237 @@
+UD_Abaza-ATB	Northwest Caucasian		Abaza	ATB	abq_atb	652
+UD_Afrikaans-AfriBooms	Indo-European	Germanic	Afrikaans	AfriBooms	af_afribooms	49260
+UD_Akkadian-PISANDUB	Afro-Asiatic	Semitic	Akkadian	PISANDUB	akk_pisandub	1852
+UD_Akkadian-RIAO	Afro-Asiatic	Semitic	Akkadian	RIAO	akk_riao	23165
+UD_Akuntsu-TuDeT	Tupian	Tupari	Akuntsu	TuDeT	aqz_tudet	1361
+UD_Albanian-TSA	Indo-European	Albanian	Albanian	TSA	sq_tsa	922
+UD_Amharic-ATT	Afro-Asiatic	Semitic	Amharic	ATT	am_att	10010
+UD_Ancient_Greek-PROIEL	Indo-European	Greek	Ancient Greek	PROIEL	grc_proiel	214005
+UD_Ancient_Greek-Perseus	Indo-European	Greek	Ancient Greek	Perseus	grc_perseus	202989
+UD_Ancient_Hebrew-PTNK	Afro-Asiatic	Semitic	Ancient Hebrew	PTNK	hbo_ptnk	39036
+UD_Apurina-UFPA	Arawakan	Purus	Apurina	UFPA	apu_ufpa	925
+UD_Arabic-PADT	Afro-Asiatic	Semitic	Arabic	PADT	ar_padt	282384
+UD_Arabic-PUD	Afro-Asiatic	Semitic	Arabic	PUD	ar_pud	20747
+UD_Armenian-ArmTDP	Indo-European	Armenian	Armenian	ArmTDP	hy_armtdp	52585
+UD_Armenian-BSUT	Indo-European	Armenian	Armenian	BSUT	hy_bsut	41805
+UD_Assyrian-AS	Afro-Asiatic	Semitic	Assyrian	AS	aii_as	453
+UD_Bambara-CRB	Mande	Western Mande	Bambara	CRB	bm_crb	13823
+UD_Basque-BDT	Basque		Basque	BDT	eu_bdt	121443
+UD_Beja-NSC	Afro-Asiatic	Cushitic	Beja	NSC	bej_nsc	857
+UD_Belarusian-HSE	Indo-European	Slavic	Belarusian	HSE	be_hse	305109
+UD_Bengali-BRU	Indo-European	Indic	Bengali	BRU	bn_bru	320
+UD_Bhojpuri-BHTB	Indo-European	Indic	Bhojpuri	BHTB	bho_bhtb	6665
+UD_Bororo-BDT	Bororoan		Bororo	BDT	bor_bdt	692
+UD_Breton-KEB	Indo-European	Celtic	Breton	KEB	br_keb	10006
+UD_Bulgarian-BTB	Indo-European	Slavic	Bulgarian	BTB	bg_btb	156149
+UD_Buryat-BDT	Mongolic		Buryat	BDT	bxr_bdt	10185
+UD_Cantonese-HK	Sino-Tibetan	Chinese	Cantonese	HK	yue_hk	13918
+UD_Catalan-AnCora	Indo-European	Romance	Catalan	AnCora	ca_ancora	546665
+UD_Cebuano-GJA	Austronesian	Central Philippine	Cebuano	GJA	ceb_gja	1295
+UD_Chinese-CFL	Sino-Tibetan	Chinese	Chinese	CFL	zh_cfl	7256
+UD_Chinese-GSD	Sino-Tibetan	Chinese	Chinese	GSD	zh_gsd	123291
+UD_Chinese-GSDSimp	Sino-Tibetan	Chinese	Chinese	GSDSimp	zh_gsdsimp	123291
+UD_Chinese-HK	Sino-Tibetan	Chinese	Chinese	HK	zh_hk	9874
+UD_Chinese-PUD	Sino-Tibetan	Chinese	Chinese	PUD	zh_pud	21415
+UD_Chinese-PatentChar	Sino-Tibetan	Chinese	Chinese	PatentChar	zh_patentchar	2160
+UD_Chukchi-HSE	Chukotko-Kamchatkan	Northern Chukotko-Kamchatkan	Chukchi	HSE	ckt_hse	6124
+UD_Classical_Chinese-Kyoto	Sino-Tibetan	Chinese	Classical Chinese	Kyoto	lzh_kyoto	433168
+UD_Coptic-Scriptorium	Afro-Asiatic	Egyptian	Coptic	Scriptorium	cop_scriptorium	55858
+UD_Croatian-SET	Indo-European	Slavic	Croatian	SET	hr_set	199409
+UD_Czech-CAC	Indo-European	Slavic	Czech	CAC	cs_cac	494383
+UD_Czech-CLTT	Indo-European	Slavic	Czech	CLTT	cs_cltt	36013
+UD_Czech-FicTree	Indo-European	Slavic	Czech	FicTree	cs_fictree	167056
+UD_Czech-PDT	Indo-European	Slavic	Czech	PDT	cs_pdt	1506486
+UD_Czech-PUD	Indo-European	Slavic	Czech	PUD	cs_pud	18610
+UD_Danish-DDT	Indo-European	Germanic	Danish	DDT	da_ddt	100733
+UD_Dutch-Alpino	Indo-European	Germanic	Dutch	Alpino	nl_alpino	208614
+UD_Dutch-LassySmall	Indo-European	Germanic	Dutch	LassySmall	nl_lassysmall	98107
+UD_English-Atis	Indo-European	Germanic	English	Atis	en_atis	61879
+UD_English-ESLSpok	Indo-European	Germanic	English	ESLSpok	en_eslspok	21312
+UD_English-EWT	Indo-European	Germanic	English	EWT	en_ewt	254819
+UD_English-GENTLE	Indo-European	Germanic	English	GENTLE	en_gentle	17797
+UD_English-GUM	Indo-European	Germanic	English	GUM	en_gum	187416
+UD_English-LinES	Indo-European	Germanic	English	LinES	en_lines	94217
+UD_English-PUD	Indo-European	Germanic	English	PUD	en_pud	21176
+UD_English-ParTUT	Indo-European	Germanic	English	ParTUT	en_partut	49633
+UD_English-Pronouns	Indo-European	Germanic	English	Pronouns	en_pronouns	1705
+UD_Erzya-JR	Uralic	Mordvin	Erzya	JR	myv_jr	20545
+UD_Estonian-EDT	Uralic	Finnic	Estonian	EDT	et_edt	437801
+UD_Estonian-EWT	Uralic	Finnic	Estonian	EWT	et_ewt	90586
+UD_Faroese-FarPaHC	Indo-European	Germanic	Faroese	FarPaHC	fo_farpahc	40484
+UD_Faroese-OFT	Indo-European	Germanic	Faroese	OFT	fo_oft	10002
+UD_Finnish-FTB	Uralic	Finnic	Finnish	FTB	fi_ftb	159612
+UD_Finnish-OOD	Uralic	Finnic	Finnish	OOD	fi_ood	19382
+UD_Finnish-PUD	Uralic	Finnic	Finnish	PUD	fi_pud	15813
+UD_Finnish-TDT	Uralic	Finnic	Finnish	TDT	fi_tdt	202192
+UD_French-FQB	Indo-European	Romance	French	FQB	fr_fqb	23901
+UD_French-GSD	Indo-European	Romance	French	GSD	fr_gsd	400289
+UD_French-PUD	Indo-European	Romance	French	PUD	fr_pud	24726
+UD_French-ParTUT	Indo-European	Romance	French	ParTUT	fr_partut	28576
+UD_French-ParisStories	Indo-European	Romance	French	ParisStories	fr_parisstories	42795
+UD_French-Rhapsodie	Indo-European	Romance	French	Rhapsodie	fr_rhapsodie	44242
+UD_French-Sequoia	Indo-European	Romance	French	Sequoia	fr_sequoia	70546
+UD_Frisian_Dutch-Fame	Code switching		Frisian Dutch	Fame	qfn_fame	3729
+UD_Galician-CTG	Indo-European	Romance	Galician	CTG	gl_ctg	138837
+UD_Galician-TreeGal	Indo-European	Romance	Galician	TreeGal	gl_treegal	25548
+UD_German-GSD	Indo-European	Germanic	German	GSD	de_gsd	292769
+UD_German-HDT	Indo-European	Germanic	German	HDT	de_hdt	3455580
+UD_German-LIT	Indo-European	Germanic	German	LIT	de_lit	40450
+UD_German-PUD	Indo-European	Germanic	German	PUD	de_pud	21332
+UD_Gheg-GPS	Indo-European	Albanian	Gheg	GPS	aln_gps	15990
+UD_Gothic-PROIEL	Indo-European	Germanic	Gothic	PROIEL	got_proiel	55336
+UD_Greek-GDT	Indo-European	Greek	Greek	GDT	el_gdt	63441
+UD_Greek-GUD	Indo-European	Greek	Greek	GUD	el_gud	25493
+UD_Guajajara-TuDeT	Tupian	Maweti-Guarani	Guajajara	TuDeT	gub_tudet	9160
+UD_Guarani-OldTuDeT	Tupian	Maweti-Guarani	Guarani	OldTuDeT	gn_oldtudet	217
+UD_Hebrew-HTB	Afro-Asiatic	Semitic	Hebrew	HTB	he_htb	160195
+UD_Hebrew-IAHLTwiki	Afro-Asiatic	Semitic	Hebrew	IAHLTwiki	he_iahltwiki	140950
+UD_Hindi-HDTB	Indo-European	Indic	Hindi	HDTB	hi_hdtb	351704
+UD_Hindi-PUD	Indo-European	Indic	Hindi	PUD	hi_pud	23829
+UD_Hittite-HitTB	Indo-European	Anatolian	Hittite	HitTB	hit_hittb	1309
+UD_Hungarian-Szeged	Uralic	Ugric	Hungarian	Szeged	hu_szeged	42032
+UD_Icelandic-GC	Indo-European	Germanic	Icelandic	GC	is_gc	99611
+UD_Icelandic-IcePaHC	Indo-European	Germanic	Icelandic	IcePaHC	is_icepahc	985050
+UD_Icelandic-Modern	Indo-European	Germanic	Icelandic	Modern	is_modern	80395
+UD_Icelandic-PUD	Indo-European	Germanic	Icelandic	PUD	is_pud	18833
+UD_Indonesian-CSUI	Austronesian	Malayo-Sumbawan	Indonesian	CSUI	id_csui	28263
+UD_Indonesian-GSD	Austronesian	Malayo-Sumbawan	Indonesian	GSD	id_gsd	122019
+UD_Indonesian-PUD	Austronesian	Malayo-Sumbawan	Indonesian	PUD	id_pud	19446
+UD_Irish-Cadhan	Indo-European	Celtic	Irish	Cadhan	ga_cadhan	4783
+UD_Irish-IDT	Indo-European	Celtic	Irish	IDT	ga_idt	115990
+UD_Irish-TwittIrish	Indo-European	Celtic	Irish	TwittIrish	ga_twittirish	47790
+UD_Italian-ISDT	Indo-European	Romance	Italian	ISDT	it_isdt	298337
+UD_Italian-MarkIT	Indo-European	Romance	Italian	MarkIT	it_markit	40488
+UD_Italian-PUD	Indo-European	Romance	Italian	PUD	it_pud	23731
+UD_Italian-ParTUT	Indo-European	Romance	Italian	ParTUT	it_partut	55558
+UD_Italian-ParlaMint	Indo-European	Romance	Italian	ParlaMint	it_parlamint	20460
+UD_Italian-PoSTWITA	Indo-European	Romance	Italian	PoSTWITA	it_postwita	124515
+UD_Italian-TWITTIRO	Indo-European	Romance	Italian	TWITTIRO	it_twittiro	29602
+UD_Italian-VIT	Indo-European	Romance	Italian	VIT	it_vit	280145
+UD_Italian-Valico	Indo-European	Romance	Italian	Valico	it_valico	6784
+UD_Japanese-GSD	Japanese		Japanese	GSD	ja_gsd	193654
+UD_Japanese-GSDLUW	Japanese		Japanese	GSDLUW	ja_gsdluw	150243
+UD_Japanese-PUD	Japanese		Japanese	PUD	ja_pud	28788
+UD_Japanese-PUDLUW	Japanese		Japanese	PUDLUW	ja_pudluw	22910
+UD_Javanese-CSUI	Austronesian	Javanese	Javanese	CSUI	jv_csui	14344
+UD_Kaapor-TuDeT	Tupian	Maweti-Guarani	Kaapor	TuDeT	urb_tudet	366
+UD_Kangri-KDTB	Indo-European	Indic	Kangri	KDTB	xnr_kdtb	2514
+UD_Karelian-KKPP	Uralic	Finnic	Karelian	KKPP	krl_kkpp	3094
+UD_Karo-TuDeT	Tupian	Ramarama	Karo	TuDeT	arr_tudet	2319
+UD_Kazakh-KTB	Turkic	Northwestern	Kazakh	KTB	kk_ktb	10536
+UD_Khunsari-AHA	Indo-European	Iranian	Khunsari	AHA	kfm_aha	74
+UD_Kiche-IU	Mayan		Kiche	IU	quc_iu	10013
+UD_Komi_Permyak-UH	Uralic	Permic	Komi Permyak	UH	koi_uh	1003
+UD_Komi_Zyrian-IKDP	Uralic	Permic	Komi Zyrian	IKDP	kpv_ikdp	2309
+UD_Komi_Zyrian-Lattice	Uralic	Permic	Komi Zyrian	Lattice	kpv_lattice	8083
+UD_Korean-GSD	Korean		Korean	GSD	ko_gsd	80322
+UD_Korean-Kaist	Korean		Korean	Kaist	ko_kaist	350090
+UD_Korean-PUD	Korean		Korean	PUD	ko_pud	16584
+UD_Latin-ITTB	Indo-European	Italic	Latin	ITTB	la_ittb	450515
+UD_Latin-LLCT	Indo-European	Italic	Latin	LLCT	la_llct	242411
+UD_Latin-PROIEL	Indo-European	Italic	Latin	PROIEL	la_proiel	205566
+UD_Latin-Perseus	Indo-European	Italic	Latin	Perseus	la_perseus	29186
+UD_Latin-UDante	Indo-European	Italic	Latin	UDante	la_udante	55524
+UD_Latvian-LVTB	Indo-European	Baltic	Latvian	LVTB	lv_lvtb	289062
+UD_Ligurian-GLT	Indo-European	Romance	Ligurian	GLT	lij_glt	6928
+UD_Lithuanian-ALKSNIS	Indo-European	Baltic	Lithuanian	ALKSNIS	lt_alksnis	70047
+UD_Lithuanian-HSE	Indo-European	Baltic	Lithuanian	HSE	lt_hse	5356
+UD_Livvi-KKPP	Uralic	Finnic	Livvi	KKPP	olo_kkpp	1632
+UD_Low_Saxon-LSDC	Indo-European	Germanic	Low Saxon	LSDC	nds_lsdc	2935
+UD_Madi-Jarawara	Arawan		Madi	Jarawara	jaa_jarawara	115
+UD_Maghrebi_Arabic_French-Arabizi	Code switching		Maghrebi Arabic French	Arabizi	qaf_arabizi	19793
+UD_Makurap-TuDeT	Tupian	Tupari	Makurap	TuDeT	mpu_tudet	178
+UD_Malayalam-UFAL	Dravidian		Malayalam	UFAL	ml_ufal	2403
+UD_Maltese-MUDT	Afro-Asiatic	Semitic	Maltese	MUDT	mt_mudt	44162
+UD_Manx-Cadhan	Indo-European	Celtic	Manx	Cadhan	gv_cadhan	20725
+UD_Marathi-UFAL	Indo-European	Indic	Marathi	UFAL	mr_ufal	3847
+UD_Mbya_Guarani-Thomas	Tupian	Maweti-Guarani	Mbya Guarani	Thomas	gun_thomas	1318
+UD_Moksha-JR	Uralic	Mordvin	Moksha	JR	mdf_jr	4081
+UD_Munduruku-TuDeT	Tupian	Munduruku	Munduruku	TuDeT	myu_tudet	1022
+UD_Naija-NSC	Creole		Naija	NSC	pcm_nsc	140818
+UD_Nayini-AHA	Indo-European	Iranian	Nayini	AHA	nyq_aha	78
+UD_Neapolitan-RB	Indo-European	Romance	Neapolitan	RB	nap_rb	10
+UD_Nheengatu-CompLin	Tupian	Maweti-Guarani	Nheengatu	CompLin	yrl_complin	8604
+UD_North_Sami-Giella	Uralic	Sami	North Sami	Giella	sme_giella	26845
+UD_Norwegian-Bokmaal	Indo-European	Germanic	Norwegian	Bokmaal	no_bokmaal	310221
+UD_Norwegian-Nynorsk	Indo-European	Germanic	Norwegian	Nynorsk	no_nynorsk	301353
+UD_Old_Church_Slavonic-PROIEL	Indo-European	Slavic	Old Church Slavonic	PROIEL	cu_proiel	198843
+UD_Old_East_Slavic-Birchbark	Indo-European	Slavic	Old East Slavic	Birchbark	orv_birchbark	27269
+UD_Old_East_Slavic-RNC	Indo-European	Slavic	Old East Slavic	RNC	orv_rnc	48647
+UD_Old_East_Slavic-Ruthenian	Indo-European	Slavic	Old East Slavic	Ruthenian	orv_ruthenian	10011
+UD_Old_East_Slavic-TOROT	Indo-European	Slavic	Old East Slavic	TOROT	orv_torot	246850
+UD_Old_French-SRCMF	Indo-European	Romance	Old French	SRCMF	fro_srcmf	199699
+UD_Old_Irish-DipSGG	Indo-European	Celtic	Old Irish	DipSGG	sga_dipsgg	400
+UD_Old_Irish-DipWBG	Indo-European	Celtic	Old Irish	DipWBG	sga_dipwbg	438
+UD_Old_Turkish-Tonqq	Turkic	Northeastern	Old Turkish	Tonqq	otk_tonqq	158
+UD_Persian-PerDT	Indo-European	Iranian	Persian	PerDT	fa_perdt	501776
+UD_Persian-Seraji	Indo-European	Iranian	Persian	Seraji	fa_seraji	152920
+UD_Polish-LFG	Indo-European	Slavic	Polish	LFG	pl_lfg	130967
+UD_Polish-PDB	Indo-European	Slavic	Polish	PDB	pl_pdb	350036
+UD_Polish-PUD	Indo-European	Slavic	Polish	PUD	pl_pud	18389
+UD_Pomak-Philotis	Indo-European	Slavic	Pomak	Philotis	qpm_philotis	86780
+UD_Portuguese-Bosque	Indo-European	Romance	Portuguese	Bosque	pt_bosque	227827
+UD_Portuguese-CINTIL	Indo-European	Romance	Portuguese	CINTIL	pt_cintil	475860
+UD_Portuguese-PUD	Indo-European	Romance	Portuguese	PUD	pt_pud	23407
+UD_Portuguese-PetroGold	Indo-European	Romance	Portuguese	PetroGold	pt_petrogold	250605
+UD_Romanian-ArT	Indo-European	Romance	Romanian	ArT	ro_art	573
+UD_Romanian-Nonstandard	Indo-European	Romance	Romanian	Nonstandard	ro_nonstandard	572436
+UD_Romanian-RRT	Indo-European	Romance	Romanian	RRT	ro_rrt	218522
+UD_Romanian-SiMoNERo	Indo-European	Romance	Romanian	SiMoNERo	ro_simonero	146020
+UD_Russian-GSD	Indo-European	Slavic	Russian	GSD	ru_gsd	97994
+UD_Russian-PUD	Indo-European	Slavic	Russian	PUD	ru_pud	19355
+UD_Russian-SynTagRus	Indo-European	Slavic	Russian	SynTagRus	ru_syntagrus	1515683
+UD_Russian-Taiga	Indo-European	Slavic	Russian	Taiga	ru_taiga	197001
+UD_Sanskrit-UFAL	Indo-European	Indic	Sanskrit	UFAL	sa_ufal	1843
+UD_Sanskrit-Vedic	Indo-European	Indic	Sanskrit	Vedic	sa_vedic	27117
+UD_Scottish_Gaelic-ARCOSG	Indo-European	Celtic	Scottish Gaelic	ARCOSG	gd_arcosg	89958
+UD_Serbian-SET	Indo-European	Slavic	Serbian	SET	sr_set	97673
+UD_Sinhala-STB	Indo-European	Indic	Sinhala	STB	si_stb	880
+UD_Skolt_Sami-Giellagas	Uralic	Sami	Skolt Sami	Giellagas	sms_giellagas	2896
+UD_Slovak-SNK	Indo-European	Slavic	Slovak	SNK	sk_snk	106097
+UD_Slovenian-SSJ	Indo-European	Slavic	Slovenian	SSJ	sl_ssj	267097
+UD_Slovenian-SST	Indo-European	Slavic	Slovenian	SST	sl_sst	29488
+UD_Soi-AHA	Indo-European	Iranian	Soi	AHA	soj_aha	55
+UD_South_Levantine_Arabic-MADAR	Afro-Asiatic	Semitic	South Levantine Arabic	MADAR	ajp_madar	789
+UD_Spanish-AnCora	Indo-European	Romance	Spanish	AnCora	es_ancora	559782
+UD_Spanish-GSD	Indo-European	Romance	Spanish	GSD	es_gsd	431584
+UD_Spanish-PUD	Indo-European	Romance	Spanish	PUD	es_pud	23287
+UD_Swedish-LinES	Indo-European	Germanic	Swedish	LinES	sv_lines	90960
+UD_Swedish-PUD	Indo-European	Germanic	Swedish	PUD	sv_pud	19076
+UD_Swedish-Talbanken	Indo-European	Germanic	Swedish	Talbanken	sv_talbanken	96820
+UD_Swedish_Sign_Language-SSLC	Sign Language		Swedish Sign Language	SSLC	swl_sslc	1610
+UD_Tagalog-TRG	Austronesian	Central Philippine	Tagalog	TRG	tl_trg	734
+UD_Tagalog-Ugnayan	Austronesian	Central Philippine	Tagalog	Ugnayan	tl_ugnayan	1097
+UD_Tamil-MWTT	Dravidian		Tamil	MWTT	ta_mwtt	2584
+UD_Tamil-TTB	Dravidian		Tamil	TTB	ta_ttb	9581
+UD_Tatar-NMCTT	Turkic	Northwestern	Tatar	NMCTT	tt_nmctt	2280
+UD_Teko-TuDeT	Tupian	Maweti-Guarani	Teko	TuDeT	eme_tudet	2272
+UD_Telugu-MTG	Dravidian		Telugu	MTG	te_mtg	6465
+UD_Thai-PUD	Tai-Kadai	Kam-Tai	Thai	PUD	th_pud	22322
+UD_Tupinamba-TuDeT	Tupian	Maweti-Guarani	Tupinamba	TuDeT	tpn_tudet	4508
+UD_Turkish-Atis	Turkic	Southwestern	Turkish	Atis	tr_atis	45875
+UD_Turkish-BOUN	Turkic	Southwestern	Turkish	BOUN	tr_boun	125212
+UD_Turkish-FrameNet	Turkic	Southwestern	Turkish	FrameNet	tr_framenet	19221
+UD_Turkish-GB	Turkic	Southwestern	Turkish	GB	tr_gb	17177
+UD_Turkish-IMST	Turkic	Southwestern	Turkish	IMST	tr_imst	58096
+UD_Turkish-Kenet	Turkic	Southwestern	Turkish	Kenet	tr_kenet	178658
+UD_Turkish-PUD	Turkic	Southwestern	Turkish	PUD	tr_pud	16881
+UD_Turkish-Penn	Turkic	Southwestern	Turkish	Penn	tr_penn	183555
+UD_Turkish-Tourism	Turkic	Southwestern	Turkish	Tourism	tr_tourism	91469
+UD_Turkish_German-SAGT	Code switching		Turkish German	SAGT	qtd_sagt	37227
+UD_Ukrainian-IU	Indo-European	Slavic	Ukrainian	IU	uk_iu	122750
+UD_Umbrian-IKUVINA	Indo-European	Italic	Umbrian	IKUVINA	xum_ikuvina	786
+UD_Upper_Sorbian-UFAL	Indo-European	Slavic	Upper Sorbian	UFAL	hsb_ufal	11196
+UD_Urdu-UDTB	Indo-European	Indic	Urdu	UDTB	ur_udtb	138077
+UD_Uyghur-UDT	Turkic	Southeastern	Uyghur	UDT	ug_udt	40236
+UD_Vietnamese-VTB	Austro-Asiatic	Viet-Muong	Vietnamese	VTB	vi_vtb	58069
+UD_Warlpiri-UFAL	Pama-Nyungan	Western Pama-Nyungan	Warlpiri	UFAL	wbp_ufal	315
+UD_Welsh-CCG	Indo-European	Celtic	Welsh	CCG	cy_ccg	48530
+UD_Western_Armenian-ArmTDP	Indo-European	Armenian	Western Armenian	ArmTDP	hyw_armtdp	122907
+UD_Western_Sierra_Puebla_Nahuatl-ITML	Uto-Aztecan	Aztecan	Western Sierra Puebla Nahuatl	ITML	nhi_itml	10111
+UD_Wolof-WTB	Niger-Congo	Northern Atlantic	Wolof	WTB	wo_wtb	44258
+UD_Xavante-XDT	Macro-Je	Je Central	Xavante	XDT	xav_xdt	1597
+UD_Xibe-XDT	Tungusic		Xibe	XDT	sjo_xdt	15401
+UD_Yakut-YKTDT	Turkic	Northeastern	Yakut	YKTDT	sah_yktdt	1460
+UD_Yoruba-YTB	Niger-Congo	Defoid	Yoruba	YTB	yo_ytb	8243
+UD_Yupik-SLI	Eskimo-Aleut	Eskimo	Yupik	SLI	ess_sli	2568
+UD_Zaar-Autogramm	Afro-Asiatic	West Chadic	Zaar	Autogramm	say_autogramm	7625

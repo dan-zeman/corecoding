@@ -1,0 +1,70 @@
+UD_Ancient_Greek	Indo-European	Greek	Ancient Greek		grc	182030
+UD_Ancient_Greek-PROIEL	Indo-European	Greek	Ancient Greek	PROIEL	grc_proiel	198034
+UD_Arabic	Afro-Asiatic	Semitic	Arabic		ar	254120
+UD_Arabic-NYUAD	Afro-Asiatic	Semitic	Arabic	NYUAD	ar_nyuad	738889
+UD_Basque	Basque		Basque		eu	97069
+UD_Belarusian	Indo-European	Slavic	Belarusian		be	6864
+UD_Bulgarian	Indo-European	Slavic	Bulgarian		bg	140425
+UD_Catalan	Indo-European	Romance	Catalan		ca	474069
+UD_Chinese	Sino-Tibetan	Chinese	Chinese		zh	111271
+UD_Coptic	Afro-Asiatic	Egyptian	Coptic		cop	8519
+UD_Croatian	Indo-European	Slavic	Croatian		hr	183816
+UD_Czech	Indo-European	Slavic	Czech		cs	1332566
+UD_Czech-CAC	Indo-European	Slavic	Czech	CAC	cs_cac	483520
+UD_Czech-CLTT	Indo-European	Slavic	Czech	CLTT	cs_cltt	26781
+UD_Danish	Indo-European	Germanic	Danish		da	90710
+UD_Dutch	Indo-European	Germanic	Dutch		nl	197925
+UD_Dutch-LassySmall	Indo-European	Germanic	Dutch	LassySmall	nl_lassysmall	91793
+UD_English	Indo-European	Germanic	English		en	229733
+UD_English-LinES	Indo-European	Germanic	English	LinES	en_lines	67197
+UD_English-ParTUT	Indo-European	Germanic	English	ParTUT	en_partut	38114
+UD_Estonian	Uralic	Finnic	Estonian		et	34628
+UD_Finnish	Uralic	Finnic	Finnish		fi	180911
+UD_Finnish-FTB	Uralic	Finnic	Finnish	FTB	fi_ftb	143326
+UD_French	Indo-European	Romance	French		fr	392230
+UD_French-ParTUT	Indo-European	Romance	French	ParTUT	fr_partut	17927
+UD_French-Sequoia	Indo-European	Romance	French	Sequoia	fr_sequoia	60574
+UD_Galician	Indo-European	Romance	Galician		gl	109106
+UD_Galician-TreeGal	Indo-European	Romance	Galician	TreeGal	gl_treegal	15436
+UD_German	Indo-European	Germanic	German		de	281974
+UD_Gothic	Indo-European	Germanic	Gothic		got	45138
+UD_Greek	Indo-European	Greek	Greek		el	51351
+UD_Hebrew	Afro-Asiatic	Semitic	Hebrew		he	149088
+UD_Hindi	Indo-European	Indic	Hindi		hi	316274
+UD_Hungarian	Uralic	Ugric	Hungarian		hu	31584
+UD_Indonesian	Austronesian	Malayo-Sumbawan	Indonesian		id	110143
+UD_Irish	Indo-European	Celtic	Irish		ga	13826
+UD_Italian	Indo-European	Romance	Italian		it	282611
+UD_Italian-ParTUT	Indo-European	Romance	Italian	ParTUT	it_partut	42651
+UD_Japanese	Japanese		Japanese		ja	173458
+UD_Kazakh	Turkic	Northwestern	Kazakh		kk	529
+UD_Korean	Korean		Korean		ko	63426
+UD_Latin	Indo-European	Italic	Latin		la	18184
+UD_Latin-ITTB	Indo-European	Italic	Latin	ITTB	la_ittb	280734
+UD_Latin-PROIEL	Indo-European	Italic	Latin	PROIEL	la_proiel	159407
+UD_Latvian	Indo-European	Baltic	Latvian		lv	44795
+UD_Lithuanian	Indo-European	Baltic	Lithuanian		lt	5356
+UD_Norwegian-Bokmaal	Indo-European	Germanic	Norwegian	Bokmaal	no_bokmaal	280256
+UD_Norwegian-Nynorsk	Indo-European	Germanic	Norwegian	Nynorsk	no_nynorsk	276580
+UD_Old_Church_Slavonic	Indo-European	Slavic	Old Church Slavonic		cu	47532
+UD_Persian	Indo-European	Iranian	Persian		fa	136896
+UD_Polish	Indo-European	Slavic	Polish		pl	72763
+UD_Portuguese	Indo-European	Romance	Portuguese		pt	217591
+UD_Portuguese-BR	Indo-European	Romance	Portuguese	BR	pt_br	287884
+UD_Romanian	Indo-European	Romance	Romanian		ro	202187
+UD_Russian	Indo-European	Slavic	Russian		ru	87841
+UD_Russian-SynTagRus	Indo-European	Slavic	Russian	SynTagRus	ru_syntagrus	988460
+UD_Sanskrit	Indo-European	Indic	Sanskrit		sa	1206
+UD_Slovak	Indo-European	Slavic	Slovak		sk	93015
+UD_Slovenian	Indo-European	Slavic	Slovenian		sl	126593
+UD_Slovenian-SST	Indo-European	Slavic	Slovenian	SST	sl_sst	19488
+UD_Spanish	Indo-European	Romance	Spanish		es	419587
+UD_Spanish-AnCora	Indo-European	Romance	Spanish	AnCora	es_ancora	496953
+UD_Swedish	Indo-European	Germanic	Swedish		sv	76442
+UD_Swedish-LinES	Indo-European	Germanic	Swedish	LinES	sv_lines	64787
+UD_Tamil	Dravidian		Tamil		ta	9581
+UD_Turkish	Turkic	Southwestern	Turkish		tr	48093
+UD_Ukrainian	Indo-European	Slavic	Ukrainian		uk	12846
+UD_Urdu	Indo-European	Indic	Urdu		ur	123271
+UD_Uyghur	Turkic	Southeastern	Uyghur		ug	1662
+UD_Vietnamese	Austro-Asiatic	Viet-Muong	Vietnamese		vi	31799

@@ -1,0 +1,10 @@
+cs	Indo-European	Slavic	Czech		cs	1506490
+de	Indo-European	Germanic	German		de	298614
+en	Indo-European	Germanic	English		en	254830
+es	Indo-European	Romance	Spanish		es	432651
+fi	Uralic	Finnic	Finnish		fi	202085
+fr	Indo-European	Romance	French		fr	400620
+ga	Indo-European	Celtic	Irish		ga	23686
+hu	Uralic	Ugric	Hungarian		hu	26538
+it	Indo-European	Romance	Italian		it	214748
+sv	Indo-European	Germanic	Swedish		sv	96819

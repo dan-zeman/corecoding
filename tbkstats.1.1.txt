@@ -1,0 +1,19 @@
+UD_Basque	Basque		Basque		eu	60563
+UD_Bulgarian	Indo-European	Slavic	Bulgarian		bg	125592
+UD_Croatian	Indo-European	Slavic	Croatian		hr	87765
+UD_Czech	Indo-European	Slavic	Czech		cs	1506490
+UD_Danish	Indo-European	Germanic	Danish		da	100238
+UD_English	Indo-European	Germanic	English		en	254830
+UD_Finnish	Uralic	Finnic	Finnish		fi	181022
+UD_Finnish-FTB	Uralic	Finnic	Finnish	FTB	fi_ftb	161984
+UD_French	Indo-European	Romance	French		fr	400627
+UD_German	Indo-European	Germanic	German		de	298614
+UD_Greek	Indo-European	Greek	Greek		el	59156
+UD_Hebrew	Afro-Asiatic	Semitic	Hebrew		he	158855
+UD_Hungarian	Uralic	Ugric	Hungarian		hu	26538
+UD_Indonesian	Austronesian	Malayo-Sumbawan	Indonesian		id	121923
+UD_Irish	Indo-European	Celtic	Irish		ga	23686
+UD_Italian	Indo-European	Romance	Italian		it	277209
+UD_Persian	Indo-European	Iranian	Persian		fa	152918
+UD_Spanish	Indo-European	Romance	Spanish		es	432651
+UD_Swedish	Indo-European	Germanic	Swedish		sv	96819
