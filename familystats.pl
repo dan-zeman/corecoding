@@ -24,6 +24,8 @@ GetOptions
     'release=s' => \$udrelease
 );
 
+print STDERR ("SEE ALSO UD tools/survey_language_families.pl!\n");
+
 my $udpath = "/net/data/universal-dependencies-$udrelease";
 my @folders = udlib::list_ud_folders($udpath);
 my $dev_udpath = '/net/work/people/zeman/unidep';
